@@ -1,0 +1,15 @@
+# Local-only artifacts
+.DS_Store
+.vercel
+__pycache__/
+*.pyc
+.python-version
+.venv/
+venv/
+
+# Editor/OS
+.vscode/
+.idea/
+
+# Node (only if you ever introduce it)
+node_modules/
