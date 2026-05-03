@@ -43,7 +43,7 @@ def build(ctx):
       <h2>The five moves that stop the clocks fastest</h2>
 
       <h3>1. Pre-pull when free time is tight</h3>
-      <p>If your dock isn't ready and your free time is about to expire, the smartest move is a pre-pull. The drayage carrier pulls the container off the terminal early, stages it at their yard, and delivers when your warehouse is free. Terminal demurrage stops cold; daily yard storage replaces it at a fraction of the cost (often 1/4 to 1/8 the demurrage rate).</p>
+      <p>If your dock isn't ready and your free time is about to expire, the smartest move is a <a href="/services/import-container-drayage/#pre-pull">pre-pull</a>. The drayage carrier pulls the container off the terminal early, stages it at their yard, and delivers when your warehouse is free. Terminal demurrage stops cold; daily yard storage replaces it at a fraction of the cost (often 1/4 to 1/8 the demurrage rate).</p>
 
       <h3>2. Drop &amp; hook instead of live unload</h3>
       <p>If the warehouse can't unload quickly, drop &amp; hook keeps the driver moving while you unload on your timeline. The driver doesn't sit accruing detention; you only pay chassis per diem until you call for the empty pickup. For 3PLs running steady volume this is almost always cheaper than live unload.</p>
