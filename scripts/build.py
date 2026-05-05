@@ -31,8 +31,8 @@ EMAIL = "greg@catefreight.com"
 ADDRESS_CITY = "Charleston"
 ADDRESS_REGION = "SC"
 ADDRESS_COUNTRY = "US"
-USDOT = ""   # set to e.g. "USDOT 1234567" once authority is in hand
-MC = ""      # set to e.g. "MC-987654" once authority is in hand
+USDOT = "USDOT 3688555"
+MC = "MC-1285884"
 BUILD_DATE = datetime.utcnow().strftime("%Y-%m-%d")
 
 

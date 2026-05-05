@@ -402,6 +402,10 @@ def build(ctx):
             "Transloading",
             "South Carolina Ports Authority",
         ],
+        "identifier": [
+            {"@type": "PropertyValue", "propertyID": "USDOT", "value": "3688555"},
+            {"@type": "PropertyValue", "propertyID": "MC", "value": "1285884"},
+        ],
         "sameAs": [],
     }
     service_schema = {
