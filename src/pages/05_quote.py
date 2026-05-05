@@ -28,6 +28,7 @@ def build(ctx):
     <form class="quote-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
       <input type="hidden" name="_subject" value="New Charleston drayage quote request">
       <input type="hidden" name="_format" value="plain">
+      <input type="hidden" name="_next" value="{site_url}/thank-you/">
 
       <fieldset class="fieldset">
         <legend>Step 1 &middot; Who you are</legend>
@@ -242,4 +243,58 @@ def build(ctx):
         breadcrumbs=crumbs,
         schema=schema,
     )
-    return ("/quote/index.html", html)
+
+    # ---------- /thank-you/ post-submit page ---------- #
+    ty_crumbs = [("Home", "/"), ("Quote received", "")]
+    ty_hero = f"""
+<section class="page-hero compact">
+  <div class="container">
+    <span class="hero-eyebrow">Quote request received</span>
+    <h1>Got it. Your quote is on the way.</h1>
+    <p>Your request landed in dispatch. During business hours, you'll have a number on screen — usually inside the hour. After hours and weekends, first thing the next business morning. If a container is already on the demurrage clock, call <a href="tel:{phone_tel}" style="color:#7ce5cb;">{phone_display}</a> and we'll work it now.</p>
+  </div>
+</section>
+"""
+    ty_next = """
+<section class="section">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">What happens next</p><h2>Three steps, in order.</h2></div>
+    <div class="card-grid">
+      <div class="card"><h3>1. Dispatcher reviews the move</h3><p>Booking validity, terminal status, equipment availability, route. If we have a question, we ask it once — by reply email — not five times.</p></div>
+      <div class="card"><h3>2. You get an itemized number</h3><p>Linehaul, chassis, fuel, and any predictable accessorials, in plain English. No surprise per-line charges added later.</p></div>
+      <div class="card"><h3>3. You decide</h3><p>If it's a yes, we book the appointment and run the move. If it's a maybe, we'll talk it through. No pressure either way.</p></div>
+    </div>
+  </div>
+</section>
+"""
+    ty_resources = """
+<section class="section bg-surface">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">While you wait</p><h2>A few things worth reading.</h2></div>
+    <div class="card-grid">
+      <div class="card"><h3>The drayage quote checklist</h3><p>The exact information a Charleston drayage carrier needs from you to come back with a usable number on the first try.</p><a class="card-link" href="/resources/drayage-quote-checklist/">Read the checklist</a></div>
+      <div class="card"><h3>Avoid demurrage and detention</h3><p>What demurrage, detention, and per diem actually are, who charges them at SCPA, and how to stop the clock fastest.</p><a class="card-link" href="/resources/avoid-demurrage-detention/">Read the guide</a></div>
+      <div class="card"><h3>Charleston port drayage guide</h3><p>A practical reference covering all three SCPA terminals — Wando Welch, North Charleston, Hugh Leatherman — and the operational rules that go with each.</p><a class="card-link" href="/resources/charleston-port-drayage-guide/">Open the guide</a></div>
+    </div>
+  </div>
+</section>
+"""
+    ty_body = breadcrumb_bar(ty_crumbs) + ty_hero + ty_next + ty_resources + cta_banner(
+        title="Need to talk to dispatch right now?",
+        sub=f"Call {phone_display} or email greg@catefreight.com — both go to a human."
+    )
+    ty_html = render(
+        slug="thank-you",
+        path="/thank-you/",
+        title="Quote request received | Cate Freight",
+        meta_description="Your Charleston drayage quote request was received. A dispatcher replies within the hour during business hours.",
+        h1="Got it. Your quote is on the way.",
+        body_html=ty_body,
+        breadcrumbs=ty_crumbs,
+        no_index=True,
+    )
+
+    return [
+        ("/quote/index.html", html),
+        ("/thank-you/index.html", ty_html),
+    ]
