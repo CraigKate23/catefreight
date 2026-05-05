@@ -62,10 +62,10 @@
 
 <section class="quote-section">
   <div class="container">
-    <form class="quote-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
-      <input type="hidden" name="_subject" value="New Charleston drayage quote request">
-      <input type="hidden" name="_format" value="plain">
-      <input type="hidden" name="_next" value="https://catefreight.com/thank-you/">
+    <form class="quote-form" action="/api/quote" method="POST" novalidate>
+      <div aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">
+        <label>Don't fill this in: <input type="text" name="bot_field" tabindex="-1" autocomplete="off"></label>
+      </div>
 
       <fieldset class="fieldset">
         <legend>Step 1 &middot; Who you are</legend>
