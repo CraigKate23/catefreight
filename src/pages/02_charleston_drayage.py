@@ -56,14 +56,14 @@ def build(ctx):
       <h2>Every drayage move that goes through Charleston, we do.</h2>
     </div>
     <div class="card-grid">
-      <div class="card"><div class="icon">⚓</div><h3>Port pickup &amp; return</h3><p>Loaded import pickup and empty returns at all three SCPA terminals.</p><a class="card-link" href="/services/port-drayage/">Port drayage</a></div>
-      <div class="card"><div class="icon">⬇️</div><h3>Import container drayage</h3><p>Release-checked imports from Charleston to your DC, dock, or transload.</p><a class="card-link" href="/services/import-container-drayage/">Import drayage</a></div>
-      <div class="card"><div class="icon">⬆️</div><h3>Export container drayage</h3><p>Loaded export delivery to terminal, ERD-aware scheduling, VGM coordination.</p><a class="card-link" href="/services/export-container-drayage/">Export drayage</a></div>
-      <div class="card"><div class="icon">🏬</div><h3>Port-to-warehouse</h3><p>Direct moves from terminal to warehouse with appointments confirmed at both ends.</p><a class="card-link" href="/services/port-to-warehouse-drayage/">Port-to-warehouse</a></div>
-      <div class="card"><div class="icon">↔️</div><h3>Transload &amp; coordination</h3><p>Container delivery to a transload yard plus the warehouse coordination.</p><a class="card-link" href="/services/transload-drayage/">Transload</a></div>
-      <div class="card"><div class="icon">⏳</div><h3>Pre-pull service</h3><p>Pull from the terminal early to stop the demurrage clock when free time is tight.</p><a class="card-link" href="/services/import-container-drayage/#pre-pull">Pre-pull info</a></div>
-      <div class="card"><div class="icon">🥶</div><h3>Reefer drayage</h3><p>Genset chassis, set-point verification, pre-trip inspection on every move.</p><a class="card-link" href="/services/reefer-drayage/">Reefer</a></div>
-      <div class="card"><div class="icon">🏋️</div><h3>Overweight &amp; OOG</h3><p>Tri-axle chassis, route permits, and the experience to handle 60,000+ lb containers.</p><a class="card-link" href="/services/overweight-drayage/">Overweight</a></div>
+      <div class="card"><div class="icon" aria-hidden="true">⚓</div><h3>Port pickup &amp; return</h3><p>Loaded import pickup and empty returns at all three SCPA terminals.</p><a class="card-link" href="/services/port-drayage/">Port drayage</a></div>
+      <div class="card"><div class="icon" aria-hidden="true">⬇️</div><h3>Import container drayage</h3><p>Release-checked imports from Charleston to your DC, dock, or transload.</p><a class="card-link" href="/services/import-container-drayage/">Import drayage</a></div>
+      <div class="card"><div class="icon" aria-hidden="true">⬆️</div><h3>Export container drayage</h3><p>Loaded export delivery to terminal, ERD-aware scheduling, VGM coordination.</p><a class="card-link" href="/services/export-container-drayage/">Export drayage</a></div>
+      <div class="card"><div class="icon" aria-hidden="true">🏬</div><h3>Port-to-warehouse</h3><p>Direct moves from terminal to warehouse with appointments confirmed at both ends.</p><a class="card-link" href="/services/port-to-warehouse-drayage/">Port-to-warehouse</a></div>
+      <div class="card"><div class="icon" aria-hidden="true">↔️</div><h3>Transload &amp; coordination</h3><p>Container delivery to a transload yard plus the warehouse coordination.</p><a class="card-link" href="/services/transload-drayage/">Transload</a></div>
+      <div class="card"><div class="icon" aria-hidden="true">⏳</div><h3>Pre-pull service</h3><p>Pull from the terminal early to stop the demurrage clock when free time is tight.</p><a class="card-link" href="/services/import-container-drayage/#pre-pull">Pre-pull info</a></div>
+      <div class="card"><div class="icon" aria-hidden="true">🥶</div><h3>Reefer drayage</h3><p>Genset chassis, set-point verification, pre-trip inspection on every move.</p><a class="card-link" href="/services/reefer-drayage/">Reefer</a></div>
+      <div class="card"><div class="icon" aria-hidden="true">🏋️</div><h3>Overweight &amp; OOG</h3><p>Tri-axle chassis, route permits, and the experience to handle 60,000+ lb containers.</p><a class="card-link" href="/services/overweight-drayage/">Overweight</a></div>
     </div>
   </div>
 </section>
