@@ -203,8 +203,8 @@ def build(ctx):
     html = render(
         slug="charleston-drayage",
         path="/charleston-drayage/",
-        title="Charleston Drayage Services | Port of Charleston Container Drayage | Cate Freight",
-        meta_description="Charleston drayage carrier serving all three SCPA terminals — Wando Welch, North Charleston, Hugh Leatherman. Import, export, reefer, overweight. Quote in under an hour.",
+        title="Charleston Drayage Carrier | SCPA Terminals | Cate Freight",
+        meta_description="Charleston drayage carrier covering all three SCPA terminals — Wando Welch, North Charleston, Hugh Leatherman. Releases checked, quote in under an hour.",
         h1="Charleston drayage, run by people who know what a release looks like before they roll a truck.",
         body_html=body,
         breadcrumbs=crumbs,
