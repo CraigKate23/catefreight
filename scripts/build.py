@@ -34,6 +34,10 @@ ADDRESS_COUNTRY = "US"
 USDOT = "USDOT 3688555"
 MC = "MC-1285884"
 BUILD_DATE = datetime.utcnow().strftime("%Y-%m-%d")
+# Google Search Console — URL-prefix verification via HTML tag.
+# Paste the content="..." value Google provides in Search Console here.
+# Empty string = tag is omitted from the build.
+GOOGLE_SITE_VERIFICATION = ""
 
 
 def load_module(path: Path):
@@ -203,6 +207,10 @@ def render(
         for s in schema
     )
     robots = "noindex, nofollow" if no_index else "index, follow, max-image-preview:large"
+    gsc_tag = (
+        f'<meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">\n'
+        if GOOGLE_SITE_VERIFICATION else ""
+    )
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -211,7 +219,7 @@ def render(
 <title>{title}</title>
 <meta name="description" content="{meta_description}">
 <meta name="robots" content="{robots}">
-<link rel="canonical" href="{canonical}">
+{gsc_tag}<link rel="canonical" href="{canonical}">
 <meta name="theme-color" content="#0f2a3f">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{SITE_NAME}">
