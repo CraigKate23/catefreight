@@ -17,7 +17,7 @@ def build(ctx):
       <div>
         <span class="hero-eyebrow">Charleston, SC drayage</span>
         <h1>Charleston drayage from all three SCPA terminals — <span class="accent">quote in under an hour, releases checked before we roll.</span></h1>
-        <p class="lead">Cate Freight pulls import and export containers from Wando Welch, North Charleston, and Hugh Leatherman to warehouses, transload yards, and consignees across South Carolina and the Southeast. One dispatcher per file. Same-day POD. Honest accessorials.</p>
+        <p class="lead">Cate Freight is a <a href="/charleston-drayage/">Charleston drayage</a> carrier pulling import and export containers from Wando Welch, North Charleston, and Hugh Leatherman to warehouses, transload yards, and consignees across South Carolina and the Southeast. One dispatcher per file. Same-day POD. Honest accessorials.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="/quote/">Request a drayage quote</a>
           <a class="btn btn-ghost" href="tel:{phone_tel}">{phone_display} dispatch</a>

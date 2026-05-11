@@ -81,7 +81,7 @@ def build(ctx):
       </ul>
 
       <h2>Cate Freight's pitch</h2>
-      <p>We were built by people who came out of the warehouse and 3PL world, so the eleven criteria above aren't aspirational for us — they're how we run by default. If you're a 3PL operator looking at Charleston drayage carriers, <a href="/quote/">send us a typical move</a> and run the interview. We'll do well or we'll save you time.</p>
+      <p>We were built by people who came out of the warehouse and 3PL world, so the eleven criteria above aren't aspirational for us — they're how we run by default. If you're a 3PL operator looking at <a href="/charleston-drayage/">Charleston drayage</a> carriers, <a href="/quote/">send us a typical move</a> and run the interview. We'll do well or we'll save you time.</p>
     </article>
   </div>
 </section>

@@ -96,7 +96,7 @@ def build(ctx):
         <li><strong>Build a backup plan.</strong> Even sharp carriers have weeks where a vessel runs late, a driver calls out, or chassis are tight. Know what your second option is.</li>
       </ol>
 
-      <p>That's the guide. If you have questions specific to a Charleston move, <a href="/quote/">send us the booking</a> and we'll either run it or tell you who should.</p>
+      <p>That's the guide. If you have questions specific to a <a href="/charleston-drayage/">Charleston drayage</a> move, <a href="/quote/">send us the booking</a> and we'll either run it or tell you who should.</p>
     </article>
   </div>
 </section>
