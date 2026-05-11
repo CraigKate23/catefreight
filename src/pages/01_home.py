@@ -433,8 +433,8 @@ def build(ctx):
     html = render(
         slug="home",
         path="/",
-        title="Cate Freight — Charleston Drayage. Containers in. Containers out.",
-        meta_description="Charleston, SC drayage carrier moving import and export containers from Wando Welch, North Charleston, and Hugh Leatherman terminals to warehouses across the Southeast. Releases checked. Paperwork clean. Quote in under an hour.",
+        title="Charleston Drayage Carrier — Quote in 60 Min | Cate Freight",
+        meta_description="Charleston drayage from all 3 SCPA terminals — Wando Welch, North Charleston, Hugh Leatherman. Releases checked, PODs same day, quote inside the hour.",
         h1="Charleston container drayage that runs the way receivers wish it would.",
         body_html=body,
         schema=schema,
