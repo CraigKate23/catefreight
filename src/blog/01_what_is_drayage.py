@@ -57,19 +57,53 @@ def build(ctx):
     </article>
   </div>
 </section>
+
+<section class="section faq">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">People also ask</p>
+      <h2>Drayage questions, answered</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item"><summary>What is the difference between drayage and trucking?</summary><div class="faq-answer">Drayage is a specific kind of trucking: the short-haul move of a loaded or empty ocean shipping container to or from a port, rail ramp, or container yard. It requires a chassis, a TWIC-carded driver, and familiarity with terminal appointment systems. Over-the-road trucking is the broader category and usually involves a dry van or flatbed moving palletized freight between warehouses.</div></details>
+      <details class="faq-item"><summary>What is the difference between drayage and intermodal?</summary><div class="faq-answer">Intermodal is when an ocean container moves on rail between two inland points. Drayage is the truck leg at either end of that rail move — the dray from the port to the rail ramp, and the dray from the destination ramp to the consignee. A pure drayage move skips the rail entirely and runs the whole route by truck.</div></details>
+      <details class="faq-item"><summary>Who pays for drayage?</summary><div class="faq-answer">The party arranging the inland move pays the drayage invoice — usually the importer or exporter (BCO), or a 3PL, freight forwarder, or customs broker acting on their behalf. The drayage charge is separate from the ocean freight bill of lading. Accessorials (chassis, fuel surcharge, demurrage, detention, chassis split, overweight, hazmat) bill on the same drayage invoice.</div></details>
+      <details class="faq-item"><summary>How is drayage priced?</summary><div class="faq-answer">Most Charleston drayage carriers quote a per-container linehaul rate based on the ZIP code of the pickup and delivery, plus a fuel surcharge percentage. Accessorials are quoted separately and only apply when triggered: chassis day rate, chassis split fee, pre-pull and storage, overweight permits, hazmat handling, driver detention, and demurrage pass-through.</div></details>
+      <details class="faq-item"><summary>Is drayage the same as cartage?</summary><div class="faq-answer">The two terms overlap and are often used interchangeably, but they're not identical. "Cartage" is the older, broader term for any short-haul move of goods within a city or metro area. "Drayage" specifically refers to the short-haul move of an ocean container to or from a marine terminal or rail ramp. Every drayage move is a cartage move; not every cartage move is drayage.</div></details>
+    </div>
+  </div>
+</section>
 """
 
-    schema = [{
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "What is drayage?",
-        "description": "The simplest accurate definition of drayage, why the word exists, and where drayage ends and other modes begin.",
-        "author": {"@type": "Organization", "name": "Cate Freight"},
-        "publisher": {"@id": f"{site_url}/#org"},
-        "datePublished": "2026-04-15",
-        "dateModified": date.today().isoformat(),
-        "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/resources/what-is-drayage/"},
-    }]
+    faq_items = [
+        ("What is the difference between drayage and trucking?", "Drayage is a specific kind of trucking: the short-haul move of a loaded or empty ocean shipping container to or from a port, rail ramp, or container yard. It requires a chassis, a TWIC-carded driver, and familiarity with terminal appointment systems. Over-the-road trucking is the broader category and usually involves a dry van or flatbed moving palletized freight between warehouses."),
+        ("What is the difference between drayage and intermodal?", "Intermodal is when an ocean container moves on rail between two inland points. Drayage is the truck leg at either end of that rail move — the dray from the port to the rail ramp, and the dray from the destination ramp to the consignee. A pure drayage move skips the rail entirely and runs the whole route by truck."),
+        ("Who pays for drayage?", "The party arranging the inland move pays the drayage invoice — usually the importer or exporter (BCO), or a 3PL, freight forwarder, or customs broker acting on their behalf. The drayage charge is separate from the ocean freight bill of lading. Accessorials (chassis, fuel surcharge, demurrage, detention, chassis split, overweight, hazmat) bill on the same drayage invoice."),
+        ("How is drayage priced?", "Most Charleston drayage carriers quote a per-container linehaul rate based on the ZIP code of the pickup and delivery, plus a fuel surcharge percentage. Accessorials are quoted separately and only apply when triggered: chassis day rate, chassis split fee, pre-pull and storage, overweight permits, hazmat handling, driver detention, and demurrage pass-through."),
+        ("Is drayage the same as cartage?", "The two terms overlap and are often used interchangeably, but they're not identical. \"Cartage\" is the older, broader term for any short-haul move of goods within a city or metro area. \"Drayage\" specifically refers to the short-haul move of an ocean container to or from a marine terminal or rail ramp. Every drayage move is a cartage move; not every cartage move is drayage."),
+    ]
+
+    schema = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "What is drayage?",
+            "description": "The simplest accurate definition of drayage, why the word exists, and where drayage ends and other modes begin.",
+            "author": {"@type": "Organization", "name": "Cate Freight"},
+            "publisher": {"@id": f"{site_url}/#org"},
+            "datePublished": "2026-04-15",
+            "dateModified": date.today().isoformat(),
+            "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/resources/what-is-drayage/"},
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+                for q, a in faq_items
+            ],
+        },
+    ]
 
     html = render(
         slug="what-is-drayage",
