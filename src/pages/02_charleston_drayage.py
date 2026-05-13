@@ -8,6 +8,7 @@ def build(ctx):
     site_url = ctx["site_url"]
     phone_tel = ctx["phone_tel"]
     phone_display = ctx["phone_display"]
+    email = ctx["email"]
 
     crumbs = [("Home", "/"), ("Charleston Drayage", "")]
 
@@ -187,18 +188,80 @@ def build(ctx):
         + cta_banner(title="Quote a Charleston drayage move", sub="Booking, terminal, delivery ZIP — that's all we need to start.")
     )
 
-    schema = [
-        {
-            "@context": "https://schema.org",
-            "@type": "Service",
-            "name": "Charleston Drayage",
-            "serviceType": "Container drayage",
-            "provider": {"@id": f"{site_url}/#org"},
-            "areaServed": {"@type": "City", "name": "Charleston, SC"},
-            "description": "Container drayage between the SCPA terminals at the Port of Charleston and warehouses, transload facilities, and consignees in South Carolina and the Southeast.",
+    org_schema = {
+        "@context": "https://schema.org",
+        "@type": "MovingCompany",
+        "@id": f"{site_url}/#org",
+        "name": "Cate Freight",
+        "alternateName": "C8FR8",
+        "url": site_url,
+        "email": email,
+        "telephone": phone_tel,
+        "image": f"{site_url}/og-default.png",
+        "logo": f"{site_url}/favicon.svg",
+        "description": "Charleston, SC drayage carrier moving import and export containers from all SCPA terminals — Wando Welch, North Charleston, and Hugh Leatherman — to warehouses and consignees across the Southeast.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Charleston",
+            "addressRegion": "SC",
+            "addressCountry": "US",
         },
-        faq_schema,
-    ]
+        "areaServed": [
+            {"@type": "City", "name": "Charleston"},
+            {"@type": "City", "name": "North Charleston"},
+            {"@type": "City", "name": "Mount Pleasant"},
+            {"@type": "City", "name": "Summerville"},
+            {"@type": "City", "name": "Goose Creek"},
+            {"@type": "City", "name": "Hanahan"},
+            {"@type": "City", "name": "Ladson"},
+            {"@type": "City", "name": "Moncks Corner"},
+            {"@type": "City", "name": "Columbia"},
+            {"@type": "State", "name": "South Carolina"},
+            {"@type": "State", "name": "Georgia"},
+            {"@type": "State", "name": "North Carolina"},
+        ],
+        "knowsAbout": [
+            "Wando Welch Terminal",
+            "North Charleston Terminal",
+            "Hugh Leatherman Terminal",
+            "Container drayage",
+            "Import drayage",
+            "Export drayage",
+            "Reefer drayage",
+            "Overweight container transport",
+            "Hazmat drayage",
+            "Transloading",
+            "South Carolina Ports Authority",
+        ],
+        "identifier": [
+            {"@type": "PropertyValue", "propertyID": "USDOT", "value": "3688555"},
+            {"@type": "PropertyValue", "propertyID": "MC", "value": "1285884"},
+        ],
+        "sameAs": [],
+    }
+    service_schema = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Charleston Drayage",
+        "serviceType": "Container drayage",
+        "provider": {"@id": f"{site_url}/#org"},
+        "areaServed": [
+            {"@type": "City", "name": "Charleston, SC"},
+            {"@type": "City", "name": "North Charleston, SC"},
+            {"@type": "City", "name": "Mount Pleasant, SC"},
+            {"@type": "City", "name": "Summerville, SC"},
+            {"@type": "City", "name": "Goose Creek, SC"},
+            {"@type": "City", "name": "Hanahan, SC"},
+            {"@type": "City", "name": "Ladson, SC"},
+            {"@type": "City", "name": "Moncks Corner, SC"},
+        ],
+        "audience": {
+            "@type": "BusinessAudience",
+            "audienceType": "3PLs, freight forwarders, customs brokers, and direct importers",
+        },
+        "description": "Container drayage between the SCPA terminals at the Port of Charleston — Wando Welch (USCHA), North Charleston (USNCH), and Hugh Leatherman (USCHL) — and warehouses, transload facilities, and consignees in South Carolina and the Southeast.",
+    }
+    schema = [org_schema, service_schema, faq_schema]
 
     html = render(
         slug="charleston-drayage",
