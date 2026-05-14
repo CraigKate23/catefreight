@@ -212,7 +212,7 @@ def render(
         if GOOGLE_SITE_VERIFICATION else ""
     )
     return f"""<!doctype html>
-<html lang="en">
+<html lang="en-US">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -220,8 +220,11 @@ def render(
 <meta name="description" content="{meta_description}">
 <meta name="robots" content="{robots}">
 {gsc_tag}<link rel="canonical" href="{canonical}">
+<link rel="alternate" hreflang="en-us" href="{canonical}">
+<link rel="alternate" hreflang="x-default" href="{canonical}">
 <meta name="theme-color" content="#0f2a3f">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="{SITE_NAME}">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{meta_description}">
