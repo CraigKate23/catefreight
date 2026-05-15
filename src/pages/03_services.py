@@ -161,6 +161,35 @@ def build(ctx):
   </div>
 </section>
 
+<section class="section">
+  <div class="container">
+    <div class="prose">
+      <h2>Highway corridors and counties we run from each SCPA terminal</h2>
+      <p>Charleston drayage is a corridor business as much as a terminal business. Where your container is going decides which interstate and which surface highways the driver runs, which in turn decides chassis routing, gate timing, and how clean the empty return looks. Here's how the lanes actually work out of each <a href="/charleston-drayage/">Charleston drayage</a> terminal:</p>
+
+      <h3>From Wando Welch Terminal (Mount Pleasant — Charleston County)</h3>
+      <p>Wando sits in Mount Pleasant, east of the Cooper River. Outbound containers leave via the Don Holt Bridge or the Mark Clark Expressway (<strong>I-526</strong>), then split to <strong>US-17</strong> for East Cooper and Lowcountry deliveries, or to <strong>I-26</strong> for everything west and north. Local Mount Pleasant DCs are five-mile drays. Daniel Island, Cainhoy, and Hanahan are usually I-526 moves. Summerville and Goose Creek industrial parks come off I-26 once we're across the Cooper.</p>
+
+      <h3>From North Charleston Terminal (North Charleston — Charleston County)</h3>
+      <p>The original North Charleston terminal sits on the former Navy base with direct ramps to <strong>I-526</strong> and <strong>I-26</strong>. From here we run <strong>US-52</strong> and <strong>US-78</strong> into Berkeley and Dorchester County warehouses (Goose Creek, Hanahan, Ladson, Summerville, Moncks Corner), and we take I-26 west for Columbia and the Upstate. For points south — Walterboro, Yemassee, Beaufort — it's I-526 to US-17, or I-26 to I-95 depending on consignee ZIP.</p>
+
+      <h3>From Hugh Leatherman Terminal (North Charleston — Charleston County)</h3>
+      <p>Leatherman shares North Charleston's interstate access pattern — straight onto I-526, with I-26 a short connector away. Most Leatherman containers we pull are heading to tri-county warehouses in <strong>Berkeley County</strong>, <strong>Dorchester County</strong>, and <strong>Charleston County</strong>, or up I-26 into the Midlands. Empty returns route back the same way.</p>
+
+      <h3>Regional corridor reference</h3>
+      <ul>
+        <li><strong>I-26 north and west</strong> — Summerville, Columbia, Newberry, Spartanburg, Greenville, and onward to I-85 for Charlotte and Atlanta drays.</li>
+        <li><strong>I-95 north and south</strong> — Florence, Lumberton, and Fayetteville to the north; Walterboro, Yemassee, and the Florida border to the south.</li>
+        <li><strong>US-17 corridor</strong> — Mount Pleasant, McClellanville, Georgetown, and the Lowcountry; also Ravenel and Hollywood to the south of Charleston.</li>
+        <li><strong>US-78 / US-52 corridor</strong> — the Ladson, Summerville, Goose Creek, and Moncks Corner warehouse cluster where most Berkeley and Dorchester County drays terminate.</li>
+        <li><strong>I-526 (Mark Clark) ring</strong> — connects all three SCPA container terminals to North Charleston, West Ashley, and Mount Pleasant industrial property.</li>
+      </ul>
+
+      <p>If your delivery ZIP is on one of these corridors, the route is settled. If it's not, send the ZIP and we'll walk the lane on the map before we quote. See the full <a href="/coverage/">Charleston drayage coverage area</a> for every metro we touch on a normal week.</p>
+    </div>
+  </div>
+</section>
+
 <section class="section bg-surface">
   <div class="container">
     <div class="section-head"><p class="eyebrow">Equipment</p><h2>Equipment we run for port drayage.</h2></div>
