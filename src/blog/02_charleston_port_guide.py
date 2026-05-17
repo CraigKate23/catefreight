@@ -100,19 +100,57 @@ def build(ctx):
     </article>
   </div>
 </section>
+
+<section class="section faq">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">People also ask</p>
+      <h2>Port of Charleston drayage questions</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item"><summary>Which container terminals does the Port of Charleston have?</summary><div class="faq-answer">The South Carolina Ports Authority operates three container terminals — Wando Welch Terminal (USCHA) in Mount Pleasant, North Charleston Terminal (USNCH), and Hugh K. Leatherman Terminal (USCHL). A fourth SCPA facility, Columbus Street Terminal (USCST), handles RoRo and breakbulk, not containers. <a href="/services/port-drayage/">Our port drayage service</a> covers all three container terminals.</div></details>
+      <details class="faq-item"><summary>How deep is the harbor at the Port of Charleston?</summary><div class="faq-answer">Charleston has the deepest harbor on the US East Coast at 52 feet, which lets it take the largest vessels calling East Coast service strings directly. The depth is one reason Charleston is the second-largest container port on the East Coast.</div></details>
+      <details class="faq-item"><summary>Is there on-dock rail at the Port of Charleston?</summary><div class="faq-answer">Not yet. Until the Navy Base Intermodal Facility (NBIF) opens, Charleston is the only major East Coast port without on-dock or near-dock rail — meaning drayage by truck is the only mode that moves a Charleston container. NBIF was originally targeted for July 2025 and has been pushed to early 2026.</div></details>
+      <details class="faq-item"><summary>How much free time do I get on an import container at SCPA?</summary><div class="faq-answer">Free time at the South Carolina Ports Authority is set by the steamship line on the bill of lading, not by the terminal. It typically runs 3-5 days. SCPA also publishes a holiday "no work day" calendar — those days don't accrue free time. Once free time expires, terminal demurrage starts and rates escalate the longer the container sits. <a href="/resources/avoid-demurrage-detention/">Here's how we avoid demurrage</a> on Charleston import moves.</div></details>
+      <details class="faq-item"><summary>What's the difference between Wando Welch and Hugh Leatherman terminals?</summary><div class="faq-answer">Wando Welch (USCHA) is SCPA's flagship on the east side of the Cooper River in Mount Pleasant — the highest-volume terminal, with the deepest berths and largest cranes, where most major service strings call. Hugh K. Leatherman (USCHL) is the newer terminal built specifically for modern container operations, with modern ship-to-shore cranes and gate technology. They're operationally distinct gates with separate appointment systems, so a booking at one cannot be picked up at the other.</div></details>
+      <details class="faq-item"><summary>What chassis pools operate at the Port of Charleston?</summary><div class="faq-answer">The three major chassis providers — TRAC Intermodal, DCLI, and Flexi-Van — all operate at Charleston, and they don't always interchange. Your steamship line picks the pool. If the only chassis available at the depot doesn't match the line's pool, the truck has to travel to a different depot first — that's a chassis split, which typically costs $25-$75 per container in extra time and miles.</div></details>
+      <details class="faq-item"><summary>Does Charleston close for hurricanes?</summary><div class="faq-answer">Yes. SCPA closes for hurricanes, sometimes with little warning. When the port closes, terminal free time freezes for affected containers, but chassis per diem charged by the chassis provider doesn't always freeze. Smart drayage carriers track the SCPA closure announcements and adjust pickup schedules so containers aren't stranded on the wrong side of a closure.</div></details>
+    </div>
+  </div>
+</section>
 """
 
-    schema = [{
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "The Charleston port drayage guide",
-        "description": "Practical reference for anyone shipping through the Port of Charleston — terminals, free time, accessorials, chassis pools.",
-        "author": {"@type": "Organization", "name": "Cate Freight"},
-        "publisher": {"@id": f"{site_url}/#org"},
-        "datePublished": "2026-04-22",
-        "dateModified": date.today().isoformat(),
-        "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/resources/charleston-port-drayage-guide/"},
-    }]
+    faq_items = [
+        ("Which container terminals does the Port of Charleston have?", "The South Carolina Ports Authority operates three container terminals — Wando Welch Terminal (USCHA) in Mount Pleasant, North Charleston Terminal (USNCH), and Hugh K. Leatherman Terminal (USCHL). A fourth SCPA facility, Columbus Street Terminal (USCST), handles RoRo and breakbulk, not containers."),
+        ("How deep is the harbor at the Port of Charleston?", "Charleston has the deepest harbor on the US East Coast at 52 feet, which lets it take the largest vessels calling East Coast service strings directly. The depth is one reason Charleston is the second-largest container port on the East Coast."),
+        ("Is there on-dock rail at the Port of Charleston?", "Not yet. Until the Navy Base Intermodal Facility (NBIF) opens, Charleston is the only major East Coast port without on-dock or near-dock rail — meaning drayage by truck is the only mode that moves a Charleston container. NBIF was originally targeted for July 2025 and has been pushed to early 2026."),
+        ("How much free time do I get on an import container at SCPA?", "Free time at the South Carolina Ports Authority is set by the steamship line on the bill of lading, not by the terminal. It typically runs 3-5 days. SCPA also publishes a holiday \"no work day\" calendar — those days don't accrue free time. Once free time expires, terminal demurrage starts and rates escalate the longer the container sits."),
+        ("What's the difference between Wando Welch and Hugh Leatherman terminals?", "Wando Welch (USCHA) is SCPA's flagship on the east side of the Cooper River in Mount Pleasant — the highest-volume terminal, with the deepest berths and largest cranes, where most major service strings call. Hugh K. Leatherman (USCHL) is the newer terminal built specifically for modern container operations, with modern ship-to-shore cranes and gate technology. They're operationally distinct gates with separate appointment systems, so a booking at one cannot be picked up at the other."),
+        ("What chassis pools operate at the Port of Charleston?", "The three major chassis providers — TRAC Intermodal, DCLI, and Flexi-Van — all operate at Charleston, and they don't always interchange. Your steamship line picks the pool. If the only chassis available at the depot doesn't match the line's pool, the truck has to travel to a different depot first — that's a chassis split, which typically costs $25-$75 per container in extra time and miles."),
+        ("Does Charleston close for hurricanes?", "Yes. SCPA closes for hurricanes, sometimes with little warning. When the port closes, terminal free time freezes for affected containers, but chassis per diem charged by the chassis provider doesn't always freeze. Smart drayage carriers track the SCPA closure announcements and adjust pickup schedules so containers aren't stranded on the wrong side of a closure."),
+    ]
+
+    schema = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "The Charleston port drayage guide",
+            "description": "Practical reference for anyone shipping through the Port of Charleston — terminals, free time, accessorials, chassis pools.",
+            "author": {"@type": "Organization", "name": "Cate Freight"},
+            "publisher": {"@id": f"{site_url}/#org"},
+            "datePublished": "2026-04-22",
+            "dateModified": date.today().isoformat(),
+            "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/resources/charleston-port-drayage-guide/"},
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+                for q, a in faq_items
+            ],
+        },
+    ]
 
     html = render(
         slug="charleston-port-drayage-guide",
