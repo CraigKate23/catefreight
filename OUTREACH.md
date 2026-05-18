@@ -37,6 +37,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | # | Directory / Org | Status | Link once live |
 |---|---|---|---|
 | 1 | South Carolina Trucking Association | TODO | — |
+| 2 | Charleston Metro Chamber of Commerce | TODO | — |
 
 ---
 
@@ -90,24 +91,80 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 2. Charleston Metro Chamber of Commerce
+
+**Why this one next.** Local authority signal — `charlestonchamber.org` is the most-cited Charleston-area `.org` for any business that wants to rank for "[Charleston] + service" queries. Member listings include a public business directory page with a website link, which is exactly the kind of local-relevance citation Google weights for the "charleston drayage" cluster. Pairs with the SCTA listing (industry-vertical `.org`) and the eventual GBP profile to form the local-authority triangle. Dues required (chamber membership tiers usually start in the low four figures annually).
+
+**Submission URL (membership inquiry):** https://www.charlestonchamber.org/join-the-chamber/ — the "Let's Talk" form on that page routes to the membership team. If the form is down, use the general contact page at https://www.charlestonchamber.org/contact/.
+
+**Public member directory (verify our listing once live):** https://members.charlestonchamber.org/memberdirectory/FindStartsWith
+
+**General contact (if you'd rather email):** mail@charlestonchamber.org · (843) 577-2510 · 4922 O'Hear Avenue, Suite 101, North Charleston, SC 29405
+
+**Email to send to membership (use if the join form doesn't accept the inquiry):**
+
+**Subject:** Membership inquiry — Cate Freight, Charleston drayage carrier (USDOT 3688555)
+
+**Body:**
+
+> Hi Charleston Metro Chamber team,
+>
+> I'd like to inquire about membership for Cate Freight, a Charleston-based drayage carrier. We move import and export containers out of all three SCPA terminals — Wando Welch, North Charleston, and Hugh Leatherman — for 3PLs, freight forwarders, customs brokers, and direct importers across the tri-county and the broader Southeast.
+>
+> Quick details for membership review:
+>
+> - Company: Cate Freight
+> - Domicile: Charleston, SC
+> - USDOT 3688555 · MC-1285884
+> - Primary operation: container drayage from SCPA terminals
+> - Equipment: tractors + chassis (own + pool), reefer-capable with genset, overweight-permitted runs
+> - Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner — plus Columbia, Greenville, Atlanta, Charlotte, and Savannah corridors
+> - Web: https://catefreight.com
+> - Phone: (843) 998-7820
+>
+> Could you send the current membership-tier breakdown, dues structure, and the member-directory listing details? I'd specifically like to confirm what's included in the online member-directory profile (logo, description, link to website, category tags) so I can prepare the listing copy and submit alongside the membership form.
+>
+> Thanks —
+> Greg Cate
+> Cate Freight
+> greg@catefreight.com · (843) 998-7820
+
+**Listing copy to provide once they reply (paste into the directory form):**
+
+- **Company:** Cate Freight
+- **Primary category:** Trucking company / Drayage carrier
+- **Secondary categories:** Logistics service, Freight forwarding service, Container terminal services
+- **Headquarters:** Charleston, SC
+- **Phone:** (843) 998-7820
+- **Email:** greg@catefreight.com
+- **Website:** https://catefreight.com
+- **USDOT / MC:** 3688555 / 1285884
+- **Services offered:** Port drayage, import container drayage, export container drayage, port-to-warehouse drayage, transload drayage, overweight container drayage, reefer drayage
+- **Service area:** Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner — and the broader Southeast corridor (Columbia, Greenville, Atlanta, Charlotte, Savannah)
+- **Short description (use long form above if 750 chars allowed; short form if 250 chars allowed)**
+- **Year founded / employee count:** *(fill at submission)*
+
+**SEO outcome to track:** once live, this gives us a `charlestonchamber.org` backlink (local Domain Rating in the 40s–50s) on a member-directory page that explicitly includes "Charleston" in URL, page title, and surrounding copy — i.e., topical local relevance that maps directly to our "charleston drayage" wedge. After it indexes, search `site:members.charlestonchamber.org "cate freight"` to confirm.
+
+---
+
 ## Next-up backlog (drafts will be added on future runs)
 
 In rough priority order — local + industry first, then broader citation directories:
 
-1. **Charleston Metro Chamber of Commerce** — `charlestonchamber.org`. Local authority signal. Dues required.
-2. **South Carolina Ports Authority (SCPA) carrier list** — `scspa.com`. The most relevant industry mention possible if they maintain a public carrier directory; even an unlinked mention is high-value.
-3. **BBB (Better Business Bureau, SC)** — `bbb.org/get-listed`. Trust signal + linked profile.
-4. **drayage.com carrier directory** — industry-vertical, exact-keyword domain. Submission via their contact form.
-5. **loadmatch.com** — industry directory used by 3PLs/forwarders sourcing drayage.
-6. **FreightWaves directory / SONAR carrier profile** — industry authority.
-7. **ThomasNet** — B2B industrial directory; useful for importer/forwarder discovery.
-8. **Industrynet** — secondary B2B directory.
-9. **Manta** — citation-quality directory.
-10. **Yellow Pages / yp.com** — citation-quality.
-11. **Yelp for Business** — citation-quality, occasional referral traffic.
-12. **Foursquare / Factual** — feeds Apple Maps and many secondary apps.
-13. **Charleston Regional Business Journal "Book of Lists"** — print + online, regional authority.
-14. **SC Department of Commerce business directory** — `.gov` adjacency.
-15. **National Industrial Transportation League** — for shipper-side credibility.
+1. **South Carolina Ports Authority (SCPA) carrier list** — `scspa.com`. The most relevant industry mention possible if they maintain a public carrier directory; even an unlinked mention is high-value.
+2. **BBB (Better Business Bureau, SC)** — `bbb.org/get-listed`. Trust signal + linked profile.
+3. **drayage.com carrier directory** — industry-vertical, exact-keyword domain. Submission via their contact form.
+4. **loadmatch.com** — industry directory used by 3PLs/forwarders sourcing drayage.
+5. **FreightWaves directory / SONAR carrier profile** — industry authority.
+6. **ThomasNet** — B2B industrial directory; useful for importer/forwarder discovery.
+7. **Industrynet** — secondary B2B directory.
+8. **Manta** — citation-quality directory.
+9. **Yellow Pages / yp.com** — citation-quality.
+10. **Yelp for Business** — citation-quality, occasional referral traffic.
+11. **Foursquare / Factual** — feeds Apple Maps and many secondary apps.
+12. **Charleston Regional Business Journal "Book of Lists"** — print + online, regional authority.
+13. **SC Department of Commerce business directory** — `.gov` adjacency.
+14. **National Industrial Transportation League** — for shipper-side credibility.
 
 Order is not fixed; rotate based on what's submitted and what's live. Industry-vertical and `.org` links rank ahead of generic citation directories.
