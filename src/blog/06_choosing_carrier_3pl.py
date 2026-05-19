@@ -49,11 +49,11 @@ def build(ctx):
 
       <h2>6. SCPA terminal coverage</h2>
       <p><strong>The question to ask:</strong> "Do you pull from all three terminals every shift?"</p>
-      <p>If your inbound mix includes Wando Welch, North Charleston, and Hugh Leatherman, your carrier should run all three. Carriers that specialize in one terminal will struggle when your service string moves.</p>
+      <p>If your inbound mix includes Wando Welch, North Charleston, and Hugh Leatherman, your carrier should <a href="/services/port-drayage/">run all three SCPA container terminals</a>. Carriers that specialize in one terminal will struggle when your service string moves.</p>
 
       <h2>7. Equipment match</h2>
       <p><strong>The question to ask:</strong> "What's your tri-axle and reefer chassis availability?"</p>
-      <p>If you take overweight containers, you need a carrier with tri-axle chassis ready to go, not one that has to schedule it three days in advance. Same for genset reefer chassis if you take temperature-controlled.</p>
+      <p>If you take <a href="/services/overweight-drayage/">overweight containers</a>, you need a carrier with tri-axle chassis ready to go, not one that has to schedule it three days in advance. Same for genset reefer chassis if you take temperature-controlled.</p>
 
       <h2>8. Accessorial transparency</h2>
       <p><strong>The question to ask:</strong> "Can I see a sample invoice with line items?"</p>
@@ -61,7 +61,7 @@ def build(ctx):
 
       <h2>9. Demurrage and detention awareness</h2>
       <p><strong>The question to ask:</strong> "How do you handle pre-pull and free time?"</p>
-      <p>The right answer mentions tracking free time on every container, recommending pre-pull when the math says to, and quoting pre-pull + storage as a single package against demurrage exposure. The wrong answer is silence.</p>
+      <p>The right answer mentions tracking free time on every container, recommending a <a href="/services/import-container-drayage/#pre-pull">pre-pull</a> when the math says to, and quoting pre-pull + storage as a single package against demurrage exposure. The wrong answer is silence.</p>
 
       <h2>10. Capacity and flex</h2>
       <p><strong>The question to ask:</strong> "How do you handle peak weeks?"</p>
