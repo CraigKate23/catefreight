@@ -39,6 +39,67 @@ BUILD_DATE = datetime.utcnow().strftime("%Y-%m-%d")
 # Empty string = tag is omitted from the build.
 GOOGLE_SITE_VERIFICATION = ""
 
+# Canonical Organization entity for Cate Freight. Emitted on EVERY page by
+# render() so that the per-page Service / Article schema `provider` and
+# `publisher` references to "{SITE_URL}/#org" resolve to a complete node.
+# Without this, those pages carry a dangling @id reference and Google sees an
+# incomplete provider/publisher. Defined here once to keep it consistent.
+ORG_SCHEMA = {
+    "@context": "https://schema.org",
+    "@type": "MovingCompany",
+    "@id": f"{SITE_URL}/#org",
+    "name": SITE_NAME,
+    "alternateName": "C8FR8",
+    "url": SITE_URL,
+    "email": EMAIL,
+    "telephone": PHONE_TEL,
+    "image": f"{SITE_URL}/og-default.png",
+    "logo": f"{SITE_URL}/favicon.svg",
+    "description": (
+        "Charleston, SC drayage carrier moving import and export containers "
+        "from all SCPA terminals — Wando Welch, North Charleston, and Hugh "
+        "Leatherman — to warehouses and consignees across the Southeast."
+    ),
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": ADDRESS_CITY,
+        "addressRegion": ADDRESS_REGION,
+        "addressCountry": ADDRESS_COUNTRY,
+    },
+    "areaServed": [
+        {"@type": "City", "name": "Charleston"},
+        {"@type": "City", "name": "North Charleston"},
+        {"@type": "City", "name": "Mount Pleasant"},
+        {"@type": "City", "name": "Summerville"},
+        {"@type": "City", "name": "Goose Creek"},
+        {"@type": "City", "name": "Hanahan"},
+        {"@type": "City", "name": "Ladson"},
+        {"@type": "City", "name": "Moncks Corner"},
+        {"@type": "City", "name": "Columbia"},
+        {"@type": "State", "name": "South Carolina"},
+        {"@type": "State", "name": "Georgia"},
+        {"@type": "State", "name": "North Carolina"},
+    ],
+    "knowsAbout": [
+        "Wando Welch Terminal",
+        "North Charleston Terminal",
+        "Hugh Leatherman Terminal",
+        "Container drayage",
+        "Import drayage",
+        "Export drayage",
+        "Reefer drayage",
+        "Overweight container transport",
+        "Hazmat drayage",
+        "Transloading",
+        "South Carolina Ports Authority",
+    ],
+    "identifier": [
+        {"@type": "PropertyValue", "propertyID": "USDOT", "value": "3688555"},
+        {"@type": "PropertyValue", "propertyID": "MC", "value": "1285884"},
+    ],
+    "sameAs": [],
+}
+
 
 def load_module(path: Path):
     spec = importlib.util.spec_from_file_location(path.stem, path)
@@ -185,7 +246,9 @@ def render(
     no_index: bool = False,
 ) -> str:
     canonical = f"{SITE_URL}{path}"
-    schema = schema or []
+    # Emit the canonical Organization entity on every page (fresh list so the
+    # BreadcrumbList append below never mutates the caller's schema list).
+    schema = [ORG_SCHEMA] + list(schema or [])
     # always include BreadcrumbList if breadcrumbs supplied
     if breadcrumbs:
         bc = {
