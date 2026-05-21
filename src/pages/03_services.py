@@ -582,6 +582,10 @@ def build(ctx):
         <li>Driver match — overweight runs go to the drivers used to handling the equipment</li>
       </ul>
 
+      <h2>The SCDOT 100,000 lb permit — Charleston's overweight container ceiling</h2>
+      <p>South Carolina carries one of the highest container weight allowances on the East Coast. SCDOT's Oversize/Overweight Permit Office issues a permit that lets an international shipping container move by truck at up to <strong>100,000 lb gross vehicle weight</strong> — well above the 80,000 lb standard legal limit, and up from the 90,000 lb ceiling the state allowed before. For an importer or 3PL routing heavy cargo, that headroom is one of the quieter advantages of <a href="/charleston-drayage/">Charleston drayage</a>.</p>
+      <p>On an overweight container transport move out of Charleston, the mechanics are straightforward: a tri-axle chassis carries the extra weight, we pull the SCDOT container permit before dispatch, and we bill it pass-through with no markup. A loaded box that would be illegal on a standard 5-axle then moves legally to a Berkeley, Dorchester, or Charleston County warehouse, or up the I-26 corridor toward Columbia and the Upstate. If a container is heavy enough to clear even the 100,000 lb permit, it crosses into superload territory — a separate permit, a route survey, and usually an escort — and we flag that before you book, not after.</p>
+
       <h2>Out-of-gauge (OOG) containers</h2>
       <p>OOG cargo — loads that exceed the standard container's internal dimensions and ride flat-rack or open-top — need extra coordination: tarping if open-top, tie-down inspection on flat-rack, sometimes pilot car or escort if oversized. We handle the equipment match and the route plan, and we'll tell you upfront when escort costs are on the bill.</p>
     </div>
@@ -593,6 +597,8 @@ def build(ctx):
              "On a standard 5-axle, payload is roughly 44,000 lb. Tri-axle chassis with state-issued overweight permits push that to roughly 60,000 lb. Above that, you're into specialty equipment territory."),
             ("Do you pull the overweight permit yourself?",
              "Yes. We pull the SC permit when required and bill it pass-through with no markup."),
+            ("Does South Carolina allow heavier containers than the 80,000 lb legal limit?",
+             "Yes. SCDOT's Oversize/Overweight Permit Office issues a permit that allows international shipping containers to move by truck at up to 100,000 lb gross vehicle weight — raised from the previous 90,000 lb ceiling. On a tri-axle chassis with that permit pulled, a heavy import or export container moves legally out of the Port of Charleston. We pull the permit before dispatch and bill it pass-through."),
             ("Can you run flat-rack or open-top containers?",
              "Yes. We pull flat-rack and open-top equipment for OOG cargo, including tarping for open-top and tie-down inspection for flat-rack."),
             ("What if my route has bridge weight restrictions?",
