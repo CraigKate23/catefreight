@@ -13,6 +13,7 @@ from __future__ import annotations
 import importlib.util
 import json
 import os
+import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -389,10 +390,62 @@ def _strip_tags(s: str) -> str:
 # --------------------------------- build ---------------------------------- #
 
 OUTPUTS: list[tuple[str, str]] = []  # (path, html)
+PAGE_SOURCES: dict[str, Path] = {}  # output path -> source module that produced it
 
 
 def emit(path: str, html: str):
     OUTPUTS.append((path, html))
+
+
+_GIT_DIRTY = None
+
+
+def _git_dirty_files():
+    """Resolved paths of files with uncommitted changes (cached for one build)."""
+    global _GIT_DIRTY
+    if _GIT_DIRTY is None:
+        files = set()
+        try:
+            out = subprocess.run(
+                ["git", "status", "--porcelain"],
+                cwd=ROOT, capture_output=True, text=True, timeout=10,
+            )
+            if out.returncode == 0:
+                for line in out.stdout.splitlines():
+                    p = line[3:].strip()
+                    if " -> " in p:  # renamed entry
+                        p = p.split(" -> ")[-1]
+                    if p:
+                        files.add((ROOT / p).resolve())
+        except Exception:
+            pass
+        _GIT_DIRTY = files
+    return _GIT_DIRTY
+
+
+def git_lastmod(src_path):
+    """Date a page's content last changed, from git history of its source module.
+
+    Google ignores <lastmod> when every page reports the same build date, so we
+    derive a real per-page content-change date from git. Uncommitted edits count
+    as today; falls back to BUILD_DATE when git is unavailable or the file is new.
+    """
+    if src_path is None:
+        return BUILD_DATE
+    src_path = Path(src_path).resolve()
+    if src_path in _git_dirty_files():
+        return BUILD_DATE
+    try:
+        out = subprocess.run(
+            ["git", "log", "-1", "--date=short", "--format=%cd", "--", str(src_path)],
+            cwd=ROOT, capture_output=True, text=True, timeout=10,
+        )
+        date = out.stdout.strip()
+        if out.returncode == 0 and date:
+            return date
+    except Exception:
+        pass
+    return BUILD_DATE
 
 
 def write_output():
@@ -432,6 +485,7 @@ def gather_pages():
             if isinstance(results, tuple):
                 results = [results]
             for path, html in results:
+                PAGE_SOURCES[path] = py
                 emit(path, html)
     for py in sorted(BLOG_DIR.glob("*.py")):
         mod = load_module(py)
@@ -441,10 +495,14 @@ def gather_pages():
                 "breadcrumb_bar": breadcrumb_bar,
                 "cta_banner": cta_banner,
                 "site_url": SITE_URL,
+                # Real last-content-change date (git history), not the build date,
+                # so Article schema dateModified stays a trustworthy recency signal.
+                "last_modified": git_lastmod(py),
             })
             if isinstance(results, tuple):
                 results = [results]
             for path, html in results:
+                PAGE_SOURCES[path] = py
                 emit(path, html)
 
 
@@ -453,15 +511,16 @@ def write_sitemap():
     urls = []
     for p in paths:
         clean = p[:-len("index.html")]
+        lastmod = git_lastmod(PAGE_SOURCES.get(p))
         if clean == "/":
-            urls.append((SITE_URL + "/", "1.0"))
+            urls.append((SITE_URL + "/", "1.0", lastmod))
         else:
             depth = clean.count("/") - 1
             priority = max(0.5, 0.9 - depth * 0.1)
-            urls.append((SITE_URL + clean, f"{priority:.1f}"))
+            urls.append((SITE_URL + clean, f"{priority:.1f}", lastmod))
     body = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    for u, prio in urls:
-        body += f"  <url><loc>{u}</loc><lastmod>{BUILD_DATE}</lastmod><changefreq>weekly</changefreq><priority>{prio}</priority></url>\n"
+    for u, prio, lastmod in urls:
+        body += f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod><changefreq>weekly</changefreq><priority>{prio}</priority></url>\n"
     body += "</urlset>\n"
     emit("/sitemap.xml", body)
 

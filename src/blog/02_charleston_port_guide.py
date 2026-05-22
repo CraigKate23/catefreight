@@ -139,7 +139,7 @@ def build(ctx):
             "author": {"@type": "Organization", "name": "Cate Freight"},
             "publisher": {"@id": f"{site_url}/#org"},
             "datePublished": "2026-04-22",
-            "dateModified": date.today().isoformat(),
+            "dateModified": ctx["last_modified"],
             "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/resources/charleston-port-drayage-guide/"},
         },
         {
