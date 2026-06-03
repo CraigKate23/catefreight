@@ -38,6 +38,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 |---|---|---|---|
 | 1 | South Carolina Trucking Association | TODO | — |
 | 2 | Charleston Metro Chamber of Commerce | TODO | — |
+| 3 | South Carolina Ports Authority (SCPA) — Motor Carrier resources | TODO | — |
 
 ---
 
@@ -148,23 +149,80 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 3. South Carolina Ports Authority (SCPA) — Motor Carrier resources
+
+**Why this one.** SCPA operates Wando Welch, North Charleston, and Hugh Leatherman — the three terminals our entire drayage operation runs through. A mention on `scspa.com` is the single most topically-relevant inbound signal available for the "charleston drayage" cluster: it's an authoritative `.com` (state-quasi-agency) whose pages explicitly use the terms "Charleston," "container," "terminal," and "motor carrier" throughout. Even an unlinked brand mention on an SCPA page would improve E-E-A-T for our pillar. A linked listing on the Motor Carrier resources page is the ideal outcome. SCPA does not appear to operate a public carrier directory the way trucking associations do, so the play here is **(a)** make sure we're current in their UIIA / motor-carrier registration with correct NAP, **(b)** request inclusion in any motor-carrier-facing resource page or service-provider list they publish, and **(c)** subscribe to and engage with their motor-carrier communications so we are visible internally and externally.
+
+**Submission URL (motor carrier landing page):** https://scspa.com/cargo/motor-carriers/ → use the "Contact" link on that page and the general SCPA contact form at https://scspa.com/contact/. The motor-carrier liaison or operations contact is the right routing.
+
+**Email to send to the motor-carrier liaison (use the contact form if no direct email is published):**
+
+**Subject:** Motor carrier registration + listing inquiry — Cate Freight (USDOT 3688555)
+
+**Body:**
+
+> Hi SCPA Motor Carrier team,
+>
+> I'd like to confirm our motor-carrier registration is current with SCPA and ask whether Cate Freight can be included on any publicly-facing motor-carrier resource page or service-provider list you maintain on scspa.com. We run import and export container drayage out of Wando Welch, North Charleston, and Hugh Leatherman daily for 3PLs, freight forwarders, customs brokers, and direct importers across South Carolina and the Southeast.
+>
+> Carrier details for your records:
+>
+> - Company: Cate Freight
+> - Domicile: Charleston, SC
+> - USDOT 3688555 · MC-1285884
+> - UIIA: (registered — please confirm our profile is current on your end)
+> - Primary operation: container drayage from SCPA terminals (Wando Welch, North Charleston, Hugh Leatherman)
+> - Equipment: tractors + chassis (own + pool), reefer-capable with genset, overweight-permitted runs to 100,000 lb under SCDOT permit
+> - Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner — plus Columbia, Greenville, Atlanta, Charlotte, and Savannah corridors
+> - Web: https://catefreight.com
+> - Phone: (843) 998-7820
+> - Email: greg@catefreight.com
+>
+> Three specific asks:
+>
+> 1. Please confirm our SCPA motor-carrier profile is current. If anything needs to be refreshed on our side (insurance certs, UIIA, contact roster), let me know what you need and I'll turn it around the same day.
+> 2. If SCPA maintains a public-facing list of registered motor carriers, drayage providers, or terminal-service-provider directory on scspa.com, please add Cate Freight. Happy to send the listing copy (below) in whatever format works.
+> 3. Please add greg@catefreight.com to any motor-carrier bulletin / operations notice distribution list so we don't miss gate-hour, chassis-pool, or terminal-process updates.
+>
+> Thanks for the help —
+> Greg Cate
+> Cate Freight
+> greg@catefreight.com · (843) 998-7820
+
+**Listing copy to provide once they confirm a directory listing is possible (paste into whatever form/email they send):**
+
+- **Company:** Cate Freight
+- **Primary category:** Motor Carrier — Container drayage
+- **Headquarters:** Charleston, SC
+- **USDOT / MC:** 3688555 / 1285884
+- **Terminals served:** Wando Welch (WWT), North Charleston Terminal (NCT), Hugh Leatherman Terminal (HLT)
+- **Services offered:** Import container drayage, export container drayage, port-to-warehouse drayage, transload coordination, overweight container drayage (to 100,000 lb under SCDOT permit), reefer drayage with genset
+- **Service area:** Charleston tri-county (Charleston, Berkeley, Dorchester) — plus Columbia, Greenville, Atlanta, Charlotte, and Savannah corridors
+- **Phone:** (843) 998-7820
+- **Email:** greg@catefreight.com
+- **Website:** https://catefreight.com
+- **Short description (use long form above if 750 chars allowed; short form if 250 chars allowed)**
+
+**SEO outcome to track.** Best case: a linked mention on `scspa.com/cargo/motor-carriers/` (or an adjacent motor-carrier resource page) — that is a topically-perfect inbound signal for the "charleston drayage / port drayage charleston sc" cluster because the linking page is itself authoritative for those exact phrases. Realistic case: even an unlinked brand mention on an SCPA page is high-value for E-E-A-T, because Google reads `scspa.com` as the canonical source on Charleston port operations. Worst case: confirmation our motor-carrier registration is current — which is operational hygiene worth doing on its own. After any of these lands, search `site:scspa.com "cate freight"` to confirm visibility and add the URL to the tracking table above.
+
+---
+
 ## Next-up backlog (drafts will be added on future runs)
 
 In rough priority order — local + industry first, then broader citation directories:
 
-1. **South Carolina Ports Authority (SCPA) carrier list** — `scspa.com`. The most relevant industry mention possible if they maintain a public carrier directory; even an unlinked mention is high-value.
-2. **BBB (Better Business Bureau, SC)** — `bbb.org/get-listed`. Trust signal + linked profile.
-3. **drayage.com carrier directory** — industry-vertical, exact-keyword domain. Submission via their contact form.
-4. **loadmatch.com** — industry directory used by 3PLs/forwarders sourcing drayage.
-5. **FreightWaves directory / SONAR carrier profile** — industry authority.
-6. **ThomasNet** — B2B industrial directory; useful for importer/forwarder discovery.
-7. **Industrynet** — secondary B2B directory.
-8. **Manta** — citation-quality directory.
-9. **Yellow Pages / yp.com** — citation-quality.
-10. **Yelp for Business** — citation-quality, occasional referral traffic.
-11. **Foursquare / Factual** — feeds Apple Maps and many secondary apps.
-12. **Charleston Regional Business Journal "Book of Lists"** — print + online, regional authority.
-13. **SC Department of Commerce business directory** — `.gov` adjacency.
-14. **National Industrial Transportation League** — for shipper-side credibility.
+1. **BBB (Better Business Bureau, SC)** — `bbb.org/get-listed`. Trust signal + linked profile.
+2. **drayage.com carrier directory** — industry-vertical, exact-keyword domain. Submission via their contact form.
+3. **loadmatch.com** — industry directory used by 3PLs/forwarders sourcing drayage.
+4. **FreightWaves directory / SONAR carrier profile** — industry authority.
+5. **ThomasNet** — B2B industrial directory; useful for importer/forwarder discovery.
+6. **Industrynet** — secondary B2B directory.
+7. **Manta** — citation-quality directory.
+8. **Yellow Pages / yp.com** — citation-quality.
+9. **Yelp for Business** — citation-quality, occasional referral traffic.
+10. **Foursquare / Factual** — feeds Apple Maps and many secondary apps.
+11. **Charleston Regional Business Journal "Book of Lists"** — print + online, regional authority.
+12. **SC Department of Commerce business directory** — `.gov` adjacency.
+13. **National Industrial Transportation League** — for shipper-side credibility.
 
 Order is not fixed; rotate based on what's submitted and what's live. Industry-vertical and `.org` links rank ahead of generic citation directories.
