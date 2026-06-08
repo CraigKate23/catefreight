@@ -14,7 +14,7 @@ def build(ctx):
   <div class="container">
     <span class="hero-eyebrow">Resources</span>
     <h1>Practical articles for people moving Charleston containers.</h1>
-    <p>Short, specific, and useful — written for the receivers, brokers, and shippers who deal with the SCPA terminals and don't want a 3,000-word SEO essay to find a single useful sentence.</p>
+    <p>Short, specific, and useful — written for the receivers, brokers, and shippers who run <a href="/charleston-drayage/">Charleston drayage</a> through the SCPA terminals and don't want a 3,000-word SEO essay to find a single useful sentence.</p>
   </div>
 </section>
 """

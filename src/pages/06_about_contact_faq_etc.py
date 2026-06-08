@@ -53,7 +53,7 @@ def build(ctx):
     </ul>
 
     <h2>Where we operate</h2>
-    <p>Cate Freight is based in Charleston, SC. We pull from all three SCPA container terminals every shift and run regional drays into the rest of South Carolina, Georgia, and the Carolinas. Most of our work is local Charleston drayage; a meaningful share is regional Southeast lanes. See the <a href="/coverage/">coverage page</a> for specifics.</p>
+    <p>Cate Freight is based in Charleston, SC. We pull from all three SCPA container terminals every shift and run regional drays into the rest of South Carolina, Georgia, and the Carolinas. Most of our work is local <a href="/charleston-drayage/">Charleston drayage</a>; a meaningful share is regional Southeast lanes. See the <a href="/coverage/">coverage page</a> for specifics.</p>
 
     <h2>Who we work with</h2>
     <p>We work with 3PLs, freight forwarders, customs brokers, and direct importers and exporters. The common thread isn't the org chart — it's that they care about how the move runs, not just the rate. If you've ever tracked down a dispatcher to find your container or argued with a carrier about an accessorial you didn't see coming, you'll like working with us.</p>
@@ -212,7 +212,7 @@ def build(ctx):
   <div class="container">
     <span class="hero-eyebrow">Service area</span>
     <h1>Charleston-based, regional reach.</h1>
-    <p>We operate from Charleston, SC, with daily pickups at every SCPA terminal. Local Charleston drays are the bulk of what we run; regional Southeast lanes are an everyday part of the operation.</p>
+    <p>We operate from Charleston, SC, with daily pickups at every SCPA terminal. Local <a href="/charleston-drayage/">Charleston drayage</a> is the bulk of what we run; regional Southeast lanes are an everyday part of the operation.</p>
   </div>
 </section>
 """
@@ -378,7 +378,7 @@ def build(ctx):
   <div class="container">
     <span class="hero-eyebrow">How we run a container</span>
     <h1>The operational walkthrough, end to end.</h1>
-    <p>No mystery, no special sauce. Just the actual sequence of steps every Charleston drayage move passes through, and what we commit to at each step.</p>
+    <p>No mystery, no special sauce. Just the actual sequence of steps every <a href="/charleston-drayage/">Charleston drayage</a> move passes through, and what we commit to at each step.</p>
   </div>
 </section>
 """
