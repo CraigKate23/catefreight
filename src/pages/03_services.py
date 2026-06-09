@@ -394,13 +394,15 @@ def build(ctx):
 
       <h2>Charleston port-to-warehouse lanes we run constantly</h2>
       <ul>
-        <li>Wando Welch / North Charleston / Leatherman → Charleston metro DCs</li>
-        <li>Wando → Mount Pleasant 3PL warehouses</li>
-        <li>SCPA → Summerville and Goose Creek industrial parks</li>
-        <li>SCPA → Columbia distribution center cluster</li>
-        <li>SCPA → Greenville and Spartanburg manufacturing</li>
+        <li>Wando Welch / North Charleston / Leatherman → North Charleston, Hanahan, and Ladson DCs along the I-526 corridor</li>
+        <li>Wando → Mount Pleasant and Daniel Island 3PL warehouses</li>
+        <li>SCPA → Summerville, Goose Creek, and Moncks Corner industrial parks (Berkeley and Dorchester counties)</li>
+        <li>SCPA → Ridgeville and the Camp Hall Commerce Park megasite up the I-26 corridor</li>
+        <li>SCPA → Columbia distribution-center cluster via I-26</li>
+        <li>SCPA → Greenville and Spartanburg manufacturing on I-85</li>
         <li>SCPA → Florence, Hartsville, and the I-95 corridor</li>
       </ul>
+      <p>Most of our daily port-to-warehouse work stays inside the tri-county — Charleston, Berkeley, and Dorchester counties — where the receiving docks sit minutes off I-526 and I-26. When the consignee is farther out, the same dispatcher who handles a five-mile run to a North Charleston DC handles the I-26 leg to Ridgeville or the longer pull to the Midlands. It's all <a href="/charleston-drayage/">Charleston drayage</a> to us, whether the box drops in Hanahan or in Berkeley County.</p>
     </div>
   </div>
 </section>
