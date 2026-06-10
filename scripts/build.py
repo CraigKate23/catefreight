@@ -219,6 +219,25 @@ def footer() -> str:
 """
 
 
+# Stroke-style UI icons (24x24, currentColor) used by card grids site-wide.
+# Referenced from pages as <svg viewBox="0 0 24 24"><use href="#i-NAME"/></svg>
+# inside <div class="icon">. Replaces the old emoji glyphs.
+_ICON_PATHS = {
+    "i-warehouse": '<path d="M3 21V9.5L12 4l9 5.5V21"/><path d="M8 21v-7h8v7"/><path d="M8 17.5h8"/><path d="M3 21h18"/>',
+    "i-globe": '<circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a13.5 13.5 0 0 1 3.5 9 13.5 13.5 0 0 1-3.5 9 13.5 13.5 0 0 1-3.5-9A13.5 13.5 0 0 1 12 3z"/>',
+    "i-clipboard": '<path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M9 11h6M9 15h6"/>',
+    "i-package": '<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.3 7l8.7 5 8.7-5"/><path d="M12 22V12"/>',
+    "i-anchor": '<circle cx="12" cy="5" r="3"/><path d="M12 22V8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/>',
+    "i-import": '<circle cx="12" cy="12" r="9"/><path d="M8 12l4 4 4-4"/><path d="M12 8v8"/>',
+    "i-export": '<circle cx="12" cy="12" r="9"/><path d="M16 12l-4-4-4 4"/><path d="M12 16V8"/>',
+    "i-transload": '<path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/>',
+    "i-weight": '<rect x="4" y="8" width="16" height="12" rx="2"/><path d="M9 8a3 3 0 0 1 6 0"/><path d="M12 12v4"/>',
+    "i-snowflake": '<path d="M12 2v20M2 12h20"/><path d="M5 5l14 14M19 5L5 19"/>',
+    "i-gear": '<circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.2 2.2M16.9 16.9l2.2 2.2M19.1 4.9l-2.2 2.2M7.1 16.9l-2.2 2.2"/>',
+    "i-clock": '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+}
+
+
 def logo_defs() -> str:
     """Inline SVG <defs> so all <use> references work site-wide."""
     inner = LOGO_SVG
@@ -226,7 +245,12 @@ def logo_defs() -> str:
     start = inner.find(">", inner.find("<svg")) + 1
     end = inner.rfind("</svg>")
     body = inner[start:end]
-    return f'<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><symbol id="cf-logo" viewBox="0 0 575.62 347.66">{body}</symbol></defs></svg>'
+    icon_symbols = "".join(
+        f'<symbol id="{name}" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+        f'stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">{paths}</symbol>'
+        for name, paths in _ICON_PATHS.items()
+    )
+    return f'<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><symbol id="cf-logo" viewBox="0 0 575.62 347.66">{body}</symbol>{icon_symbols}</defs></svg>'
 
 
 # ------------------------------ page renderer ----------------------------- #

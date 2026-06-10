@@ -39,6 +39,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 1 | South Carolina Trucking Association | TODO | — |
 | 2 | Charleston Metro Chamber of Commerce | TODO | — |
 | 3 | South Carolina Ports Authority (SCPA) — Motor Carrier resources | TODO | — |
+| 4 | Better Business Bureau (Central SC & Charleston) | TODO | — |
 
 ---
 
@@ -207,22 +208,46 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 4. Better Business Bureau (Central SC & Charleston)
+
+**Why this one.** BBB business profiles are one of the most consistently-indexed citation pages on the web — `bbb.org` carries very high domain authority, and a BBB profile page includes the full NAP block plus a link to catefreight.com. For a position-21 site with almost no inbound links, a `bbb.org` profile is a low-cost, high-trust citation that also shows up in branded SERPs ("cate freight" searches will surface the BBB profile alongside the site — useful social proof for 3PL and forwarder buyers doing diligence). Accreditation (paid) is optional and NOT required to get a free business profile; the free profile alone delivers the citation.
+
+**Submission URL:** https://www.bbb.org/get-listed — the "get listed" flow lets you claim/create a free business profile. The BBB office covering Charleston is **BBB Serving Central South Carolina & Charleston** (headquartered in Columbia); the get-listed flow routes you there automatically based on the business address. *(Verify the URL resolves before submitting — if it redirects, search "BBB get listed" and use the official bbb.org flow only.)*
+
+**What the form will ask for (copy from the NAP block at the top of this file — keep it character-identical):**
+
+- **Business name:** Cate Freight
+- **Address:** *(use the registered business address — must match what's on the website and GBP exactly)*
+- **Phone:** (843) 998-7820
+- **Email:** greg@catefreight.com
+- **Website:** https://catefreight.com
+- **Primary category:** Trucking company — pick "Trucking Transportation Brokers" only if "Trucking" / "Container Freight Service" isn't offered; prefer the most specific freight/trucking category available
+- **Business description:** use the long description from the top of this file (under 750 chars)
+- **Years in business / ownership info:** *(fill at submission — BBB verifies this by phone or email)*
+
+**Expect a verification call or email** from the Central SC & Charleston BBB office after submitting — they confirm the business exists and the contact answers. Answer from (843) 998-7820 so verification matches the NAP.
+
+**Decline the accreditation upsell for now** (they will pitch it during verification). The free profile delivers the citation + link. Accreditation costs annual fees and mostly adds the BBB seal — revisit only if customer-trust signaling becomes a priority later.
+
+**SEO outcome to track:** once live, search `site:bbb.org "cate freight"` to find the profile URL and add it to the tracking table. The profile gives (a) a high-authority NAP citation that corroborates the GBP listing for the "charleston drayage" local cluster, and (b) a branded-SERP trust result. BBB profile links are typically nofollow — the value here is citation consistency and entity corroboration, not link equity, so log it as `LIVE` (citation) rather than expecting a ranking jump from the link alone.
+
+---
+
 ## Next-up backlog (drafts will be added on future runs)
 
 In rough priority order — local + industry first, then broader citation directories:
 
-1. **BBB (Better Business Bureau, SC)** — `bbb.org/get-listed`. Trust signal + linked profile.
-2. **drayage.com carrier directory** — industry-vertical, exact-keyword domain. Submission via their contact form.
-3. **loadmatch.com** — industry directory used by 3PLs/forwarders sourcing drayage.
-4. **FreightWaves directory / SONAR carrier profile** — industry authority.
-5. **ThomasNet** — B2B industrial directory; useful for importer/forwarder discovery.
-6. **Industrynet** — secondary B2B directory.
-7. **Manta** — citation-quality directory.
-8. **Yellow Pages / yp.com** — citation-quality.
-9. **Yelp for Business** — citation-quality, occasional referral traffic.
-10. **Foursquare / Factual** — feeds Apple Maps and many secondary apps.
-11. **Charleston Regional Business Journal "Book of Lists"** — print + online, regional authority.
-12. **SC Department of Commerce business directory** — `.gov` adjacency.
-13. **National Industrial Transportation League** — for shipper-side credibility.
+1. **drayage.com carrier directory** — industry-vertical, exact-keyword domain. Submission via their contact form.
+2. **loadmatch.com** — industry directory used by 3PLs/forwarders sourcing drayage.
+3. **FreightWaves directory / SONAR carrier profile** — industry authority.
+4. **ThomasNet** — B2B industrial directory; useful for importer/forwarder discovery.
+5. **Industrynet** — secondary B2B directory.
+6. **Manta** — citation-quality directory.
+7. **Yellow Pages / yp.com** — citation-quality.
+8. **Yelp for Business** — citation-quality, occasional referral traffic.
+9. **Foursquare / Factual** — feeds Apple Maps and many secondary apps.
+10. **Charleston Regional Business Journal "Book of Lists"** — print + online, regional authority.
+11. **SC Department of Commerce business directory** — `.gov` adjacency.
+12. **National Industrial Transportation League** — for shipper-side credibility.
 
 Order is not fixed; rotate based on what's submitted and what's live. Industry-vertical and `.org` links rank ahead of generic citation directories.

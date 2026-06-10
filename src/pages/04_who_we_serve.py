@@ -94,10 +94,10 @@ def build(ctx):
 <section class="section">
   <div class="container">
     <div class="card-grid">
-      <div class="card"><div class="icon" aria-hidden="true">🏭</div><h3>3PLs &amp; warehouses</h3><p>Drop-and-hook coordination, ASN-friendly windows, dispatcher who answers when the dock is waiting on a 40HC.</p><a class="card-link" href="/who-we-serve/3pls/">Drayage for 3PLs</a></div>
-      <div class="card"><div class="icon" aria-hidden="true">🌐</div><h3>Freight forwarders</h3><p>Booking visibility, terminal-aware pickup timing, clean PODs back fast.</p><a class="card-link" href="/who-we-serve/freight-forwarders/">Drayage for forwarders</a></div>
-      <div class="card"><div class="icon" aria-hidden="true">📋</div><h3>Customs brokers</h3><p>Release-status discipline. We don't roll until customs and freight are released.</p><a class="card-link" href="/who-we-serve/customs-brokers/">Drayage for brokers</a></div>
-      <div class="card"><div class="icon" aria-hidden="true">📦</div><h3>Importers &amp; exporters</h3><p>Direct-shipper relationships with one number to call.</p><a class="card-link" href="/who-we-serve/importers-exporters/">Direct shippers</a></div>
+      <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-warehouse"/></svg></div><h3>3PLs &amp; warehouses</h3><p>Drop-and-hook coordination, ASN-friendly windows, dispatcher who answers when the dock is waiting on a 40HC.</p><a class="card-link" href="/who-we-serve/3pls/">Drayage for 3PLs</a></div>
+      <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-globe"/></svg></div><h3>Freight forwarders</h3><p>Booking visibility, terminal-aware pickup timing, clean PODs back fast.</p><a class="card-link" href="/who-we-serve/freight-forwarders/">Drayage for forwarders</a></div>
+      <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-clipboard"/></svg></div><h3>Customs brokers</h3><p>Release-status discipline. We don't roll until customs and freight are released.</p><a class="card-link" href="/who-we-serve/customs-brokers/">Drayage for brokers</a></div>
+      <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-package"/></svg></div><h3>Importers &amp; exporters</h3><p>Direct-shipper relationships with one number to call.</p><a class="card-link" href="/who-we-serve/importers-exporters/">Direct shippers</a></div>
     </div>
   </div>
 </section>

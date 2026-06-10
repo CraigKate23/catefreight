@@ -69,25 +69,25 @@ def build(ctx):
     </div>
     <div class="card-grid">
       <div class="card">
-        <div class="icon" aria-hidden="true">🏭</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-warehouse"/></svg></div>
         <h3>3PLs &amp; warehouses</h3>
         <p>Drop-and-hook coordination, ASN-friendly arrival windows, and a dispatcher who answers when the dock is waiting on a 40HC.</p>
         <a class="card-link" href="/who-we-serve/3pls/">3PL drayage details</a>
       </div>
       <div class="card">
-        <div class="icon" aria-hidden="true">🌐</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-globe"/></svg></div>
         <h3>Freight forwarders</h3>
         <p>Booking visibility, terminal-aware pickup timing, and clean PODs back fast so you can close the file the day it's delivered.</p>
         <a class="card-link" href="/who-we-serve/freight-forwarders/">Forwarder workflow</a>
       </div>
       <div class="card">
-        <div class="icon" aria-hidden="true">📋</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-clipboard"/></svg></div>
         <h3>Customs brokers</h3>
         <p>Release-status checks before the truck rolls. Nothing rolls until customs and freight are released and the line lifts the hold.</p>
         <a class="card-link" href="/who-we-serve/customs-brokers/">Broker handoff</a>
       </div>
       <div class="card">
-        <div class="icon" aria-hidden="true">📦</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-package"/></svg></div>
         <h3>Importers &amp; exporters</h3>
         <p>You ship volume in or out of Charleston and want one number to call. Direct, no broker layer — unless you want one.</p>
         <a class="card-link" href="/who-we-serve/importers-exporters/">Direct shipper details</a>
@@ -107,49 +107,49 @@ def build(ctx):
     </div>
     <div class="card-grid">
       <div class="card">
-        <div class="icon" aria-hidden="true">⚓</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-anchor"/></svg></div>
         <h3>Port drayage</h3>
         <p>Pickup or return at all three SCPA container terminals — Wando Welch, North Charleston, and Hugh Leatherman.</p>
         <a class="card-link" href="/services/port-drayage/">Port drayage</a>
       </div>
       <div class="card">
-        <div class="icon" aria-hidden="true">⬇️</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-import"/></svg></div>
         <h3>Import container drayage</h3>
         <p>Release-checked, customs-cleared imports from Charleston to your DC — live unload, drop, or pre-pull to our yard.</p>
         <a class="card-link" href="/services/import-container-drayage/">Import drayage</a>
       </div>
       <div class="card">
-        <div class="icon" aria-hidden="true">⬆️</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-export"/></svg></div>
         <h3>Export container drayage</h3>
         <p>Loaded export delivery to terminal, ERD-aware scheduling, and SOLAS VGM coordination on every move.</p>
         <a class="card-link" href="/services/export-container-drayage/">Export drayage</a>
       </div>
       <div class="card">
-        <div class="icon" aria-hidden="true">🏬</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-warehouse"/></svg></div>
         <h3>Port-to-warehouse</h3>
         <p>Direct port-to-DC moves with appointments confirmed at both ends. We don't roll until your dock is ready.</p>
         <a class="card-link" href="/services/port-to-warehouse-drayage/">Port-to-warehouse</a>
       </div>
       <div class="card">
-        <div class="icon" aria-hidden="true">↔️</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-transload"/></svg></div>
         <h3>Transload &amp; coordination</h3>
         <p>Container delivery to a transload yard, plus the warehouse muscle to coordinate the cross-dock if you need it.</p>
         <a class="card-link" href="/services/transload-drayage/">Transload</a>
       </div>
       <div class="card">
-        <div class="icon" aria-hidden="true">🏋️</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-weight"/></svg></div>
         <h3>Overweight &amp; OOG</h3>
         <p>Tri-axle chassis, route permits, and the experience to pull 60,000+ lb containers without breaking the chain.</p>
         <a class="card-link" href="/services/overweight-drayage/">Overweight drayage</a>
       </div>
       <div class="card">
-        <div class="icon" aria-hidden="true">🥶</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-snowflake"/></svg></div>
         <h3>Reefer drayage</h3>
         <p>Genset chassis, set-point verification on pickup, and pre-trip inspection so the box stays in temp the whole way.</p>
         <a class="card-link" href="/services/reefer-drayage/">Reefer drayage</a>
       </div>
       <div class="card dark">
-        <div class="icon" aria-hidden="true">⚙️</div>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-gear"/></svg></div>
         <h3>Specialty &amp; project</h3>
         <p>Hazmat, flat-rack, open-top, and project moves with proper permits, escort coordination, and clean documentation.</p>
         <a class="card-link" href="/services/" style="color:#7ce5cb;">All services</a>

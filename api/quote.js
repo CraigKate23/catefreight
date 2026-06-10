@@ -13,9 +13,10 @@
 //                      For production, verify catefreight.com on Resend and set this to e.g.
 //                      'Cate Freight Quotes <quotes@catefreight.com>'.
 
+// Matches the "essentials" block on /quote/ — the four move fields plus an
+// email to send the quote to. Everything else is optional detail.
 const REQUIRED_FIELDS = [
-  'name', 'company', 'email', 'phone',
-  'move_type', 'container_size', 'terminal', 'delivery_zip',
+  'email', 'container_size', 'terminal', 'delivery_zip',
 ];
 
 const FIELD_ORDER = [
@@ -136,7 +137,9 @@ module.exports = async function handler(req, res) {
     );
   }
 
-  const subject = `New Charleston drayage quote — ${body.company || body.name} — ${body.move_type}`;
+  const who = (body.company || body.name || body.email || '').toString().trim();
+  const what = (body.move_type || `${body.container_size} to ${body.delivery_zip}`).toString().trim();
+  const subject = `New Charleston drayage quote — ${who} — ${what}`;
   const text = lines.join('\n');
   const html = `<p style="font-family:-apple-system,sans-serif;">New drayage quote request via catefreight.com.</p>
 <table style="border-collapse:collapse;font-family:-apple-system,sans-serif;font-size:14px;">${rows.join('')}</table>

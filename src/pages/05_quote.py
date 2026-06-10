@@ -17,7 +17,7 @@ def build(ctx):
   <div class="container">
     <span class="hero-eyebrow">Charleston drayage quote</span>
     <h1>Tell us about the move. We'll come back with a number.</h1>
-    <p>Filling this in completely takes about ninety seconds. During business hours, you'll have a quote on your screen — usually inside an hour. Need to talk now? <a href="tel:{phone_tel}" style="color:#7ce5cb;">{phone_display}</a> or <a href="mailto:{email}" style="color:#7ce5cb;">{email}</a>.</p>
+    <p>Five fields gets you a number — the move, the box, and where to send the quote. Add detail if you have it; skip it if you don't. During business hours, you'll have a quote on your screen — usually inside an hour. Need to talk now? <a href="tel:{phone_tel}" style="color:#7ce5cb;">{phone_display}</a> or <a href="mailto:{email}" style="color:#7ce5cb;">{email}</a>.</p>
   </div>
 </section>
 """
@@ -31,63 +31,12 @@ def build(ctx):
       </div>
 
       <fieldset class="fieldset">
-        <legend>Step 1 &middot; Who you are</legend>
+        <legend>The essentials</legend>
         <div class="row">
           <div class="field">
-            <label for="name">Your name<span class="req">*</span></label>
-            <input id="name" name="name" type="text" required autocomplete="name">
+            <label for="line">Booking # / steamship line</label>
+            <input id="line" name="line" type="text" placeholder="e.g. MAERSK / 1234567">
           </div>
-          <div class="field">
-            <label for="company">Company<span class="req">*</span></label>
-            <input id="company" name="company" type="text" required autocomplete="organization">
-          </div>
-        </div>
-        <div class="row">
-          <div class="field">
-            <label for="email">Email<span class="req">*</span></label>
-            <input id="email" name="email" type="email" required autocomplete="email">
-          </div>
-          <div class="field">
-            <label for="phone">Phone<span class="req">*</span></label>
-            <input id="phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel">
-          </div>
-        </div>
-        <div class="row full">
-          <div class="field">
-            <label for="role">What kind of customer are you?</label>
-            <select id="role" name="role">
-              <option value="">Choose one</option>
-              <option>3PL / warehouse</option>
-              <option>Freight forwarder</option>
-              <option>Customs broker</option>
-              <option>Direct importer or exporter</option>
-              <option>Other</option>
-            </select>
-          </div>
-        </div>
-      </fieldset>
-
-      <fieldset class="fieldset">
-        <legend>Step 2 &middot; The move</legend>
-        <div class="row">
-          <div class="field">
-            <label for="move_type">Move type<span class="req">*</span></label>
-            <select id="move_type" name="move_type" required>
-              <option value="">Choose one</option>
-              <option>Import — port to consignee</option>
-              <option>Export — origin to port</option>
-              <option>Empty return only</option>
-              <option>Pre-pull / yard storage</option>
-              <option>Transload coordination</option>
-              <option>Other</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="container_count">Containers</label>
-            <input id="container_count" name="container_count" type="number" min="1" value="1">
-          </div>
-        </div>
-        <div class="row">
           <div class="field">
             <label for="container_size">Container size &amp; type<span class="req">*</span></label>
             <select id="container_size" name="container_size" required>
@@ -104,6 +53,8 @@ def build(ctx):
               <option>Other</option>
             </select>
           </div>
+        </div>
+        <div class="row">
           <div class="field">
             <label for="terminal">Pickup terminal (or origin)<span class="req">*</span></label>
             <select id="terminal" name="terminal" required>
@@ -116,89 +67,142 @@ def build(ctx):
               <option>Not sure yet</option>
             </select>
           </div>
-        </div>
-
-        <div class="row">
-          <div class="field">
-            <label for="pickup_zip">Pickup ZIP (if not terminal)</label>
-            <input id="pickup_zip" name="pickup_zip" type="text" autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{{5}}" placeholder="29405">
-          </div>
           <div class="field">
             <label for="delivery_zip">Delivery ZIP<span class="req">*</span></label>
             <input id="delivery_zip" name="delivery_zip" type="text" autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{{5}}" required placeholder="29401">
           </div>
         </div>
-
-        <div class="row">
-          <div class="field">
-            <label for="delivery_type">Delivery type</label>
-            <select id="delivery_type" name="delivery_type">
-              <option value="">Choose one</option>
-              <option>Live unload</option>
-              <option>Drop &amp; hook</option>
-              <option>Transload yard</option>
-              <option>Pier return / empty</option>
-              <option>Other</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="pickup_date">Estimated pickup date</label>
-            <input id="pickup_date" name="pickup_date" type="date">
-          </div>
-        </div>
-      </fieldset>
-
-      <fieldset class="fieldset">
-        <legend>Step 3 &middot; The cargo</legend>
-        <div class="row">
-          <div class="field">
-            <label for="line">Steamship line / booking #</label>
-            <input id="line" name="line" type="text" placeholder="e.g. MAERSK / 1234567">
-          </div>
-          <div class="field">
-            <label for="commodity">Commodity</label>
-            <input id="commodity" name="commodity" type="text" placeholder="e.g. apparel, ceramics, frozen poultry">
-          </div>
-        </div>
-
-        <div class="row three">
-          <div class="field">
-            <label for="weight">Approx weight (lb)</label>
-            <input id="weight" name="weight" type="number" min="0" placeholder="44000">
-          </div>
-          <div class="field">
-            <label for="overweight">Overweight?</label>
-            <select id="overweight" name="overweight">
-              <option>No</option>
-              <option>Yes</option>
-              <option>Not sure</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="hazmat">Hazmat?</label>
-            <select id="hazmat" name="hazmat">
-              <option>No</option>
-              <option>Yes</option>
-            </select>
-          </div>
-        </div>
-        <div class="row">
-          <div class="field">
-            <label for="hazmat_un">UN# (if hazmat)</label>
-            <input id="hazmat_un" name="hazmat_un" type="text" placeholder="e.g. UN1993">
-          </div>
-          <div class="field">
-            <label for="reefer_setpoint">Reefer set point (if reefer)</label>
-            <input id="reefer_setpoint" name="reefer_setpoint" type="text" placeholder="e.g. -10°F or +5°C">
-          </div>
-        </div>
         <div class="row full">
           <div class="field">
-            <label for="notes">Anything else we should know?</label>
-            <textarea id="notes" name="notes" placeholder="Customs broker contact, special equipment, dock instructions, multi-stop notes, ERD/VGM cuts for exports, anything else."></textarea>
+            <label for="email">Email — where the quote goes<span class="req">*</span></label>
+            <input id="email" name="email" type="email" required autocomplete="email" placeholder="you@yourcompany.com">
           </div>
         </div>
       </fieldset>
+
+      <details class="quote-optional">
+        <summary>Add detail — optional, but it speeds up the quote</summary>
+        <fieldset class="fieldset">
+          <legend>Who you are</legend>
+          <div class="row">
+            <div class="field">
+              <label for="name">Your name</label>
+              <input id="name" name="name" type="text" autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="company">Company</label>
+              <input id="company" name="company" type="text" autocomplete="organization">
+            </div>
+          </div>
+          <div class="row">
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel">
+            </div>
+            <div class="field">
+              <label for="role">What kind of customer are you?</label>
+              <select id="role" name="role">
+                <option value="">Choose one</option>
+                <option>3PL / warehouse</option>
+                <option>Freight forwarder</option>
+                <option>Customs broker</option>
+                <option>Direct importer or exporter</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <legend>The move</legend>
+          <div class="row">
+            <div class="field">
+              <label for="move_type">Move type</label>
+              <select id="move_type" name="move_type">
+                <option value="">Choose one</option>
+                <option>Import — port to consignee</option>
+                <option>Export — origin to port</option>
+                <option>Empty return only</option>
+                <option>Pre-pull / yard storage</option>
+                <option>Transload coordination</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="container_count">Containers</label>
+              <input id="container_count" name="container_count" type="number" min="1" value="1">
+            </div>
+          </div>
+          <div class="row">
+            <div class="field">
+              <label for="pickup_zip">Pickup ZIP (if not terminal)</label>
+              <input id="pickup_zip" name="pickup_zip" type="text" autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{{5}}" placeholder="29405">
+            </div>
+            <div class="field">
+              <label for="pickup_date">Estimated pickup date</label>
+              <input id="pickup_date" name="pickup_date" type="date">
+            </div>
+          </div>
+          <div class="row full">
+            <div class="field">
+              <label for="delivery_type">Delivery type</label>
+              <select id="delivery_type" name="delivery_type">
+                <option value="">Choose one</option>
+                <option>Live unload</option>
+                <option>Drop &amp; hook</option>
+                <option>Transload yard</option>
+                <option>Pier return / empty</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <legend>The cargo</legend>
+          <div class="row three">
+            <div class="field">
+              <label for="commodity">Commodity</label>
+              <input id="commodity" name="commodity" type="text" placeholder="e.g. apparel, ceramics, frozen poultry">
+            </div>
+            <div class="field">
+              <label for="weight">Approx weight (lb)</label>
+              <input id="weight" name="weight" type="number" min="0" placeholder="44000">
+            </div>
+            <div class="field">
+              <label for="overweight">Overweight?</label>
+              <select id="overweight" name="overweight">
+                <option>No</option>
+                <option>Yes</option>
+                <option>Not sure</option>
+              </select>
+            </div>
+          </div>
+          <div class="row three">
+            <div class="field">
+              <label for="hazmat">Hazmat?</label>
+              <select id="hazmat" name="hazmat">
+                <option>No</option>
+                <option>Yes</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="hazmat_un">UN# (if hazmat)</label>
+              <input id="hazmat_un" name="hazmat_un" type="text" placeholder="e.g. UN1993">
+            </div>
+            <div class="field">
+              <label for="reefer_setpoint">Reefer set point (if reefer)</label>
+              <input id="reefer_setpoint" name="reefer_setpoint" type="text" placeholder="e.g. -10°F or +5°C">
+            </div>
+          </div>
+          <div class="row full">
+            <div class="field">
+              <label for="notes">Anything else we should know?</label>
+              <textarea id="notes" name="notes" placeholder="Customs broker contact, special equipment, dock instructions, multi-stop notes, ERD/VGM cuts for exports, anything else."></textarea>
+            </div>
+          </div>
+        </fieldset>
+      </details>
 
       <button type="submit" class="form-submit">Send my quote request</button>
       <p class="privacy-note">We don't share your information. We don't sell it. We'll only use it to quote and run your move. <a href="/privacy/">Privacy policy</a>.</p>
