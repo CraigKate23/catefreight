@@ -40,6 +40,8 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 2 | Charleston Metro Chamber of Commerce | TODO | — |
 | 3 | South Carolina Ports Authority (SCPA) — Motor Carrier resources | TODO | — |
 | 4 | Better Business Bureau (Central SC & Charleston) | TODO | — |
+| 5 | drayage.com Drayage Directory + loadmatch.com (one LoadMatch Inc. membership covers both) | TODO | — |
+| 6 | Thomasnet — free supplier listing | TODO | — |
 
 ---
 
@@ -233,14 +235,104 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 5. drayage.com Drayage Directory + loadmatch.com (LoadMatch Inc.)
+
+**Why this one.** drayage.com is the exact-keyword industry directory — 6,000+ intermodal carriers listed, and it's where 3PLs, forwarders, and customs brokers actually go to source drayage by city. Its Charleston results page (`drayage.com/directory/results.cfm?city=CHS`) ranks for the buyer queries in our cluster, so a listing there puts Cate Freight on a page Google already associates with "charleston drayage" — plus direct referral calls from buyers browsing the directory. **Bonus:** drayage.com is owned and operated by LoadMatch Inc., and one membership covers visibility across both drayage.com and loadmatch.com — so this single submission closes backlog items #1 and #2 together.
+
+**Verified facts (checked 2026-06-11 via drayage.com/faq.cfm):**
+
+- **Cost:** $600/year flat (one office location, any fleet size) or $55/month. **Free 30-day trial** before paying — sign up, see how many calls come in, then decide.
+- **Requirement:** an Intermodal Interchange Agreement (UIIA) is required for the drayage.com Directory itself. Without UIIA you're listed on loadmatch.com only. *(We list UIIA as registered in the SCPA draft above — confirm current before signing up, since it gates the better listing.)*
+- **Payment:** credit card online (Visa/MC/Amex) or check to LoadMatch Inc., P.O. Box 6592, Naperville, IL 60567-6592. Invoice is self-generated after login ("payment status" → "create invoice").
+- **Listing analytics:** member login shows visitor activity (date, time, who viewed your contact info) — real demand-gen feedback, not just SEO.
+
+**Submission URL (signup with free trial):** https://www.loadmatch.com/signup_info.cfm
+
+**Questions / multi-location rates contact form:** https://www.loadmatch.com/contact.cfm
+
+**Charleston directory page to verify our listing once live:** https://www.drayage.com/directory/results.cfm?city=CHS
+
+**This one is a web-form signup, not an email pitch** — no outreach email needed. Fill the signup form with the NAP block from the top of this file, character-identical. Listing copy to have ready:
+
+- **Company:** Cate Freight
+- **City/region:** Charleston, SC (CHS)
+- **Phone:** (843) 998-7820
+- **Email:** greg@catefreight.com
+- **Website:** https://catefreight.com
+- **USDOT / MC:** 3688555 / 1285884
+- **UIIA:** Yes *(confirm current before submitting)*
+- **Services / equipment flags the directory uses:** import/export container drayage, port drayage (SCPA: Wando Welch, North Charleston, Hugh Leatherman), overweight (to 100,000 lb under SCDOT permit), reefer with genset, transload coordination
+- **Service area:** Charleston tri-county (Charleston, Berkeley, Dorchester) — plus Columbia, Greenville, Atlanta, Charlotte, Savannah corridors
+- **Description:** use the short description (250 chars) from the top of this file; long form if the field allows 750
+
+**If you'd rather ask before signing up**, use the contact form with this:
+
+**Subject:** New carrier listing — Cate Freight, Charleston SC drayage (USDOT 3688555)
+
+**Body:**
+
+> Hi LoadMatch team,
+>
+> I'd like to list Cate Freight, a Charleston, SC drayage carrier, in the Drayage.com Directory. We run import and export containers out of all three SCPA terminals — Wando Welch, North Charleston, and Hugh Leatherman — for 3PLs, freight forwarders, customs brokers, and direct importers.
+>
+> Quick details:
+>
+> - Company: Cate Freight
+> - Domicile: Charleston, SC
+> - USDOT 3688555 · MC-1285884
+> - UIIA interchange agreement: registered
+> - Equipment: tractors + chassis (own + pool), reefer-capable with genset, overweight-permitted runs to 100,000 lb under SCDOT permit
+> - Web: https://catefreight.com
+> - Phone: (843) 998-7820
+>
+> Two questions before I start the free trial: (1) does the listing include a clickable link to our website on the directory results page, and (2) does the $600/yr membership include the loadmatch.com directory as well, or is that separate?
+>
+> Thanks —
+> Greg Cate
+> Cate Freight
+> greg@catefreight.com · (843) 998-7820
+
+**SEO outcome to track:** once live, the listing appears on the Charleston city-results page — a page on an exact-match-keyword domain that itself ranks for "charleston drayage" buyer queries. Verify with `site:drayage.com "cate freight"` after it indexes, and log whether the listing links to catefreight.com (that's the `LINKED` outcome). Even before any link equity, this directory drives direct sourcing calls from 3PLs/forwarders — track inbound calls during the 30-day trial to judge whether $600/yr pays for itself on demand-gen alone.
+
+---
+
+## 6. Thomasnet — free supplier listing
+
+**Why this one.** Thomasnet is the dominant B2B industrial supplier directory in North America — the exact audience that buys drayage (manufacturers, importers, procurement teams sourcing logistics services). The base listing is **free**, listings are reviewed/verified by Thomasnet staff (so it carries citation weight), and company profiles include your location, categories, description, and contact info. It's also a high-authority domain, so even a profile-level citation strengthens the NAP footprint Google cross-references for local rankings.
+
+**Verified facts (checked 2026-06-12 via thomasnet.com / business.thomasnet.com):**
+
+- **Cost:** free base listing for qualified North American B2B suppliers. Paid "supplier programs" exist (performance-based advertising) — skip those for now; the free citation is the SEO win.
+- **Process:** (1) register with company name, location, primary contact; (2) Thomasnet's content team reviews the submission to verify you're a legitimate North American B2B supplier; (3) they email a verification code to confirm access; (4) you build out the profile (capabilities, categories, photos, description).
+- **If Cate Freight already appears** (Thomasnet seeds listings from public data): use the claim flow instead of creating a duplicate.
+
+**Submission URLs:**
+
+- Claim existing listing: https://www.thomasnet.com/claim
+- List a new company (free): https://www.thomasnet.com/claim/list
+- Get-listed overview: https://business.thomasnet.com/get-listed-on-thomasnet
+
+**This is a web-form signup, not an email pitch.** Fill it with the NAP block from the top of this file, character-identical. Listing copy to have ready:
+
+- **Company:** Cate Freight
+- **Location:** Charleston, SC
+- **Categories to request:** Trucking, Drayage Services, Container Transport, Logistics Services, Freight Hauling
+- **Description:** use the short description (250 chars) from the top of this file; long form (750) if the field allows
+- **Contact:** greg@catefreight.com · (843) 998-7820 · https://catefreight.com
+- **USDOT / MC** (if a credentials field exists): 3688555 / 1285884
+
+**SEO outcome to track:** profile goes live at a `thomasnet.com/profile/...` URL. Verify with `site:thomasnet.com "cate freight"` after it indexes. Log `LINKED` if the profile links out to catefreight.com (free profiles typically display the website URL). Secondary benefit: Thomasnet profiles often rank on page 1 for "[company name]" searches — useful brand-SERP real estate while the site itself climbs.
+
+---
+
 ## Next-up backlog (drafts will be added on future runs)
 
 In rough priority order — local + industry first, then broader citation directories:
 
-1. **drayage.com carrier directory** — industry-vertical, exact-keyword domain. Submission via their contact form.
-2. **loadmatch.com** — industry directory used by 3PLs/forwarders sourcing drayage.
+1. ~~drayage.com carrier directory~~ — **drafted above (#5)**; one LoadMatch membership also covers loadmatch.com.
+2. ~~loadmatch.com~~ — **covered by #5** (same LoadMatch Inc. membership).
 3. **FreightWaves directory / SONAR carrier profile** — industry authority.
-4. **ThomasNet** — B2B industrial directory; useful for importer/forwarder discovery.
+4. ~~ThomasNet~~ — **drafted above (#6)**.
 5. **Industrynet** — secondary B2B directory.
 6. **Manta** — citation-quality directory.
 7. **Yellow Pages / yp.com** — citation-quality.
