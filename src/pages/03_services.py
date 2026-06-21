@@ -485,11 +485,17 @@ def build(ctx):
         <li><strong>Inland handoff.</strong> Domestic carrier dispatched against your TMS or via our partners.</li>
         <li><strong>Documentation.</strong> Container EIR, transload BOL, and inland POD all back to you in one package.</li>
       </ul>
+
+      <h2>Port-to-rail drayage: the Norfolk Southern and CSX ramps</h2>
+      <p>Charleston has no on-dock rail today, so every intermodal box still moves by truck for its first or last leg. If your container is routing to rail, the move is a dray from the SCPA terminal to the Norfolk Southern or CSX railhead in North Charleston — and the reverse for inbound rail freight headed to a Lowcountry consignee. This is core <a href="/charleston-drayage/">Charleston drayage</a> work, and it's exactly the kind of port-to-rail leg that gets dropped when a carrier only thinks door-to-door.</p>
+      <p>When the Navy Base Intermodal Facility (NBIF) opens near the Hugh Leatherman Terminal, the railhead dray gets shorter and intermodal becomes a stronger option for Charleston imports moving to the Midwest. Cate Freight runs both legs — the port-to-rail dray and the rail-to-door dray — and we'll route to NBIF the day it's live.</p>
     </div>
   </div>
 </section>
 """,
         faqs=[
+            ("Do you run port-to-rail drayage to the Charleston rail ramps?",
+             "Yes. Charleston has no on-dock rail yet, so intermodal containers move by dray between the SCPA terminals and the Norfolk Southern or CSX railhead in North Charleston. We run the port-to-rail leg outbound and the rail-to-door leg inbound. Once the Navy Base Intermodal Facility (NBIF) opens near Hugh Leatherman, that railhead dray gets shorter and we'll route to it directly."),
             ("Do you operate your own transload warehouse?",
              "Cate Freight is a drayage carrier. We coordinate with established Charleston-area transload facilities and warehouse partners. The advantage is that we treat the warehouse like a customer — because that's the world we came from — so the cross-dock side runs cleanly."),
             ("Can you handle the inland leg after transload?",
