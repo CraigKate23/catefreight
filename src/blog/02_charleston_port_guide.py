@@ -138,6 +138,7 @@ def build(ctx):
             "description": "Practical reference for anyone shipping through the Port of Charleston — terminals, free time, accessorials, chassis pools.",
             "author": {"@type": "Organization", "name": "Cate Freight"},
             "publisher": {"@id": f"{site_url}/#org"},
+            "image": f"{site_url}/og-default.png",
             "datePublished": "2026-04-22",
             "dateModified": ctx["last_modified"],
             "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/resources/charleston-port-drayage-guide/"},

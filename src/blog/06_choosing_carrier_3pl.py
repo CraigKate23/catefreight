@@ -94,6 +94,7 @@ def build(ctx):
         "description": "Eleven operational criteria for evaluating a Charleston drayage carrier — and the specific questions to ask before signing.",
         "author": {"@type": "Organization", "name": "Cate Freight"},
         "publisher": {"@id": f"{site_url}/#org"},
+        "image": f"{site_url}/og-default.png",
         "datePublished": "2026-04-28",
         "dateModified": ctx["last_modified"],
         "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/resources/choosing-a-drayage-carrier-3pl/"},

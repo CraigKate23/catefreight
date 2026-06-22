@@ -104,6 +104,7 @@ def build(ctx):
         "description": "Three modes that move a Charleston import inland, with rules of thumb for when each wins.",
         "author": {"@type": "Organization", "name": "Cate Freight"},
         "publisher": {"@id": f"{site_url}/#org"},
+        "image": f"{site_url}/og-default.png",
         "datePublished": "2026-04-25",
         "dateModified": ctx["last_modified"],
         "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/resources/drayage-vs-transload-intermodal/"},

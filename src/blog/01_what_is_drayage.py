@@ -91,6 +91,7 @@ def build(ctx):
             "description": "The simplest accurate definition of drayage, why the word exists, and where drayage ends and other modes begin.",
             "author": {"@type": "Organization", "name": "Cate Freight"},
             "publisher": {"@id": f"{site_url}/#org"},
+            "image": f"{site_url}/og-default.png",
             "datePublished": "2026-04-15",
             "dateModified": ctx["last_modified"],
             "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/resources/what-is-drayage/"},
