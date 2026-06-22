@@ -126,7 +126,7 @@ def build(ctx):
         title="Drayage for 3PLs and Warehouses in Charleston, SC | Cate Freight",
         meta="Charleston drayage built for 3PLs and warehouse operators. ASN-friendly windows, drop-and-hook discipline, container number on every comm, PODs back same day.",
         h1="Drayage for 3PLs that actually fits warehouse operations.",
-        intro_html="Most drayage carriers were built around the truck. Cate Freight came out of the warehouse and 3PL world. We know what an inbound SOP looks like, why dock managers care about appointment punctuality, and how a 3PL's customer judges them on receiving accuracy.",
+        intro_html="Most drayage carriers were built around the truck. Cate Freight came out of the warehouse and 3PL world, so our <a href=\"/charleston-drayage/\">Charleston drayage</a> operation is built around how receiving actually runs. We know what an inbound SOP looks like, why dock managers care about appointment punctuality, and how a 3PL's customer judges them on receiving accuracy.",
         sections_html="""
 <section class="section">
   <div class="container">
@@ -182,7 +182,7 @@ def build(ctx):
         title="Charleston Drayage for Freight Forwarders | Cate Freight",
         meta="Charleston drayage built for freight forwarders. Booking visibility, release-aware pickup timing, clean PODs back the day of delivery, and one point of contact per file.",
         h1="A drayage carrier your forwarder operations can actually plan around.",
-        intro_html="Forwarders live and die by file accuracy. The drayage leg of a Charleston move is where files get sloppy: missed releases, ETAs that don't update, PODs that take three follow-ups to retrieve. Cate Freight runs the dray side cleanly so you can close the file the same day delivery happens.",
+        intro_html="Forwarders live and die by file accuracy. The <a href=\"/charleston-drayage/\">Charleston drayage</a> leg of a move is where files get sloppy: missed releases, ETAs that don't update, PODs that take three follow-ups to retrieve. Cate Freight runs the dray side cleanly so you can close the file the same day delivery happens.",
         sections_html="""
 <section class="section">
   <div class="container">
@@ -231,7 +231,7 @@ def build(ctx):
         title="Charleston Drayage for Customs Brokers | Cate Freight",
         meta="Charleston drayage that respects the customs release. We don't roll until customs, freight, and line holds are clear. Clean handoffs to your importer customers.",
         h1="Drayage that respects the customs file.",
-        intro_html="Customs brokers spend a lot of time fixing problems caused by drayage carriers who didn't wait for the release. Cate Freight is the opposite — we don't dispatch until 1C is on file, freight is released, and line holds are lifted. Boring, predictable, and exactly what your importer customers need.",
+        intro_html="Customs brokers spend a lot of time fixing problems caused by <a href=\"/charleston-drayage/\">Charleston drayage</a> carriers who didn't wait for the release. Cate Freight is the opposite — we don't dispatch until 1C is on file, freight is released, and line holds are lifted. Boring, predictable, and exactly what your importer customers need.",
         sections_html="""
 <section class="section">
   <div class="container">
@@ -283,7 +283,7 @@ def build(ctx):
         title="Charleston Drayage for Direct Importers and Exporters | Cate Freight",
         meta="Charleston drayage for direct importers and exporters. One number to call. No middleman. Releases verified, paperwork clean, PODs back the day of delivery.",
         h1="Drayage for shippers who'd rather call the carrier directly.",
-        intro_html="Some importers and exporters work through a forwarder or 3PL. Some prefer to deal directly with the drayage carrier. Cate Freight handles both — but we're particularly good for direct shippers who want operational visibility, no broker layer in the way, and a single dispatcher who knows their account.",
+        intro_html="Some importers and exporters work through a forwarder or 3PL. Some prefer to deal directly with the <a href=\"/charleston-drayage/\">Charleston drayage</a> carrier. Cate Freight handles both — but we're particularly good for direct shippers who want operational visibility, no broker layer in the way, and a single dispatcher who knows their account.",
         sections_html="""
 <section class="section">
   <div class="container">
