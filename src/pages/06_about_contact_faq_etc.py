@@ -211,7 +211,7 @@ def build(ctx):
 <section class="page-hero">
   <div class="container">
     <span class="hero-eyebrow">Service area</span>
-    <h1>Charleston-based, regional reach.</h1>
+    <h1>Charleston drayage coverage — every SCPA terminal, regional reach.</h1>
     <p>We operate from Charleston, SC, with daily pickups at every SCPA terminal. Local <a href="/charleston-drayage/">Charleston drayage</a> is the bulk of what we run; regional Southeast lanes are an everyday part of the operation.</p>
   </div>
 </section>
@@ -364,7 +364,7 @@ def build(ctx):
             path="/coverage/",
             title="Cate Freight Drayage Coverage Area | Charleston, SC and the Southeast",
             meta_description="Cate Freight covers all three SCPA container terminals and runs Charleston drayage across South Carolina, Georgia, and the Carolinas. Local and regional lanes both routine.",
-            h1="Charleston-based, regional reach.",
+            h1="Charleston drayage coverage — every SCPA terminal, regional reach.",
             body_html=breadcrumb_bar(crumbs_cov) + cov_hero + cov_body + cta_banner(),
             breadcrumbs=crumbs_cov,
             nav_active="coverage",
