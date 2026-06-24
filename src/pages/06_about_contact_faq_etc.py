@@ -261,6 +261,23 @@ def build(ctx):
   </div>
 </section>
 
+<section class="section">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">Rail-served drayage</p><h2>Charleston rail ramp drayage — Norfolk Southern and CSX.</h2></div>
+    <p class="lead" style="margin: 0 auto 1.5rem;">The Port of Charleston is dual-served by both Class I railroads, Norfolk Southern and CSX. When a box routes intermodal instead of straight to a warehouse, we run the port-to-rail leg — pulling the container off the SCPA terminal and dropping it at the ramp, or drawing an inbound rail container out to its consignee.</p>
+    <div class="split-2">
+      <div>
+        <h3>Navy Base Intermodal Facility (NBIF)</h3>
+        <p>SCPA's near-dock rail yard on the former Navy Base in North Charleston, roughly a mile from the Hugh Leatherman Terminal. Built dual-served by Norfolk Southern and CSX, it ties Charleston containers to inland markets like Atlanta, Memphis, Nashville, and Louisville by rail.</p>
+      </div>
+      <div>
+        <h3>How we run the rail leg</h3>
+        <p>Whether you need a pre-pull staged ahead of a rail cutoff or an inbound intermodal container drayed from the ramp to your door, we handle the truck side. See <a href="/services/transload-drayage/">transload and port-to-rail drayage</a> for the full workflow, or start a <a href="/charleston-drayage/">Charleston drayage</a> quote.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section bg-surface">
   <div class="container">
     <div class="section-head"><p class="eyebrow">Local Charleston drayage</p><h2>The metro lanes we run constantly.</h2></div>
