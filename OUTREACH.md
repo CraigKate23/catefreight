@@ -42,6 +42,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 4 | Better Business Bureau (Central SC & Charleston) | TODO | — |
 | 5 | drayage.com Drayage Directory + loadmatch.com (one LoadMatch Inc. membership covers both) | TODO | — |
 | 6 | Thomasnet — free supplier listing | TODO | — |
+| 7 | Intermodal Association of North America (IANA) — member directory | TODO | — |
 
 ---
 
@@ -325,21 +326,88 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 7. Intermodal Association of North America (IANA) — member directory
+
+**Why this one.** IANA is *the* trade body for intermodal freight — and drayage carriers are a named membership category ("intermodal truckers" / drayage division). This is the single most topically-relevant industry-vertical `.org` left on the list: IANA administers the **UIIA**, the interchange agreement we already reference in the SCPA and drayage.com drafts above, so membership is a natural fit and an entity-corroboration win (it ties Cate Freight to the UIIA registration buyers expect). IANA publishes a public **Member List** at `intermodal.org/member-list` and an **Intermodal System Maps & Directory** — both authoritative pages on `intermodal.org` (a high-relevance `.org` for "intermodal drayage / container drayage" queries). Pairs with SCTA (state trucking `.org`) and the Charleston Chamber (local `.org`) to extend the authority footprint from local → state → national-industry. Annual dues required (tiered by division/participant).
+
+**Heads-up on timing:** IANA is mid-migration from its old Netforum portal to a Salesforce-powered platform (notice live on intermodal.org as of this draft). The membership-application and member-portal pages may be intermittently unavailable during the transition — if the online application errors out, use the contact form or call the office (below) and ask to be routed to membership.
+
+**Submission URL (membership application):** https://www.intermodal.org/iana-membership-application — start here. Supporting pages: Join/division benefits at https://www.intermodal.org/division-benefit and member benefits at https://www.intermodal.org/member-benefits-new.
+
+**Public member directory (verify our listing once live):** https://www.intermodal.org/member-list — also check the Intermodal System Maps & Directory at https://www.intermodal.org/intermodalsystem and the IANA-affiliated Intermodal Marketplace at https://intermodalmarketplace.com/.
+
+**Contact (use if the application form is down during the portal migration):** contact form at https://www.intermodal.org/forms/contact-us · IANA, 11785 Beltsville Drive, Suite 1100, Calverton, MD 20705-4049 · (301) 982-3400.
+
+**Email to send to membership (use the contact form if no direct membership email is published):**
+
+**Subject:** Membership inquiry — Cate Freight, Charleston drayage carrier (USDOT 3688555)
+
+**Body:**
+
+> Hi IANA membership team,
+>
+> I'd like to inquire about membership for Cate Freight, a Charleston, SC drayage carrier, under the intermodal-trucker / drayage division. We move import and export containers out of all three SCPA terminals — Wando Welch, North Charleston, and Hugh Leatherman — for 3PLs, freight forwarders, customs brokers, and direct importers across South Carolina and the Southeast.
+>
+> Quick details for membership review:
+>
+> - Company: Cate Freight
+> - Domicile: Charleston, SC
+> - USDOT 3688555 · MC-1285884
+> - UIIA: registered (interchange agreement administered by IANA — please confirm our profile is current on your end)
+> - Primary operation: container drayage from SCPA terminals (Wando Welch, North Charleston, Hugh Leatherman)
+> - Equipment: tractors + chassis (own + pool), reefer-capable with genset, overweight-permitted runs to 100,000 lb under SCDOT permit
+> - Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner — plus Columbia, Greenville, Atlanta, Charlotte, and Savannah corridors
+> - Web: https://catefreight.com
+> - Phone: (843) 998-7820
+>
+> Could you send the current division/membership-tier breakdown and dues structure, and confirm what's included in the public Member List and Intermodal System Directory listing (company name, description, link to website, division tags)? I'd like to prepare the listing copy and submit it alongside the membership application.
+>
+> Thanks —
+> Greg Cate
+> Cate Freight
+> greg@catefreight.com · (843) 998-7820
+
+**Listing copy to provide once they reply (paste into the directory form):**
+
+- **Company:** Cate Freight
+- **Division / member type:** Intermodal trucker / drayage carrier
+- **Headquarters:** Charleston, SC
+- **Phone:** (843) 998-7820
+- **Email:** greg@catefreight.com
+- **Website:** https://catefreight.com
+- **USDOT / MC:** 3688555 / 1285884
+- **UIIA:** registered
+- **Terminals served:** Wando Welch (WWT), North Charleston Terminal (NCT), Hugh Leatherman Terminal (HLT)
+- **Services offered:** Port drayage, import container drayage, export container drayage, port-to-warehouse drayage, transload drayage, overweight container drayage (to 100,000 lb under SCDOT permit), reefer drayage with genset
+- **Service area:** Charleston tri-county (Charleston, Berkeley, Dorchester) — plus Columbia, Greenville, Atlanta, Charlotte, Savannah corridors
+- **Short description (use long form above if 750 chars allowed; short form if 250 chars allowed)**
+
+**SEO outcome to track:** once live, this gives a national-industry `.org` citation on `intermodal.org` — a domain Google reads as authoritative for the intermodal/drayage vertical, on a member-directory page that lists carriers by division. Verify with `site:intermodal.org "cate freight"` after it indexes, and log `LINKED` if the member-list/directory entry links out to catefreight.com. Even an unlinked, indexed listing corroborates the NAP + UIIA entity for E-E-A-T. Dues required, so this is a "sign off and pay" item, not a free citation — flag for Greg's budget call alongside SCTA and the Chamber (the three dues-based `.org` listings together form the local→state→national authority stack).
+
+---
+
+## Deprioritized — not worth a draft right now
+
+- **FreightWaves directory / SONAR carrier profile** *(was backlog #3).* Checked 2026-06-25: FreightWaves' public company directories (Public Companies Directory, EV Companies Directory) were **discontinued — not updated since June 30, 2023**. The only carrier-submittable feature is the annual editorial **Top 500 Private Carriers** ranking, which is (a) editor-curated, (b) sized for large for-hire fleets, and (c) not a self-serve citation a position-21 small drayage carrier can land. No reliable backlink/citation path here today. Skip until/unless FreightWaves relaunches a self-serve carrier directory. (Editorial contact for rankings, if ever relevant: Joe Antoshak, jantoshak@freightwaves.com.)
+
+---
+
 ## Next-up backlog (drafts will be added on future runs)
 
 In rough priority order — local + industry first, then broader citation directories:
 
 1. ~~drayage.com carrier directory~~ — **drafted above (#5)**; one LoadMatch membership also covers loadmatch.com.
 2. ~~loadmatch.com~~ — **covered by #5** (same LoadMatch Inc. membership).
-3. **FreightWaves directory / SONAR carrier profile** — industry authority.
+3. ~~FreightWaves directory / SONAR carrier profile~~ — **deprioritized** (see "Deprioritized" section above; public directories discontinued 2023).
 4. ~~ThomasNet~~ — **drafted above (#6)**.
-5. **Industrynet** — secondary B2B directory.
-6. **Manta** — citation-quality directory.
-7. **Yellow Pages / yp.com** — citation-quality.
-8. **Yelp for Business** — citation-quality, occasional referral traffic.
-9. **Foursquare / Factual** — feeds Apple Maps and many secondary apps.
-10. **Charleston Regional Business Journal "Book of Lists"** — print + online, regional authority.
-11. **SC Department of Commerce business directory** — `.gov` adjacency.
-12. **National Industrial Transportation League** — for shipper-side credibility.
+5. ~~Intermodal Association of North America (IANA)~~ — **drafted above (#7)**; national-industry `.org`, administers the UIIA.
+6. **Industrynet** — secondary B2B directory.
+7. **Manta** — citation-quality directory.
+8. **Yellow Pages / yp.com** — citation-quality.
+9. **Yelp for Business** — citation-quality, occasional referral traffic.
+10. **Foursquare / Factual** — feeds Apple Maps and many secondary apps.
+11. **Charleston Regional Business Journal "Book of Lists"** — print + online, regional authority.
+12. **SC Department of Commerce business directory** — `.gov` adjacency.
+13. **National Industrial Transportation League** — for shipper-side credibility.
 
 Order is not fixed; rotate based on what's submitted and what's live. Industry-vertical and `.org` links rank ahead of generic citation directories.
