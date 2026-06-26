@@ -39,15 +39,15 @@ def build(ctx):
 
       <h2>The two main flavors</h2>
       <h3>Import drayage</h3>
-      <p>The container is unloaded from a vessel, released by customs and the steamship line, picked up by a drayage truck, and delivered to its inland destination. Empty container goes back to the line later.</p>
+      <p>The container is unloaded from a vessel, released by customs and the steamship line, picked up by a drayage truck, and delivered to its inland destination. Empty container goes back to the line later. At the Port of Charleston, that's our <a href="/services/import-container-drayage/">import container drayage</a> service.</p>
 
       <h3>Export drayage</h3>
-      <p>The empty container is picked up at the port (or a depot), driven to the shipper's facility for loading, then driven back to the port and dropped at the terminal before the vessel's cut-off.</p>
+      <p>The empty container is picked up at the port (or a depot), driven to the shipper's facility for loading, then driven back to the port and dropped at the terminal before the vessel's cut-off. In Charleston, that's our <a href="/services/export-container-drayage/">export container drayage</a> service.</p>
 
       <h2>Why drayage matters more than people realize</h2>
       <p>Sea freight is dominated by economies of scale — gigantic ships moving thousands of containers at a time. Drayage is the opposite: a single tractor pulling a single chassis with a single container. It's the most expensive leg of the journey per mile, and it's the leg most likely to determine whether the whole shipment runs on time. The ocean carrier can't fix a missed delivery window. The drayage carrier can.</p>
 
-      <p>It's also where most accessorial costs accumulate. Demurrage, detention, chassis splits, fuel surcharges, overweight permits, hazmat charges — these all happen at the drayage layer. A sharp drayage carrier prevents most of them. A sloppy one creates them.</p>
+      <p>It's also where most accessorial costs accumulate. <a href="/resources/avoid-demurrage-detention/">Demurrage, detention, chassis splits</a>, fuel surcharges, overweight permits, hazmat charges — these all happen at the drayage layer. A sharp drayage carrier prevents most of them. A sloppy one creates them.</p>
 
       <h2>What "drayage" looks like in Charleston</h2>
       <p>At the Port of Charleston, drayage is the only mode that moves your container at all — Charleston is the only major East Coast port without on-dock or near-dock rail (the Navy Base Intermodal Facility is finally arriving in 2026). Every container in or out of Charleston is on a dray truck for at least the first or last 5–500 miles of its journey. That makes Charleston a more drayage-intensive port than Norfolk, Savannah, or New York — and makes the difference between a sharp drayman and a sloppy one painfully visible.</p>
