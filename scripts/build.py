@@ -47,7 +47,11 @@ GOOGLE_SITE_VERIFICATION = ""
 # incomplete provider/publisher. Defined here once to keep it consistent.
 ORG_SCHEMA = {
     "@context": "https://schema.org",
-    "@type": "MovingCompany",
+    # LocalBusiness (not MovingCompany — that's the household-goods category and
+    # mis-signals the entity for container-drayage queries). LocalBusiness is the
+    # accurate generic type for a service-area freight carrier and preserves the
+    # local-pack signals Google reads for "[city] drayage" searches.
+    "@type": "LocalBusiness",
     "@id": f"{SITE_URL}/#org",
     "name": SITE_NAME,
     "alternateName": "C8FR8",
@@ -67,6 +71,16 @@ ORG_SCHEMA = {
         "addressRegion": ADDRESS_REGION,
         "addressCountry": ADDRESS_COUNTRY,
     },
+    # Service-area centroid (Charleston, SC). Locality-level coordinates that
+    # match the locality-only address — gives the LocalBusiness entity a geo
+    # anchor for local relevance without implying a precise street pin we don't
+    # publish.
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 32.7765,
+        "longitude": -79.9311,
+    },
+    "hasMap": "https://www.google.com/maps/place/Charleston,+SC",
     "areaServed": [
         {"@type": "City", "name": "Charleston"},
         {"@type": "City", "name": "North Charleston"},
