@@ -374,6 +374,20 @@ def build(ctx):
   </div>
 </section>
 """
+    cov_faq_html, cov_faq_schema = faq_block([
+        ("Which Charleston port container terminals does Cate Freight serve?",
+         "All three SCPA container terminals — Wando Welch (USCHA) in Mount Pleasant, North Charleston (USNCH), and Hugh Leatherman (USCHL) — every shift, for pickup, empty return, and pre-pull. We also work Columbus Street (USCST) on demand for RoRo and breakbulk. Send the booking or container number and we'll confirm which terminal your box cut to."),
+        ("Will you deliver a container straight to my warehouse from the Port of Charleston?",
+         "Yes — port-to-warehouse drayage to your dock is the bulk of what we run. Most loads stay inside the tri-county (Charleston, Berkeley, and Dorchester counties) where receiving docks sit minutes off I-526 and I-26 — North Charleston, Hanahan, Goose Creek, Ladson, Summerville, Moncks Corner, and Mount Pleasant. Give us the delivery ZIP, the live-unload or drop-and-hook preference, and the appointment window, and we route it."),
+        ("Do you run drayage from Charleston to Columbia, Greenville, or the Upstate?",
+         "Yes. We run I-26 west to the Columbia distribution cluster (~110 mi), and on to Newberry, Spartanburg, and Greenville (~210 mi) via I-85. The Camp Hall Commerce Park and Ridgeville megasite up I-26 are routine drays for us. Regional lanes are quoted by mileage against your delivery ZIP."),
+        ("Do you handle Charleston-to-Atlanta or Charleston-to-Savannah drayage?",
+         "Yes. We pull longer regional drays into Georgia — Savannah (~110 mi), Augusta (~145 mi), and the Atlanta metro (~310 mi) — plus Charlotte (~205 mi) and east Tennessee. Beyond the immediate Southeast we quote case by case rather than promise a lane we can't run well."),
+        ("How far from the Port of Charleston will you deliver?",
+         "Local Charleston metro drays (0–25 mi) turn same day when the box is released. Regional South Carolina lanes — Columbia, Florence, Greenville-Spartanburg — turn day-of or next morning depending on dispatch time and the consignee's appointment. Adjacent-state lanes into GA, NC, and TN are everyday work; send the ZIP and we'll walk the lane before quoting."),
+        ("Can you dray a container to or from the Charleston rail ramp?",
+         "Yes. The Port of Charleston is dual-served by Norfolk Southern and CSX, and the Navy Base Intermodal Facility (NBIF) sits about a mile from Hugh Leatherman. We handle the truck side of intermodal — staging a pre-pull ahead of a rail cutoff, or drawing an inbound ramp container out to its consignee. See our transload and port-to-rail drayage workflow for detail."),
+    ])
     out.append((
         "/coverage/index.html",
         render(
@@ -382,9 +396,10 @@ def build(ctx):
             title="Cate Freight Drayage Coverage Area | Charleston, SC and the Southeast",
             meta_description="Cate Freight covers all three SCPA container terminals and runs Charleston drayage across South Carolina, Georgia, and the Carolinas. Local and regional lanes both routine.",
             h1="Charleston drayage coverage — every SCPA terminal, regional reach.",
-            body_html=breadcrumb_bar(crumbs_cov) + cov_hero + cov_body + cta_banner(),
+            body_html=breadcrumb_bar(crumbs_cov) + cov_hero + cov_body + cov_faq_html + cta_banner(),
             breadcrumbs=crumbs_cov,
             nav_active="coverage",
+            schema=[cov_faq_schema],
         ),
     ))
 
