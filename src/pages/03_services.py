@@ -546,8 +546,21 @@ def build(ctx):
     </div>
   </div>
 </section>
+
+<section class="section">
+  <div class="container">
+    <div class="prose">
+      <h2>Reefer drayage across the Charleston terminals and corridors</h2>
+      <p>Refrigerated imports come into the Port of Charleston through the South Carolina Ports container terminals — Wando Welch Terminal in Mount Pleasant, the Hugh K. Leatherman Terminal, and the North Charleston Terminal. Loaded reefers plug into the terminal reefer racks while they wait on release, so the box stays under power and on its set point until we hook the chassis. Our job is to keep that chain unbroken from the moment the unit leaves the gate to the moment it plugs in at your dock.</p>
+      <p>Charleston moves a steady volume of temperature-controlled freight — produce, seafood, dairy and food ingredients, and pharma — and a share of it is cold-treatment cargo that has to hold a tight band on the water and on the road. That is exactly the kind of <a href="/charleston-drayage/">Charleston drayage</a> where a verified set point and a documented pre-trip pay for themselves the first time a consignee disputes a temperature.</p>
+      <p>Most reefer deliveries run to cold storage and distribution centers across the tri-county — Charleston, Berkeley, and Dorchester counties — with the usual stops in North Charleston, Hanahan, Goose Creek, Ladson, and Summerville. For longer cold-chain lanes we run the I-26 corridor toward Columbia and the Upstate, or I-95 north and south, and we plan the genset fuel stop before the truck rolls instead of guessing at it mid-haul.</p>
+    </div>
+  </div>
+</section>
 """,
         faqs=[
+            ("Which Charleston terminals handle reefer containers?",
+             "Refrigerated containers move through the South Carolina Ports container terminals — Wando Welch in Mount Pleasant, the Hugh K. Leatherman Terminal, and the North Charleston Terminal. Loaded reefers plug into the terminal reefer racks while they wait on release, and we verify the set point against the booking before the chassis leaves the gate."),
             ("Do you carry genset chassis for Charleston reefer drayage?",
              "Yes. We use genset chassis configurations sized for the lane. For long lanes we'll specify a higher fuel capacity or plan a fueling stop in advance."),
             ("How is the set point verified?",
