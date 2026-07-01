@@ -43,6 +43,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 5 | drayage.com Drayage Directory + loadmatch.com (one LoadMatch Inc. membership covers both) | TODO | — |
 | 6 | Thomasnet — free supplier listing | TODO | — |
 | 7 | Intermodal Association of North America (IANA) — member directory | TODO | — |
+| 8 | IndustryNet / MNI — free industrial Basic Listing | TODO | — |
 
 ---
 
@@ -386,6 +387,65 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 8. IndustryNet / MNI — free industrial Basic Listing
+
+**Why this one.** IndustryNet (industrynet.com) is a large, well-indexed U.S. industrial marketplace — ~350,000 supplier listings — run by **MNI**, whose verified industrial database also feeds many downstream B2B data products. The free **Basic Listing** is exactly the kind of citation-quality link a position-21 carrier should stack after the local + industry `.org` set (SCTA, Chamber, SCPA, IANA): it corroborates the NAP entity on an authoritative industrial domain and puts Cate Freight in front of the buyer-side audience our cluster targets — plants, 3PLs, and industrial shippers sourcing freight/logistics services. It's **free** (unlike the dues-based `.org` stack), so it's a "sign off and submit," not a budget call. Logistics/freight services are a valid IndustryNet services category (they list transportation & logistics providers, not just machinery makers).
+
+**Two paths — check for an existing profile first:**
+1. **Claim, don't duplicate.** MNI research-builds profiles automatically, so Cate Freight *may already be listed*. Before submitting a new profile, search the company name at https://www.industrynet.com/ — if a listing exists, use the **"claim this listing"** link at the bottom of that listing page and correct/complete the NAP instead of creating a duplicate (duplicates dilute citation consistency and can get merged/rejected).
+2. **If not listed, apply for a free Basic Listing.**
+
+**Submission URL (free listing application, via MNI):** https://www.mni.net/profile
+**Landing/instructions page:** https://www.industrynet.com/marketing/add/
+**Search to check for an existing profile first:** https://www.industrynet.com/ (search "Cate Freight")
+**Do NOT use** the "Preferred / Featured Listing" upgrade path (https://www.industrynet.com/marketing/upgrade) — that's the paid tier; the Basic Listing is the free citation we want.
+
+**Listing copy to paste into the MNI profile form:**
+
+- **Company:** Cate Freight
+- **Address:** Charleston, South Carolina
+- **Phone:** (843) 998-7820
+- **Email:** greg@catefreight.com
+- **Website:** https://catefreight.com
+- **USDOT / MC:** 3688555 / 1285884
+- **Primary category:** Transportation & Logistics Services — Trucking / Drayage / Freight
+- **Secondary categories (if the form allows multiple):** Container drayage, Intermodal trucking, Freight forwarding service, Warehousing & transload coordination
+- **Terminals served:** Wando Welch (WWT), North Charleston Terminal (NCT), Hugh Leatherman Terminal (HLT) — South Carolina Ports Authority
+- **Services offered:** Port drayage, import container drayage, export container drayage, port-to-warehouse drayage, transload drayage, overweight container drayage (to 100,000 lb under SCDOT permit), reefer drayage with genset
+- **Service area:** Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner — plus Columbia, Greenville, Atlanta, Charlotte, and Savannah corridors
+- **Business description (paste the SHORT form if the field caps at ~250 chars, LONG form if it allows ~750):** use the NAP block descriptions at the top of this file verbatim so the citation matches.
+
+**If MNI needs a contact note (or you use the claim/correction flow), send:**
+
+**Subject:** Free Basic Listing — Cate Freight, Charleston drayage carrier (USDOT 3688555)
+
+**Body:**
+
+> Hi MNI/IndustryNet team,
+>
+> I'd like to create (or claim and update) a free Basic Listing for Cate Freight, a Charleston, SC drayage carrier. We move import and export containers from all three South Carolina Ports Authority terminals — Wando Welch, North Charleston, and Hugh Leatherman — to warehouses, transloads, and customers across South Carolina and the Southeast, serving 3PLs, freight forwarders, customs brokers, and direct importers.
+>
+> Listing details:
+>
+> - Company: Cate Freight
+> - Location: Charleston, SC
+> - USDOT 3688555 · MC-1285884
+> - Category: Transportation & Logistics Services (trucking / drayage / freight)
+> - Website: https://catefreight.com
+> - Phone: (843) 998-7820
+> - Email: greg@catefreight.com
+>
+> Please confirm whether a profile already exists so I claim rather than duplicate it, and let me know if the Basic Listing includes an outbound link to our website. Full service and terminal details are ready to paste once you point me to the right fields.
+>
+> Thanks —
+> Greg Cate
+> Cate Freight
+> greg@catefreight.com · (843) 998-7820
+
+**SEO outcome to track:** a free citation on an authoritative industrial domain (industrynet.com / MNI) that reinforces NAP consistency and adds a B2B-vertical mention to the entity footprint. After it indexes, verify with `site:industrynet.com "cate freight"` and log `LINKED` if the Basic Listing links out to catefreight.com (Basic tier link presence varies — confirm during setup). Even unlinked, an indexed, NAP-consistent listing corroborates the entity for local E-E-A-T. Watch for the auto-generated MNI profile that may already exist — claiming and correcting it is higher-value than a fresh submit.
+
+---
+
 ## Deprioritized — not worth a draft right now
 
 - **FreightWaves directory / SONAR carrier profile** *(was backlog #3).* Checked 2026-06-25: FreightWaves' public company directories (Public Companies Directory, EV Companies Directory) were **discontinued — not updated since June 30, 2023**. The only carrier-submittable feature is the annual editorial **Top 500 Private Carriers** ranking, which is (a) editor-curated, (b) sized for large for-hire fleets, and (c) not a self-serve citation a position-21 small drayage carrier can land. No reliable backlink/citation path here today. Skip until/unless FreightWaves relaunches a self-serve carrier directory. (Editorial contact for rankings, if ever relevant: Joe Antoshak, jantoshak@freightwaves.com.)
@@ -401,8 +461,8 @@ In rough priority order — local + industry first, then broader citation direct
 3. ~~FreightWaves directory / SONAR carrier profile~~ — **deprioritized** (see "Deprioritized" section above; public directories discontinued 2023).
 4. ~~ThomasNet~~ — **drafted above (#6)**.
 5. ~~Intermodal Association of North America (IANA)~~ — **drafted above (#7)**; national-industry `.org`, administers the UIIA.
-6. **Industrynet** — secondary B2B directory.
-7. **Manta** — citation-quality directory.
+6. ~~Industrynet~~ — **drafted above (#8)**; free MNI-powered Basic Listing, check for an existing auto-built profile to claim first.
+7. **Manta** — citation-quality directory. *(next up)*
 8. **Yellow Pages / yp.com** — citation-quality.
 9. **Yelp for Business** — citation-quality, occasional referral traffic.
 10. **Foursquare / Factual** — feeds Apple Maps and many secondary apps.
