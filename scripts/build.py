@@ -337,6 +337,7 @@ def render(
 <meta name="twitter:description" content="{meta_description}">
 <meta name="twitter:image" content="{SITE_URL}{og_image}">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/styles.css">
 {schema_json}
 </head>
