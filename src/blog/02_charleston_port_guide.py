@@ -26,7 +26,7 @@ def build(ctx):
       <p class="meta">Updated April 2026 &middot; Cate Freight Charleston operations team</p>
 
       <div class="toc">
-        <h4>What's in this guide</h4>
+        <h2>What's in this guide</h2>
         <ol>
           <li>The Port of Charleston in one paragraph</li>
           <li>The four SCPA terminals you might touch</li>

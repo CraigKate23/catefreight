@@ -28,7 +28,7 @@ def build(ctx):
         ("7 min read", "What 3PLs should look for in a Charleston drayage carrier", "Eleven specific operational criteria a 3PL receiver should grade their drayage carriers against.", "/resources/choosing-a-drayage-carrier-3pl/"),
     ]
     cards = "".join(
-        f'<div class="article-card"><div class="read-time">{rt}</div><h3>{title}</h3><p>{desc}</p><a class="read" href="{href}">Read the article</a></div>'
+        f'<div class="article-card"><div class="read-time">{rt}</div><h2>{title}</h2><p>{desc}</p><a class="read" href="{href}">Read the article</a></div>'
         for rt, title, desc, href in articles
     )
 
