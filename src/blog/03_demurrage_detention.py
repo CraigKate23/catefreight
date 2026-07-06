@@ -78,6 +78,22 @@ def build(ctx):
     </article>
   </div>
 </section>
+
+<section class="section faq">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">People also ask</p>
+      <h2>Demurrage and detention questions</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item"><summary>What is the difference between demurrage and detention?</summary><div class="faq-answer">Demurrage is charged by the terminal (at Charleston, SCPA) when a loaded container sits on terminal grounds past its free time. Detention — often called per diem — is charged by the steamship line when their container is held outside the terminal too long after pickup. A third fee, chassis per diem, is billed separately by the chassis provider. All three can run on the same container at the same time.</div></details>
+      <details class="faq-item"><summary>How much free time do I get before demurrage starts at the Port of Charleston?</summary><div class="faq-answer">Free time is set by the steamship line on the bill of lading, not by SCPA — typically 3-5 calendar days from when the container becomes available. SCPA also publishes a holiday "no work day" calendar; those days don't accrue free time. Once free time expires, demurrage starts and the daily rate escalates the longer the container sits.</div></details>
+      <details class="faq-item"><summary>What is a pre-pull and when is it worth it?</summary><div class="faq-answer">A pre-pull is when your drayage carrier pulls the container off the terminal before free time expires, stages it at their yard, and delivers when your dock is ready. Yard storage typically runs 1/4 to 1/8 the terminal demurrage rate, so it's worth it almost any time your warehouse can't receive before free time runs out. <a href="/services/import-container-drayage/">Our import container drayage service</a> flags pre-pull candidates before the clock starts.</div></details>
+      <details class="faq-item"><summary>Who charges chassis per diem in Charleston?</summary><div class="faq-answer">The chassis provider — TRAC Intermodal, DCLI, or Flexi-Van at Charleston — bills daily rental for the chassis itself, separate from terminal demurrage and steamship-line detention. On a drop &amp; hook delivery, chassis per diem keeps running until the empty is picked up and returned, so it's the clock to watch when you unload on your own schedule.</div></details>
+      <details class="faq-item"><summary>Can demurrage charges be disputed?</summary><div class="faq-answer">Sometimes. Disputes hinge on documentation: if the container wasn't actually available (vessel delay, customs hold not caused by you, terminal closure), or free time was miscalculated across a holiday no-work day, a documented timeline supports a waiver request to the line. The stronger play is prevention — a carrier that tracks release status and free-time expiration on every container rarely needs to dispute anything. Terminal-by-terminal details are in our <a href="/resources/charleston-port-drayage-guide/">Charleston port drayage guide</a>.</div></details>
+    </div>
+  </div>
+</section>
 """
 
     schema = [{
@@ -92,6 +108,23 @@ def build(ctx):
         "dateModified": ctx["last_modified"],
         "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/resources/avoid-demurrage-detention/"},
     }]
+
+    faq_items = [
+        ("What is the difference between demurrage and detention?", "Demurrage is charged by the terminal (at Charleston, SCPA) when a loaded container sits on terminal grounds past its free time. Detention — often called per diem — is charged by the steamship line when their container is held outside the terminal too long after pickup. A third fee, chassis per diem, is billed separately by the chassis provider. All three can run on the same container at the same time."),
+        ("How much free time do I get before demurrage starts at the Port of Charleston?", "Free time is set by the steamship line on the bill of lading, not by SCPA — typically 3-5 calendar days from when the container becomes available. SCPA also publishes a holiday \"no work day\" calendar; those days don't accrue free time. Once free time expires, demurrage starts and the daily rate escalates the longer the container sits."),
+        ("What is a pre-pull and when is it worth it?", "A pre-pull is when your drayage carrier pulls the container off the terminal before free time expires, stages it at their yard, and delivers when your dock is ready. Yard storage typically runs 1/4 to 1/8 the terminal demurrage rate, so it's worth it almost any time your warehouse can't receive before free time runs out."),
+        ("Who charges chassis per diem in Charleston?", "The chassis provider — TRAC Intermodal, DCLI, or Flexi-Van at Charleston — bills daily rental for the chassis itself, separate from terminal demurrage and steamship-line detention. On a drop & hook delivery, chassis per diem keeps running until the empty is picked up and returned, so it's the clock to watch when you unload on your own schedule."),
+        ("Can demurrage charges be disputed?", "Sometimes. Disputes hinge on documentation: if the container wasn't actually available (vessel delay, customs hold not caused by you, terminal closure), or free time was miscalculated across a holiday no-work day, a documented timeline supports a waiver request to the line. The stronger play is prevention — a carrier that tracks release status and free-time expiration on every container rarely needs to dispute anything."),
+    ]
+
+    schema.append({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+            for q, a in faq_items
+        ],
+    })
 
     html = render(
         slug="avoid-demurrage-detention",
