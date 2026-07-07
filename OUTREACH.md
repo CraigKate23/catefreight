@@ -39,12 +39,12 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 1 | South Carolina Trucking Association | TODO | — |
 | 2 | Charleston Metro Chamber of Commerce | TODO | — |
 | 3 | South Carolina Ports Authority (SCPA) — Motor Carrier resources | TODO | — |
-| 4 | Better Business Bureau (Central SC & Charleston) | TODO | — |
+| 4 | Better Business Bureau (Central SC & Charleston) | SUBMITTED 2026-07-07 (form filled; Greg clicked Create Profile — expect BBB verification call/email to (843) 484-7161 / greg@catefreight.com) | — |
 | 5 | drayage.com Drayage Directory + loadmatch.com (one LoadMatch Inc. membership covers both) | TODO | — |
 | 6 | Thomasnet — free supplier listing | SUBMITTED 2026-07-07 (⚠ went in with old phone 998-7820 — correct to 484-7161 once claim is confirmed) | — |
 | 7 | Intermodal Association of North America (IANA) — member directory | TODO | — |
 | 8 | IndustryNet / MNI — free industrial Basic Listing | SUBMITTED 2026-07-07 (editors verify in ~2 weeks) | — |
-| 9 | Manta — free business listing | TODO | — |
+| 9 | Manta — free business listing | SUBMITTED 2026-07-07 (live listing created under Greg's Manta account; NAP: 137 Acres Drive, Ladson SC 29456 · (843) 484-7161; 5 service areas; category Trucking) | — |
 
 ---
 
@@ -513,6 +513,8 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 ## Next-up backlog (drafts will be added on future runs)
 
 In rough priority order — local + industry first, then broader citation directories:
+
+0. **Google Business Profile** — *(top priority, not a draft — Greg must do this himself)*. Manta's 24-directory scan (2026-07-07) confirmed NO Google/Google Maps listing exists. This is the single biggest local-SEO gap — bigger than every directory below combined. Greg: create at https://business.google.com with the exact NAP block above (137 Acres Drive, Ladson SC 29456 · (843) 484-7161), category "Trucking company", then complete Google's postcard/phone verification. The GBP description drafts in STRATEGY.md are ready to paste.
 
 1. ~~drayage.com carrier directory~~ — **drafted above (#5)**; one LoadMatch membership also covers loadmatch.com.
 2. ~~loadmatch.com~~ — **covered by #5** (same LoadMatch Inc. membership).
