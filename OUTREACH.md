@@ -44,6 +44,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 6 | Thomasnet — free supplier listing | TODO | — |
 | 7 | Intermodal Association of North America (IANA) — member directory | TODO | — |
 | 8 | IndustryNet / MNI — free industrial Basic Listing | TODO | — |
+| 9 | Manta — free business listing | TODO | — |
 
 ---
 
@@ -446,6 +447,63 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 9. Manta — free business listing
+
+**Why this one.** The industry `.org` + industrial-vertical stack (SCTA, Chamber, SCPA, IANA, ThomasNet, IndustryNet) is fully drafted, so the backlog moves to citation-quality generalist directories — and Manta is the strongest of that set. Manta.com is a long-established, well-crawled U.S. small-business directory; a free listing there is a straightforward NAP citation on an authoritative domain that corroborates the Cate Freight entity for local "[city] + service" queries. The free tier is self-serve with no dues, so this is another "sign off and submit."
+
+**Two paths — check for an existing/duplicate profile first:**
+1. **Search before you submit.** Search "Cate Freight" (and the phone number) on https://www.manta.com/ first. A 2026-07-07 web check found no existing Manta profile for Cate Freight, but Manta auto-builds some listings — if one appears, use its "claim this listing" link and correct the NAP instead of creating a duplicate.
+2. **Name-collision warning:** there is at least one other "Cate Freight, Inc." entity in web results (an LTL/EV outfit with a Raymond Cate as COO). If a profile with that name shows up, verify the address/phone before claiming — do NOT claim a listing that belongs to the other company. Our NAP: Charleston, SC · (843) 998-7820 · USDOT 3688555.
+
+**Submission URL (free listing / claim):** https://www.manta.com/business-listings/free-business-listing
+**Add-your-company sign-in page:** https://www.manta.com/business-listings/add-your-company
+**Search to check for an existing profile first:** https://www.manta.com/ (search "Cate Freight" and "843-998-7820")
+**Do NOT buy** Manta's paid upgrades or its "list you on 70+ directories" bundle — the free listing is the citation we want; the syndication bundles create low-quality duplicate citations we'd rather control one by one.
+
+**Listing copy to paste into the Manta form:**
+
+- **Company:** Cate Freight
+- **Address:** Charleston, South Carolina
+- **Phone:** (843) 998-7820
+- **Email:** greg@catefreight.com
+- **Website:** https://catefreight.com
+- **USDOT / MC (if a field exists, else fold into description):** 3688555 / 1285884
+- **Primary category:** Trucking company / Drayage carrier
+- **Secondary categories (if the form allows multiple):** Logistics service, Container drayage, Intermodal trucking, Freight forwarding service
+- **Service area:** Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner — plus Columbia, Greenville, Atlanta, Charlotte, and Savannah corridors
+- **Business description:** use the SHORT (~250 char) or LONG (~750 char) NAP-block description at the top of this file verbatim, depending on the field cap — Manta descriptions are indexed, so keeping it identical to our other citations is the point.
+
+**If Manta support contact is needed (duplicate/claim issues), send:**
+
+**Subject:** Free business listing — Cate Freight, Charleston drayage carrier (USDOT 3688555)
+
+**Body:**
+
+> Hi Manta team,
+>
+> I'd like to create (or claim and correct) a free business listing for Cate Freight, a Charleston, SC drayage carrier. We move import and export containers from all three South Carolina Ports Authority terminals — Wando Welch, North Charleston, and Hugh Leatherman — to warehouses, transloads, and customers across South Carolina and the Southeast, serving 3PLs, freight forwarders, customs brokers, and direct importers.
+>
+> Listing details:
+>
+> - Company: Cate Freight
+> - Location: Charleston, SC
+> - USDOT 3688555 · MC-1285884
+> - Category: Trucking company / drayage carrier / logistics service
+> - Website: https://catefreight.com
+> - Phone: (843) 998-7820
+> - Email: greg@catefreight.com
+>
+> Note: there is a different company with a similar name in other states — please make sure any existing profile matched to us has the Charleston, SC address and the phone number above before merging or claiming.
+>
+> Thanks —
+> Greg Cate
+> Cate Freight
+> greg@catefreight.com · (843) 998-7820
+
+**SEO outcome to track:** a free, NAP-consistent citation on manta.com. After it indexes, verify with `site:manta.com "cate freight"` and log `LINKED` if the free listing links out to catefreight.com (Manta free listings generally include a website field — confirm the link is live and crawlable, not behind a redirect interstitial). This is a citation-consistency play more than a link-equity play: it corroborates the entity that the `.org` and industrial-vertical citations establish.
+
+---
+
 ## Deprioritized — not worth a draft right now
 
 - **FreightWaves directory / SONAR carrier profile** *(was backlog #3).* Checked 2026-06-25: FreightWaves' public company directories (Public Companies Directory, EV Companies Directory) were **discontinued — not updated since June 30, 2023**. The only carrier-submittable feature is the annual editorial **Top 500 Private Carriers** ranking, which is (a) editor-curated, (b) sized for large for-hire fleets, and (c) not a self-serve citation a position-21 small drayage carrier can land. No reliable backlink/citation path here today. Skip until/unless FreightWaves relaunches a self-serve carrier directory. (Editorial contact for rankings, if ever relevant: Joe Antoshak, jantoshak@freightwaves.com.)
@@ -462,8 +520,8 @@ In rough priority order — local + industry first, then broader citation direct
 4. ~~ThomasNet~~ — **drafted above (#6)**.
 5. ~~Intermodal Association of North America (IANA)~~ — **drafted above (#7)**; national-industry `.org`, administers the UIIA.
 6. ~~Industrynet~~ — **drafted above (#8)**; free MNI-powered Basic Listing, check for an existing auto-built profile to claim first.
-7. **Manta** — citation-quality directory. *(next up)*
-8. **Yellow Pages / yp.com** — citation-quality.
+7. ~~Manta~~ — **drafted above (#9)**; free listing, watch the name-collision warning.
+8. **Yellow Pages / yp.com** — citation-quality. *(next up)*
 9. **Yelp for Business** — citation-quality, occasional referral traffic.
 10. **Foursquare / Factual** — feeds Apple Maps and many secondary apps.
 11. **Charleston Regional Business Journal "Book of Lists"** — print + online, regional authority.
