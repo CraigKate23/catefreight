@@ -163,6 +163,26 @@ def build(ctx):
 </section>
 """
 
+    compare = """
+<section class="section bg-surface">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Shopping the market</p>
+      <h2>How to compare drayage companies in Charleston, SC.</h2>
+      <p class="lead" style="margin: 0 auto;">Most drayage companies in Charleston will tell you they cover all three SCPA terminals and quote fast. The differences show up on the invoice and in the inbox. Grade any carrier — us included — on these five checks before you tender a container.</p>
+    </div>
+    <div class="card-grid">
+      <div class="card"><h3>Release discipline</h3><p>Ask when they verify customs, freight, and line holds. "At dispatch" means a truck can roll to Wando Welch for a box that isn't released — and you pay for the dry run.</p></div>
+      <div class="card"><h3>Chassis pool access</h3><p>A carrier without interchange access to your line's pool — TRAC, DCLI, or Flexi-Van — eats a chassis split fee on every move and passes it to you.</p></div>
+      <div class="card"><h3>Itemized accessorials</h3><p>Get the linehaul, fuel percentage, chassis day rate, and pre-pull cost as separate lines before you book. A single blended number hides the markup.</p></div>
+      <div class="card"><h3>POD turnaround</h3><p>Same-day signed POD should be standard, not a favor. If closing a file takes three follow-up emails, that cost lands on your ops team every week.</p></div>
+      <div class="card"><h3>Dispatch reachability</h3><p>Call the dispatch line at 4:30 PM before you sign up. Whoever answers — or doesn't — is who you'll be calling when a container hits detention on a Friday.</p></div>
+      <div class="card"><h3>Put it to work</h3><p>The full 11-point version of this checklist is in our guide to <a href="/resources/choosing-a-drayage-carrier-3pl/">choosing a Charleston drayage carrier</a> — or skip ahead and <a href="/quote/">grade us on a live quote</a>.</p></div>
+    </div>
+  </div>
+</section>
+"""
+
     faq_html, faq_schema = faq_block([
         ("What is Charleston drayage?",
          "Charleston drayage is the trucking of ocean shipping containers between the SCPA terminals at the Port of Charleston (Wando Welch, North Charleston, and Hugh Leatherman) and a nearby destination — typically a warehouse, transload facility, or a shipper's loading dock. Drayage is what moves a container its 'last mile' on or off the port."),
@@ -186,6 +206,7 @@ def build(ctx):
         + coverage
         + pricing
         + why
+        + compare
         + faq_html
         + cta_banner(title="Quote a Charleston drayage move", sub="Booking, terminal, delivery ZIP — that's all we need to start.")
     )
