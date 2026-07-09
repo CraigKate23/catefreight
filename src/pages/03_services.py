@@ -228,7 +228,7 @@ def build(ctx):
         meta="Import container drayage from Charleston, SC. We check customs, freight, and line releases before dispatch — and pre-pull when free time is tight to stop demurrage.",
         eyebrow="Import container drayage",
         h1="Import container drayage from Charleston, with the releases checked before the truck rolls.",
-        intro_html="Importing through Charleston means working three releases — customs, freight, and any line hold — and beating the demurrage clock. Cate Freight verifies all three before we put a truck on your container, then runs it to your dock, transload, or our yard if a pre-pull saves you money.",
+        intro_html="Importing through Charleston means working three releases — customs, freight, and any line hold — and beating the demurrage clock. Cate Freight verifies all three before we put a truck on your container, then runs the <a href=\"/charleston-drayage/\">Charleston drayage</a> leg to your dock, transload, or our yard if a pre-pull saves you money.",
         sections_html="""
 <section class="section">
   <div class="container">
@@ -317,7 +317,7 @@ def build(ctx):
         meta="Export container drayage in Charleston, SC. Loaded export delivery to SCPA terminals with ERD-aware scheduling and SOLAS VGM coordination.",
         eyebrow="Export container drayage",
         h1="Export container drayage that hits the cut, every time.",
-        intro_html="Charleston export drayage is a deadlines game — earliest receiving date, vessel cut-off, and the SOLAS VGM submission window. Cate Freight schedules pickups against the line's actual cut, not a guess, and submits VGM through the right channel before the chassis leaves your yard.",
+        intro_html="Charleston export drayage is a deadlines game — earliest receiving date, vessel cut-off, and the SOLAS VGM submission window. Cate Freight schedules pickups against the line's actual cut, not a guess, and submits VGM through the right channel before the chassis leaves your yard. It's the export half of the same <a href=\"/charleston-drayage/\">Charleston drayage</a> operation that checks releases on every import.",
         sections_html="""
 <section class="section">
   <div class="container">
@@ -335,7 +335,7 @@ def build(ctx):
       <p>Verified Gross Mass is a SOLAS regulatory requirement. The carrier submits the certified weight before the cut-off so the line can stow the vessel. Cate Freight can submit VGM via the line's portal or via INTTRA, and we'll capture the certified scale weight at pickup if you don't have a certified scale on site.</p>
 
       <h2>Empty pickup &amp; pre-load staging</h2>
-      <p>Export drays usually start with an empty pickup at the terminal or chassis depot. If you need the empty staged at your dock before loading day — for instance because you're loading at 6 AM and the gate doesn't open early enough — we'll pre-pull the empty and drop it overnight. Same idea as an import pre-pull, just upstream.</p>
+      <p>Export drays usually start with an empty pickup at the terminal or chassis depot. If you need the empty staged at your dock before loading day — for instance because you're loading at 6 AM and the gate doesn't open early enough — we'll pre-pull the empty and drop it overnight. Same idea as an <a href="/services/import-container-drayage/#pre-pull">import pre-pull</a>, just upstream.</p>
 
       <h2>What we need to quote an export drayage move</h2>
       <ul>
