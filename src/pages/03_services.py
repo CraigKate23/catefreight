@@ -477,6 +477,11 @@ def build(ctx):
         <li>You want palletized freight on parcel or LTL for the last mile</li>
       </ul>
 
+      <h2>Ship heavy, transload near the port: the overweight math</h2>
+      <p>The biggest savings transloading unlocks in Charleston is the ship-heavy play. Over the road, a 40' container on a standard 5-axle chassis tops out around 44,000 lb of payload. But the short dray from Wando Welch, North Charleston, or Hugh Leatherman to a Charleston-area transload facility can run on a tri-axle chassis under an SCDOT overweight permit — the same <a href="/services/overweight-drayage/">overweight container drayage</a> setup we run every week, good to roughly 60,000 lb of payload.</p>
+      <p>That gap is the whole strategy: load the ocean container to what the vessel and origin allow instead of what U.S. highways allow, dray it heavy for the few permitted miles to the transload dock, then reload into 53' vans at legal domestic weights for the inland leg. Dense freight ships in fewer ocean containers per ton — and the ocean freight saved usually clears the permit fee and transload handling several times over. On cube it works too: a 53' dry van holds roughly 40% more than a 40' high-cube, so lighter freight consolidates on the reload instead of moving inland half-empty.</p>
+      <p>If your commodity is dense — tile, metals, paper, machinery parts, beverages — ask us to <a href="/quote/">quote the move both ways</a>: standard-weight boxes dray-direct versus heavy boxes transloaded near the port. The spreadsheet usually decides it for you.</p>
+
       <h2>How Cate Freight coordinates a transload</h2>
       <ul>
         <li><strong>Drayage to transload yard.</strong> Container delivered with appointment booked.</li>
@@ -502,6 +507,8 @@ def build(ctx):
              "We'll dispatch the inland leg through our partners or we'll integrate with your TMS so your domestic carrier picks it up. Either way, you get one set of paperwork back."),
             ("How fast does the empty return after transload?",
              "Same day in almost every case. The per-diem clock stops the moment the empty hits the terminal or the line's depot."),
+            ("What does “ship heavy and transload” mean?",
+             "It means loading the ocean container heavier than U.S. highway limits allow — since the vessel doesn't care — then running the short Charleston dray on a tri-axle chassis under an SCDOT overweight permit to a nearby transload facility, where the freight reloads into 53' vans at legal domestic weights. Dense freight moves in fewer ocean containers per ton, and the ocean savings usually outweigh the permit and handling costs."),
             ("Is transload cheaper than long-haul drayage?",
              "Often, especially over 250 miles, when inland equipment is cheaper than ocean per diem and chassis daily costs combined. We'll do the math both ways for any move you ask us to quote."),
         ],
