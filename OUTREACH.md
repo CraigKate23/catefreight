@@ -45,6 +45,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 7 | Intermodal Association of North America (IANA) — member directory | TODO | — |
 | 8 | IndustryNet / MNI — free industrial Basic Listing | SUBMITTED 2026-07-07 (editors verify in ~2 weeks) | — |
 | 9 | Manta — free business listing | SUBMITTED 2026-07-07 (live listing created under Greg's Manta account; NAP: 137 Acres Drive, Ladson SC 29456 · (843) 484-7161; 5 service areas; category Trucking) | — |
+| 10 | Yellow Pages (yp.com) + Superpages + DexKnows (one Thryv claim covers all three) | TODO | — |
 
 ---
 
@@ -504,6 +505,32 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 10. Yellow Pages (yp.com) — free listing claim (also covers Superpages + DexKnows)
+
+**Why this one.** Next citation-quality generalist after Manta — and it's a **three-for-one**: yp.com claims run through Thryv's shared claim flow, and one verified claim publishes the same NAP profile across **yellowpages.com, superpages.com, and dexknows.com**. That's three long-established, well-crawled citation domains from one ~15-minute submission, each corroborating the entity for "charleston drayage / drayage charleston sc" local queries. Free tier, self-serve, no dues.
+
+**How it works (verified 2026-07-11):**
+1. **Claim URL:** https://www.yellowpages.com/claim-your-listing — search for the business by name + phone. If a listing already exists (YP auto-builds many from data aggregators), claim it and correct the NAP; if the form comes back blank, create a new listing.
+2. **Search before you submit:** check https://www.yellowpages.com/ for "Cate Freight" and "(843) 484-7161" first. Same name-collision warning as Manta — another "Cate Freight, Inc." exists in other states. Only claim a profile showing our Ladson, SC address or phone.
+3. **Verification is by automated phone call** to the number on the profile — YP calls with a short code to enter. Make sure (843) 484-7161 can be answered when submitting. Verification takes minutes to a couple of days.
+4. **Phone support if the flow stalls:** 1-866-794-0889 (Thryv/YP listings line).
+5. **Do NOT buy** the "enhanced profile" or any Thryv marketing package — the free NAP listing with a website link is the citation we want.
+
+**Listing copy to paste into the YP form:**
+
+- **Company:** Cate Freight
+- **Address:** 137 Acres Drive, Ladson, SC 29456
+- **Phone:** (843) 484-7161
+- **Email:** greg@catefreight.com
+- **Website:** https://catefreight.com
+- **Categories (YP allows up to 5):** Trucking, Trucking-Motor Freight, Logistics, Containers-Transport & Storage, Freight Forwarding
+- **Business description:** use the SHORT (~250 char) NAP-block description at the top of this file verbatim; if the field allows ~750 chars, use the LONG version.
+- **Hours / service area (if fields exist):** service area per the NAP block — Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner.
+
+**SEO outcome to track:** three NAP-consistent citations from one claim. After they index, verify with `site:yellowpages.com "cate freight"`, `site:superpages.com "cate freight"`, and `site:dexknows.com "cate freight"`; log `LINKED` for each domain where the profile's website field links out to catefreight.com (YP free listings include a website link — confirm it's a direct crawlable link, not a tracking redirect). Like Manta, this is citation-consistency corroboration for the entity the `.org` and industry-vertical citations establish.
+
+---
+
 ## Deprioritized — not worth a draft right now
 
 - **FreightWaves directory / SONAR carrier profile** *(was backlog #3).* Checked 2026-06-25: FreightWaves' public company directories (Public Companies Directory, EV Companies Directory) were **discontinued — not updated since June 30, 2023**. The only carrier-submittable feature is the annual editorial **Top 500 Private Carriers** ranking, which is (a) editor-curated, (b) sized for large for-hire fleets, and (c) not a self-serve citation a position-21 small drayage carrier can land. No reliable backlink/citation path here today. Skip until/unless FreightWaves relaunches a self-serve carrier directory. (Editorial contact for rankings, if ever relevant: Joe Antoshak, jantoshak@freightwaves.com.)
@@ -523,8 +550,8 @@ In rough priority order — local + industry first, then broader citation direct
 5. ~~Intermodal Association of North America (IANA)~~ — **drafted above (#7)**; national-industry `.org`, administers the UIIA.
 6. ~~Industrynet~~ — **drafted above (#8)**; free MNI-powered Basic Listing, check for an existing auto-built profile to claim first.
 7. ~~Manta~~ — **drafted above (#9)**; free listing, watch the name-collision warning.
-8. **Yellow Pages / yp.com** — citation-quality. *(next up)*
-9. **Yelp for Business** — citation-quality, occasional referral traffic.
+8. ~~Yellow Pages / yp.com~~ — **drafted above (#10)**; one Thryv claim also covers Superpages and DexKnows.
+9. **Yelp for Business** — citation-quality, occasional referral traffic. *(next up)*
 10. **Foursquare / Factual** — feeds Apple Maps and many secondary apps.
 11. **Charleston Regional Business Journal "Book of Lists"** — print + online, regional authority.
 12. **SC Department of Commerce business directory** — `.gov` adjacency.
