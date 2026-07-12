@@ -541,21 +541,33 @@ def gather_pages():
                 emit(path, html)
 
 
+# Utility routes that exist for users, not for search: kept out of the sitemap's
+# high-priority signal so crawl attention concentrates on ranking pages.
+SITEMAP_UTILITY = {"/privacy/"}
+
+
 def write_sitemap():
-    paths = [p for p, _ in OUTPUTS if p.endswith("/index.html")]
+    pages = [(p, h) for p, h in OUTPUTS if p.endswith("/index.html")]
     urls = []
-    for p in paths:
+    for p, html in pages:
+        # A page marked noindex (e.g. /thank-you/) must not be listed in the
+        # sitemap — "please crawl this" + "don't index this" is a contradictory
+        # signal Search Console flags as "Excluded by 'noindex' tag".
+        if '<meta name="robots"' in html and "noindex" in html:
+            continue
         clean = p[:-len("index.html")]
         lastmod = git_lastmod(PAGE_SOURCES.get(p))
         if clean == "/":
-            urls.append((SITE_URL + "/", "1.0", lastmod))
+            urls.append((SITE_URL + "/", "1.0", "weekly", lastmod))
+        elif clean in SITEMAP_UTILITY:
+            urls.append((SITE_URL + clean, "0.3", "yearly", lastmod))
         else:
             depth = clean.count("/") - 1
             priority = max(0.5, 0.9 - depth * 0.1)
-            urls.append((SITE_URL + clean, f"{priority:.1f}", lastmod))
+            urls.append((SITE_URL + clean, f"{priority:.1f}", "weekly", lastmod))
     body = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    for u, prio, lastmod in urls:
-        body += f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod><changefreq>weekly</changefreq><priority>{prio}</priority></url>\n"
+    for u, prio, changefreq, lastmod in urls:
+        body += f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod><changefreq>{changefreq}</changefreq><priority>{prio}</priority></url>\n"
     body += "</urlset>\n"
     emit("/sitemap.xml", body)
 
