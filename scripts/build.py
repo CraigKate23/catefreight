@@ -29,8 +29,14 @@ SITE_NAME = "Cate Freight"
 PHONE_DISPLAY = "(843) 484-7161"
 PHONE_TEL = "+18434847161"
 EMAIL = "greg@catefreight.com"
-ADDRESS_CITY = "Charleston"
+# Canonical NAP — must stay byte-identical to the NAP block in OUTREACH.md.
+# Every citation submitted since 2026-07-07 (ThomasNet, IndustryNet, Manta,
+# BBB; YP + GBP pending) publishes this street address, so the site schema
+# must match or the citations lose corroboration value.
+ADDRESS_STREET = "137 Acres Drive"
+ADDRESS_CITY = "Ladson"
 ADDRESS_REGION = "SC"
+ADDRESS_POSTAL = "29456"
 ADDRESS_COUNTRY = "US"
 USDOT = "USDOT 3688555"
 MC = "MC-1285884"
@@ -67,20 +73,22 @@ ORG_SCHEMA = {
     ),
     "address": {
         "@type": "PostalAddress",
+        "streetAddress": ADDRESS_STREET,
         "addressLocality": ADDRESS_CITY,
         "addressRegion": ADDRESS_REGION,
+        "postalCode": ADDRESS_POSTAL,
         "addressCountry": ADDRESS_COUNTRY,
     },
-    # Service-area centroid (Charleston, SC). Locality-level coordinates that
-    # match the locality-only address — gives the LocalBusiness entity a geo
-    # anchor for local relevance without implying a precise street pin we don't
-    # publish.
+    # ZIP-centroid coordinates for Ladson 29456 — locality-level anchor that
+    # matches the published NAP address above. (Was downtown-Charleston coords
+    # paired with a locality-only address; the citation campaign now publishes
+    # the full street address, so schema NAP must agree with it.)
     "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 32.7765,
-        "longitude": -79.9311,
+        "latitude": 32.9902,
+        "longitude": -80.1171,
     },
-    "hasMap": "https://www.google.com/maps/place/Charleston,+SC",
+    "hasMap": "https://www.google.com/maps/place/137+Acres+Drive,+Ladson,+SC+29456",
     "areaServed": [
         {"@type": "City", "name": "Charleston"},
         {"@type": "City", "name": "North Charleston"},
