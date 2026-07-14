@@ -85,6 +85,22 @@ def build(ctx):
     </article>
   </div>
 </section>
+
+<section class="section faq">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">People also ask</p>
+      <h2>Comparing drayage companies in Charleston, SC</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item"><summary>How do I compare drayage companies in Charleston, SC?</summary><div class="faq-answer">Grade them on operational behavior, not fleet size: release verification before dispatch, ETA and POD standards, a named dispatcher, drop-and-hook capability, and line-item invoicing. The eleven criteria above are the scorecard — send each carrier the same sample move, time the response, and compare what comes back. Our <a href="/charleston-drayage/">Charleston drayage</a> page also has a side-by-side of how carrier types differ.</div></details>
+      <details class="faq-item"><summary>Should a 3PL use a national carrier or a local Charleston drayage company?</summary><div class="faq-answer">National carriers win on multi-port coverage and surge capacity; local independents win on dispatcher continuity, terminal familiarity, and how much attention each container gets. If your inbound is concentrated at Wando Welch, North Charleston, and Hugh Leatherman, a local carrier that runs those three SCPA terminals daily usually outperforms a national desk routing Charleston as one lane among hundreds.</div></details>
+      <details class="faq-item"><summary>What should a drayage carrier check before dispatching a truck to a Charleston terminal?</summary><div class="faq-answer">Customs release, freight release, and steamship-line holds — verified before the truck rolls, not discovered at the gate. A turnaway at Wando Welch or North Charleston burns a trip, a chassis, and your dock appointment. Carriers that verify releases as standard practice are the ones whose trucks show up when scheduled.</div></details>
+      <details class="faq-item"><summary>What questions should I ask a drayage carrier before signing?</summary><div class="faq-answer">Ask what they check before dispatch, who runs your account by name, their POD turnaround standard, tri-axle and reefer chassis availability, and for a sample invoice with line items broken out. Then send a realistic test move — our <a href="/resources/drayage-quote-checklist/">drayage quote checklist</a> lists every field to include so responses are comparable.</div></details>
+      <details class="faq-item"><summary>Do Charleston drayage companies serve warehouses outside the metro?</summary><div class="faq-answer">Most cover Charleston, Berkeley, and Dorchester counties as the core zone — Charleston, North Charleston, Summerville, Goose Creek, Ladson, Moncks Corner — and many, including Cate Freight, run the I-26 corridor to Columbia and the Upstate and I-95 lanes into Georgia and North Carolina. Confirm the delivery ZIP up front; per-mile pricing and chassis logistics change once a dray leaves the tri-county area.</div></details>
+    </div>
+  </div>
+</section>
 """
 
     schema = [{
@@ -99,6 +115,23 @@ def build(ctx):
         "dateModified": ctx["last_modified"],
         "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/resources/choosing-a-drayage-carrier-3pl/"},
     }]
+
+    faq_items = [
+        ("How do I compare drayage companies in Charleston, SC?", "Grade them on operational behavior, not fleet size: release verification before dispatch, ETA and POD standards, a named dispatcher, drop-and-hook capability, and line-item invoicing. Send each carrier the same sample move, time the response, and compare what comes back."),
+        ("Should a 3PL use a national carrier or a local Charleston drayage company?", "National carriers win on multi-port coverage and surge capacity; local independents win on dispatcher continuity, terminal familiarity, and how much attention each container gets. If your inbound is concentrated at Wando Welch, North Charleston, and Hugh Leatherman, a local carrier that runs those three SCPA terminals daily usually outperforms a national desk routing Charleston as one lane among hundreds."),
+        ("What should a drayage carrier check before dispatching a truck to a Charleston terminal?", "Customs release, freight release, and steamship-line holds — verified before the truck rolls, not discovered at the gate. A turnaway at Wando Welch or North Charleston burns a trip, a chassis, and your dock appointment."),
+        ("What questions should I ask a drayage carrier before signing?", "Ask what they check before dispatch, who runs your account by name, their POD turnaround standard, tri-axle and reefer chassis availability, and for a sample invoice with line items broken out. Then send a realistic test move with every field a quote needs."),
+        ("Do Charleston drayage companies serve warehouses outside the metro?", "Most cover Charleston, Berkeley, and Dorchester counties as the core zone — Charleston, North Charleston, Summerville, Goose Creek, Ladson, Moncks Corner — and many run the I-26 corridor to Columbia and the Upstate and I-95 lanes into Georgia and North Carolina. Confirm the delivery ZIP up front; per-mile pricing and chassis logistics change once a dray leaves the tri-county area."),
+    ]
+
+    schema.append({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+            for q, a in faq_items
+        ],
+    })
 
     html = render(
         slug="choosing-a-drayage-carrier-3pl",
