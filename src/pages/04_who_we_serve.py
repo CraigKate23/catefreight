@@ -152,6 +152,9 @@ def build(ctx):
 
       <h2>The drop-and-hook playbook</h2>
       <p>Drop-and-hook is the cleanest delivery model for a 3PL with steady inbound volume. The driver drops the loaded container on a chassis at your dock, bobtails away, and we come back for the empty per your schedule. Zero driver detention. You unload on your timeline. Chassis per-diem accrues; we'll quote daily.</p>
+
+      <h2>Drayage to warehouses across Charleston's industrial corridors</h2>
+      <p>Most of the 3PL and contract-warehouse floor space in the Charleston market sits along a handful of corridors, and we run them daily: Palmetto Commerce Parkway and the Ashley Phosphate corridor in North Charleston, Ladson, the Jedburg Road cluster outside Summerville, the Camp Hall build-out near Ridgeville, and Bushy Park in Goose Creek. From Wando Welch, North Charleston, or Hugh Leatherman terminal, these are short, repeatable drays — the kind where a carrier that confirms releases and holds ASN windows earns the standing appointment. If your building sits further out — Orangeburg, Columbia, or up the I-26 corridor toward the Upstate — see our <a href="/coverage/">coverage area</a> for lane-by-lane turn times.</p>
     </div>
   </div>
 </section>
@@ -165,6 +168,8 @@ def build(ctx):
              "Daily morning ETA update for in-flight containers. Inbound text or email when the driver is en route. Same-day POD."),
             ("Can you handle peak-season volume?",
              "We're sized to flex. We'll be honest with you about capacity — if a peak push is too much for us alone, we'll tell you up front rather than miss a window."),
+            ("Can you run drayage to my warehouse in Charleston?",
+             "Almost certainly — we deliver daily along every major Charleston warehouse corridor: Palmetto Commerce Parkway, Ashley Phosphate, Ladson, Jedburg, Camp Hall near Ridgeville, and Bushy Park in Goose Creek. Send the address and we'll confirm the lane and quote it inside the hour during business hours."),
         ],
         related=[
             ("Port-to-warehouse drayage", "Appointments confirmed at both ends.", "/services/port-to-warehouse-drayage/"),
