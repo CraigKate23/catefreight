@@ -223,6 +223,8 @@ ul, ol { margin: 0 0 var(--space-5); padding-left: 1.25em; }
 .nav-toggle {
   display: none; background: none; border: 0; padding: 10px;
   cursor: pointer; color: #fff;
+  min-width: 44px; min-height: 44px;
+  align-items: center; justify-content: center;
 }
 .nav-toggle span {
   display: block; width: 22px; height: 2px;
@@ -247,10 +249,11 @@ ul, ol { margin: 0 0 var(--space-5); padding-left: 1.25em; }
   }
   .nav-primary.open { display: flex; }
   .nav-primary ul { flex-direction: column; gap: 4px; }
-  .nav-primary a { padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.06); white-space: normal; }
-  .nav-primary .nav-call { padding: 12px 0; }
+  .nav-primary li { display: block; }
+  .nav-primary a { display: block; width: 100%; padding: 14px 4px; border-bottom: 1px solid rgba(255,255,255,0.06); white-space: normal; }
+  .nav-primary .nav-call { padding: 14px 0; }
   .nav-primary .nav-cta { width: 100%; justify-content: center; padding: 14px !important; margin-top: 8px; }
-  .nav-toggle { display: block; }
+  .nav-toggle { display: inline-flex; }
 }
 
 /* ====== breadcrumb bar ====== */
