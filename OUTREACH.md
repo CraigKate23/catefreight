@@ -46,6 +46,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 8 | IndustryNet / MNI — free industrial Basic Listing | SUBMITTED 2026-07-07 (editors verify in ~2 weeks) | — |
 | 9 | Manta — free business listing | SUBMITTED 2026-07-07 (live listing created under Greg's Manta account; NAP: 137 Acres Drive, Ladson SC 29456 · (843) 484-7161; 5 service areas; category Trucking) | — |
 | 10 | Yellow Pages (yp.com) + Superpages + DexKnows (one Thryv claim covers all three) | TODO | — |
+| 11 | Yelp for Business — free Business Page | TODO | — |
 
 ---
 
@@ -531,6 +532,32 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 11. Yelp for Business — free Business Page claim
+
+**Why this one.** Backlog #9, and the natural next generalist citation after the Yellow Pages/Thryv batch. Yelp is one of the highest-authority citation domains on the web (Domain Rating in the 90s) and it feeds the broader local-search graph — Apple Maps, Alexa, and several data aggregators pull business data from Yelp. A NAP-consistent Yelp page corroborates the "charleston drayage / drayage charleston sc" entity Google is still forming a picture of, and Yelp pages themselves index and occasionally rank for "[city] + service" queries. Free, self-serve, no dues. The free Business Page includes a website link and 20+ free page features.
+
+**How it works (verified 2026-07-17):**
+1. **Claim/add URL:** https://biz.yelp.com/claim — search for the business by name + phone. If a page already exists (Yelp auto-builds many from data aggregators), claim it and correct the NAP; if nothing comes up, use the "add your business" path to create a new page. Account signup, if needed, is at https://biz.yelp.com/signup?return_url=%2Fclaim.
+2. **Search before you submit:** check https://www.yelp.com/ for "Cate Freight" and "(843) 484-7161" first. Same name-collision warning as Manta and YP — another "Cate Freight, Inc." exists in other states. Only claim a page showing our Ladson, SC address or phone; otherwise add a fresh page.
+3. **Verification** is by phone (automated call/text with a code) or email to the address on the page. Make sure (843) 484-7161 can be answered when submitting. Most new pages are approved within ~24 hours; some take longer if Yelp asks for further verification.
+4. **Do NOT buy** Yelp Ads or any upgrade during the flow — Yelp pushes the paid ad package hard at claim time. The free Business Page with a website link is the citation we want; decline every upsell. *(A claimed page does not mean you're a paid advertiser.)*
+5. **Category note:** Yelp does not have a dedicated "drayage" category. The closest crawlable fits are **Trucking**, **Commercial Truck Dealers/Services**, and **Movers/Transportation** — pick "Trucking" as primary. Put the drayage-specific language in the description and services fields instead, since Yelp category taxonomy is coarse.
+
+**Listing copy to paste into the Yelp form:**
+
+- **Company:** Cate Freight
+- **Address:** 137 Acres Drive, Ladson, SC 29456
+- **Phone:** (843) 484-7161
+- **Email:** greg@catefreight.com
+- **Website:** https://catefreight.com
+- **Primary category:** Trucking (add Logistics / Transportation as secondary if offered)
+- **Business description:** use the SHORT (~250 char) NAP-block description at the top of this file; Yelp's "From the Business" / specialties field usually allows more, so use the LONG version there if it fits.
+- **Service area (if a field exists):** Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner.
+
+**SEO outcome to track:** a NAP-consistent citation on a DR-90s domain plus downstream propagation into Apple Maps and aggregators. After it indexes, verify with `site:yelp.com "cate freight"` and log `LINKED` once the page's website field links out to catefreight.com (confirm it's a real crawlable link, not a `nofollow`/redirect — even a nofollowed Yelp citation still corroborates the NAP entity, which is the point at position 21). Pairs with the Manta and YP/Thryv citations to build the citation-consistency layer under the `.org` and industry-vertical authority links.
+
+---
+
 ## Deprioritized — not worth a draft right now
 
 - **FreightWaves directory / SONAR carrier profile** *(was backlog #3).* Checked 2026-06-25: FreightWaves' public company directories (Public Companies Directory, EV Companies Directory) were **discontinued — not updated since June 30, 2023**. The only carrier-submittable feature is the annual editorial **Top 500 Private Carriers** ranking, which is (a) editor-curated, (b) sized for large for-hire fleets, and (c) not a self-serve citation a position-21 small drayage carrier can land. No reliable backlink/citation path here today. Skip until/unless FreightWaves relaunches a self-serve carrier directory. (Editorial contact for rankings, if ever relevant: Joe Antoshak, jantoshak@freightwaves.com.)
@@ -551,8 +578,8 @@ In rough priority order — local + industry first, then broader citation direct
 6. ~~Industrynet~~ — **drafted above (#8)**; free MNI-powered Basic Listing, check for an existing auto-built profile to claim first.
 7. ~~Manta~~ — **drafted above (#9)**; free listing, watch the name-collision warning.
 8. ~~Yellow Pages / yp.com~~ — **drafted above (#10)**; one Thryv claim also covers Superpages and DexKnows.
-9. **Yelp for Business** — citation-quality, occasional referral traffic. *(next up)*
-10. **Foursquare / Factual** — feeds Apple Maps and many secondary apps.
+9. ~~Yelp for Business~~ — **drafted above (#11)**; free Business Page, DR-90s domain, watch the name-collision warning and decline the Yelp Ads upsell.
+10. **Foursquare / Factual** — feeds Apple Maps and many secondary apps. *(next up)*
 11. **Charleston Regional Business Journal "Book of Lists"** — print + online, regional authority.
 12. **SC Department of Commerce business directory** — `.gov` adjacency.
 13. **National Industrial Transportation League** — for shipper-side credibility.
