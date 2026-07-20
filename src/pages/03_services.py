@@ -304,6 +304,10 @@ def build(ctx):
 
       <blockquote>"The carrier who pre-pulls when free time is tight will save you more than the carrier with the cheapest base linehaul. Every time."</blockquote>
 
+      <h2 id="container-storage">Container storage in Charleston: how staged imports are held</h2>
+      <p>Short-term container storage in Charleston solves three specific problems: a dock that isn't ready, an ASN window that moved, and a last free day that lands on a weekend or an SCPA no-work day. Instead of letting Terminal Demurrage accrue at Wando Welch, North Charleston, or Hugh Leatherman, we pull the loaded container, stage it on chassis at our Ladson yard on the I-26 corridor, and deliver when your receiving schedule opens back up.</p>
+      <p>Storage days are quoted up front alongside the pre-pull and the final delivery — one itemized package, so you can weigh the total against your demurrage exposure line by line. If a staged box needs to sit long enough that chassis per diem starts to matter, we flag the trade before it shows up on an invoice. The full math on the three clocks is in our guide to <a href="/resources/avoid-demurrage-detention/">avoiding demurrage and detention at the Port of Charleston</a>.</p>
+
       <h2>Live unload, drop &amp; hook, or transload</h2>
       <p>Three delivery models, three different cost profiles:</p>
       <ul>
