@@ -103,6 +103,52 @@ def build(ctx):
 </section>
 """
 
+    # CollectionPage + ItemList so Google reads the hub as the parent of the
+    # four audience pages (crawl-priority + sitelink signal for the
+    # "drayage for 3pls / forwarders / customs brokers" cluster).
+    hub_audiences = [
+        ("Drayage for 3PLs and warehouses", "/who-we-serve/3pls/",
+         "Charleston drayage built for 3PL and warehouse receiving — drop-and-hook coordination, ASN-friendly delivery windows, and PODs back the same day."),
+        ("Drayage for freight forwarders", "/who-we-serve/freight-forwarders/",
+         "Booking visibility, terminal-aware pickup timing, and clean paperwork back fast for forwarders moving Charleston containers."),
+        ("Drayage for customs brokers", "/who-we-serve/customs-brokers/",
+         "Release-status discipline — no truck rolls until both customs and freight are released at the Charleston terminal."),
+        ("Drayage for importers and exporters", "/who-we-serve/importers-exporters/",
+         "Direct-shipper drayage from the Port of Charleston with one dispatch number to call for every container."),
+    ]
+    hub_schema = [{
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Who Cate Freight serves — Charleston drayage by customer type",
+        "url": f"{site_url}/who-we-serve/",
+        "description": "How Cate Freight shapes its Charleston drayage operation around 3PLs, freight forwarders, customs brokers, and direct importers and exporters.",
+        "isPartOf": {"@id": f"{site_url}/#org"},
+        "mainEntity": {
+            "@type": "ItemList",
+            "name": "Cate Freight drayage by customer type",
+            "numberOfItems": len(hub_audiences),
+            "itemListOrder": "https://schema.org/ItemListOrderAscending",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": i + 1,
+                    "url": f"{site_url}{href}",
+                    "item": {
+                        "@type": "Service",
+                        "@id": f"{site_url}{href}#service",
+                        "name": name,
+                        "serviceType": "Container drayage",
+                        "url": f"{site_url}{href}",
+                        "description": desc,
+                        "provider": {"@id": f"{site_url}/#org"},
+                        "areaServed": {"@type": "City", "name": "Charleston, SC"},
+                    },
+                }
+                for i, (name, href, desc) in enumerate(hub_audiences)
+            ],
+        },
+    }]
+
     out.append((
         "/who-we-serve/index.html",
         render(
@@ -113,6 +159,7 @@ def build(ctx):
             h1="Who Cate Freight is built for.",
             body_html=breadcrumb_bar(crumbs_hub) + hub_hero + hub_grid + cta_banner(),
             breadcrumbs=crumbs_hub,
+            schema=hub_schema,
             nav_active="who-we-serve",
         ),
     ))

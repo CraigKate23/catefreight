@@ -110,6 +110,58 @@ def build(ctx):
 </section>
 """
 
+    # CollectionPage + ItemList so Google reads the hub as the parent of the
+    # seven service pages (crawl-priority + sitelink signal for the
+    # "charleston drayage services" cluster).
+    hub_services = [
+        ("Port drayage", "/services/port-drayage/",
+         "Container pickup and return at all three SCPA terminals — Wando Welch, North Charleston, and Hugh Leatherman."),
+        ("Import container drayage", "/services/import-container-drayage/",
+         "Release-checked, customs-cleared import containers moved from Charleston to your warehouse or consignee."),
+        ("Export container drayage", "/services/export-container-drayage/",
+         "Loaded export delivery to the terminal with ERD- and cutoff-aware scheduling."),
+        ("Port-to-warehouse drayage", "/services/port-to-warehouse-drayage/",
+         "Direct port-to-DC container moves with appointments confirmed at both the terminal and the dock."),
+        ("Transload drayage", "/services/transload-drayage/",
+         "Container delivery to a Charleston-area transload yard plus warehouse coordination on the outbound."),
+        ("Reefer drayage", "/services/reefer-drayage/",
+         "Genset chassis, verified set points, and pre-trip inspection on every refrigerated container move."),
+        ("Overweight container drayage", "/services/overweight-drayage/",
+         "Tri-axle chassis, South Carolina route permits, and 60,000+ lb overweight and out-of-gauge experience."),
+    ]
+    hub_schema = [{
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Charleston drayage services — Cate Freight",
+        "url": f"{site_url}/services/",
+        "description": "The full list of container drayage services Cate Freight runs out of the Port of Charleston, South Carolina.",
+        "isPartOf": {"@id": f"{site_url}/#org"},
+        "mainEntity": {
+            "@type": "ItemList",
+            "name": "Cate Freight drayage services",
+            "numberOfItems": len(hub_services),
+            "itemListOrder": "https://schema.org/ItemListOrderAscending",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": i + 1,
+                    "url": f"{site_url}{href}",
+                    "item": {
+                        "@type": "Service",
+                        "@id": f"{site_url}{href}#service",
+                        "name": name,
+                        "serviceType": name,
+                        "url": f"{site_url}{href}",
+                        "description": desc,
+                        "provider": {"@id": f"{site_url}/#org"},
+                        "areaServed": {"@type": "City", "name": "Charleston, SC"},
+                    },
+                }
+                for i, (name, href, desc) in enumerate(hub_services)
+            ],
+        },
+    }]
+
     out.append((
         "/services/index.html",
         render(
@@ -120,6 +172,7 @@ def build(ctx):
             h1="Every drayage service we run, plain English.",
             body_html=breadcrumb_bar(crumbs_hub) + hub_hero + hub_grid + cta_banner(),
             breadcrumbs=crumbs_hub,
+            schema=hub_schema,
             nav_active="services",
         ),
     ))
