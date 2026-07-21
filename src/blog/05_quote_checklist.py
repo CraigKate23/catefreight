@@ -44,7 +44,7 @@ def build(ctx):
         <li>Container size and type (20'/40'/40HC, dry/reefer/flat-rack/open-top/ISO tank)</li>
         <li>Number of containers</li>
         <li>Pickup terminal (Wando Welch USCHA, North Charleston USNCH, Hugh Leatherman USCHL)</li>
-        <li>Pickup ZIP (only if origin isn't a terminal — for export drayage)</li>
+        <li>Pickup ZIP (only if origin isn't a terminal — for <a href="/services/export-container-drayage/">export container drayage</a>)</li>
         <li>Delivery ZIP and address</li>
         <li>Delivery type (live unload, drop &amp; hook, transload, pier return)</li>
         <li>Estimated container availability or pickup date</li>
@@ -56,9 +56,9 @@ def build(ctx):
         <li>Booking number / MBL</li>
         <li>Commodity (general description is fine)</li>
         <li>Approximate weight in pounds</li>
-        <li>Overweight? (yes/no/not sure — we can advise if not sure)</li>
+        <li>Overweight? (yes/no/not sure — we can advise if not sure; anything grossing over 80,000 lbs on the road runs as <a href="/services/overweight-drayage/">overweight container drayage</a> with a permit)</li>
         <li>Hazmat? With UN# and PG (packing group) if yes</li>
-        <li>Reefer set point and supply temperature, if reefer</li>
+        <li>Set point and supply temperature, if the box moves as <a href="/services/reefer-drayage/">reefer drayage</a></li>
       </ul>
 
       <h3>About the timing</h3>
