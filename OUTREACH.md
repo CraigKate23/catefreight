@@ -47,6 +47,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 9 | Manta — free business listing | SUBMITTED 2026-07-07 (live listing created under Greg's Manta account; NAP: 137 Acres Drive, Ladson SC 29456 · (843) 484-7161; 5 service areas; category Trucking) | — |
 | 10 | Yellow Pages (yp.com) + Superpages + DexKnows (one Thryv claim covers all three) | TODO | — |
 | 11 | Yelp for Business — free Business Page | TODO | — |
+| 12 | Foursquare Places (business.foursquare.com) — free listing claim | TODO | — |
 
 ---
 
@@ -558,6 +559,32 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 12. Foursquare Places — free listing claim (business.foursquare.com)
+
+**Why this one.** Backlog #10 and the last piece of the data-aggregator layer. Foursquare's consumer City Guide app is gone, but **Foursquare Places is now a location-data platform that feeds a large partner network** — Apple Maps has historically pulled from it, and Foursquare's own support docs name WhatsApp, Pinterest, and Untappd as partner apps that surface Places listings. One NAP-consistent Foursquare Place propagates into apps and datasets we can't submit to directly, the same downstream effect as the Yelp claim (#11) but through a different aggregation graph. Free to claim; venue pages on foursquare.com also index in Google as standalone citations.
+
+**How it works (verified 2026-07-22 via Foursquare's support article, updated Nov 2025):**
+1. **Search + claim portal:** https://business.foursquare.com/ — use the search bar to look for the business by name + location. Foursquare auto-builds many listings from aggregator data, so search for both "Cate Freight" and "(843) 484-7161" before creating anything new.
+2. **If a listing exists:** click **Claim** on the correct listing, then complete the claim form (contact details + your role at the business). Same name-collision warning as Manta/YP/Yelp — another "Cate Freight, Inc." exists in other states. Only claim a listing showing our Ladson, SC address or phone.
+3. **If nothing comes up:** Foursquare's related support article "My Business Is Not In The Search Results" covers adding a new place — follow the add-a-place path from the same portal.
+4. **If it says "already claimed":** the portal shows an already-claimed notice; contact Foursquare support (https://support.foursquare.com/hc/en-us/requests/new) to dispute management access. Reference article: https://support.foursquare.com/hc/en-us/articles/23646714300444-Claiming-a-listing.
+5. **Verification** is typically by phone — make sure (843) 484-7161 can be answered when submitting. Historically Foursquare has charged a small one-time fee (~$20) for *instant* listing management on some claims; the standard free claim path is the one we want. Decline any paid upgrade beyond the free claim.
+
+**Listing copy to paste into the Foursquare form:**
+
+- **Company:** Cate Freight
+- **Address:** 137 Acres Drive, Ladson, SC 29456
+- **Phone:** (843) 484-7161
+- **Email:** greg@catefreight.com
+- **Website:** https://catefreight.com
+- **Primary category:** no "drayage" category exists — pick **Trucking Company** (or the closest of Shipping/Freight/Logistics offered in the picker); put the drayage-specific language in the description field.
+- **Business description:** use the SHORT (~250 char) NAP-block description at the top of this file; use the LONG version if the field allows ~750 chars.
+- **Service area (if a field exists):** Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner.
+
+**SEO outcome to track:** a NAP-consistent citation on foursquare.com (DR high-80s/90s) plus propagation into the Foursquare partner network (Apple Maps corroboration, WhatsApp/Pinterest place data). After it indexes, verify with `site:foursquare.com "cate freight"` and log `LINKED` once the venue page's website field links out to catefreight.com (a nofollowed link still corroborates the NAP entity — that's the point at position 21). This completes the aggregator trio (Yelp → Apple/Alexa graph, YP/Thryv → legacy directory graph, Foursquare → partner-app graph) beneath the `.org` and industry-vertical authority links. With #12 drafted, the citation-directory backlog is fully drafted — remaining backlog items (Charleston Regional Business Journal, SC Dept of Commerce, NITL) are authority/membership plays, and **Google Business Profile remains the top action Greg must do himself.**
+
+---
+
 ## Deprioritized — not worth a draft right now
 
 - **FreightWaves directory / SONAR carrier profile** *(was backlog #3).* Checked 2026-06-25: FreightWaves' public company directories (Public Companies Directory, EV Companies Directory) were **discontinued — not updated since June 30, 2023**. The only carrier-submittable feature is the annual editorial **Top 500 Private Carriers** ranking, which is (a) editor-curated, (b) sized for large for-hire fleets, and (c) not a self-serve citation a position-21 small drayage carrier can land. No reliable backlink/citation path here today. Skip until/unless FreightWaves relaunches a self-serve carrier directory. (Editorial contact for rankings, if ever relevant: Joe Antoshak, jantoshak@freightwaves.com.)
@@ -579,8 +606,8 @@ In rough priority order — local + industry first, then broader citation direct
 7. ~~Manta~~ — **drafted above (#9)**; free listing, watch the name-collision warning.
 8. ~~Yellow Pages / yp.com~~ — **drafted above (#10)**; one Thryv claim also covers Superpages and DexKnows.
 9. ~~Yelp for Business~~ — **drafted above (#11)**; free Business Page, DR-90s domain, watch the name-collision warning and decline the Yelp Ads upsell.
-10. **Foursquare / Factual** — feeds Apple Maps and many secondary apps. *(next up)*
-11. **Charleston Regional Business Journal "Book of Lists"** — print + online, regional authority.
+10. ~~Foursquare / Factual~~ — **drafted above (#12)**; claim via business.foursquare.com, feeds Apple Maps and partner apps.
+11. **Charleston Regional Business Journal "Book of Lists"** — print + online, regional authority. *(next up)*
 12. **SC Department of Commerce business directory** — `.gov` adjacency.
 13. **National Industrial Transportation League** — for shipper-side credibility.
 
