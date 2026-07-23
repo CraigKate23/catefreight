@@ -95,7 +95,29 @@ def build(ctx):
     </article>
   </div>
 </section>
+
+<section class="section faq">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">People also ask</p>
+      <h2>Drayage vs transload questions</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item"><summary>Is transloading cheaper than drayage?</summary><div class="faq-answer">Only past a distance and complexity threshold. Inside roughly 250 miles of Charleston — Columbia, Greenville-Spartanburg, Charlotte, Atlanta — long-haul drayage on the ocean container usually wins because cross-dock labor adds cost without adding value. Past ~250 miles, or when one container splits across multiple consignees, transload usually wins: you stop the container per diem and chassis clocks the same day instead of days later. Compare the full sum — dray, chassis daily, per diem, cross-dock labor, inland linehaul — not any single line item.</div></details>
+      <details class="faq-item"><summary>How does a transload work at the Port of Charleston?</summary><div class="faq-answer">The ocean container is drayed from the SCPA terminal to a Charleston-area transload facility, the freight is cross-docked onto domestic equipment (53' van, flatbed, or pallets for LTL/parcel), and the empty container goes back to the terminal the same day the box is stripped. That same-day empty return is the whole point: it stops steamship-line per diem and chassis daily fees while the freight continues inland on domestic equipment. See our <a href="/services/transload-drayage/">transload drayage service</a> for how we coordinate the dray leg and the cross-dock.</div></details>
+      <details class="faq-item"><summary>Does the Port of Charleston have on-dock rail for intermodal?</summary><div class="faq-answer">Not yet. Until the Navy Base Intermodal Facility (NBIF) opens, Charleston has no on-dock or near-dock rail, so an intermodal move requires a dray from the terminal to a railhead before the rail leg starts — which is why transload plus 53' van currently beats rail on most Charleston-to-Midwest lanes. Once NBIF is operating, intermodal becomes far more competitive for Midwest-bound Charleston imports.</div></details>
+      <details class="faq-item"><summary>When should one import container be split across multiple deliveries?</summary><div class="faq-answer">Whenever one ocean container has more than one inland destination, transload is almost always the answer. Dragging the same container to several stops runs up mileage, chassis daily fees, and per diem, and can bump against chassis-pool usage limits. Cross-docking at a Charleston facility splits the freight into palletized LTL or parcel moves in one touch, and the empty returns while the freight fans out.</div></details>
+    </div>
+  </div>
+</section>
 """
+
+    faq_items = [
+        ("Is transloading cheaper than drayage?", "Only past a distance and complexity threshold. Inside roughly 250 miles of Charleston — Columbia, Greenville-Spartanburg, Charlotte, Atlanta — long-haul drayage on the ocean container usually wins because cross-dock labor adds cost without adding value. Past ~250 miles, or when one container splits across multiple consignees, transload usually wins: you stop the container per diem and chassis clocks the same day instead of days later. Compare the full sum — dray, chassis daily, per diem, cross-dock labor, inland linehaul — not any single line item."),
+        ("How does a transload work at the Port of Charleston?", "The ocean container is drayed from the SCPA terminal to a Charleston-area transload facility, the freight is cross-docked onto domestic equipment (53' van, flatbed, or pallets for LTL/parcel), and the empty container goes back to the terminal the same day the box is stripped. That same-day empty return stops steamship-line per diem and chassis daily fees while the freight continues inland on domestic equipment."),
+        ("Does the Port of Charleston have on-dock rail for intermodal?", "Not yet. Until the Navy Base Intermodal Facility (NBIF) opens, Charleston has no on-dock or near-dock rail, so an intermodal move requires a dray from the terminal to a railhead before the rail leg starts — which is why transload plus 53' van currently beats rail on most Charleston-to-Midwest lanes. Once NBIF is operating, intermodal becomes far more competitive for Midwest-bound Charleston imports."),
+        ("When should one import container be split across multiple deliveries?", "Whenever one ocean container has more than one inland destination, transload is almost always the answer. Dragging the same container to several stops runs up mileage, chassis daily fees, and per diem, and can bump against chassis-pool usage limits. Cross-docking at a Charleston facility splits the freight into palletized LTL or parcel moves in one touch, and the empty returns while the freight fans out."),
+    ]
 
     schema = [{
         "@context": "https://schema.org",
@@ -109,6 +131,15 @@ def build(ctx):
         "dateModified": ctx["last_modified"],
         "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/resources/drayage-vs-transload-intermodal/"},
     }]
+
+    schema.append({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+            for q, a in faq_items
+        ],
+    })
 
     html = render(
         slug="drayage-vs-transload-intermodal",
