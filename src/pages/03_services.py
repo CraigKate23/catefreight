@@ -394,6 +394,16 @@ def build(ctx):
       <h2>Empty pickup &amp; pre-load staging</h2>
       <p>Export drays usually start with an empty pickup at the terminal or chassis depot. If you need the empty staged at your dock before loading day — for instance because you're loading at 6 AM and the gate doesn't open early enough — we'll pre-pull the empty and drop it overnight. Same idea as an <a href="/services/import-container-drayage/#pre-pull">import pre-pull</a>, just upstream.</p>
 
+      <h2>Where Charleston export drays start — and which terminal they end at</h2>
+      <p>Loaded exports return to whichever SCPA terminal the booking cut to — Wando Welch (USCHA) in Mount Pleasant, North Charleston (USNCH), or Hugh Leatherman (USCHL). The empty usually comes from the same terminal or the line's chassis-pool depot. The loading happens wherever your product is: a plant, an export warehouse, a transload dock. The lanes we run for export loading follow the same corridors as our import work, in reverse:</p>
+      <ul>
+        <li><strong>Tri-county loaders.</strong> Plants and export warehouses in Charleston, Berkeley, and Dorchester counties — North Charleston, Hanahan, Goose Creek, Ladson, Summerville, Moncks Corner, and the Camp Hall build-out near Ridgeville. Short drays, often same-day empty-in / loaded-out.</li>
+        <li><strong>I-26 Midlands.</strong> Columbia, Cayce, and Newberry loaders running loaded boxes back down I-26 to a Charleston gate.</li>
+        <li><strong>I-85 Upstate.</strong> Greenville, Spartanburg, and Anderson manufacturing, roughly 210 highway miles from the SCPA gates. ERD-aware scheduling matters most on these longer lanes — an Upstate box has to be timed against the cut, not just dispatched.</li>
+        <li><strong>I-95 corridor.</strong> Florence, Hartsville, and the agricultural and forest-product shippers north and south of the I-26/I-95 interchange.</li>
+      </ul>
+      <p>Wherever the loader sits, the return leg ends at a Charleston gate. See the <a href="/coverage/">Charleston drayage coverage area</a> for the full lane map, or send the booking and origin ZIP and we'll quote the round trip.</p>
+
       <h2>What we need to quote an export drayage move</h2>
       <ul>
         <li>Booking number and steamship line</li>
@@ -414,6 +424,8 @@ def build(ctx):
              "Yes. Empty pre-pull and overnight staging at your facility is routine for early-morning loaders. We'll pull the empty during the prior gate, drop it on chassis at your dock, and bobtail away."),
             ("What if our export load is overweight?",
              "Tri-axle chassis and state-issued overweight permits handle most overweight export drays in SC. We quote the permit cost up front."),
+            ("Which SCPA terminal do loaded exports get returned to?",
+             "The one your booking cut to — Wando Welch (USCHA) in Mount Pleasant, North Charleston (USNCH), or Hugh Leatherman (USCHL). ERD and cut-offs are booking-specific, so we confirm the receiving terminal against the booking before scheduling the empty pickup and the loaded return."),
             ("Can you stage the loaded export if we miss our delivery window?",
              "Yes. If a load runs late or the gate is closed, we can hold the loaded container on chassis at our yard and drop it at the terminal next morning. We'll tell you whether that risks the cut-off or the next vessel."),
         ],
