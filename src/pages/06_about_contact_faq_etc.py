@@ -409,7 +409,7 @@ def build(ctx):
 <section class="page-hero">
   <div class="container">
     <span class="hero-eyebrow">How we run a container</span>
-    <h1>The operational walkthrough, end to end.</h1>
+    <h1>How a Charleston drayage move runs, end to end.</h1>
     <p>No mystery, no special sauce. Just the actual sequence of steps every <a href="/charleston-drayage/">Charleston drayage</a> move passes through, and what we commit to at each step.</p>
   </div>
 </section>
@@ -461,7 +461,7 @@ def build(ctx):
             path="/process/",
             title="How Cate Freight Runs a Charleston Drayage Move | Process Walkthrough",
             meta_description="The step-by-step operational walkthrough of how Cate Freight handles a Charleston drayage move — from booking to POD and empty return.",
-            h1="The operational walkthrough, end to end.",
+            h1="How a Charleston drayage move runs, end to end.",
             body_html=breadcrumb_bar(crumbs_proc) + proc_hero + proc_body + cta_banner(),
             breadcrumbs=crumbs_proc,
             nav_active="process",
