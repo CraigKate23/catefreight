@@ -48,6 +48,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 10 | Yellow Pages (yp.com) + Superpages + DexKnows (one Thryv claim covers all three) | TODO | — |
 | 11 | Yelp for Business — free Business Page | TODO | — |
 | 12 | Foursquare Places (business.foursquare.com) — free listing claim | TODO | — |
+| 13 | Charleston Regional Business Journal — Book of Lists (free survey listing) | TODO | — |
 
 ---
 
@@ -585,6 +586,42 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 13. Charleston Regional Business Journal — Book of Lists (free survey listing)
+
+**Why this one.** Backlog #11 and the first of the regional-authority plays. The Charleston Regional Business Journal (charlestonbusiness.com, published by SC Biz News / BridgeTower Media) publishes an annual **Book of Lists** — rank-ordered, industry-specific lists of regional companies, distributed in print and digitally (recent editions are on issuu.com and behind their Leads & Data Center). Being on the trucking/transportation-logistics list is a *regional editorial* citation, a different signal class from the aggregator citations (#9–#12): a Charleston business-media brand naming Cate Freight as a Charleston logistics company is exactly the local-entity corroboration a position-21 site needs for the "charleston drayage" cluster. List inclusion is **free and survey-based** — separate from the paid display advertising they'll try to sell alongside it.
+
+**How it works (verified 2026-07-28 via scbiznews.com's Book of Lists landing page):**
+1. **The free path is the list survey, not the ad form.** The landing page (https://news.scbiznews.com/acton/fs/blocks/showLandingPage/a/41559/p/p-0042/t/page/fm/0) mixes advertising sales with list inclusion. Ignore "reserve your space" — that's ad sales. The line that matters: **"To add your business to our rank-ordered industry list"** → contact **Ryan Downing, 864-867-1928, rdowning@scbiznews.com**, or use their "Fill out our survey" link (it's behind an email-tracking redirect, so emailing Ryan directly is the reliable path).
+2. Lists are compiled by survey in the months before the annual edition (the 2025 edition published late March), so submitting now positions us for the next edition's data-collection window. Ask Ryan which surveys are open.
+3. Rankings are typically by a size metric self-reported on the survey (trucks, employees, revenue). Report honest numbers — a small carrier at the bottom of the list still gets the citation; inflated numbers in a printed book are a credibility risk with the exact 3PL/forwarder audience that reads it.
+4. Expect an advertising upsell call after submitting. The listing itself requires no purchase — decline the ad politely unless Greg decides otherwise.
+
+**Email to send (copy-paste):**
+
+**To:** rdowning@scbiznews.com
+**Subject:** Add Cate Freight to CRBJ Book of Lists — trucking / transportation & logistics survey
+
+> Hi Ryan,
+>
+> I'd like to get Cate Freight included in the Charleston Regional Business Journal's Book of Lists. We're a Charleston-area drayage carrier (container trucking to and from the SC Ports Authority terminals — Wando Welch, North Charleston, and Hugh Leatherman), based in Ladson.
+>
+> Could you send me the survey for the trucking / transportation & logistics list — and any other list where a port drayage carrier fits? Happy to fill out whatever you need.
+>
+> Company details:
+> Cate Freight
+> 137 Acres Drive, Ladson, SC 29456 (Charleston metro)
+> (843) 484-7161 · greg@catefreight.com
+> https://catefreight.com
+> USDOT 3688555 · MC-1285884
+>
+> Thanks,
+> Greg
+> Cate Freight
+
+**SEO outcome to track:** an editorial citation in a regional business publication (print + digital), with NAP consistency corroborating the Ladson/Charleston entity. If the digital edition or Leads & Data Center entry carries a website field, log `LINKED` once it points to catefreight.com. Secondary benefit: CRBJ list inclusion is a credibility line for the SC Trucking Association (#1) and Charleston Metro Chamber (#2) memberships, and the survey contact opens a relationship with SC Biz News editorial — useful later for a port-logistics story pitch.
+
+---
+
 ## Deprioritized — not worth a draft right now
 
 - **FreightWaves directory / SONAR carrier profile** *(was backlog #3).* Checked 2026-06-25: FreightWaves' public company directories (Public Companies Directory, EV Companies Directory) were **discontinued — not updated since June 30, 2023**. The only carrier-submittable feature is the annual editorial **Top 500 Private Carriers** ranking, which is (a) editor-curated, (b) sized for large for-hire fleets, and (c) not a self-serve citation a position-21 small drayage carrier can land. No reliable backlink/citation path here today. Skip until/unless FreightWaves relaunches a self-serve carrier directory. (Editorial contact for rankings, if ever relevant: Joe Antoshak, jantoshak@freightwaves.com.)
@@ -607,8 +644,8 @@ In rough priority order — local + industry first, then broader citation direct
 8. ~~Yellow Pages / yp.com~~ — **drafted above (#10)**; one Thryv claim also covers Superpages and DexKnows.
 9. ~~Yelp for Business~~ — **drafted above (#11)**; free Business Page, DR-90s domain, watch the name-collision warning and decline the Yelp Ads upsell.
 10. ~~Foursquare / Factual~~ — **drafted above (#12)**; claim via business.foursquare.com, feeds Apple Maps and partner apps.
-11. **Charleston Regional Business Journal "Book of Lists"** — print + online, regional authority. *(next up)*
-12. **SC Department of Commerce business directory** — `.gov` adjacency.
+11. ~~Charleston Regional Business Journal "Book of Lists"~~ — **drafted above (#13)**; free survey listing via Ryan Downing at SC Biz News, ignore the ad upsell.
+12. **SC Department of Commerce business directory** — `.gov` adjacency. *(next up)*
 13. **National Industrial Transportation League** — for shipper-side credibility.
 
 Order is not fixed; rotate based on what's submitted and what's live. Industry-vertical and `.org` links rank ahead of generic citation directories.
