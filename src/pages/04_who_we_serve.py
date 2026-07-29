@@ -281,7 +281,7 @@ def build(ctx):
         path="/who-we-serve/customs-brokers/",
         eyebrow="Customs brokers",
         title="Charleston Drayage for Customs Brokers | Cate Freight",
-        meta="Charleston drayage that respects the customs release. We don't roll until customs, freight, and line holds are clear. Clean handoffs to your importer customers.",
+        meta="Charleston drayage that respects the customs release — including in-bond (IT, T&E, IE) container moves. We don't roll until customs, freight, and line holds are clear.",
         h1="Drayage that respects the customs file.",
         intro_html="Customs brokers spend a lot of time fixing problems caused by <a href=\"/charleston-drayage/\">Charleston drayage</a> carriers who didn't wait for the release. Cate Freight is the opposite — we don't dispatch until 1C is on file, freight is released, and line holds are lifted. Boring, predictable, and exactly what your importer customers need.",
         sections_html="""
@@ -305,6 +305,16 @@ def build(ctx):
 
       <h2>Exam (CET, MET) handling</h2>
       <p>If a container is selected for exam, we route it to the assigned facility, capture the EIR, and coordinate the post-exam pickup so demurrage exposure stays bounded. We'll also notify you immediately so the file can be flagged on your side.</p>
+
+      <h2>In-bond drayage from Charleston (IT, T&amp;E, IE)</h2>
+      <p>Not every container clears at the port. When your file moves in-bond — an Immediate Transportation entry to an inland port, a Transportation &amp; Exportation move, or an Immediate Exportation — the dray leg has to match the bond paperwork exactly. We handle in-bond container moves out of Wando Welch, North Charleston, and Hugh Leatherman with customs bonds in place where applicable (certificates on request).</p>
+      <ul>
+        <li><strong>7512 in hand before dispatch.</strong> The driver carries the in-bond paperwork; nothing moves on a verbal.</li>
+        <li><strong>Seals stay intact.</strong> An in-bond container arrives at the bonded destination with the seal it left the terminal with. Seal number recorded at pickup and delivery.</li>
+        <li><strong>Arrival coordination with your team.</strong> You control the bond; we deliver against it and confirm delivery same day so your arrival posting isn't waiting on the trucker.</li>
+        <li><strong>No mixing with cleared freight.</strong> In-bond moves are dispatched as in-bond from the start — flagged in our system so a well-meaning dispatcher can't reroute one to a non-bonded door.</li>
+      </ul>
+      <p>If the destination is a bonded warehouse or CES in the Charleston area, this is a standard <a href="/services/port-drayage/">port drayage</a> move for us with extra paperwork discipline. If it's an inland port of entry, quote it like any other over-the-road dray — just tell us it's in-bond up front.</p>
     </div>
   </div>
 </section>
@@ -312,6 +322,8 @@ def build(ctx):
         faqs=[
             ("Will you wait for customs release before dispatching?",
              "Always. We don't run dry. If 1C isn't in, we don't put a truck on it."),
+            ("Can you move in-bond (IT / T&E / IE) containers?",
+             "Yes. Customs bonds in place where applicable, 7512 with the driver before dispatch, seal integrity maintained end to end, and same-day delivery confirmation so your arrival posting closes on time."),
             ("Can you handle CET / MET exams?",
              "Yes. We route to the assigned exam facility, capture the EIR, and coordinate the post-exam pickup."),
             ("Will you communicate directly with us as the broker?",
