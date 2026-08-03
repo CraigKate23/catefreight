@@ -1,5 +1,21 @@
 """Services hub + all individual service pages."""
 
+# Concrete metro coverage for Service.areaServed — mirrors the LocalBusiness
+# areaServed list in scripts/build.py so every Service entity in the graph
+# claims the same Charleston-metro footprint (Google rewards NAP/area
+# consistency across entities).
+AREA_SERVED = [
+    {"@type": "City", "name": "Charleston"},
+    {"@type": "City", "name": "North Charleston"},
+    {"@type": "City", "name": "Mount Pleasant"},
+    {"@type": "City", "name": "Summerville"},
+    {"@type": "City", "name": "Goose Creek"},
+    {"@type": "City", "name": "Hanahan"},
+    {"@type": "City", "name": "Ladson"},
+    {"@type": "City", "name": "Moncks Corner"},
+    {"@type": "State", "name": "South Carolina"},
+]
+
 
 def _service_page(ctx, *, slug, path, title, meta, h1, eyebrow, intro_html, sections_html, faqs, related, schema_extra=None):
     render = ctx["render"]
@@ -45,10 +61,14 @@ def _service_page(ctx, *, slug, path, title, meta, h1, eyebrow, intro_html, sect
         {
             "@context": "https://schema.org",
             "@type": "Service",
+            # Declare the #service entity the /services/ hub ItemList points
+            # at, so the cross-page @id reference resolves.
+            "@id": f"{site_url}{path}#service",
             "name": eyebrow,
             "serviceType": eyebrow,
+            "url": f"{site_url}{path}",
             "provider": {"@id": f"{site_url}/#org"},
-            "areaServed": {"@type": "City", "name": "Charleston, SC"},
+            "areaServed": AREA_SERVED,
             "description": meta,
         },
         faq_schema,
@@ -154,7 +174,7 @@ def build(ctx):
                         "url": f"{site_url}{href}",
                         "description": desc,
                         "provider": {"@id": f"{site_url}/#org"},
-                        "areaServed": {"@type": "City", "name": "Charleston, SC"},
+                        "areaServed": AREA_SERVED,
                     },
                 }
                 for i, (name, href, desc) in enumerate(hub_services)

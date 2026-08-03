@@ -1,5 +1,19 @@
 """Who-we-serve hub + audience pages."""
 
+# Mirrors the LocalBusiness areaServed list in scripts/build.py so every
+# Service entity in the graph claims the same Charleston-metro footprint.
+AREA_SERVED = [
+    {"@type": "City", "name": "Charleston"},
+    {"@type": "City", "name": "North Charleston"},
+    {"@type": "City", "name": "Mount Pleasant"},
+    {"@type": "City", "name": "Summerville"},
+    {"@type": "City", "name": "Goose Creek"},
+    {"@type": "City", "name": "Hanahan"},
+    {"@type": "City", "name": "Ladson"},
+    {"@type": "City", "name": "Moncks Corner"},
+    {"@type": "State", "name": "South Carolina"},
+]
+
 
 def _audience_page(ctx, *, slug, path, eyebrow, title, meta, h1, intro_html, sections_html, faqs, related):
     render = ctx["render"]
@@ -43,11 +57,15 @@ def _audience_page(ctx, *, slug, path, eyebrow, title, meta, h1, intro_html, sec
         {
             "@context": "https://schema.org",
             "@type": "Service",
+            # Declare the #service entity the /who-we-serve/ hub ItemList
+            # points at, so the cross-page @id reference resolves.
+            "@id": f"{site_url}{path}#service",
             "name": eyebrow,
             "serviceType": "Container drayage",
+            "url": f"{site_url}{path}",
             "audience": {"@type": "Audience", "audienceType": eyebrow},
             "provider": {"@id": f"{site_url}/#org"},
-            "areaServed": {"@type": "City", "name": "Charleston, SC"},
+            "areaServed": AREA_SERVED,
             "description": meta,
         },
         faq_schema,
@@ -141,7 +159,7 @@ def build(ctx):
                         "url": f"{site_url}{href}",
                         "description": desc,
                         "provider": {"@id": f"{site_url}/#org"},
-                        "areaServed": {"@type": "City", "name": "Charleston, SC"},
+                        "areaServed": AREA_SERVED,
                     },
                 }
                 for i, (name, href, desc) in enumerate(hub_audiences)
