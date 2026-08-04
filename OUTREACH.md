@@ -49,6 +49,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 11 | Yelp for Business — free Business Page | TODO | — |
 | 12 | Foursquare Places (business.foursquare.com) — free listing claim | TODO | — |
 | 13 | Charleston Regional Business Journal — Book of Lists (free survey listing) | TODO | — |
+| 14 | SourceSC — SC Dept of Commerce industry directory (free listing) | TODO | — |
 
 ---
 
@@ -622,6 +623,38 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 14. SourceSC — SC Department of Commerce industry directory (free listing)
+
+**Why this one.** Backlog #12 and the state-government play. SourceSC is the SC Department of Commerce's statewide supplier/service locator — the public directory behind the "SC Industry Directory" search (6,500+ companies) on `sccommerce.com` / `scbizdev.sccommerce.com`. A listing here is a **state-agency-adjacent citation** corroborating Cate Freight as a real South Carolina transportation company — a different trust class from every aggregator citation so far, and the closest thing to a `.gov` signal we can self-serve. Bonus: SourceSC members get industry sourcing requests and B2B matchmaker event invites from SC Commerce — the audience includes exactly the large SC manufacturers (Volvo, Giti Tire, etc.) whose inbound containers need drayage. Free; physical SC presence required (we qualify).
+
+**How it works (verified 2026-08-04 via scbizdev.sccommerce.com):**
+1. **Submission form:** https://scbizdev.sccommerce.com/suppliers/become-part-sourcesc — a single "Please add my company to the SourceSC Industry Directory" form, no account needed.
+2. The **Industry** dropdown has a **TDL** option (Transportation, Distribution & Logistics) — that's ours.
+3. There's a website URL field, so the directory entry can carry a link to catefreight.com — log `LINKED` once live.
+4. Listings are editor-processed (Drupal form → SC Commerce staff); if a correction is ever needed, use https://scbizdev.sccommerce.com/suppliers/request-changes-sourcesc-listing.
+5. After listing, periodically check **active supplier requests** (https://scbizdev.sccommerce.com/suppliers/active-requests) — free inbound-lead channel, not just a citation.
+
+**Form-fill guide (copy-paste):**
+
+- **Company name:** Cate Freight
+- **Industry:** TDL
+- **Brief company description:** use the LONG (~750 char) description at the top of this file
+- **Main website URL:** https://catefreight.com
+- **Address:** 137 Acres Drive / City: Ladson / ZIP: 29456 / Country: United States
+- **County:** Ladson straddles Berkeley, Charleston, and Dorchester counties — Greg, pick whichever county 137 Acres Drive actually sits in (check the property-tax bill; the form only allows one)
+- **Contact 1:** Greg Cate — Owner — (843) 484-7161 — greg@catefreight.com
+- **NAICS codes:** 484110 (General Freight Trucking, Local — the drayage classification); add 484121 (General Freight Trucking, Long-Distance, Truckload) for the Southeast corridor lanes
+- **Annual revenue / SC employees:** report honest numbers — this feeds SC Commerce matchmaking, and inflated figures burn credibility with the manufacturer audience
+- **Number of SC locations:** 1
+- **Certifications checkboxes:** leave ALL unchecked (AS9100/ISO/MOSB/etc. — we hold none of these; do not guess)
+- **Notable/recent projects:** leave blank or keep generic — no client names without permission
+- **Search keywords/phrases:** drayage, container drayage, port drayage, Charleston drayage, container trucking, intermodal trucking, overweight containers, reefer, transloading, Port of Charleston, Wando Welch, North Charleston Terminal, Hugh Leatherman Terminal
+- **Your name / email:** Greg Cate / greg@catefreight.com
+
+**SEO outcome to track:** a NAP+link citation in the SourceSC / SC Industry Directory on the `sccommerce.com` domain family (state Department of Commerce). After it processes, search the directory at https://scbizdev.sccommerce.com/sc-industry-directory for "Cate Freight" and log `LIVE`, then `LINKED` if the entry's website field links out. Secondary benefit: sourcing-request notifications and B2B matchmaker invites from SC Commerce — a lead channel aimed at SC manufacturers with import/export volume. With #14 drafted, the only backlog item left is NITL (#13), plus the standing top action: **Google Business Profile, which Greg must create himself.**
+
+---
+
 ## Deprioritized — not worth a draft right now
 
 - **FreightWaves directory / SONAR carrier profile** *(was backlog #3).* Checked 2026-06-25: FreightWaves' public company directories (Public Companies Directory, EV Companies Directory) were **discontinued — not updated since June 30, 2023**. The only carrier-submittable feature is the annual editorial **Top 500 Private Carriers** ranking, which is (a) editor-curated, (b) sized for large for-hire fleets, and (c) not a self-serve citation a position-21 small drayage carrier can land. No reliable backlink/citation path here today. Skip until/unless FreightWaves relaunches a self-serve carrier directory. (Editorial contact for rankings, if ever relevant: Joe Antoshak, jantoshak@freightwaves.com.)
@@ -645,7 +678,7 @@ In rough priority order — local + industry first, then broader citation direct
 9. ~~Yelp for Business~~ — **drafted above (#11)**; free Business Page, DR-90s domain, watch the name-collision warning and decline the Yelp Ads upsell.
 10. ~~Foursquare / Factual~~ — **drafted above (#12)**; claim via business.foursquare.com, feeds Apple Maps and partner apps.
 11. ~~Charleston Regional Business Journal "Book of Lists"~~ — **drafted above (#13)**; free survey listing via Ryan Downing at SC Biz News, ignore the ad upsell.
-12. **SC Department of Commerce business directory** — `.gov` adjacency. *(next up)*
-13. **National Industrial Transportation League** — for shipper-side credibility.
+12. ~~SC Department of Commerce business directory~~ — **drafted above (#14)** as SourceSC; free TDL-industry listing with a website field, editor-processed.
+13. **National Industrial Transportation League** — for shipper-side credibility. *(next up)*
 
 Order is not fixed; rotate based on what's submitted and what's live. Industry-vertical and `.org` links rank ahead of generic citation directories.
