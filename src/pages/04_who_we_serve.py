@@ -269,6 +269,9 @@ def build(ctx):
       <h2>How we work with forwarder operations teams</h2>
       <p>Most forwarders we work with email a delivery order with the booking, container, MBL, and consignee. We confirm release status against the line, book the terminal appointment, schedule the delivery, and run the move. We can also pull from your TMS or operations system if you have one — give us the access spec and we'll match it.</p>
 
+      <h2>Where forwarder files deliver in the Charleston market</h2>
+      <p>Forwarder-tendered containers out of Wando Welch, North Charleston, and Hugh K. Leatherman mostly run a handful of repeatable lanes: the Palmetto Commerce Parkway warehouse corridor in North Charleston, the Ladson and Summerville distribution stretch along US-78 and I-26, the Jedburg warehouse cluster off I-26 near Summerville, and Camp Hall Commerce Park out in Ridgeville. Longer files run up I-26 toward Columbia or down US-17 toward Savannah. If you're quoting a new consignee, put the delivery ZIP on the delivery order — lane familiarity is most of what keeps a <a href="/charleston-drayage/">Charleston drayage</a> quote accurate the first time. The full lane map is on the <a href="/coverage/">coverage page</a>.</p>
+
       <h2>What happens when something goes wrong</h2>
       <p>It will. Vessels are late. Releases get held up. Equipment doesn't show. The point isn't perfection; it's communication. You'll hear about it the moment we hear about it, with a recommendation rather than a question.</p>
     </div>
