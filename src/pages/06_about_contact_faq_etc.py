@@ -454,6 +454,30 @@ def build(ctx):
   </div>
 </section>
 """
+    proc_schema = [{
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Charleston drayage move runs, end to end",
+        "description": "The step-by-step operational sequence Cate Freight follows for every Charleston drayage move, from booking to POD and empty return.",
+        "step": [
+            {"@type": "HowToStep", "position": 1, "name": "Booking received",
+             "text": "You send us a booking, MBL, or release notice. We confirm container size, type, steamship line, terminal, weight, and any specialty notes (reefer, hazmat, OOG, OW)."},
+            {"@type": "HowToStep", "position": 2, "name": "Releases verified",
+             "text": "Customs release, freight release, and line holds are checked before any truck rolls. If any of the three are missing, we don't dispatch."},
+            {"@type": "HowToStep", "position": 3, "name": "Appointment booked",
+             "text": "SCPA terminal slot booked when required, and delivery appointment confirmed at the consignee."},
+            {"@type": "HowToStep", "position": 4, "name": "Driver dispatched",
+             "text": "Driver gets a clean dispatch pack: container, terminal, gate appointment, delivery address, contact info, and special instructions."},
+            {"@type": "HowToStep", "position": 5, "name": "Container moves",
+             "text": "Driver runs the gate transaction and hooks the chassis. We capture the EIR and monitor terminal status and chassis pool location in real time."},
+            {"@type": "HowToStep", "position": 6, "name": "Delivery",
+             "text": "Live unload, drop-and-hook, or transload, per your spec. We text or email the moment delivery completes."},
+            {"@type": "HowToStep", "position": 7, "name": "Empty return",
+             "text": "Empty container returned the same day when possible — the fastest lever to stop per diem. Empty receipt captured and forwarded."},
+            {"@type": "HowToStep", "position": 8, "name": "POD & close",
+             "text": "Signed BOL imaged and emailed back the day of delivery, then archived and ready for any audit pull."},
+        ],
+    }]
     out.append((
         "/process/index.html",
         render(
@@ -464,6 +488,7 @@ def build(ctx):
             h1="How a Charleston drayage move runs, end to end.",
             body_html=breadcrumb_bar(crumbs_proc) + proc_hero + proc_body + cta_banner(),
             breadcrumbs=crumbs_proc,
+            schema=proc_schema,
             nav_active="process",
         ),
     ))
