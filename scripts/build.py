@@ -40,6 +40,12 @@ ADDRESS_POSTAL = "29456"
 ADDRESS_COUNTRY = "US"
 USDOT = "USDOT 3688555"
 MC = "MC-1285884"
+# ZIP-centroid coordinates for Ladson 29456 — same anchor used in ORG_SCHEMA's
+# geo block below. Kept as top-level constants so the per-page <meta
+# name="geo.position"> / ICBM tags emitted by render() never drift from the
+# LocalBusiness schema's GeoCoordinates.
+GEO_LAT = 32.9902
+GEO_LNG = -80.1171
 BUILD_DATE = datetime.utcnow().strftime("%Y-%m-%d")
 # Google Search Console — URL-prefix verification via HTML tag.
 # Paste the content="..." value Google provides in Search Console here.
@@ -85,8 +91,8 @@ ORG_SCHEMA = {
     # the full street address, so schema NAP must agree with it.)
     "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 32.9902,
-        "longitude": -80.1171,
+        "latitude": GEO_LAT,
+        "longitude": GEO_LNG,
     },
     "hasMap": "https://www.google.com/maps/place/137+Acres+Drive,+Ladson,+SC+29456",
     "areaServed": [
@@ -333,6 +339,10 @@ def render(
 <link rel="alternate" hreflang="en-us" href="{canonical}">
 <link rel="alternate" hreflang="x-default" href="{canonical}">
 <meta name="theme-color" content="#0f2a3f">
+<meta name="geo.region" content="US-{ADDRESS_REGION}">
+<meta name="geo.placename" content="{ADDRESS_CITY}">
+<meta name="geo.position" content="{GEO_LAT};{GEO_LNG}">
+<meta name="ICBM" content="{GEO_LAT}, {GEO_LNG}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="{SITE_NAME}">
