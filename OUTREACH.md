@@ -50,6 +50,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 12 | Foursquare Places (business.foursquare.com) — free listing claim | TODO | — |
 | 13 | Charleston Regional Business Journal — Book of Lists (free survey listing) | TODO | — |
 | 14 | SourceSC — SC Dept of Commerce industry directory (free listing) | TODO | — |
+| 15 | National Industrial Transportation League (NITL) | RESEARCHED 2026-08-11 — paid ($1,700/yr), directory is a non-crawlable flipbook; business-dev decision, not an SEO citation (see #15) | — |
 
 ---
 
@@ -651,7 +652,23 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 - **Search keywords/phrases:** drayage, container drayage, port drayage, Charleston drayage, container trucking, intermodal trucking, overweight containers, reefer, transloading, Port of Charleston, Wando Welch, North Charleston Terminal, Hugh Leatherman Terminal
 - **Your name / email:** Greg Cate / greg@catefreight.com
 
-**SEO outcome to track:** a NAP+link citation in the SourceSC / SC Industry Directory on the `sccommerce.com` domain family (state Department of Commerce). After it processes, search the directory at https://scbizdev.sccommerce.com/sc-industry-directory for "Cate Freight" and log `LIVE`, then `LINKED` if the entry's website field links out. Secondary benefit: sourcing-request notifications and B2B matchmaker invites from SC Commerce — a lead channel aimed at SC manufacturers with import/export volume. With #14 drafted, the only backlog item left is NITL (#13), plus the standing top action: **Google Business Profile, which Greg must create himself.**
+**SEO outcome to track:** a NAP+link citation in the SourceSC / SC Industry Directory on the `sccommerce.com` domain family (state Department of Commerce). After it processes, search the directory at https://scbizdev.sccommerce.com/sc-industry-directory for "Cate Freight" and log `LIVE`, then `LINKED` if the entry's website field links out. Secondary benefit: sourcing-request notifications and B2B matchmaker invites from SC Commerce — a lead channel aimed at SC manufacturers with import/export volume. With #14 drafted and NITL researched-and-closed (#15), the backlog moves to free crawlable listings (Bing Places, Apple Business Connect — see next-up list), plus the standing top action: **Google Business Profile, which Greg must create himself.**
+
+---
+
+## 15. National Industrial Transportation League (NITL) — researched; a business-development buy, not an SEO citation
+
+**Verdict up front (verified 2026-08-11 via nitl.org):** NITL is **not a free citation** and **does not produce a crawlable backlink**. Joining is a paid membership decision about shipper-side networking, not an SEO move. Filed here with the facts so the backlog item is closed either way.
+
+**What was verified:**
+
+1. **Membership category and cost.** Cate Freight would join as a **Company Member** ("corporations, firms, sole proprietorships... engaged in the business of shipping, receiving, transporting or facilitating the movement of freight"). Dues scale by gross sales: **$1,700/yr under $1M**, $2,250/yr for $1M–$10M. There's also a $650/yr **Affiliate** tier, but it's for individuals, with no policy vote and no members-only site access. Dues page: https://www.nitl.org/member-categories-and-dues/
+2. **The member directory is a flipbook, not a web directory.** The "2025 Membership Directory" on nitl.org links to an emflipbooks.com page-flip viewer — not indexable HTML pages with member links. **No NAP citation, no crawlable link to catefreight.com.** This is the FreightWaves situation again: no self-serve, link-bearing listing exists.
+3. **How to join if Greg wants it anyway:** application is a PDF at https://www.nitl.org/wp-content/uploads/2026/02/Membership-Application-11-11-25.pdf; NITL contact: (703) 524-5011, 10816 Town Center Boulevard #516, Dunkirk, MD 20754.
+
+**What membership WOULD buy (non-SEO):** access to the League's shipper membership — the importers, exporters, and logistics managers who buy drayage — plus the NITL Engage policy forum and committee networking. If Greg wants a room full of shipper-side freight decision-makers, this is a legitimate $1,700/yr business-development spend. It just shouldn't be charged to the SEO budget.
+
+**Recommendation:** skip for SEO. The same $1,700 buys nothing here that the free citations above don't already deliver, and the highest-leverage local move remains **Google Business Profile (backlog #0, free, Greg-only)**. Revisit NITL only as a lead-generation/networking decision.
 
 ---
 
@@ -679,6 +696,10 @@ In rough priority order — local + industry first, then broader citation direct
 10. ~~Foursquare / Factual~~ — **drafted above (#12)**; claim via business.foursquare.com, feeds Apple Maps and partner apps.
 11. ~~Charleston Regional Business Journal "Book of Lists"~~ — **drafted above (#13)**; free survey listing via Ryan Downing at SC Biz News, ignore the ad upsell.
 12. ~~SC Department of Commerce business directory~~ — **drafted above (#14)** as SourceSC; free TDL-industry listing with a website field, editor-processed.
-13. **National Industrial Transportation League** — for shipper-side credibility. *(next up)*
+13. ~~National Industrial Transportation League~~ — **researched above (#15)**; paid membership, no crawlable directory link — business-dev decision, not an SEO citation.
+14. **Bing Places for Business** (bingplaces.com) — free, self-serve, crawlable listing; Bing/Copilot local results pull from it, and once GBP exists it can import the Google listing in one click. *(next up)*
+15. **Apple Business Connect** (businessconnect.apple.com) — free listing that feeds Apple Maps; iPhone-heavy local searchers see it, and it's another NAP corroboration for the entity.
+16. **Alignable** (alignable.com) — free small-business network profile with a website field; modest authority but indexable and Charleston-local groups exist.
+17. **DAT Directory / carrier profile** — check whether Cate Freight's MC-1285884 already has a public DAT carrier page to claim; broker-facing visibility plus a possible citation.
 
 Order is not fixed; rotate based on what's submitted and what's live. Industry-vertical and `.org` links rank ahead of generic citation directories.
