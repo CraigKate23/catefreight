@@ -88,7 +88,33 @@ def build(ctx):
     </article>
   </div>
 </section>
+
+<section class="section faq">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">People also ask</p>
+      <h2>Drayage quote questions</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item"><summary>What information do I need to get a drayage quote?</summary><div class="faq-answer">Four data points get you a workable number: the booking number or MBL, the container size (20', 40', 40HC, 45HC), the pickup terminal, and the delivery ZIP code. A complete request adds move type, delivery type (live unload vs. drop &amp; hook), commodity, approximate weight, and any specialty flags — overweight, hazmat, or reefer. Our <a href="/quote/">quote form</a> is structured around exactly these fields.</div></details>
+      <details class="faq-item"><summary>How long does a drayage quote take in Charleston?</summary><div class="faq-answer">With a complete request — booking number, container size, terminal, delivery ZIP, weight, and specialty flags — a <a href="/charleston-drayage/">Charleston drayage</a> carrier can typically quote inside an hour during business hours. An incomplete request triggers follow-up questions that add 24-48 hours of back-and-forth before you see a number.</div></details>
+      <details class="faq-item"><summary>What drives the cost of a drayage quote?</summary><div class="faq-answer">The base rate is driven by the pickup terminal and the delivery ZIP. On top of that, accessorials move the total: overweight permits and tri-axle equipment, chassis splits when the depot doesn't hold your steamship line's chassis pool, hazmat handling, genset fuel for reefer moves, and detention if the live unload runs long. A carrier quoting without the weight, commodity, and delivery-type fields either quotes wide to cover risk or revises after booking.</div></details>
+      <details class="faq-item"><summary>When is a container overweight for drayage?</summary><div class="faq-answer">When the loaded container, chassis, and tractor together gross over 80,000 lbs on the road, the move runs as <a href="/services/overweight-drayage/">overweight container drayage</a> — tri-axle chassis, an overweight permit, and route planning around bridge and road weight limits. Flag the approximate cargo weight on the quote request; if you're not sure whether it's over, say so and the carrier can advise.</div></details>
+      <details class="faq-item"><summary>Do I need to know my pickup terminal before requesting a quote?</summary><div class="faq-answer">No. If you have the booking number or MBL, the carrier can look up which SCPA terminal the container routes through — Wando Welch, North Charleston, or Hugh Leatherman. Mark it "not sure yet" on the request. <a href="/services/port-drayage/">Port drayage</a> rates from the three container terminals differ, so the quote firms up once the terminal is confirmed.</div></details>
+      <details class="faq-item"><summary>What are ERD, cargo cut, and VGM cut on an export quote?</summary><div class="faq-answer">Three deadlines that frame every <a href="/services/export-container-drayage/">export container drayage</a> move. ERD is the earliest receiving date — the first day the terminal accepts your loaded export. Cargo cut is the last day it accepts the loaded box for that vessel. VGM cut is the deadline to file the verified gross mass. Include all three in the quote request so the carrier can schedule the loading and terminal return inside the window.</div></details>
+    </div>
+  </div>
+</section>
 """
+
+    faq_items = [
+        ("What information do I need to get a drayage quote?", "Four data points get you a workable number: the booking number or MBL, the container size (20', 40', 40HC, 45HC), the pickup terminal, and the delivery ZIP code. A complete request adds move type, delivery type (live unload vs. drop & hook), commodity, approximate weight, and any specialty flags — overweight, hazmat, or reefer."),
+        ("How long does a drayage quote take in Charleston?", "With a complete request — booking number, container size, terminal, delivery ZIP, weight, and specialty flags — a Charleston drayage carrier can typically quote inside an hour during business hours. An incomplete request triggers follow-up questions that add 24-48 hours of back-and-forth before you see a number."),
+        ("What drives the cost of a drayage quote?", "The base rate is driven by the pickup terminal and the delivery ZIP. On top of that, accessorials move the total: overweight permits and tri-axle equipment, chassis splits when the depot doesn't hold your steamship line's chassis pool, hazmat handling, genset fuel for reefer moves, and detention if the live unload runs long. A carrier quoting without the weight, commodity, and delivery-type fields either quotes wide to cover risk or revises after booking."),
+        ("When is a container overweight for drayage?", "When the loaded container, chassis, and tractor together gross over 80,000 lbs on the road, the move runs as overweight container drayage — tri-axle chassis, an overweight permit, and route planning around bridge and road weight limits. Flag the approximate cargo weight on the quote request; if you're not sure whether it's over, say so and the carrier can advise."),
+        ("Do I need to know my pickup terminal before requesting a quote?", "No. If you have the booking number or MBL, the carrier can look up which SCPA terminal the container routes through — Wando Welch, North Charleston, or Hugh Leatherman. Mark it \"not sure yet\" on the request. Port drayage rates from the three container terminals differ, so the quote firms up once the terminal is confirmed."),
+        ("What are ERD, cargo cut, and VGM cut on an export quote?", "Three deadlines that frame every export container drayage move. ERD is the earliest receiving date — the first day the terminal accepts your loaded export. Cargo cut is the last day it accepts the loaded box for that vessel. VGM cut is the deadline to file the verified gross mass. Include all three in the quote request so the carrier can schedule the loading and terminal return inside the window."),
+    ]
 
     schema = [{
         "@context": "https://schema.org",
@@ -101,6 +127,14 @@ def build(ctx):
         "datePublished": "2026-04-26",
         "dateModified": ctx["last_modified"],
         "mainEntityOfPage": {"@type": "WebPage", "@id": f"{site_url}/resources/drayage-quote-checklist/"},
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+            for q, a in faq_items
+        ],
     }]
 
     html = render(
