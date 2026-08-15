@@ -388,6 +388,97 @@ def build(ctx):
         ("Can you dray a container to or from the Charleston rail ramp?",
          "Yes. The Port of Charleston is dual-served by Norfolk Southern and CSX, and the Navy Base Intermodal Facility (NBIF) sits about a mile from Hugh Leatherman. We handle the truck side of intermodal — staging a pre-pull ahead of a rail cutoff, or drawing an inbound ramp container out to its consignee. See our transload and port-to-rail drayage workflow for detail."),
     ])
+
+    # SCPA terminal Place entities. /coverage/ is the page that surfaces for the
+    # GSC query "charleston port container terminal", but until now the terminal
+    # names lived only in body copy — Google had no structured signal tying Cate
+    # Freight to Wando Welch, North Charleston, Hugh Leatherman, Columbus Street,
+    # or NBIF as named entities. This graph declares each terminal as a Place
+    # contained in the Port of Charleston, and points the page's WebPage node at
+    # them, so the terminal entities and the carrier entity resolve together.
+    # Deliberately locality-level only: public sources disagree on the terminals'
+    # street addresses and gate coordinates, so no streetAddress / geo is
+    # asserted here rather than risk publishing a wrong operational fact.
+    _cov_page = f"{site_url}/coverage/"
+
+    def _terminal(anchor, name, locode, locality, description):
+        return {
+            "@type": "Place",
+            "@id": f"{_cov_page}#{anchor}",
+            "name": name,
+            "alternateName": locode,
+            "description": description,
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": locality,
+                "addressRegion": "SC",
+                "addressCountry": "US",
+            },
+            "containedInPlace": {"@id": f"{_cov_page}#port-of-charleston"},
+        }
+
+    cov_places = [
+        _terminal(
+            "wando-welch-terminal", "Wando Welch Terminal", "USCHA", "Mount Pleasant",
+            "SCPA's highest-volume Charleston container terminal. Cate Freight runs "
+            "daily container pickup, empty return, and pre-pull here.",
+        ),
+        _terminal(
+            "north-charleston-terminal", "North Charleston Terminal", "USNCH", "North Charleston",
+            "SCPA container terminal on the former Navy base with direct I-526 and "
+            "I-26 access. Cate Freight runs daily pickup, return, and pre-pull here.",
+        ),
+        _terminal(
+            "hugh-leatherman-terminal", "Hugh K. Leatherman Terminal", "USCHL", "North Charleston",
+            "SCPA's newest Charleston container terminal. Cate Freight runs daily "
+            "container pickup, empty return, and pre-pull here.",
+        ),
+        _terminal(
+            "columbus-street-terminal", "Columbus Street Terminal", "USCST", "Charleston",
+            "SCPA roll-on/roll-off and breakbulk terminal on the Charleston "
+            "peninsula. Cate Freight works it on demand for breakbulk and project cargo.",
+        ),
+        _terminal(
+            "navy-base-intermodal-facility", "Navy Base Intermodal Facility", "NBIF", "North Charleston",
+            "SCPA near-dock rail yard dual-served by Norfolk Southern and CSX, about "
+            "a mile from the Hugh K. Leatherman Terminal. Cate Freight runs the "
+            "port-to-rail truck leg to and from the ramp.",
+        ),
+    ]
+    cov_place_schema = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Place",
+                "@id": f"{_cov_page}#port-of-charleston",
+                "name": "Port of Charleston",
+                "alternateName": "South Carolina Ports Authority",
+                "description": (
+                    "The South Carolina Ports Authority marine terminal complex in the "
+                    "Charleston metro, spanning Mount Pleasant, North Charleston, and "
+                    "the Charleston peninsula."
+                ),
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Charleston",
+                    "addressRegion": "SC",
+                    "addressCountry": "US",
+                },
+                "containsPlace": [{"@id": p["@id"]} for p in cov_places],
+            },
+            *cov_places,
+            {
+                "@type": "WebPage",
+                "@id": f"{_cov_page}#webpage",
+                "url": _cov_page,
+                "name": "Charleston drayage coverage — every SCPA terminal, regional reach",
+                "about": {"@id": f"{site_url}/#org"},
+                "mentions": [{"@id": f"{_cov_page}#port-of-charleston"}]
+                + [{"@id": p["@id"]} for p in cov_places],
+            },
+        ],
+    }
+
     out.append((
         "/coverage/index.html",
         render(
@@ -399,7 +490,7 @@ def build(ctx):
             body_html=breadcrumb_bar(crumbs_cov) + cov_hero + cov_body + cov_faq_html + cta_banner(),
             breadcrumbs=crumbs_cov,
             nav_active="coverage",
-            schema=[cov_faq_schema],
+            schema=[cov_faq_schema, cov_place_schema],
         ),
     ))
 
