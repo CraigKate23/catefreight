@@ -833,6 +833,33 @@ ul, ol { margin: 0 0 var(--space-5); padding-left: 1.25em; }
 }
 .footer-bottom a:hover { color: #fff !important; }
 
+/* Mobile tap targets (page-experience signal).
+   The footer carries the full sitemap, so it is the primary internal-link
+   surface on phones. Inline anchors there measured ~22-30px tall with ~8px
+   between them, which trips Lighthouse/Search Console "tap targets are not
+   sized appropriately". Below 880px each link becomes a full-width 44px
+   target. Type size, colour and layout are unchanged. */
+@media (max-width: 880px) {
+  .site-footer li { padding: 0; }
+  .site-footer li a,
+  .footer-contact a,
+  .footer-bottom a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    margin-bottom: 0;
+  }
+  .footer-bottom { gap: 4px 16px; }
+  /* Negative margin absorbs the added padding so the breadcrumb bar keeps
+     its current height while the hit area grows to 44px. */
+  .breadcrumbs a,
+  .breadcrumbs span[aria-current] {
+    display: inline-block;
+    padding: 12px 2px;
+    margin: -12px 0;
+  }
+}
+
 /* ====== misc small bits ====== */
 .kpi-row {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
