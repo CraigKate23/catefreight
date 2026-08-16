@@ -257,7 +257,17 @@ def build(ctx):
           <li><strong>Cate Freight ops</strong> On-demand</li>
         </ul>
       </div>
+      <div class="terminal">
+        <h3>Veterans Terminal</h3>
+        <span class="code">North Charleston</span>
+        <p>SCPA's dedicated bulk, breakbulk, RoRo, and project cargo facility on the Cooper River in North Charleston, with a 1,250-foot double-sided pier and on-site CSX and Norfolk Southern rail. We work it on demand for project and non-containerized freight.</p>
+        <ul>
+          <li><strong>Type</strong> Bulk / breakbulk / project cargo</li>
+          <li><strong>Cate Freight ops</strong> On-demand</li>
+        </ul>
+      </div>
     </div>
+    <p class="lead" style="margin: 1.5rem auto 0;">Most <a href="/charleston-drayage/">Charleston drayage</a> runs through the three container terminals, but a fair amount of Lowcountry freight lands at Columbus Street or Veterans Terminal instead — RoRo units, machinery, steel, and project pieces that never see a container. Send the terminal name with your booking and we'll quote the right equipment for it.</p>
   </div>
 </section>
 
@@ -376,7 +386,9 @@ def build(ctx):
 """
     cov_faq_html, cov_faq_schema = faq_block([
         ("Which Charleston port container terminals does Cate Freight serve?",
-         "All three SCPA container terminals — Wando Welch (USCHA) in Mount Pleasant, North Charleston (USNCH), and Hugh Leatherman (USCHL) — every shift, for pickup, empty return, and pre-pull. We also work Columbus Street (USCST) on demand for RoRo and breakbulk. Send the booking or container number and we'll confirm which terminal your box cut to."),
+         "All three SCPA container terminals — Wando Welch (USCHA) in Mount Pleasant, North Charleston (USNCH), and Hugh Leatherman (USCHL) — every shift, for pickup, empty return, and pre-pull. We also work Columbus Street (USCST) and Veterans Terminal on demand for RoRo, breakbulk, and project cargo. Send the booking or container number and we'll confirm which terminal your box cut to."),
+        ("Do you haul from Veterans Terminal in North Charleston?",
+         "Yes, on demand. Veterans Terminal is SCPA's bulk, breakbulk, RoRo, and project cargo facility on the Cooper River in North Charleston — a 1,250-foot double-sided pier with on-site CSX and Norfolk Southern rail. Freight moving through Veterans is usually non-containerized, so tell us the piece dimensions and weight up front and we'll match the equipment before we quote."),
         ("Will you deliver a container straight to my warehouse from the Port of Charleston?",
          "Yes — port-to-warehouse drayage to your dock is the bulk of what we run. Most loads stay inside the tri-county (Charleston, Berkeley, and Dorchester counties) where receiving docks sit minutes off I-526 and I-26 — North Charleston, Hanahan, Goose Creek, Ladson, Summerville, Moncks Corner, and Mount Pleasant. Give us the delivery ZIP, the live-unload or drop-and-hook preference, and the appointment window, and we route it."),
         ("Do you run drayage from Charleston to Columbia, Greenville, or the Upstate?",
@@ -437,6 +449,13 @@ def build(ctx):
             "columbus-street-terminal", "Columbus Street Terminal", "USCST", "Charleston",
             "SCPA roll-on/roll-off and breakbulk terminal on the Charleston "
             "peninsula. Cate Freight works it on demand for breakbulk and project cargo.",
+        ),
+        _terminal(
+            "veterans-terminal", "Veterans Terminal", "Veterans Terminal North Charleston", "North Charleston",
+            "SCPA bulk, breakbulk, roll-on/roll-off, and project cargo terminal on the "
+            "Cooper River in North Charleston, with on-site CSX and Norfolk Southern "
+            "rail service. Cate Freight works it on demand for project and "
+            "non-containerized freight.",
         ),
         _terminal(
             "navy-base-intermodal-facility", "Navy Base Intermodal Facility", "NBIF", "North Charleston",
