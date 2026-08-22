@@ -51,6 +51,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 13 | Charleston Regional Business Journal — Book of Lists (free survey listing) | TODO | — |
 | 14 | SourceSC — SC Dept of Commerce industry directory (free listing) | TODO | — |
 | 15 | National Industrial Transportation League (NITL) | RESEARCHED 2026-08-11 — paid ($1,700/yr), directory is a non-crawlable flipbook; business-dev decision, not an SEO citation (see #15) | — |
+| 16 | Bing Places for Business (bingplaces.com) — free listing claim | TODO | — |
 
 ---
 
@@ -672,6 +673,35 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 16. Bing Places for Business — free listing claim (bingplaces.com)
+
+**Why this one.** Backlog #14 and the second-search-engine play. Bing Places is Microsoft's equivalent of Google Business Profile: free, self-serve, and the local-business data source behind **Bing local results, Windows/Edge Copilot, and ChatGPT web search** (which leans on Bing's index). Bing's audience skews desktop and professional — closer to the 3PL/forwarder buyer than consumer directories — and because most carriers never claim their Bing listing, a complete profile stands out more than it would on Google. Beyond the direct-search trickle, this is a high-authority NAP citation on a Microsoft domain corroborating the Ladson/Charleston entity. Free; ~15–30 minutes end-to-end.
+
+**How it works (checked 2026-08-22 via current setup guides — flow may vary slightly in the portal):**
+1. **Portal:** https://www.bingplaces.com — sign in with any free Microsoft account (an Outlook login works). Reports say the portal is folding into Bing's "for business" hub (bing.com/forbusiness); either entry point reaches the same listing manager.
+2. **Search before creating.** Search for the business by name + city AND by phone (843) 484-7161 first — Bing auto-builds listings from aggregator data (our Manta/Yelp/Foursquare claims may have already seeded one). If a listing exists, **claim** it; if not, choose **Add a new business**. End state: exactly ONE listing. Same name-collision warning as Manta/YP/Yelp — another "Cate Freight, Inc." exists in other states; only claim a listing showing the Ladson, SC address or our phone.
+3. **The "Import from Google" shortcut does not apply to us yet** — no Google Business Profile exists (backlog #0). Fill the listing manually with the NAP block below. **Once Greg creates the GBP, come back and enable Bing's periodic Google sync** so the two listings never drift.
+4. **Verification** is by phone, email, or postcard. Phone/email are usually instant — make sure (843) 484-7161 can be answered when submitting. Postcard fallback takes 1–2 weeks. Edits don't show publicly until verified, so don't skip it.
+5. **Duplicates:** if search turns up more than one auto-built listing, claim the strongest and report the others through the listing's report option.
+
+**Listing copy to paste into the Bing Places form:**
+
+- **Company:** Cate Freight
+- **Address:** 137 Acres Drive, Ladson, SC 29456
+- **Phone:** (843) 484-7161
+- **Email:** greg@catefreight.com
+- **Website:** https://catefreight.com
+- **Primary category:** no "drayage" category exists — pick **Trucking Company** (or the closest of Transportation/Freight/Logistics offered); add secondaries like Logistics Service or Freight Forwarding Service if the picker allows. Put the drayage-specific language in the description.
+- **Business description:** use the LONG (~750 char) description at the top of this file; fall back to the SHORT version if the field truncates.
+- **Hours:** Greg's call — dispatch hours, not 24/7, unless that's actually answered.
+- **Service area (if a field exists):** Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner.
+- **Photos:** upload 3–5 real ones if available (truck at a terminal gate, tractor, yard) — real equipment beats stock; skip rather than use stock.
+- Decline any paid upsell (Bing/Microsoft Ads pitches) — the free listing is the whole play.
+
+**SEO outcome to track:** a claimed, NAP-consistent listing surfacing in Bing local results and the Copilot/ChatGPT answer layer, plus a high-authority Microsoft-domain citation corroborating the entity. Verify by searching Bing for "Cate Freight Ladson SC" after verification clears, and log `LIVE`, then `LINKED` once the listing's website field points to catefreight.com. Follow-on: **Apple Business Connect (next-up #15)** completes the non-Google map-platform pair, and the standing top action is still **Google Business Profile (backlog #0, Greg-only)** — which, once created, also unlocks Bing's one-click Google sync.
+
+---
+
 ## Deprioritized — not worth a draft right now
 
 - **FreightWaves directory / SONAR carrier profile** *(was backlog #3).* Checked 2026-06-25: FreightWaves' public company directories (Public Companies Directory, EV Companies Directory) were **discontinued — not updated since June 30, 2023**. The only carrier-submittable feature is the annual editorial **Top 500 Private Carriers** ranking, which is (a) editor-curated, (b) sized for large for-hire fleets, and (c) not a self-serve citation a position-21 small drayage carrier can land. No reliable backlink/citation path here today. Skip until/unless FreightWaves relaunches a self-serve carrier directory. (Editorial contact for rankings, if ever relevant: Joe Antoshak, jantoshak@freightwaves.com.)
@@ -697,8 +727,8 @@ In rough priority order — local + industry first, then broader citation direct
 11. ~~Charleston Regional Business Journal "Book of Lists"~~ — **drafted above (#13)**; free survey listing via Ryan Downing at SC Biz News, ignore the ad upsell.
 12. ~~SC Department of Commerce business directory~~ — **drafted above (#14)** as SourceSC; free TDL-industry listing with a website field, editor-processed.
 13. ~~National Industrial Transportation League~~ — **researched above (#15)**; paid membership, no crawlable directory link — business-dev decision, not an SEO citation.
-14. **Bing Places for Business** (bingplaces.com) — free, self-serve, crawlable listing; Bing/Copilot local results pull from it, and once GBP exists it can import the Google listing in one click. *(next up)*
-15. **Apple Business Connect** (businessconnect.apple.com) — free listing that feeds Apple Maps; iPhone-heavy local searchers see it, and it's another NAP corroboration for the entity.
+14. ~~Bing Places for Business~~ — **drafted above (#16)**; free claim at bingplaces.com, manual fill until GBP exists, then enable Google sync.
+15. **Apple Business Connect** (businessconnect.apple.com) — free listing that feeds Apple Maps; iPhone-heavy local searchers see it, and it's another NAP corroboration for the entity. *(next up)*
 16. **Alignable** (alignable.com) — free small-business network profile with a website field; modest authority but indexable and Charleston-local groups exist.
 17. **DAT Directory / carrier profile** — check whether Cate Freight's MC-1285884 already has a public DAT carrier page to claim; broker-facing visibility plus a possible citation.
 
