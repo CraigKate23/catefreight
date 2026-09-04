@@ -52,6 +52,19 @@ BUILD_DATE = datetime.utcnow().strftime("%Y-%m-%d")
 # Empty string = tag is omitted from the build.
 GOOGLE_SITE_VERIFICATION = ""
 
+# Google Analytics 4 — CateFreight property 552797413, stream catefreight.com.
+# Standard gtag.js snippet; do not invent a different Measurement ID.
+GA4_MEASUREMENT_ID = "G-CGFZ369457"
+GA4_SNIPPET = f"""<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA4_MEASUREMENT_ID}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', '{GA4_MEASUREMENT_ID}');
+</script>
+"""
+
 # Canonical Organization entity for Cate Freight. Emitted on EVERY page by
 # render() so that the per-page Service / Article schema `provider` and
 # `publisher` references to "{SITE_URL}/#org" resolve to a complete node.
@@ -330,7 +343,7 @@ def render(
     return f"""<!doctype html>
 <html lang="en-US">
 <head>
-<meta charset="utf-8">
+{GA4_SNIPPET}<meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title}</title>
 <meta name="description" content="{meta_description}">

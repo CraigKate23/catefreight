@@ -639,7 +639,7 @@ def build(ctx):
     </ul>
 
     <h2>Cookies &amp; analytics</h2>
-    <p>This site uses minimal first-party cookies and may use a privacy-friendly analytics tool (e.g. Plausible) to understand site usage. No third-party advertising trackers.</p>
+    <p>This site uses Google Analytics 4 to understand site usage. We do not use other analytics vendors or advertising trackers.</p>
 
     <h2>Your rights</h2>
     <p>You can ask for a copy of your data, ask us to correct it, or ask us to delete it. Email <a href="mailto:{email}">{email}</a> and we'll respond.</p>
