@@ -103,7 +103,7 @@ def build(ctx):
   <div class="container">
     <div class="section-head">
       <p class="eyebrow">Core drayage services</p>
-      <h2>Containers in. Containers out. Containers anywhere they need to go inside the Southeast.</h2>
+      <h2>Containers in. Containers out. Containers anywhere they need to go &mdash; Summerville, Columbia, Greenville, Savannah, Charlotte, Atlanta.</h2>
     </div>
     <div class="card-grid">
       <div class="card">
@@ -339,7 +339,7 @@ def build(ctx):
         ("What information do you need to start a quote?",
          "Booking number or MBL, container size and type (20'/40'/40HC/reefer/etc.), pickup terminal, delivery ZIP, estimated availability date, weight, and any specialty notes (hazmat, overweight, OOG, live unload vs. drop). The faster you can give us those, the faster you'll get a real number back."),
         ("Do you serve customers outside Charleston?",
-         "Yes. Most moves stay inside South Carolina — we run regularly to Columbia, Greenville, Spartanburg, Florence, Charleston metro, Summerville, Goose Creek, Walterboro, and Hilton Head. We also pull longer regional drays into Georgia, North Carolina, Tennessee, and the Florida panhandle. If you have a specific origin/destination question, send it and we'll tell you fast."),
+         "Yes. Most moves stay inside South Carolina. Local drays cover Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, and Moncks Corner — the Charleston, Berkeley, and Dorchester county warehouse belt along I-26 and I-526. Regional lanes run I-26 to Columbia, Greenville, and Spartanburg, I-95 to Florence, Walterboro, and Hilton Head, and on into Savannah, Charlotte, Atlanta, Tennessee, and the Florida panhandle. If you have a specific origin/destination question, send it and we'll tell you fast."),
         ("How are accessorials handled?",
          "Accessorials are quoted up front whenever they're predictable: chassis splits, fuel, overweight permits, hazmat surcharges, terminal access fees, and after-hours dispatch. Detention and per diem are pass-through and only billed when triggered — and we'll always tell you when the clock starts."),
     ])

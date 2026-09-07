@@ -104,7 +104,7 @@ def build(ctx):
         <p><strong>Phone</strong><br><a href="tel:{phone_tel}" style="font-size:1.4rem; font-weight:800;">{phone_display}</a></p>
         <p><strong>Email</strong><br><a href="mailto:{email}" style="font-size:1.1rem; font-weight:600;">{email}</a></p>
         <p><strong>Hours</strong><br>Monday – Friday, 7:00 AM – 6:00 PM ET<br>After hours: email response by next morning</p>
-        <p><strong>Service area</strong><br>Charleston metro &middot; Lowcountry &middot; SC Midlands &middot; Upstate &middot; SE regional lanes</p>
+        <p><strong>Service area</strong><br>Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner &middot; I-26 to Columbia, Greenville, Spartanburg &middot; I-95 to Florence, Savannah &middot; Charlotte and Atlanta lanes &middot; <a href="/coverage/">Full coverage map</a></p>
       </div>
       <div>
         <h2>Send us your move</h2>
