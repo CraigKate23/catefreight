@@ -52,6 +52,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 14 | SourceSC — SC Dept of Commerce industry directory (free listing) | TODO | — |
 | 15 | National Industrial Transportation League (NITL) | RESEARCHED 2026-08-11 — paid ($1,700/yr), directory is a non-crawlable flipbook; business-dev decision, not an SEO citation (see #15) | — |
 | 16 | Bing Places for Business (bingplaces.com) — free listing claim | TODO | — |
+| 17 | Apple Business Connect (businessconnect.apple.com) — free Apple Maps listing claim | TODO | — |
 
 ---
 
@@ -702,6 +703,37 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 17. Apple Business Connect — free Apple Maps listing claim (businessconnect.apple.com)
+
+**Why this one.** Backlog #15 and the second half of the non-Google map-platform pair started with Bing Places (#16). Apple Business Connect is Apple's Google-Business-Profile equivalent: it controls what shows on the **Apple Maps place card** — the default map for every iPhone, plus Siri, Spotlight, CarPlay, and the Maps results inside Safari/DuckDuckGo. Dispatchers and drivers searching "drayage near me" or "Cate Freight" on an iPhone hit Apple Maps first, not Google. Beyond that trickle, it is a high-authority NAP citation on an apple.com-managed platform corroborating the Ladson/Charleston entity, and Apple pulls supplementary data from Yelp and Bing — so #11 and #16 feed this listing once they're live. Free; ~20 minutes plus verification.
+
+**How it works (checked 2026-09-06 via BrightLocal's claim guide and current setup checklists — portal flow may vary):**
+1. **Sign in:** https://businessconnect.apple.com with an Apple ID. Two-factor is mandatory, so the Apple ID needs a phone number attached — Greg's existing iPhone Apple ID is fine; a dedicated company Apple ID is cleaner if anyone else will ever manage it.
+2. **Search before creating.** Search "Cate Freight Ladson" AND by phone (843) 484-7161. Apple auto-builds listings from Yelp/Foursquare/aggregator data, and the Foursquare (#12) and Manta (#9) claims may already have seeded a place card. If one exists, **claim** it; if not, choose **Add a new location with this name**. End state: exactly ONE listing. Same name-collision warning as Manta/YP/Yelp/Bing — only claim a card showing the Ladson, SC address or our phone.
+3. **Address + pin.** Enter 137 Acres Drive, Ladson, SC 29456 and **drag the map pin onto the actual yard entrance** (or enter coordinates). Apple's pin drives turn-by-turn for anyone routing to the yard — a pin dropped on the wrong side of Acres Drive sends visiting drivers to the wrong gate.
+4. **Categories + website:** see the copy block below. The website field is the citation link we want.
+5. **Hours:** required field. Greg's call — dispatch hours, not 24/7, unless the phone is actually answered around the clock.
+6. **Company details page:** mandatory, cannot be skipped — re-enter the same NAP as the "head office" and tick the Apple terms box.
+7. **Verification — the part that takes time.** For a *brand-new* listing Apple does **not** offer phone verification: it requires an uploaded business document showing the name and address (lease, utility bill, business license, or the FMCSA/USDOT registration letter — anything official with "Cate Freight" + "137 Acres Drive"). For an *existing* listing being claimed, phone verification is usually available. Apple states approval can take up to five business days. **Descriptions, photos, and attributes are locked until verification clears**, so come back after approval to finish the card.
+8. **After verification:** paste the business description, upload 3–5 real photos (tractor at a Wando Welch / North Charleston / Leatherman gate, yard, equipment — no stock), and add a logo/cover image (C8FR8_Main_Logo.svg exported to PNG works for the logo slot).
+9. **Duplicates:** if search turns up more than one auto-built card, claim the strongest and report the other(s) from the card's report/feedback option.
+
+**Listing copy to paste into Apple Business Connect:**
+
+- **Business name:** Cate Freight
+- **Address:** 137 Acres Drive, Ladson, SC 29456
+- **Phone:** (843) 484-7161
+- **Website:** https://catefreight.com
+- **Primary category:** no "drayage" category exists — pick **Trucking Company** (Apple's picker is category-search; if "Trucking Company" isn't offered, take **Freight Forwarding Service** or **Logistics Service** as primary). Add the other two as secondaries if the picker allows multiple.
+- **Business description (after verification):** use the LONG (~750 char) description at the top of this file; fall back to the SHORT version if the field truncates.
+- **Hours:** Greg's call (see step 5).
+- **Photos / logo:** real equipment only; logo from C8FR8_Main_Logo.svg.
+- Decline any Apple Maps ads pitch (Apple began selling Maps ads to US/Canada businesses in 2026) — the free place card is the whole play.
+
+**SEO outcome to track:** a verified, NAP-consistent Apple Maps place card with the website field pointing to catefreight.com — an additional platform-level citation corroborating the entity alongside Bing (#16), Manta (#9), and the Google Business Profile (backlog #0). Verify by searching "Cate Freight" in Apple Maps on an iPhone after approval, and log `LIVE`, then `LINKED` once the website link is showing. Follow-on: **Alignable (next-up #16)** and a **DAT carrier-profile check (#17)** are the remaining backlog items; the standing top action is still **Google Business Profile (backlog #0, Greg-only)**.
+
+---
+
 ## Deprioritized — not worth a draft right now
 
 - **FreightWaves directory / SONAR carrier profile** *(was backlog #3).* Checked 2026-06-25: FreightWaves' public company directories (Public Companies Directory, EV Companies Directory) were **discontinued — not updated since June 30, 2023**. The only carrier-submittable feature is the annual editorial **Top 500 Private Carriers** ranking, which is (a) editor-curated, (b) sized for large for-hire fleets, and (c) not a self-serve citation a position-21 small drayage carrier can land. No reliable backlink/citation path here today. Skip until/unless FreightWaves relaunches a self-serve carrier directory. (Editorial contact for rankings, if ever relevant: Joe Antoshak, jantoshak@freightwaves.com.)
@@ -728,8 +760,8 @@ In rough priority order — local + industry first, then broader citation direct
 12. ~~SC Department of Commerce business directory~~ — **drafted above (#14)** as SourceSC; free TDL-industry listing with a website field, editor-processed.
 13. ~~National Industrial Transportation League~~ — **researched above (#15)**; paid membership, no crawlable directory link — business-dev decision, not an SEO citation.
 14. ~~Bing Places for Business~~ — **drafted above (#16)**; free claim at bingplaces.com, manual fill until GBP exists, then enable Google sync.
-15. **Apple Business Connect** (businessconnect.apple.com) — free listing that feeds Apple Maps; iPhone-heavy local searchers see it, and it's another NAP corroboration for the entity. *(next up)*
-16. **Alignable** (alignable.com) — free small-business network profile with a website field; modest authority but indexable and Charleston-local groups exist.
+15. ~~Apple Business Connect~~ — **drafted above (#17)**; free claim at businessconnect.apple.com, document verification for a new card (~5 business days), descriptions/photos unlock after approval.
+16. **Alignable** (alignable.com) — free small-business network profile with a website field; modest authority but indexable and Charleston-local groups exist. *(next up)*
 17. **DAT Directory / carrier profile** — check whether Cate Freight's MC-1285884 already has a public DAT carrier page to claim; broker-facing visibility plus a possible citation.
 
 Order is not fixed; rotate based on what's submitted and what's live. Industry-vertical and `.org` links rank ahead of generic citation directories.
