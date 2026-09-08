@@ -39,7 +39,7 @@ def build(ctx):
       </div>
 
       <h2 id="port-overview">1. The Port of Charleston in one paragraph</h2>
-      <p>Charleston is the second-largest container port on the East Coast and one of the busiest in the United States. It's operated by the South Carolina Ports Authority (SCPA), which runs three container terminals (Wando Welch, North Charleston, Hugh Leatherman) plus a RoRo/breakbulk terminal at Columbus Street. Charleston has the deepest harbor on the East Coast at 52 feet, meaning it can take the largest vessels calling US East Coast service strings directly. Until the Navy Base Intermodal Facility opens, Charleston is also the only major East Coast port without on-dock or near-dock rail — meaning drayage is the only mode that moves a Charleston container.</p>
+      <p>Charleston is the second-largest container port on the East Coast and one of the busiest in the United States. It's operated by the South Carolina Ports Authority (SCPA), which runs three container terminals (Wando Welch, North Charleston, Hugh Leatherman) plus a RoRo/breakbulk terminal at Columbus Street. Charleston has the deepest harbor on the East Coast at 52 feet, meaning it can take the largest vessels calling US East Coast service strings directly. Until the Navy Base Intermodal Facility opens, Charleston is also the only major East Coast port without on-dock or near-dock rail — meaning <a href="/charleston-drayage/">Charleston drayage</a> is the only mode that moves a Charleston container.</p>
 
       <h2 id="terminals">2. The four SCPA terminals you might touch</h2>
       <h3>Wando Welch Terminal (USCHA)</h3>
@@ -53,6 +53,7 @@ def build(ctx):
 
       <h3>Columbus Street Terminal (USCST)</h3>
       <p>RoRo and breakbulk facility on the Charleston peninsula. Not a container terminal in the conventional sense — but if you're moving project cargo, vehicles, or breakbulk, this is the gate.</p>
+      <p>Gate-to-gate, all four sit inside a 15-mile radius of one another. <a href="/coverage/">Our coverage page</a> lists each terminal with the highway approach we use and the warehouse corridors (I-26, I-526, US-52, US-78) they feed.</p>
 
       <h2 id="free-time">3. Free time, demurrage, and detention</h2>
       <p>Three different fees, three different parties, three different clocks. Confusing them is how customers end up paying $4,000 in surprise charges on a $600 dray.</p>
@@ -66,7 +67,7 @@ def build(ctx):
       <h3>Per diem (charged by the chassis provider)</h3>
       <p>The daily rental fee for the chassis itself. Different from detention. If you've ever seen a "$70/day" line item on an invoice, that's per diem.</p>
 
-      <p>The cleanest drayage operations watch all three clocks at once and route around the most expensive one. Pre-pull is the most common tool — pulling a container off the terminal early to stop demurrage cold, then staging it at the carrier's yard until the dock is ready.</p>
+      <p>The cleanest drayage operations watch all three clocks at once and route around the most expensive one. <a href="/services/import-container-drayage/#pre-pull">Pre-pull</a> is the most common tool — pulling a container off the terminal early to stop demurrage cold, then staging it at the carrier's yard until the dock is ready.</p>
 
       <h2 id="chassis">4. The chassis pool reality</h2>
       <p>Most ports have multiple chassis pools — typically TRAC Intermodal, DCLI, and Flexi-Van — and they don't always interchange. If your steamship line uses TRAC chassis but the only available chassis at the depot is DCLI, the trucker has to travel to the right depot, pick up a TRAC chassis, then go get the container. That's a "chassis split," and it costs $25-$75 per container in extra time, miles, and fuel.</p>
@@ -78,7 +79,7 @@ def build(ctx):
         <li><strong>No on-dock rail (yet).</strong> Until Navy Base Intermodal opens, every container moves out by truck.</li>
         <li><strong>Hurricane-season schedules.</strong> SCPA closes for hurricanes, sometimes with little warning. Free time freezes; per diem doesn't always.</li>
         <li><strong>Holiday no-work days.</strong> SCPA observes specific holidays as no-work days where free time doesn't accrue. Smart drayage carriers track the calendar.</li>
-        <li><strong>Heavy export flows.</strong> Charleston is a major export port for Southeast manufacturing — paper, ceramics, automotive, metals. Many of these are overweight loads requiring tri-axle equipment.</li>
+        <li><strong>Heavy export flows.</strong> Charleston is a major export port for Southeast manufacturing — paper, ceramics, automotive, metals. Many of these are <a href="/services/overweight-drayage/">overweight container loads</a> requiring tri-axle equipment.</li>
         <li><strong>Bridges and routes.</strong> The Cooper River Bridge, Don Holt Bridge, and access roads have weight restrictions worth knowing if you're running heavy.</li>
       </ul>
 
