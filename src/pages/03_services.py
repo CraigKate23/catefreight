@@ -464,7 +464,7 @@ def build(ctx):
         title="Port-to-Warehouse Drayage in Charleston, SC | Cate Freight",
         meta="Port-to-warehouse drayage from Charleston, SC. Direct moves from SCPA terminals to your DC with appointments confirmed at both ends. Live unload or drop and hook.",
         eyebrow="Port-to-warehouse",
-        h1="Port-to-warehouse drayage with appointments confirmed at both ends.",
+        h1="Port-to-warehouse drayage in Charleston, with appointments confirmed at both ends.",
         intro_html="Most Charleston imports end at a warehouse dock — yours or a 3PL's. Cate Freight runs port-to-warehouse drayage with the appointment booked on both sides before the truck rolls, so the container shows up when your dock is ready and not before.",
         sections_html="""
 <section class="section">
@@ -473,6 +473,15 @@ def build(ctx):
       <h2>Why "port-to-warehouse" deserves its own service</h2>
       <p>Most carriers treat the warehouse delivery like an afterthought — show up, hope for a dock, push the appointment if it slips. That's how containers end up sitting on chassis with the per-diem clock running, or how drivers get bounced from one DC to another all afternoon.</p>
       <p>Cate Freight comes from the warehouse side. We know what an ASN window means, what a dock manager needs to schedule a live unload, and how 3PL receivers expect to be notified. So we book the delivery slot at the consignee, confirm it before the terminal pickup, and tell you the moment something changes.</p>
+
+      <h2>Drayage from the Port of Charleston to your warehouse: what we need to book it</h2>
+      <p>If you're an importer or receiver asking "who can dray this container from Charleston to my warehouse," the booking takes four things. Send them to dispatch or drop them in the <a href="/quote/">quote form</a> and we come back with a rate and a delivery window:</p>
+      <ul>
+        <li><strong>Container number and steamship line</strong> — so we can check the release status and last free day at Wando Welch, North Charleston, or Hugh Leatherman before we commit a truck. (How that check works is on the <a href="/services/import-container-drayage/">import container drayage</a> page.)</li>
+        <li><strong>Consignee address and receiving hours</strong> — the dock we're booking, whether it's a North Charleston DC off I-526, a Summerville or Goose Creek industrial park, or a Ridgeville megasite up I-26.</li>
+        <li><strong>Live unload or drop &amp; hook</strong> — see the trade-off below. If you don't know yet, we'll quote both.</li>
+        <li><strong>Empty return instructions</strong> — the line's return terminal and any per-diem deadline, so the empty goes back inside free time instead of eating a chassis day.</li>
+      </ul>
 
       <h2>Live unload vs. drop &amp; hook</h2>
       <p>The right choice depends on your unload speed and your chassis cost tolerance:</p>
