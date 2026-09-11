@@ -51,9 +51,15 @@ def build(ctx):
 
       <h2>What "drayage" looks like in Charleston</h2>
       <p>At the Port of Charleston, drayage is the only mode that moves your container at all — Charleston is the only major East Coast port without on-dock or near-dock rail (the Navy Base Intermodal Facility is finally arriving in 2026). Every container in or out of Charleston is on a dray truck for at least the first or last 5–500 miles of its journey. That makes Charleston a more drayage-intensive port than Norfolk, Savannah, or New York — and makes the difference between a sharp drayman and a sloppy one painfully visible.</p>
+      <p>In practice, a <a href="/charleston-drayage/">Charleston drayage</a> move starts at one of three SCPA container terminals — Wando Welch in Mount Pleasant, North Charleston Terminal on the former Navy base, or Hugh Leatherman Terminal in North Charleston — and follows one of a handful of well-worn lanes:</p>
+      <ul>
+        <li><strong>Local port-to-door.</strong> Out I-526 or I-26 to the warehouse clusters in North Charleston, Hanahan, Goose Creek, Ladson, and Summerville. Most of these drays turn same day. This is the <a href="/services/port-to-warehouse-drayage/">port-to-warehouse drayage</a> leg.</li>
+        <li><strong>Regional.</strong> Up I-26 to Columbia and the Upstate (Greenville–Spartanburg), I-77 to Charlotte, I-95 to Florence or Savannah, I-20 to Augusta. Still one container, one chassis, one driver — just more highway.</li>
+        <li><strong>Transload.</strong> Into a Charleston-area cross-dock, where the freight leaves the ocean box and rides a 53' van the rest of the way. The dray is the port-to-cross-dock leg; see <a href="/resources/drayage-vs-transload-intermodal/">drayage vs. transload</a> for when that math wins.</li>
+      </ul>
 
       <h2>Cate Freight's role</h2>
-      <p>We're a Charleston, SC drayage carrier. We pull from all three SCPA container terminals — Wando Welch, North Charleston, and Hugh Leatherman — and run drays into warehouses, transload yards, and consignees across South Carolina, Georgia, and the Carolinas. Read our <a href="/charleston-drayage/">Charleston drayage page</a> for specifics on how the operation runs.</p>
+      <p>We're a Charleston, SC drayage carrier. We pull from all three SCPA container terminals — Wando Welch, North Charleston, and Hugh Leatherman — and run drays into warehouses, transload yards, and consignees across South Carolina, Georgia, and the Carolinas (see the <a href="/coverage/">coverage map</a> for lanes and mileage). Read our <a href="/charleston-drayage/">Charleston drayage page</a> for specifics on how the operation runs.</p>
     </article>
   </div>
 </section>
