@@ -53,6 +53,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 15 | National Industrial Transportation League (NITL) | RESEARCHED 2026-08-11 — paid ($1,700/yr), directory is a non-crawlable flipbook; business-dev decision, not an SEO citation (see #15) | — |
 | 16 | Bing Places for Business (bingplaces.com) — free listing claim | TODO | — |
 | 17 | Apple Business Connect (businessconnect.apple.com) — free Apple Maps listing claim | TODO | — |
+| 18 | Alignable (alignable.com) — free business network profile with website field | TODO | — |
 
 ---
 
@@ -734,6 +735,45 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 18. Alignable — free small-business network profile with a website field (alignable.com)
+
+**Why this one.** Backlog #16. Alignable is a US/Canada small-business referral network (think LinkedIn for local owners) with an indexable public business profile per member — name, address, category tags, description, and a **website field that links out**. It is modest authority compared with Yelp or Bing, but the profile pages are crawlable, Alignable runs geographic community pages (Ladson / Summerville / North Charleston / Charleston SC) that our profile gets listed under, and the audience is exactly the local owner-operator crowd — the small importers, warehouse operators, and freight forwarders' branch managers who book drayage by phone. Two payoffs: one more NAP-consistent citation corroborating the Ladson entity, and a low-cost referral channel. Free on the Guest plan; ~20 minutes to complete the profile.
+
+**How it works (checked 2026-09-13 via the Alignable Help Center — "How to sign up for Alignable?" updated July 2026, "Does Alignable Cost Anything?" updated Sept 2026):**
+1. **Sign up:** https://www.alignable.com/biz_users/sign_up — enter greg@catefreight.com as the login email (business email, not a personal Gmail; Alignable weights business domains for trust).
+2. **Name / business / address:** Greg Cate · Cate Freight · 137 Acres Drive, Ladson, SC 29456. Alignable says to pick the address where you do the most business if customers are elsewhere — **use the Ladson yard address anyway** so the NAP matches every other citation. Do not put "Charleston" as the address city; put it in the description and service-area answers instead.
+3. **Verification:** new accounts may be asked to verify by SMS or a manual identity check. Use the (843) 484-7161 number if it can receive texts; if it is a landline, use Greg's mobile — the verification number is not shown publicly. (If "phone number already in use" appears, another Alignable account was created with that number — the Help Center has a recovery article for that.)
+4. **Industry:** start typing and pick from the list; if "Drayage" isn't offered, choose **Trucking** or **Freight & Logistics** (whichever the picker shows) — and add "Drayage" as a custom Category Tag afterward (step 7).
+5. **Referral targeting (the onboarding asks these — answer them, they become public profile fields):**
+   - *Who are your customers?* → select up to five: **Freight Forwarders, Logistics / 3PL, Customs Brokers, Warehousing & Storage, Manufacturing / Importers.**
+   - *Where are your customers located?* → Charleston, SC metro (add Columbia and Greenville if the picker allows multiple).
+6. **Skip the address-book import** (optional step 9 in Alignable's flow) — no need to hand over the contact list to seed a citation.
+7. **Complete the profile after signup** (Alignable's "A+ profile" checklist): Category Tag = **Drayage Carrier**; Featured Tags = **Container Drayage** and **Port of Charleston Trucking**; Products & Services = the four bullets below; About Us = the LONG description; Website = https://catefreight.com (this is the citation link — do not skip); Contact Info = phone + email; Gallery = 3–5 real equipment photos (no stock); headshot = optional, Greg's call.
+8. **Stay on the free Guest plan.** Paid tiers ($29 / $49 / $89 per month) only add connection credits, analytics, and a contact button — none of it changes the public profile or the website link. Decline the "Community Sponsorship" newsletter-ad pitch too.
+9. **Two free actions worth five minutes afterward:** (a) join the Charleston / Summerville / North Charleston local groups so the profile shows in those community pages; (b) send connection requests to the customers and vendors who already know Cate Freight — Alignable **recommendations** show on the public profile and are the platform's trust signal. Only recommend / request from people who actually know the business.
+
+**Profile copy to paste into Alignable:**
+
+- **Business name:** Cate Freight
+- **Address:** 137 Acres Drive, Ladson, SC 29456
+- **Phone:** (843) 484-7161
+- **Email:** greg@catefreight.com
+- **Website:** https://catefreight.com
+- **Industry / Category Tag:** Trucking (industry picker) · Drayage Carrier (category tag)
+- **Featured Tags:** Container Drayage · Port of Charleston Trucking
+- **About Us:** use the LONG (~750 char) description at the top of this file. If there is a separate "How We Got Started" field: *"Cate Freight grew out of a Charleston warehouse and 3PL operation, where we spent years on the receiving end of drayage — waiting on trucks that were late, releases nobody checked, and paperwork that didn't match. We started running containers ourselves the way a receiver wants them run."* *(Greg: edit to match the real origin story before pasting — this is drafted from STRATEGY.md positioning, not confirmed facts.)*
+- **Products & Services (one line each):**
+  - Import container drayage — Wando Welch, North Charleston, and Hugh Leatherman terminals to any Charleston-area or Southeast delivery point
+  - Export container drayage — empty pick-up, loaded return, and pre-pull to protect the earliest-receiving date
+  - Overweight and reefer container drayage — tri-axle chassis, genset, and permit lanes
+  - Port-to-warehouse and transload drayage for 3PLs, freight forwarders, and customs brokers
+- **Ideal customer description:** *"3PLs, freight forwarders, customs brokers, and direct importers moving containers through the Port of Charleston who want release-status checked, paperwork clean, and a dispatcher who answers the phone."*
+- **Partners we can share referrals with:** customs brokers, freight forwarders, warehouse and transload operators, chassis providers, container repair depots.
+
+**SEO outcome to track:** a public, crawlable Alignable profile with the website field pointing to catefreight.com and NAP matching the block at the top of this file. Verify by searching Google for `site:alignable.com "Cate Freight"` about two weeks after the profile is complete, and log `LIVE`, then `LINKED` once the profile's website link is showing. Follow-on: **DAT carrier-profile check (next-up #17)** is the last item on the current backlog — after that, restock with the local-authority targets that matter most (SCPA motor-carrier list, Charleston Chamber, SCTA are still `TODO`), and the standing top action remains **Google Business Profile (backlog #0, Greg-only)**.
+
+---
+
 ## Deprioritized — not worth a draft right now
 
 - **FreightWaves directory / SONAR carrier profile** *(was backlog #3).* Checked 2026-06-25: FreightWaves' public company directories (Public Companies Directory, EV Companies Directory) were **discontinued — not updated since June 30, 2023**. The only carrier-submittable feature is the annual editorial **Top 500 Private Carriers** ranking, which is (a) editor-curated, (b) sized for large for-hire fleets, and (c) not a self-serve citation a position-21 small drayage carrier can land. No reliable backlink/citation path here today. Skip until/unless FreightWaves relaunches a self-serve carrier directory. (Editorial contact for rankings, if ever relevant: Joe Antoshak, jantoshak@freightwaves.com.)
@@ -761,7 +801,7 @@ In rough priority order — local + industry first, then broader citation direct
 13. ~~National Industrial Transportation League~~ — **researched above (#15)**; paid membership, no crawlable directory link — business-dev decision, not an SEO citation.
 14. ~~Bing Places for Business~~ — **drafted above (#16)**; free claim at bingplaces.com, manual fill until GBP exists, then enable Google sync.
 15. ~~Apple Business Connect~~ — **drafted above (#17)**; free claim at businessconnect.apple.com, document verification for a new card (~5 business days), descriptions/photos unlock after approval.
-16. **Alignable** (alignable.com) — free small-business network profile with a website field; modest authority but indexable and Charleston-local groups exist. *(next up)*
-17. **DAT Directory / carrier profile** — check whether Cate Freight's MC-1285884 already has a public DAT carrier page to claim; broker-facing visibility plus a possible citation.
+16. ~~Alignable~~ — **drafted above (#18)**; free Guest-plan profile at alignable.com, use the Ladson NAP, fill the website field, skip paid tiers.
+17. **DAT Directory / carrier profile** — check whether Cate Freight's MC-1285884 already has a public DAT carrier page to claim; broker-facing visibility plus a possible citation. *(next up)*
 
 Order is not fixed; rotate based on what's submitted and what's live. Industry-vertical and `.org` links rank ahead of generic citation directories.
