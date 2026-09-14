@@ -25,7 +25,7 @@ def build(ctx):
     <article class="prose">
       <p class="meta">Published April 2026 &middot; Cate Freight Charleston operations team</p>
 
-      <p>If you're importing into Charleston with an inland destination, you have three ways to move the freight. Knowing when each one wins saves real money — and it isn't always obvious.</p>
+      <p>If you're <a href="/services/import-container-drayage/">importing through the Port of Charleston</a> with an inland destination, you have three ways to move the freight. Knowing when each one wins saves real money — and it isn't always obvious.</p>
 
       <h2>Definitions, fast</h2>
       <ul>
@@ -38,7 +38,7 @@ def build(ctx):
 
       <h3>Long-haul drayage wins when:</h3>
       <ul>
-        <li>The inland destination is within ~250 miles of Charleston (Atlanta, Charlotte, Columbia, Greenville-Spartanburg).</li>
+        <li>The inland destination is within ~250 miles of Charleston (Atlanta, Charlotte, Columbia, Greenville-Spartanburg — see our <a href="/coverage/">Charleston drayage coverage area</a> for the lanes we run).</li>
         <li>The container is going to a single consignee with one delivery address.</li>
         <li>The consignee has a dock and unloads from the ocean container directly.</li>
         <li>Time is tight and you don't want a cross-dock handoff in the middle.</li>
@@ -83,7 +83,7 @@ def build(ctx):
         <li>The dray itself (or the rail leg, plus drays at each end)</li>
         <li>Chassis daily fees</li>
         <li>Container per diem (held by the steamship line until the empty returns)</li>
-        <li>Terminal demurrage if free time runs out</li>
+        <li>Terminal demurrage if free time runs out (see <a href="/resources/avoid-demurrage-detention/">how to avoid demurrage and detention at Charleston</a>)</li>
         <li>Cross-dock or transload labor (if applicable)</li>
         <li>Inland linehaul on domestic equipment (if applicable)</li>
       </ul>
