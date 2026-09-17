@@ -402,11 +402,17 @@ def build(ctx):
         <li>One monthly invoice with line-item detail</li>
         <li>A direct line to dispatch — not a routing tree</li>
       </ul>
+
+      <h2>Where Charleston's direct importers and exporters ship from</h2>
+      <p>Most of the shippers who call us directly are manufacturers and distributors with their own dock in the tri-county area — Charleston, Berkeley, and Dorchester counties. The plant clusters we dray to and from every week sit in North Charleston along Palmetto Commerce Parkway and Ashley Phosphate Road, in Goose Creek at Bushy Park, in Ladson and the Jedburg Road industrial corridor outside Summerville, and at the Camp Hall build-out near Ridgeville off I-26. From Wando Welch, North Charleston, or Hugh Leatherman terminal, those are 10-to-35-mile drays that turn same day once the box is released. Export loaders in the Midlands (Columbia, Cayce), the Upstate (Greenville, Spartanburg, Anderson), and along I-95 (Florence, Orangeburg) run the same lanes in reverse, timed against the booking's ERD and cut-off.</p>
+      <p>Direct shippers also tend to own the heavy and specialty freight in the Charleston market — machinery, steel, resin, forest products, and refrigerated commodities — which is why the <a href="/services/overweight-drayage/">overweight drayage</a> and <a href="/services/reefer-drayage/">reefer drayage</a> pages exist. If your ZIP is outside the tri-county, the <a href="/coverage/">Charleston drayage coverage area</a> lists turn times lane by lane.</p>
     </div>
   </div>
 </section>
 """,
         faqs=[
+            ("Do you dray containers to plants in Berkeley and Dorchester counties, not just Charleston?",
+             "Yes. Goose Creek, Moncks Corner, Summerville, Ladson, Ridgeville, and the Jedburg corridor are everyday lanes from all three SCPA container terminals. Send the delivery ZIP and we'll quote the round trip and confirm the turn time."),
             ("Do you work with direct importers without a freight forwarder?",
              "Yes. Many of our customers are direct importers and exporters. The dispatch process is the same — booking, release check, terminal appointment, delivery — minus the forwarder layer."),
             ("Can you handle our customs broker handoff for us?",
