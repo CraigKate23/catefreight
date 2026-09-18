@@ -690,8 +690,8 @@ def build(ctx):
         title="Overweight & OOG Container Drayage in Charleston, SC | Cate Freight",
         meta="Overweight container drayage in Charleston, SC. Tri-axle chassis, state permits, and the experience to handle 60,000+ lb containers without breaking the chain.",
         eyebrow="Overweight drayage",
-        h1="Overweight container drayage with the right chassis and the right permits.",
-        intro_html="Overweight drayage isn't just a heavier load — it's a different equipment configuration, a permit, and sometimes a route restriction. Cate Freight runs tri-axle chassis, pulls state permits where required, and routes around the bridges and roads that don't accept the weight.",
+        h1="Overweight container drayage in Charleston, with the right chassis and the right permits.",
+        intro_html="Overweight container transport out of the Port of Charleston isn't just a heavier load — it's a different equipment configuration, an SCDOT permit, and sometimes a route restriction. Cate Freight runs tri-axle chassis, pulls state permits where required, and routes around the bridges and roads that don't accept the weight.",
         sections_html="""
 <section class="section">
   <div class="container">
