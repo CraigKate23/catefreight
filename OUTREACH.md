@@ -54,6 +54,8 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 16 | Bing Places for Business (bingplaces.com) — free listing claim | TODO | — |
 | 17 | Apple Business Connect (businessconnect.apple.com) — free Apple Maps listing claim | TODO | — |
 | 18 | Alignable (alignable.com) — free business network profile with website field | TODO | — |
+| 19 | DAT Directory / DAT One Company Profile | RESEARCHED 2026-09-25 — subscriber-only lookup inside DAT One, auto-filled from FMCSA; no public page, no website field, no backlink (see #19) | — |
+| 20 | CarrierSource (carriersource.io) — claim the auto-built FMCSA carrier profile; already ranks #6–7 for "charleston drayage" | TODO | — |
 
 ---
 
@@ -774,6 +776,63 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 19. DAT Directory / DAT One Company Profile — researched; subscriber-only, not an SEO citation
+
+**Verdict up front (verified 2026-09-25 via the DAT One Help Center "Carrier Company Profile FAQs" and the CarrierWatch Help Center):** the DAT Directory is **not a public web directory**. It is a lookup screen *inside* DAT One and the DAT load boards, visible only to logged-in DAT subscribers, and it is auto-populated from FMCSA for every motor carrier — including Cate Freight — whether or not we do anything. There is **no crawlable profile page, no website field, no backlink**. Filed here with the facts so backlog #17 is closed either way.
+
+**What was verified:**
+
+1. **Who can see it.** DAT's own FAQ: "DAT customers can view information on all motor carriers from the FMCSA, as it is public data." Non-subscribers (and Googlebot) see nothing. Help pages: https://one.support.dat.com/9-company-insights-2f2ac220/4-training-for-carriers-8578453b/carrier-company-profile-faqs-946e302f and https://directory.support.dat.com/dat-directory-6a340aa0
+2. **What it shows.** Company name, phone, address, docket (MC-1285884) and USDOT (3688555), authority status, insurance, plus equipment/lane/service flags if the carrier is a DAT subscriber and fills them in via onboard.dat.com. Non-subscribers can only correct their record through FMCSA (account.dat.com is for DAT customers).
+3. **Cost.** Directory access is bundled with a DAT load-board subscription (paid, monthly). There is no free-standing "claim your listing" path.
+
+**What it WOULD do (non-SEO):** if Cate Freight ever subscribes to DAT for backhaul/load-board reasons, spend the ten minutes at onboard.dat.com to mark Container / Intermodal equipment, Hazmat = no, and SC / GA / NC operating states, so brokers vetting the MC see a complete record. That's a broker-visibility housekeeping item, not a ranking lever.
+
+**Recommendation:** skip for SEO, same reasoning as NITL (#15). Backlog #17 closed. The public, crawlable, FMCSA-seeded carrier profile that *does* exist — and that already ranks on page 1 for our target keyword — is CarrierSource, drafted next (#20).
+
+---
+
+## 20. CarrierSource — claim the auto-built carrier profile (carriersource.io, free)
+
+**Why this one.** This is the best citation on the whole list after Google Business Profile, and it is the only one that sits **on a page already ranking for our keyword**. RANKINGS.md (2026-05-14 snapshot) has carriersource.io at **#7 for "charleston drayage"**, **#6 for "drayage charleston sc"**, and **#6 for "drayage companies in charleston sc"** — the exact cluster we're at position 21 for. CarrierSource auto-builds a profile page for every FMCSA motor carrier, so **Cate Freight LLC (USDOT 3688555 · MC-1285884) already has one**: Google's index of the "Container Trucking Companies in Ladson, SC" listing (https://www.carriersource.io/trucking-companies/container/united-states/south-carolina/ladson) already shows our DOT/MC. Unclaimed, it's a bare FMCSA stub — "1 power unit, no reviews, no description, no website." Claimed, it becomes: a NAP-consistent citation on a ~475k-visits/month industry domain, a **website field linking to catefreight.com**, a listing on the *Drayage* and *Container* filter pages for Charleston / North Charleston / Ladson / Summerville / Goose Creek that Google already ranks, and a broker-facing review page. CarrierSource's own numbers: claimed profiles rank higher in its search and are ~4x more likely to be contacted. **Free ($0/year, "Free" plan); ~20 minutes; verification is one email click.**
+
+**How it works (checked 2026-09-25 via company.carriersource.io/blog/how-to-claim-your-carriersource-page and carriersource.io/pricing/carrier):**
+1. **Find our page, not the other one.** Go to https://www.carriersource.io and search **by USDOT `3688555`** (or MC `1285884`) — do NOT search by name. Google's snippet for the Ladson listing page already mislabels a neighbouring carrier (Bound Logistics LLC, MC1003796 / USDOT 3209181, 57 trucks) as "Cate Freight LLC"; a name search can land on the wrong company. Confirm the page shows **USDOT 3688555 · MC1285884 · 137 Acres Dr, Ladson, SC 29456** before claiming. (Claim entry point: https://www.carriersource.io/carriers/claim.)
+2. **Click "Claim this profile"** on our page, tick equipment and shipment types (below), and hit **Claim My Page**.
+3. **Verify by email.** CarrierSource sends the verification link to the **email on file with FMCSA** for USDOT 3688555 — if that's not greg@catefreight.com, watch whichever inbox is on the MCS-150 (or update the FMCSA record first). A blue check appears on the profile once verified.
+4. **Fill the dashboard → Profile tab** (all free): company description, truck types, shipment types, specialized services, contact info, **website URL** — the website field is on the free Profile tab, this is the citation link, do not skip it.
+5. **Lane Information tab** (free): set **Operation States** = SC, GA, NC (add FL/TN only if actually run); **Preferred Lanes** = Charleston SC → Columbia / Greenville / Charlotte / Atlanta / Savannah; **Terminals** = the Ladson yard address.
+6. **Reviews tab:** it generates a unique review link + email template. Send it to two or three customers who will actually write one — CarrierSource moderates reviews, and a claimed profile with even one verified 5-star review outranks the stubs on the Charleston drayage listing pages.
+7. **Skip the paid tiers.** "Branding" is $250/yr (profile optimization, ad removal, "advertise to 475,000+ monthly visitors"); Content & Media / Shipper Intent / CRM are quote-only. None of it changes the public NAP or the website link. Note the free profile **shows competitor ads** — accept that; the citation still counts.
+8. **Also on the free plan:** post driver openings if/when hiring (job posts on the profile are crawlable pages too).
+
+**Profile copy to paste into CarrierSource:**
+
+- **Company name:** Cate Freight (FMCSA legal name shows as Cate Freight LLC — leave as-is; DBA field if offered: Cate Freight)
+- **Address:** 137 Acres Drive, Ladson, SC 29456
+- **Phone:** (843) 484-7161
+- **Email:** greg@catefreight.com
+- **Website:** https://catefreight.com
+- **Company Description:** use the LONG (~750 char) description at the top of this file. If the field allows more, append: *"Lanes: Wando Welch, North Charleston, and Hugh Leatherman terminals to Charleston, North Charleston, Summerville, Goose Creek, Ladson, Moncks Corner, and the I-26 / I-95 corridors to Columbia, Greenville, Charlotte, Atlanta, and Savannah. Quote turnaround within the hour during business hours: https://catefreight.com/quote/"*
+- **Truck Types:** Container (add Reefer only if a genset/reefer chassis is actually run; add Power Only only if actually offered)
+- **Shipment Types:** Full Truckload
+- **Specialized Services:** **Drayage** (this is the checkbox that puts us on the ranking "Drayage Trucking Companies in Charleston, SC" pages) — add Hazardous Materials only if Greg confirms hazmat authority; leave Cross-Border, Heavy Haul, etc. unticked
+- **Freight:** General Freight, Intermodal Containers
+- **Operation States:** SC, GA, NC
+- **Preferred Lanes:** Charleston, SC → Columbia, SC · Charleston, SC → Greenville, SC · Charleston, SC → Charlotte, NC · Charleston, SC → Atlanta, GA · Charleston, SC → Savannah, GA
+- **Terminals:** 137 Acres Drive, Ladson, SC 29456
+- **Photos:** 3–5 real equipment shots (tractor, container on chassis at an SCPA gate, yard) — no stock.
+
+**Review-request note (for step 6, in Greg's voice, 3 sentences max):**
+
+> Subject: Quick favor — a CarrierSource review for Cate Freight
+>
+> [First name] — we've claimed our CarrierSource page and a verified review from a customer who actually books us matters more than anything we can write ourselves. If you have two minutes, here's the direct link: [paste unique review link from the Reviews tab]. Thanks — Greg
+
+**SEO outcome to track:** a claimed, blue-check CarrierSource profile with NAP matching the block at the top of this file and the website field pointing to catefreight.com, appearing on the *Drayage* / *Container* filter pages for Charleston-area cities. Verify by searching Google for `site:carriersource.io "Cate Freight"` about two weeks after claiming, and log `LIVE`, then `LINKED` once the profile's website link shows. Bonus check: open https://www.carriersource.io/trucking-companies/drayage/united-states/south-carolina/charleston and confirm Cate Freight is listed — that URL family is what Google ranks at #6–7 for our cluster. Follow-on: with the current backlog cleared, restock priority stays with the **local-authority `TODO`s still open — SCPA motor-carrier list (#3), Charleston Chamber (#2), SCTA (#1)** — and the standing top action remains **Google Business Profile (backlog #0, Greg-only)**.
+
+---
+
 ## Deprioritized — not worth a draft right now
 
 - **FreightWaves directory / SONAR carrier profile** *(was backlog #3).* Checked 2026-06-25: FreightWaves' public company directories (Public Companies Directory, EV Companies Directory) were **discontinued — not updated since June 30, 2023**. The only carrier-submittable feature is the annual editorial **Top 500 Private Carriers** ranking, which is (a) editor-curated, (b) sized for large for-hire fleets, and (c) not a self-serve citation a position-21 small drayage carrier can land. No reliable backlink/citation path here today. Skip until/unless FreightWaves relaunches a self-serve carrier directory. (Editorial contact for rankings, if ever relevant: Joe Antoshak, jantoshak@freightwaves.com.)
@@ -802,6 +861,9 @@ In rough priority order — local + industry first, then broader citation direct
 14. ~~Bing Places for Business~~ — **drafted above (#16)**; free claim at bingplaces.com, manual fill until GBP exists, then enable Google sync.
 15. ~~Apple Business Connect~~ — **drafted above (#17)**; free claim at businessconnect.apple.com, document verification for a new card (~5 business days), descriptions/photos unlock after approval.
 16. ~~Alignable~~ — **drafted above (#18)**; free Guest-plan profile at alignable.com, use the Ladson NAP, fill the website field, skip paid tiers.
-17. **DAT Directory / carrier profile** — check whether Cate Freight's MC-1285884 already has a public DAT carrier page to claim; broker-facing visibility plus a possible citation. *(next up)*
+17. ~~DAT Directory / carrier profile~~ — **researched above (#19)**; subscriber-only, no public page or link — not an SEO citation.
+18. ~~CarrierSource~~ — **drafted above (#20)**; free claim of the auto-built FMCSA profile, search by USDOT 3688555 (not by name), website field on the free Profile tab.
+19. **fleetfax.com carrier page** — an auto-built FMCSA mirror already exists at https://www.fleetfax.com/carrier/3688555/cate-freight-llc; check whether it offers a free claim with a website field before spending a draft on it. *(next up)*
+20. **SC Ports Authority "Motor Carrier" list (#3), Charleston Metro Chamber (#2), SCTA (#1)** — all still `TODO` with drafts ready above; these are the highest-authority local links on the list and only need Greg's sign-off.
 
 Order is not fixed; rotate based on what's submitted and what's live. Industry-vertical and `.org` links rank ahead of generic citation directories.
