@@ -40,6 +40,9 @@ def build(ctx):
       <p>Free time at SCPA is set by the steamship line, not by SCPA itself. Typical free time runs 3-5 calendar days from the day the container is available. After that, terminal demurrage starts accruing — and it escalates. Day 6 might cost more than day 4. Day 10 a lot more.</p>
       <p>SCPA also publishes a holiday "no work day" calendar — specific holidays where free time does not accrue (and demurrage does not bill). Carriers that track the calendar build their plans around it. Carriers that don't can leave free time on the table.</p>
 
+      <h2>Where the clocks start: Charleston's three container terminals</h2>
+      <p>Free time starts on the terminal where your container is discharged, so the first thing to confirm is which one it is: Wando Welch Terminal in Mount Pleasant, Hugh K. Leatherman Terminal in North Charleston, or North Charleston Terminal. Each has its own gate, appointment and pickup flow, and a container that sits for a missed appointment burns the same free days as one that is waiting on a release. From the terminal, deliveries into Charleston, North Charleston, Summerville, Goose Creek and the rest of Berkeley, Dorchester and Charleston counties run up I-26, I-526 or US-17, so a pre-pull or same-day delivery is usually a short move. Our <a href="/coverage/">coverage page</a> lays out each terminal and the delivery area behind it, and the <a href="/charleston-drayage/">Charleston drayage</a> pillar page explains how we dispatch against them.</p>
+
       <h2>The five moves that stop the clocks fastest</h2>
 
       <h3>1. Pre-pull when free time is tight</h3>
@@ -74,7 +77,7 @@ def build(ctx):
       <h2>Cate Freight's approach</h2>
       <p>We track release status and free time expiration on every container in our system, recommend pre-pull when the math says to, and book empty returns the same shift as delivery whenever the consignee allows it. Demurrage and detention exposure is part of every quote we give, not something you find out about on the invoice.</p>
 
-      <p>If you want a <a href="/charleston-drayage/">Charleston drayage</a> carrier that thinks about cost control the way you do, <a href="/quote/">send us your next move</a>.</p>
+      <p>Running steady volume for several customers? Our <a href="/who-we-serve/3pls/">drayage for 3PLs</a> page covers dedicated capacity, and <a href="/services/overweight-drayage/">overweight container drayage</a> covers loads that need extra planning at the gate. If you want a <a href="/charleston-drayage/">Charleston drayage</a> carrier that thinks about cost control the way you do, <a href="/quote/">send us your next move</a>.</p>
     </article>
   </div>
 </section>
