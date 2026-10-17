@@ -56,6 +56,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 | 18 | Alignable (alignable.com) — free business network profile with website field | TODO | — |
 | 19 | DAT Directory / DAT One Company Profile | RESEARCHED 2026-09-25 — subscriber-only lookup inside DAT One, auto-filled from FMCSA; no public page, no website field, no backlink (see #19) | — |
 | 20 | CarrierSource (carriersource.io) — claim the auto-built FMCSA carrier profile; already ranks #6–7 for "charleston drayage" | TODO | — |
+| 21 | FleetFax (fleetfax.com) auto-built FMCSA carrier page | RESEARCHED 2026-10-17 — no claim path, no website field, no backlink (see #21) | — |
 
 ---
 
@@ -833,6 +834,12 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 ---
 
+## 21. FleetFax (fleetfax.com) — researched; auto-built FMCSA mirror, not an SEO citation
+
+**Verdict (checked 2026-10-17).** https://www.fleetfax.com/carrier/3688555/cate-freight-llc is a read-only mirror of FMCSA data. The page shows no claim/update flow, no website field, and no phone or email; its only outbound links go to other fleetfax pages. A search for a FleetFax claim process found nothing. No backlink is possible, so no submission draft. Skip.
+
+**⚠ Greg — check this today.** The FleetFax page (data loaded Oct 17, 2026) reports an FMCSA order dated Sep 13, 2026 labeled "New Entrant Revoked - Refusal of Audit/No Contact", with the carrier shown as out of service. The same page also lists a voluntary suspension on Sep 9, 2026 and a later entry on Sep 25, 2026 that reads as reinstated, so the record conflicts and may be stale. It is a third-party mirror, so confirm on FMCSA directly (SAFER Company Snapshot and L&I for USDOT 3688555) and check the email on file with FMCSA for a new-entrant safety audit notice. Until resolved, avoid new claims about operating authority in citations. The site currently shows USDOT and MC numbers in the footer; no site copy was changed in this run.
+
 ## Deprioritized — not worth a draft right now
 
 - **FreightWaves directory / SONAR carrier profile** *(was backlog #3).* Checked 2026-06-25: FreightWaves' public company directories (Public Companies Directory, EV Companies Directory) were **discontinued — not updated since June 30, 2023**. The only carrier-submittable feature is the annual editorial **Top 500 Private Carriers** ranking, which is (a) editor-curated, (b) sized for large for-hire fleets, and (c) not a self-serve citation a position-21 small drayage carrier can land. No reliable backlink/citation path here today. Skip until/unless FreightWaves relaunches a self-serve carrier directory. (Editorial contact for rankings, if ever relevant: Joe Antoshak, jantoshak@freightwaves.com.)
@@ -863,7 +870,7 @@ In rough priority order — local + industry first, then broader citation direct
 16. ~~Alignable~~ — **drafted above (#18)**; free Guest-plan profile at alignable.com, use the Ladson NAP, fill the website field, skip paid tiers.
 17. ~~DAT Directory / carrier profile~~ — **researched above (#19)**; subscriber-only, no public page or link — not an SEO citation.
 18. ~~CarrierSource~~ — **drafted above (#20)**; free claim of the auto-built FMCSA profile, search by USDOT 3688555 (not by name), website field on the free Profile tab.
-19. **fleetfax.com carrier page** — an auto-built FMCSA mirror already exists at https://www.fleetfax.com/carrier/3688555/cate-freight-llc; check whether it offers a free claim with a website field before spending a draft on it. *(next up)*
+19. ~~fleetfax.com carrier page~~ — **researched above (#21)**; read-only FMCSA mirror, no claim path or website field. Not an SEO citation.
 20. **SC Ports Authority "Motor Carrier" list (#3), Charleston Metro Chamber (#2), SCTA (#1)** — all still `TODO` with drafts ready above; these are the highest-authority local links on the list and only need Greg's sign-off.
 
 Order is not fixed; rotate based on what's submitted and what's live. Industry-vertical and `.org` links rank ahead of generic citation directories.
