@@ -61,18 +61,18 @@ def build(ctx):
         <li>You're moving steady volume to a single intermodal-served destination (Memphis, Dallas, Chicago, etc.).</li>
       </ul>
 
-      <p>Charleston is the asterisk on intermodal — until the Navy Base Intermodal Facility opens in 2026, there's no on-dock or near-dock rail at Charleston, so intermodal moves require a long dray to a railhead before the rail leg starts. Once NBIF is open, intermodal will become a much more competitive option for Charleston imports going to the Midwest.</p>
+      <p>Charleston is the asterisk on intermodal — until the Navy Base Intermodal Facility opens in 2026, there's no on-dock or near-dock rail at Charleston, so intermodal moves require a long dray to a railhead before the rail leg starts (we cover the vocabulary on our <a href="/charleston-drayage/">intermodal drayage in Charleston</a> page). Once NBIF is open, intermodal will become a much more competitive option for Charleston imports going to the Midwest.</p>
 
       <h2>Worked examples</h2>
 
       <h3>Charleston → Greenville, SC (220 miles)</h3>
-      <p>Long-haul drayage, almost always. The mileage is short enough that the dray rate is reasonable. Cross-docking adds cost without adding much value. Single consignee, single dray, done.</p>
+      <p>Long-haul drayage, almost always — Greenville-Spartanburg is one of the <a href="/coverage/">inland lanes we run from the SCPA terminals</a>. The mileage is short enough that the dray rate is reasonable. Cross-docking adds cost without adding much value. Single consignee, single dray, done.</p>
 
       <h3>Charleston → Memphis, TN (700 miles)</h3>
       <p>Transload usually wins. Charleston to Memphis on the ocean container costs more in linehaul, per diem, and chassis daily than transload + 53' van or rail — and you stop the per diem clock the same day instead of in three days.</p>
 
       <h3>Charleston → 18 retail DCs across the Southeast</h3>
-      <p>Transload, every time. One ocean container splits at the transload facility into 18 LTL or palletized loads. Trying to drag the ocean container around to all 18 stops would cost a fortune and probably violate the chassis pool's daily limits.</p>
+      <p>Transload, every time — the usual setup for <a href="/who-we-serve/3pls/">3PL and retail-distribution receivers</a>. One ocean container splits at the transload facility into 18 LTL or palletized loads. Trying to drag the ocean container around to all 18 stops would cost a fortune and probably violate the chassis pool's daily limits.</p>
 
       <h3>Charleston → Chicago, IL (950 miles)</h3>
       <p>Today, transload + 53' van. After NBIF opens, intermodal rail likely becomes the better answer — you skip the long dray to the railhead and the rail rate to Chicago is very competitive.</p>
