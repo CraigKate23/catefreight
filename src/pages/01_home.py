@@ -17,7 +17,7 @@ def build(ctx):
       <div>
         <span class="hero-eyebrow">Charleston, SC drayage</span>
         <h1>Charleston drayage from all three SCPA terminals — <span class="accent">quote in under an hour, releases checked before we roll.</span></h1>
-        <p class="lead">Cate Freight is a <a href="/charleston-drayage/">Charleston drayage</a> carrier pulling import and export containers from Wando Welch, North Charleston, and Hugh Leatherman to warehouses, transload yards, and consignees across South Carolina and the Southeast. One dispatcher per file. Same-day POD. Honest accessorials.</p>
+        <p class="lead">Cate Freight is a <a href="/charleston-drayage/">Charleston drayage</a> carrier pulling import and export containers from Wando Welch, North Charleston, and Hugh Leatherman to warehouses, transload yards, and consignees across South Carolina and the Southeast. One point of contact. Same-day POD. Honest accessorials.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="/quote/">Request a drayage quote</a>
           <a class="btn btn-ghost" href="tel:{phone_tel}">{phone_display} dispatch</a>
@@ -25,7 +25,7 @@ def build(ctx):
         <div class="hero-trust">
           <span>All three SCPA terminals</span>
           <span>Quote inside the hour</span>
-          <span>Reefer, overweight, OOG</span>
+          <span>20', 40' &amp; 40' HC dry containers</span>
           <span>3PL &amp; forwarder friendly</span>
         </div>
       </div>
@@ -36,7 +36,7 @@ def build(ctx):
           <label class="field"><span>Booking number</span><input name="booking" placeholder="e.g. MAERSK 1234567" autocomplete="off"></label>
           <label class="field"><span>Container size</span>
             <select name="container_size">
-              <option>20' Dry</option><option selected>40' High Cube</option><option>40' Dry</option><option>40' Reefer</option><option>20' Reefer</option><option>Other</option>
+              <option>20' Dry</option><option selected>40' High Cube</option><option>40' Dry</option><option>Other</option>
             </select>
           </label>
           <label class="field"><span>Pickup terminal</span>
@@ -49,7 +49,7 @@ def build(ctx):
         </form>
         <div class="stats">
           <div><strong>3</strong><small>SCPA terminals</small></div>
-          <div><strong>60 min</strong><small>Avg quote turn</small></div>
+          <div><strong>60 min</strong><small>Quote turn target</small></div>
           <div><strong>Same day</strong><small>POD turnaround</small></div>
         </div>
       </div>
@@ -103,7 +103,7 @@ def build(ctx):
   <div class="container">
     <div class="section-head">
       <p class="eyebrow">Core drayage services</p>
-      <h2>Containers in. Containers out. Containers anywhere they need to go &mdash; Summerville, Columbia, Greenville, Savannah, Charlotte, Atlanta.</h2>
+      <h2>Containers in. Containers out. Containers anywhere they need to go &mdash; Summerville, Columbia, Florence, Savannah, Greenville, Charlotte.</h2>
     </div>
     <div class="card-grid">
       <div class="card">
@@ -137,22 +137,10 @@ def build(ctx):
         <a class="card-link" href="/services/transload-drayage/">Transload</a>
       </div>
       <div class="card">
-        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-weight"/></svg></div>
-        <h3>Overweight &amp; OOG</h3>
-        <p>Tri-axle chassis, route permits, and the experience to pull 60,000+ lb containers without breaking the chain.</p>
-        <a class="card-link" href="/services/overweight-drayage/">Overweight drayage</a>
-      </div>
-      <div class="card">
-        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-snowflake"/></svg></div>
-        <h3>Reefer drayage</h3>
-        <p>Genset chassis, set-point verification on pickup, and pre-trip inspection so the box stays in temp the whole way.</p>
-        <a class="card-link" href="/services/reefer-drayage/">Reefer drayage</a>
-      </div>
-      <div class="card dark">
-        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-gear"/></svg></div>
-        <h3>Specialty &amp; project</h3>
-        <p>Hazmat, flat-rack, open-top, and project moves with proper permits, escort coordination, and clean documentation.</p>
-        <a class="card-link" href="/services/" style="color:#7ce5cb;">All services</a>
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-clock"/></svg></div>
+        <h3>Pre-pull service</h3>
+        <p>Stage the container off-port to stop the demurrage clock when free time is tight or your dock isn't ready.</p>
+        <a class="card-link" href="/services/import-container-drayage/#pre-pull">Pre-pull info</a>
       </div>
     </div>
   </div>
@@ -168,7 +156,7 @@ def build(ctx):
         <p class="eyebrow">Why Cate Freight</p>
         <h2>Drayage that thinks like the receiver.</h2>
         <p class="lead">Most drayage carriers were built around the truck. We were built around the receiver — the warehouse manager who needs containers in the right order, the broker who needs the release confirmed before the chassis leaves the yard, the 3PL who needs an ETA they can actually post.</p>
-        <p>Greg Cate ran warehouses and 3PL operations for years before starting Cate Freight. That experience shows up in the way every container is handled: paperwork before the wheels turn, terminal status checked before dispatch, and one number to call when something changes.</p>
+        <p>Greg Cate has spent years running a customs-bonded warehouse and 3PL operation in the Charleston market. That experience shows up in the way every container is handled: paperwork before the wheels turn, terminal status checked before dispatch, and one number to call when something changes.</p>
         <a class="btn btn-outline" href="/about/">More about Cate Freight</a>
       </div>
       <div class="panel">
@@ -176,9 +164,9 @@ def build(ctx):
         <ul>
           <li><div><strong>Release checked before dispatch</strong><span>Customs, freight, and line holds verified — no dry runs.</span></div></li>
           <li><div><strong>Quote inside the hour</strong><span>During business hours, you'll have a number on your screen before lunch.</span></div></li>
-          <li><div><strong>One dispatcher per file</strong><span>You aren't bouncing between people. The person who quoted is the person who runs the move.</span></div></li>
+          <li><div><strong>One point of contact</strong><span>You aren't bouncing between people. The person who quoted is the person who runs the move.</span></div></li>
           <li><div><strong>Clean PODs back same day</strong><span>Signed BOL emailed back the day of delivery. Imaged, named, filed.</span></div></li>
-          <li><div><strong>Honest accessorials</strong><span>Chassis splits, detention, overweight permits — quoted upfront. No surprise lines on the invoice.</span></div></li>
+          <li><div><strong>Honest accessorials</strong><span>Chassis splits, fuel, detention — quoted upfront. No surprise lines on the invoice.</span></div></li>
         </ul>
       </div>
     </div>
@@ -192,7 +180,7 @@ def build(ctx):
   <div class="container">
     <div class="section-head">
       <p class="eyebrow">Charleston terminal coverage</p>
-      <h2>All three SCPA container terminals. Every shift.</h2>
+      <h2>All three SCPA container terminals.</h2>
       <p class="lead" style="color:rgba(255,255,255,0.78); margin-left:auto; margin-right:auto;">We monitor terminal hours, gate moves, and chassis pool status across the Port of Charleston so we can route around the bottlenecks instead of waiting in them.</p>
     </div>
     <div class="terminals-grid">
@@ -202,7 +190,7 @@ def build(ctx):
         <p style="color:rgba(255,255,255,0.76);">SCPA's highest-volume container terminal. Deep-water berths handling the largest vessels calling the East Coast.</p>
         <ul style="border-color:rgba(255,255,255,0.10);">
           <li style="color:rgba(255,255,255,0.7); border-color:rgba(255,255,255,0.10);"><strong style="color:#fff;">Pickup &amp; return</strong> Container moves &amp; pre-pulls</li>
-          <li style="color:rgba(255,255,255,0.7); border-color:rgba(255,255,255,0.10);"><strong style="color:#fff;">Specialty</strong> Reefer, overweight, OOG</li>
+          <li style="color:rgba(255,255,255,0.7); border-color:rgba(255,255,255,0.10);"><strong style="color:#fff;">Equipment</strong> 20', 40' &amp; 40' HC dry</li>
         </ul>
       </div>
       <div class="terminal" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.12); color:#fff;">
@@ -211,7 +199,7 @@ def build(ctx):
         <p style="color:rgba(255,255,255,0.76);">Direct interstate access via I-26 and I-526. Diverse mix of containerized and breakbulk cargo.</p>
         <ul style="border-color:rgba(255,255,255,0.10);">
           <li style="color:rgba(255,255,255,0.7); border-color:rgba(255,255,255,0.10);"><strong style="color:#fff;">Pickup &amp; return</strong> Container moves &amp; pre-pulls</li>
-          <li style="color:rgba(255,255,255,0.7); border-color:rgba(255,255,255,0.10);"><strong style="color:#fff;">Specialty</strong> Hazmat coordination</li>
+          <li style="color:rgba(255,255,255,0.7); border-color:rgba(255,255,255,0.10);"><strong style="color:#fff;">Access</strong> Direct I-26 / I-526 ramps</li>
         </ul>
       </div>
       <div class="terminal" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.12); color:#fff;">
@@ -243,7 +231,7 @@ def build(ctx):
     <div class="steps">
       <div class="step">
         <h3>Booking received</h3>
-        <p>You send a booking, MBL, or release notice. We confirm size, line, terminal, weight, and any specialty (reefer, hazmat, OOG).</p>
+        <p>You send a booking, MBL, or release notice. We confirm size, line, terminal, and weight.</p>
       </div>
       <div class="step">
         <h3>Releases verified</h3>
@@ -282,7 +270,7 @@ def build(ctx):
           <li>Pre-pull when free time is tight to avoid Terminal Demurrage</li>
           <li>Chassis pool awareness across TRAC, DCLI, and Flexi-Van</li>
           <li>Holiday "no work day" calendar tracked so you don't burn free time</li>
-          <li>Tri-axle equipment for the heavy SE manufacturing flows</li>
+          <li>Weights checked against the booking before dispatch, so a heavy box is flagged early</li>
           <li>Connections to Charleston transload yards and CFS facilities</li>
           <li>Same-day return coordination to stop per diem fast</li>
         </ul>
@@ -295,7 +283,7 @@ def build(ctx):
           <li><div><strong>52' deepest harbor on the East Coast</strong><span>Largest vessels call here directly</span></div></li>
           <li><div><strong>Free time varies by line</strong><span>Typically 3-5 days at SCPA — we track it</span></div></li>
           <li><div><strong>Chassis splits cost real money</strong><span>$25-$75 per move in the wrong configuration</span></div></li>
-          <li><div><strong>Navy Base intermodal arriving</strong><span>Near-dock rail finally landing in 2026 — we'll route to it day one</span></div></li>
+          <li><div><strong>Near-dock rail is still ahead</strong><span>SC Ports' Navy Base rail yard is delayed — now not expected before 2028</span></div></li>
         </ul>
       </div>
     </div>
@@ -316,8 +304,8 @@ def build(ctx):
       <div class="kpi"><strong>POD</strong><span>back same day</span></div>
       <div class="kpi"><strong>EIR</strong><span>tracked &amp; archived</span></div>
       <div class="kpi"><strong>VGM</strong><span>SOLAS submission</span></div>
-      <div class="kpi"><strong>Hazmat</strong><span>placards &amp; manifest</span></div>
-      <div class="kpi"><strong>Permits</strong><span>OW &amp; OOG handled</span></div>
+      <div class="kpi"><strong>Releases</strong><span>verified before dispatch</span></div>
+      <div class="kpi"><strong>Appointments</strong><span>confirmed both ends</span></div>
     </div>
     <p class="lead text-center muted" style="margin: 0 auto;">Every document is named with your reference number, archived for the file, and emailed back when the move closes — so your auditors and your customs broker never have to chase us.</p>
   </div>
@@ -329,19 +317,19 @@ def build(ctx):
         ("What is drayage and what does Cate Freight specifically do?",
          "Drayage is the short-distance transport of an ocean container — most often from a port terminal to a nearby warehouse, transload, or rail yard, or in reverse from a shipper's facility back to the terminal. Cate Freight specializes in port drayage out of the SCPA terminals at Charleston: Wando Welch, North Charleston, and Hugh Leatherman. We move loaded import containers inland, deliver loaded exports to the terminal, and run empties both directions."),
         ("Which Charleston terminals do you serve?",
-         "All three SCPA container terminals — Wando Welch (Mount Pleasant), North Charleston Terminal (former Navy base), and Hugh Leatherman Terminal in North Charleston. We also work Columbus Street for breakbulk and RoRo when a customer needs it."),
+         "All three SCPA container terminals — Wando Welch (Mount Pleasant), North Charleston Terminal (former Navy base), and Hugh Leatherman Terminal in North Charleston."),
         ("How fast can you turn a quote?",
          "During business hours, the typical turn from a complete booking to a quote on your screen is under an hour. After hours or on weekends, we'll respond by the next business morning. The fastest quotes start from a clean booking number, container size, terminal, and delivery ZIP — those four data points are usually enough."),
-        ("Do you handle reefer, overweight, and hazmat containers?",
-         "Yes to all three. Reefer moves use genset chassis with verified set points and pre-trip inspection. Overweight moves run on tri-axle chassis with state permits where required. Hazmat moves go on driver and equipment configurations cleared for the relevant placard class — including documentation handed back to your customs broker."),
+        ("Do you handle reefer, overweight, or hazmat containers?",
+         "We run dry containers — 20', 40', and 40' high cube. Overweight boxes run by state permit on a tri-axle chassis, arranged before dispatch and quoted case by case. We don't run reefer, out-of-gauge, or hazmat containers today; tell us anyway and we'll say so straight away rather than take a load we can't run properly."),
         ("Can you do a pre-pull to avoid demurrage?",
          "Yes. When free time is tight or your dock isn't ready, we can pre-pull the container from the terminal and stage it before delivery. That stops the Terminal Demurrage clock at SCPA. We'll quote the pre-pull, the daily yard storage, and the eventual delivery as a single package so there are no surprises."),
         ("What information do you need to start a quote?",
-         "Booking number or MBL, container size and type (20'/40'/40HC/reefer/etc.), pickup terminal, delivery ZIP, estimated availability date, weight, and any specialty notes (hazmat, overweight, OOG, live unload vs. drop). The faster you can give us those, the faster you'll get a real number back."),
+         "Booking number or MBL, container size (20'/40'/40HC), pickup terminal, delivery ZIP, estimated availability date, weight, and live unload vs. drop. The faster you can give us those, the faster you'll get a real number back."),
         ("Do you serve customers outside Charleston?",
-         "Yes. Most moves stay inside South Carolina. Local drays cover Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, and Moncks Corner — the Charleston, Berkeley, and Dorchester county warehouse belt along I-26 and I-526. Regional lanes run I-26 to Columbia, Greenville, and Spartanburg, I-95 to Florence, Walterboro, and Hilton Head, and on into Savannah, Charlotte, Atlanta, Tennessee, and the Florida panhandle. If you have a specific origin/destination question, send it and we'll tell you fast."),
+         "Yes. Most moves stay inside South Carolina. Local drays cover Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, and Moncks Corner — the Charleston, Berkeley, and Dorchester county warehouse belt along I-26 and I-526. Regional lanes run I-26 to Columbia, Greenville, and Spartanburg, I-95 to Florence, Walterboro, and Hilton Head, and on into Savannah, Augusta, and Charlotte. Most of what we run stays within about 200 miles of the port; beyond that we quote case by case. If you have a specific origin/destination question, send it and we'll tell you fast."),
         ("How are accessorials handled?",
-         "Accessorials are quoted up front whenever they're predictable: chassis splits, fuel, overweight permits, hazmat surcharges, terminal access fees, and after-hours dispatch. Detention and per diem are pass-through and only billed when triggered — and we'll always tell you when the clock starts."),
+         "Accessorials are quoted up front whenever they're predictable: chassis splits, fuel, overweight permits, terminal access fees, and after-hours dispatch. Detention and per diem are pass-through and only billed when triggered — and we'll always tell you when the clock starts."),
     ])
 
     body = (
@@ -377,7 +365,6 @@ def build(ctx):
                 {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Import container drayage"}},
                 {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Export container drayage"}},
                 {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Port-to-warehouse drayage"}},
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Reefer container drayage"}},
                 {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Overweight container drayage"}},
                 {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Transload coordination"}},
             ],

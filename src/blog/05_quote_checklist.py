@@ -58,7 +58,7 @@ def build(ctx):
         <li>Approximate weight in pounds</li>
         <li>Overweight? (yes/no/not sure — we can advise if not sure; anything grossing over 80,000 lbs on the road runs as <a href="/services/overweight-drayage/">overweight container drayage</a> with a permit)</li>
         <li>Hazmat? With UN# and PG (packing group) if yes</li>
-        <li>Set point and supply temperature, if the box moves as <a href="/services/reefer-drayage/">reefer drayage</a></li>
+        <li>Set point and supply temperature, if the box moves as reefer drayage</li>
       </ul>
 
       <h3>About the timing</h3>

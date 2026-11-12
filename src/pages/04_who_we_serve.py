@@ -202,7 +202,7 @@ def build(ctx):
         <li><strong>ASN-friendly arrival windows.</strong> If you give us a window, we hit it. If we can't, we tell you the day before, not the morning of.</li>
         <li><strong>Drop-and-hook discipline.</strong> Drops are scheduled. Empty pickups are scheduled. Nothing sits on your yard guessing.</li>
         <li><strong>Same-day POD imaging.</strong> Signed BOL imaged, named with the container number, emailed back the day of delivery.</li>
-        <li><strong>One dispatcher per file.</strong> Your warehouse manager isn't bouncing between people. The person who quoted runs the whole move.</li>
+        <li><strong>One point of contact.</strong> Your warehouse manager isn't bouncing between people. The person who quoted runs the whole move.</li>
       </ul>
 
       <h2>How we plug into your inbound SOP</h2>
@@ -219,7 +219,7 @@ def build(ctx):
       <p>Drop-and-hook is the cleanest delivery model for a 3PL with steady inbound volume. The driver drops the loaded container on a chassis at your dock, bobtails away, and we come back for the empty per your schedule. Zero driver detention. You unload on your timeline. Chassis per-diem accrues; we'll quote daily.</p>
 
       <h2>Dedicated drayage capacity for steady weekly volume</h2>
-      <p>A 3PL with a recurring import program &mdash; a set number of boxes a week landing at Wando Welch or North Charleston &mdash; shouldn't be re-sourcing a truck every time a vessel discharges. Dedicated drayage capacity in Charleston means we commit trucks and chassis against your volume forecast, hold a standing pickup cadence at the terminal, and run the same drivers on your lane so your dock sees familiar faces and consistent paperwork. Give us a weekly forecast (even a rough one) and we'll confirm what we can hold, in writing, before the first vessel arrives.</p>
+      <p>A 3PL with a recurring import program &mdash; a set number of boxes a week landing at Wando Welch or North Charleston &mdash; shouldn't be re-sourcing a truck every time a vessel discharges. Dedicated drayage capacity in Charleston means we commit our truck time against your volume forecast, hold a standing pickup cadence at the terminal, and put the same driver on your lane so your dock sees a familiar face and consistent paperwork. Give us a weekly forecast (even a rough one) and we'll confirm what we can hold, in writing, before the first vessel arrives. We're a small carrier, so we'll also tell you plainly where our capacity ends.</p>
       <ul>
         <li><strong>Standing terminal cadence.</strong> Appointments at Wando Welch, North Charleston, and Hugh Leatherman booked around your receiving hours, not the other way around.</li>
         <li><strong>Committed chassis.</strong> For drop-and-hook programs we hold pool chassis (TRAC, DCLI, Flexi-Van) so an empty chassis line never stalls your dock.</li>
@@ -243,7 +243,7 @@ def build(ctx):
             ("Can you handle peak-season volume?",
              "We're sized to flex. We'll be honest with you about capacity — if a peak push is too much for us alone, we'll tell you up front rather than miss a window."),
             ("Do you offer dedicated drayage capacity for a 3PL with steady weekly container volume?",
-             "Yes. Give us a weekly volume forecast and we'll commit trucks, drivers, and pool chassis against it, hold a standing pickup cadence at the SCPA terminals, and price the lane on a forecast rate instead of per-container spot quotes. We confirm the committed capacity in writing before the program starts."),
+             "Yes. Give us a weekly volume forecast and we'll commit our capacity and pool chassis against it, hold a standing pickup cadence at the SCPA terminals, and price the lane on a forecast rate instead of per-container spot quotes. We confirm the committed capacity in writing before the program starts. We're a small carrier, so we'll tell you up front how many boxes a week we can hold."),
             ("Can you run drayage to my warehouse in Charleston?",
              "Almost certainly — we deliver daily along every major Charleston warehouse corridor: Palmetto Commerce Parkway, Ashley Phosphate, Ladson, Jedburg, Camp Hall near Ridgeville, and Bushy Park in Goose Creek. Send the address and we'll confirm the lane and quote it inside the hour during business hours."),
         ],
@@ -274,7 +274,7 @@ def build(ctx):
         <li><strong>HBL/MBL tracking.</strong> File references match yours. Container number, MBL, and your HBL on every comm.</li>
         <li><strong>Predictable POD turnaround.</strong> Signed POD imaged and emailed back the day of delivery. Imaged copies named with your file reference.</li>
         <li><strong>Direct dispatcher contact.</strong> One person runs the file. You don't get bounced.</li>
-        <li><strong>Honest accessorials.</strong> Chassis splits, fuel, OW permits — quoted up front. Detention pass-through. No surprise lines.</li>
+        <li><strong>Honest accessorials.</strong> Chassis splits and fuel — quoted up front. Detention pass-through. No surprise lines.</li>
       </ul>
 
       <h2>How we work with forwarder operations teams</h2>
@@ -295,7 +295,7 @@ def build(ctx):
             ("Can you handle multiple file references per move?",
              "Yes. HBL, MBL, your file number, the customer's PO — give us all of them and we'll carry them through to the BOL and POD."),
             ("Do you charge accessorials we won't see coming?",
-             "No. Chassis splits and overweight permits are quoted up front. Detention is pass-through and only billed when actually triggered. You see the breakdown."),
+             "No. Chassis splits and fuel are quoted up front. Detention is pass-through and only billed when actually triggered. You see the breakdown."),
             ("Can you support a forwarder with multiple Charleston imports per week?",
              "Yes. Recurring forwarder volume is exactly what we're sized for. Set up a standing dispatch arrangement and you'll get faster quotes and predictable handling."),
         ],
@@ -386,11 +386,11 @@ def build(ctx):
     <div class="prose">
       <h2>What direct shippers get with Cate Freight</h2>
       <ul>
-        <li><strong>One dispatcher per account.</strong> The person who quoted is the person who runs the move.</li>
+        <li><strong>One point of contact per account.</strong> The person who quoted is the person who runs the move.</li>
         <li><strong>Quote inside the hour.</strong> Business hours. Off-hours, by next morning.</li>
         <li><strong>Operational visibility.</strong> Where the container is, when it's gating, when it's delivering — all in one email thread.</li>
         <li><strong>Direct customs broker handoff.</strong> If you have a broker, we'll work directly with them on release timing.</li>
-        <li><strong>Honest accessorials.</strong> Chassis, fuel, OW permits — quoted up front, no surprise lines.</li>
+        <li><strong>Honest accessorials.</strong> Chassis and fuel — quoted up front, no surprise lines.</li>
       </ul>
 
       <h2>Setting up a recurring drayage relationship</h2>
@@ -405,7 +405,7 @@ def build(ctx):
 
       <h2>Where Charleston's direct importers and exporters ship from</h2>
       <p>Most of the shippers who call us directly are manufacturers and distributors with their own dock in the tri-county area — Charleston, Berkeley, and Dorchester counties. The plant clusters we dray to and from every week sit in North Charleston along Palmetto Commerce Parkway and Ashley Phosphate Road, in Goose Creek at Bushy Park, in Ladson and the Jedburg Road industrial corridor outside Summerville, and at the Camp Hall build-out near Ridgeville off I-26. From Wando Welch, North Charleston, or Hugh Leatherman terminal, those are 10-to-35-mile drays that turn same day once the box is released. Export loaders in the Midlands (Columbia, Cayce), the Upstate (Greenville, Spartanburg, Anderson), and along I-95 (Florence, Orangeburg) run the same lanes in reverse, timed against the booking's ERD and cut-off.</p>
-      <p>Direct shippers also tend to own the heavy and specialty freight in the Charleston market — machinery, steel, resin, forest products, and refrigerated commodities — which is why the <a href="/services/overweight-drayage/">overweight drayage</a> and <a href="/services/reefer-drayage/">reefer drayage</a> pages exist. If your ZIP is outside the tri-county, the <a href="/coverage/">Charleston drayage coverage area</a> lists turn times lane by lane.</p>
+      <p>Direct shippers tend to own the heavy freight in the Charleston market — machinery, steel, resin, forest products — and we run it as <a href="/services/overweight-drayage/">overweight drayage</a> by permit. We don't run refrigerated containers today. If your ZIP is outside the tri-county, the <a href="/coverage/">Charleston drayage coverage area</a> lists turn times lane by lane.</p>
     </div>
   </div>
 </section>

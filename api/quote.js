@@ -122,7 +122,7 @@ module.exports = async function handler(req, res) {
   if (!apiKey) {
     console.error('RESEND_API_KEY missing');
     return htmlError(res, 500, "Quote couldn't be delivered",
-      '<p>We had a config issue on our end. Please call dispatch at <a href="tel:+18439987820" style="color:#1ea889;">(843) 998-7820</a> so we don\'t lose your move.</p>');
+      '<p>We had a config issue on our end. Please call dispatch at <a href="tel:+18434847165" style="color:#1ea889;">(843) 484-7165</a> so we don\'t lose your move.</p>');
   }
 
   // Build email.
@@ -165,12 +165,12 @@ module.exports = async function handler(req, res) {
       const errBody = await resp.text();
       console.error('Resend non-2xx', resp.status, errBody);
       return htmlError(res, 502, "Quote couldn't be delivered",
-        '<p>Email service returned an error. Please call dispatch at <a href="tel:+18439987820" style="color:#1ea889;">(843) 998-7820</a> or email <a href="mailto:greg@catefreight.com" style="color:#1ea889;">greg@catefreight.com</a>.</p>');
+        '<p>Email service returned an error. Please call dispatch at <a href="tel:+18434847165" style="color:#1ea889;">(843) 484-7165</a> or email <a href="mailto:greg@catefreight.com" style="color:#1ea889;">greg@catefreight.com</a>.</p>');
     }
   } catch (err) {
     console.error('Email send failed', err);
     return htmlError(res, 502, "Quote couldn't be delivered",
-      '<p>Network error contacting our email provider. Please call dispatch at <a href="tel:+18439987820" style="color:#1ea889;">(843) 998-7820</a>.</p>');
+      '<p>Network error contacting our email provider. Please call dispatch at <a href="tel:+18434847165" style="color:#1ea889;">(843) 484-7165</a>.</p>');
   }
 
   res.statusCode = 303;

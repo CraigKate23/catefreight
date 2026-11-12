@@ -37,12 +37,12 @@ def build(ctx):
     <div class="kpi-row">
       <div class="kpi"><strong>3</strong><span>SCPA terminals</span></div>
       <div class="kpi"><strong>52'</strong><span>Deepest E.C. harbor</span></div>
-      <div class="kpi"><strong>60 min</strong><span>Avg quote turn</span></div>
+      <div class="kpi"><strong>60 min</strong><span>Quote turn target</span></div>
       <div class="kpi"><strong>24/7</strong><span>Email coverage</span></div>
     </div>
     <div class="prose">
       <h2>The Port of Charleston: built for drayage</h2>
-      <p>Charleston is the second-largest container port on the East Coast and the only major one without on-dock or near-dock rail (the Navy Base Intermodal Facility is finally arriving in 2026, but until then drayage is the only mode that moves a Charleston container). That makes Charleston a drayage town in a way Norfolk, Savannah, and New York are not.</p>
+      <p>Charleston is the second-largest container port on the East Coast and the only major one without on-dock or near-dock rail (the Navy Base Intermodal Facility is under construction and now not expected before 2028, so until then drayage is the only mode that moves a Charleston container). That makes Charleston a drayage town in a way Norfolk, Savannah, and New York are not.</p>
       <p>It also means the ground game matters. The carrier who knows which gate is moving today, which chassis pool is closest to your container, and when SCPA has a holiday "no work day" that doesn't accrue free time — that carrier saves you real money. Cate Freight is built to be that carrier.</p>
       <h3>Drayage, container trucking, port trucking — same move, different names</h3>
       <p>If you searched for <strong>container trucking in Charleston, SC</strong> or a port trucking company rather than a "drayage carrier," you're in the right place — they're the same job. Warehouse managers tend to say container trucking, steamship lines say haulage, forwarders and 3PLs say drayage; either way it means a truck, a chassis, and an ocean container moving between an SCPA terminal and your dock. Whatever you call it, the move runs through the same gate process: release verified first, then <a href="/services/import-container-drayage/">import pickup</a> or <a href="/services/export-container-drayage/">export delivery</a>, then the empty back to the terminal. What matters isn't the label — it's whether the trucking company checks the release before the truck rolls.</p>
@@ -67,8 +67,6 @@ def build(ctx):
       <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-warehouse"/></svg></div><h3>Port-to-warehouse</h3><p>Direct moves from terminal to warehouse with appointments confirmed at both ends.</p><a class="card-link" href="/services/port-to-warehouse-drayage/">Port-to-warehouse</a></div>
       <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-transload"/></svg></div><h3>Transload &amp; coordination</h3><p>Container delivery to a transload yard plus the warehouse coordination.</p><a class="card-link" href="/services/transload-drayage/">Transload</a></div>
       <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-clock"/></svg></div><h3>Pre-pull service</h3><p>Pull from the terminal early to stop the demurrage clock when free time is tight.</p><a class="card-link" href="/services/import-container-drayage/#pre-pull">Pre-pull info</a></div>
-      <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-snowflake"/></svg></div><h3>Reefer drayage</h3><p>Genset chassis, set-point verification, pre-trip inspection on every move.</p><a class="card-link" href="/services/reefer-drayage/">Reefer</a></div>
-      <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-weight"/></svg></div><h3>Overweight &amp; OOG</h3><p>Tri-axle chassis, route permits, and the experience to handle 60,000+ lb containers.</p><a class="card-link" href="/services/overweight-drayage/">Overweight</a></div>
     </div>
   </div>
 </section>
@@ -102,9 +100,10 @@ def build(ctx):
           <li>Greenville, Spartanburg, Anderson, Inman</li>
           <li>Florence, Darlington, Hartsville</li>
           <li>Hilton Head, Bluffton, Beaufort</li>
-          <li>Savannah, Augusta, Atlanta metro</li>
-          <li>Charlotte, Concord, Gastonia, Statesville</li>
-          <li>Wilmington NC, Fayetteville NC</li>
+          <li>Savannah and Augusta</li>
+          <li>Charlotte metro</li>
+          <li>Wilmington NC</li>
+          <li>Beyond about 200 miles &mdash; quoted case by case</li>
         </ul>
       </div>
     </div>
@@ -131,7 +130,7 @@ def build(ctx):
       <div class="card"><h3>Fuel surcharge</h3><p>Indexed to DOE diesel prices, refreshed weekly. Fuel is a line item, not a hidden markup.</p></div>
       <div class="card"><h3>Detention &amp; per diem</h3><p>Pass-through only. We tell you when the clock starts and we work hard to stop it. Live unloads are scheduled to fit free time.</p></div>
       <div class="card"><h3>Pre-pull &amp; storage</h3><p>If your dock isn't ready, we pre-pull and store. Quoted as a single package so you see the trade vs. demurrage.</p></div>
-      <div class="card"><h3>Permits &amp; specialty</h3><p>Overweight permits, hazmat handling, OOG escort. Quoted up front when known. No surprise lines.</p></div>
+      <div class="card"><h3>What we don't run today</h3><p>Reefer, out-of-gauge, and hazmat containers. Tell us up front and we'll say so before you plan around us.</p></div>
     </div>
     <div class="callout warning">
       <strong>Watch out for:</strong> Carriers that quote a low base and load up the invoice with chassis splits, fuel multipliers, and "admin fees" you didn't see coming. Ask any quote — ours included — for an itemized rundown. If you can't get one, that's your answer.
@@ -158,8 +157,8 @@ def build(ctx):
           <li><div><strong>Live terminal status</strong><span>Gate moves and chassis pool tracked daily.</span></div></li>
           <li><div><strong>Quote within an hour</strong><span>Business hours. Off hours, by next morning.</span></div></li>
           <li><div><strong>Same-day POD</strong><span>Signed BOL imaged, named, emailed.</span></div></li>
-          <li><div><strong>Honest accessorials</strong><span>Chassis, fuel, OW permits — all up front.</span></div></li>
-          <li><div><strong>One dispatcher per file</strong><span>You don't get bounced. You get a person.</span></div></li>
+          <li><div><strong>Honest accessorials</strong><span>Chassis, fuel, detention — all up front.</span></div></li>
+          <li><div><strong>One point of contact</strong><span>You don't get bounced. You get a person.</span></div></li>
         </ul>
       </div>
     </div>
@@ -193,11 +192,9 @@ def build(ctx):
         ("How much does Charleston drayage cost?",
          "A Charleston local dray (terminal to a Charleston-metro consignee) is generally a few hundred dollars before accessorials, with the exact number depending on the destination ZIP, container size, weight, and any specialty handling. Regional drays into Columbia, Greenville, Charlotte, or Savannah are quoted by mileage. Send your booking and delivery ZIP for a real number."),
         ("Which Charleston terminals does Cate Freight cover?",
-         "All three SCPA container terminals: Wando Welch in Mount Pleasant, North Charleston Terminal on the former Navy base, and the Hugh Leatherman Terminal in North Charleston. We also work Columbus Street when needed for breakbulk and RoRo."),
-        ("Can you drayage overweight containers from Charleston?",
-         "Yes. We run tri-axle chassis configurations and pull state-issued overweight permits where required. Overweight drays are quoted up front including the permit cost so there are no surprise line items."),
-        ("Do you handle reefer drayage in Charleston?",
-         "Yes. We run reefer drays with genset chassis, verified set points on pickup, and a pre-trip inspection. Reefer set point and supply temperature are confirmed at pickup and again at delivery, then noted on the POD."),
+         "All three SCPA container terminals: Wando Welch in Mount Pleasant, North Charleston Terminal on the former Navy base, and the Hugh Leatherman Terminal in North Charleston."),
+        ("Do you run reefer, overweight, or hazmat containers out of Charleston?",
+         "We run dry containers — 20', 40', and 40' high cube. Overweight boxes run by state permit on a tri-axle chassis, arranged before dispatch and quoted case by case. We don't run reefer, out-of-gauge, or hazmat containers today; tell us anyway and we'll say so straight away rather than take a load we can't run properly."),
         ("How quickly can you pick up a container from a Charleston terminal?",
          "Same-day pickup is possible if the container is released and the booking is in our hands by mid-morning. Next-day pickup is the norm. Pre-pull service is available when free time is tight or your dock isn't ready."),
     ])
