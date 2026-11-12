@@ -44,16 +44,15 @@ def build(ctx):
     <h2>How we run</h2>
     <p>Our operation is intentionally simple:</p>
     <ul>
-      <li>One dispatcher per file — the person who quoted runs the whole move</li>
+      <li>One point of contact — the person who quoted runs the whole move</li>
       <li>Releases (customs, freight, line) verified before any truck moves</li>
       <li>Daily morning ETA updates to the receiver on in-flight containers</li>
       <li>Same-day POD imaging with files named to your reference</li>
       <li>Clean accessorials — quoted up front, no surprise lines</li>
-      <li>Equipment match: tri-axle, genset, flat-rack scheduled in advance, not at the gate</li>
     </ul>
 
     <h2>Where we operate</h2>
-    <p>Cate Freight is based in Charleston, SC. We pull from all three SCPA container terminals every shift and run regional drays into the rest of South Carolina, Georgia, and the Carolinas. Most of our work is local <a href="/charleston-drayage/">Charleston drayage</a>; a meaningful share is regional Southeast lanes. See the <a href="/coverage/">coverage page</a> for specifics.</p>
+    <p>Cate Freight is based in Charleston, SC. We pull from all three SCPA container terminals and run regional drays into the rest of South Carolina, Georgia, and the Carolinas. Most of our work is local <a href="/charleston-drayage/">Charleston drayage</a>; a meaningful share is regional Southeast lanes. See the <a href="/coverage/">coverage page</a> for specifics.</p>
 
     <h2>Who we work with</h2>
     <p>We work with 3PLs, freight forwarders, customs brokers, and direct importers and exporters. The common thread isn't the org chart — it's that they care about how the move runs, not just the rate. If you've ever tracked down a dispatcher to find your container or argued with a carrier about an accessorial you didn't see coming, you'll like working with us.</p>
@@ -155,19 +154,15 @@ def build(ctx):
         ("Why should I use a Charleston-based drayage carrier instead of a national one?",
          "National drayage carriers can move volume but tend to be slower on accessorial transparency and slower on communication. A local Charleston carrier knows the gates, the chassis pools, the specific terminal quirks, and answers the phone. For predictable, recurring volume out of SCPA, local usually wins on operational quality even when the rate is similar."),
         ("Which SCPA terminals do you cover?",
-         "All three SCPA container terminals: Wando Welch (USCHA), North Charleston (USNCH), and Hugh Leatherman (USCHL). Plus Columbus Street (USCST) for breakbulk and RoRo when needed."),
+         "All three SCPA container terminals: Wando Welch (USCHA), North Charleston (USNCH), and Hugh Leatherman (USCHL)."),
         ("Which Charleston terminal will my container come into?",
          "The terminal is set by the steamship line and SCPA based on the vessel and that voyage's rotation — Wando Welch, North Charleston, or Hugh Leatherman. It's printed on your arrival notice and visible in the SCPA Container Availability tool once the vessel cuts. Send us the booking or container number and we'll pull it, confirm the terminal, and tell you when it's released."),
         ("Can you cross-tow a container between Charleston terminals?",
          "Yes. When an empty needs to return to a depot tied to a different chassis pool, or an export gets cut to the wrong terminal, we move it inter-terminal and quote the cross-tow as a single line item — no surprise accessorials."),
         ("How much does Charleston drayage cost?",
-         "It depends on the destination ZIP, container size, weight, and any specialty handling (reefer, OW, hazmat). Local <a href=\"/charleston-drayage/\">Charleston drayage</a> moves are typically in the few-hundred-dollar range before accessorials. Regional drays scale with mileage. Send the booking and delivery ZIP and we'll quote it."),
-        ("Do you handle reefer drayage?",
-         "Yes. Our <a href=\"/services/reefer-drayage/\">reefer drayage</a> service runs genset chassis, set point verified at pickup, and pre-trip inspection. Set point and supply temperature documented at delivery on the POD."),
-        ("Do you handle overweight or out-of-gauge containers?",
-         "Yes. Tri-axle chassis for <a href=\"/services/overweight-drayage/\">overweight drayage</a> (up to ~60,000 lb payload with state permits). Flat-rack and open-top equipment for OOG. Permits pulled by us, billed pass-through with no markup."),
-        ("Do you do hazmat drayage?",
-         "Yes, on the placard classes our drivers and equipment are cleared for. We'll need the UN# and the broker's customs declaration before quoting. We document the full hazmat manifest and hand back a signed copy."),
+         "It depends on the destination ZIP, container size, weight, and delivery type (live unload or drop). Local <a href=\"/charleston-drayage/\">Charleston drayage</a> moves are typically in the few-hundred-dollar range before accessorials. Regional drays scale with mileage. Send the booking and delivery ZIP and we'll quote it."),
+        ("Do you handle reefer, overweight, or hazmat containers?",
+         "Not today. We run standard dry containers — 20', 40', and 40' high cube — at legal weight. If your box is reefer, overweight, out-of-gauge, or hazmat, tell us anyway: we'll say so straight away rather than take a load we can't run properly."),
         ("Can you pre-pull a container to avoid demurrage?",
          "Yes. When free time is tight or your dock isn't ready, we pull the container off the terminal, stage it at our yard, and deliver later. Pre-pull, daily storage, and final delivery are quoted as a single package so you can compare it against <a href=\"/resources/avoid-demurrage-detention/\">demurrage exposure</a>."),
         ("How do you handle chassis split fees?",
@@ -197,7 +192,7 @@ def build(ctx):
             slug="faq",
             path="/faq/",
             title="Charleston Drayage FAQ | Cate Freight",
-            meta_description="Answers to common questions about Charleston drayage — SCPA terminals, demurrage, detention, chassis splits, reefer, overweight, hazmat, and more.",
+            meta_description="Answers to common questions about Charleston drayage — SCPA terminals, demurrage, detention, chassis splits, pre-pulls, and more.",
             h1="Answers to what people actually ask.",
             body_html=breadcrumb_bar(crumbs_faq) + faq_hero + faq_html + cta_banner(),
             breadcrumbs=crumbs_faq,
@@ -219,7 +214,7 @@ def build(ctx):
     cov_body = """
 <section class="section">
   <div class="container">
-    <div class="section-head"><p class="eyebrow">SCPA terminal coverage</p><h2>Every Charleston port container terminal, every shift.</h2></div>
+    <div class="section-head"><p class="eyebrow">SCPA terminal coverage</p><h2>Every Charleston port container terminal.</h2></div>
     <div class="terminals-grid">
       <div class="terminal">
         <h3>Wando Welch Terminal</h3>
@@ -248,26 +243,8 @@ def build(ctx):
           <li><strong>Cate Freight ops</strong> Daily pickup, return, pre-pull</li>
         </ul>
       </div>
-      <div class="terminal">
-        <h3>Columbus Street Terminal</h3>
-        <span class="code">USCST</span>
-        <p>200 Columbus Street, Charleston, SC. RoRo and breakbulk facility. We work it on demand for breakbulk and project moves.</p>
-        <ul>
-          <li><strong>Type</strong> RoRo / breakbulk</li>
-          <li><strong>Cate Freight ops</strong> On-demand</li>
-        </ul>
-      </div>
-      <div class="terminal">
-        <h3>Veterans Terminal</h3>
-        <span class="code">North Charleston</span>
-        <p>SCPA's dedicated bulk, breakbulk, RoRo, and project cargo facility on the Cooper River in North Charleston, with a 1,250-foot double-sided pier and on-site CSX and Norfolk Southern rail. We work it on demand for project and non-containerized freight.</p>
-        <ul>
-          <li><strong>Type</strong> Bulk / breakbulk / project cargo</li>
-          <li><strong>Cate Freight ops</strong> On-demand</li>
-        </ul>
-      </div>
     </div>
-    <p class="lead" style="margin: 1.5rem auto 0;">Most <a href="/charleston-drayage/">Charleston drayage</a> runs through the three container terminals, but a fair amount of Lowcountry freight lands at Columbus Street or Veterans Terminal instead — RoRo units, machinery, steel, and project pieces that never see a container. Send the terminal name with your booking and we'll quote the right equipment for it.</p>
+    <p class="lead" style="margin: 1.5rem auto 0;">We run containers only. Columbus Street Terminal and Veterans Terminal handle RoRo, breakbulk, and project cargo that never sees a container &mdash; that freight needs a different carrier, and we'll tell you so rather than guess at it.</p>
   </div>
 </section>
 
@@ -278,7 +255,7 @@ def build(ctx):
     <div class="split-2">
       <div>
         <h3>Navy Base Intermodal Facility (NBIF)</h3>
-        <p>SCPA's near-dock rail yard on the former Navy Base in North Charleston, roughly a mile from the Hugh Leatherman Terminal. Built dual-served by Norfolk Southern and CSX, it ties Charleston containers to inland markets like Atlanta, Memphis, Nashville, and Louisville by rail.</p>
+        <p>SCPA's near-dock rail yard, under construction on the former Navy Base in North Charleston roughly a mile from the Hugh Leatherman Terminal. It is not open yet &mdash; the port's current estimate is 2028 at the earliest. Until then, rail-bound containers dray to the existing Norfolk Southern and CSX ramps in North Charleston.</p>
       </div>
       <div>
         <h3>How we run the rail leg</h3>
@@ -386,9 +363,9 @@ def build(ctx):
 """
     cov_faq_html, cov_faq_schema = faq_block([
         ("Which Charleston port container terminals does Cate Freight serve?",
-         "All three SCPA container terminals — Wando Welch (USCHA) in Mount Pleasant, North Charleston (USNCH), and Hugh Leatherman (USCHL) — every shift, for pickup, empty return, and pre-pull. We also work Columbus Street (USCST) and Veterans Terminal on demand for RoRo, breakbulk, and project cargo. Send the booking or container number and we'll confirm which terminal your box cut to."),
+         "All three SCPA container terminals — Wando Welch (USCHA) in Mount Pleasant, North Charleston (USNCH), and Hugh Leatherman (USCHL) — for pickup, empty return, and pre-pull. Columbus Street (USCST) and Veterans Terminal handle RoRo, breakbulk, and project cargo, which we don't haul. Send the booking or container number and we'll confirm which terminal your box cut to."),
         ("Do you haul from Veterans Terminal in North Charleston?",
-         "Yes, on demand. Veterans Terminal is SCPA's bulk, breakbulk, RoRo, and project cargo facility on the Cooper River in North Charleston — a 1,250-foot double-sided pier with on-site CSX and Norfolk Southern rail. Freight moving through Veterans is usually non-containerized, so tell us the piece dimensions and weight up front and we'll match the equipment before we quote."),
+         "Not today. Veterans Terminal is SCPA's bulk, breakbulk, RoRo, and project cargo facility on the Cooper River in North Charleston. Freight moving through Veterans is usually non-containerized, and we run containers only — standard dry boxes from Wando Welch, North Charleston, and Hugh Leatherman."),
         ("Will you deliver a container straight to my warehouse from the Port of Charleston?",
          "Yes — port-to-warehouse drayage to your dock is the bulk of what we run. Most loads stay inside the tri-county (Charleston, Berkeley, and Dorchester counties) where receiving docks sit minutes off I-526 and I-26 — North Charleston, Hanahan, Goose Creek, Ladson, Summerville, Moncks Corner, and Mount Pleasant. Give us the delivery ZIP, the live-unload or drop-and-hook preference, and the appointment window, and we route it."),
         ("Do you run drayage from Charleston to Columbia, Greenville, or the Upstate?",
@@ -398,7 +375,7 @@ def build(ctx):
         ("How far from the Port of Charleston will you deliver?",
          "Local Charleston metro drays (0–25 mi) turn same day when the box is released. Regional South Carolina lanes — Columbia, Florence, Greenville-Spartanburg — turn day-of or next morning depending on dispatch time and the consignee's appointment. Adjacent-state lanes into GA, NC, and TN are everyday work; send the ZIP and we'll walk the lane before quoting."),
         ("Can you dray a container to or from the Charleston rail ramp?",
-         "Yes. The Port of Charleston is dual-served by Norfolk Southern and CSX, and the Navy Base Intermodal Facility (NBIF) sits about a mile from Hugh Leatherman. We handle the truck side of intermodal — staging a pre-pull ahead of a rail cutoff, or drawing an inbound ramp container out to its consignee. See our transload and port-to-rail drayage workflow for detail."),
+         "Yes. The Port of Charleston is dual-served by Norfolk Southern and CSX, and the Navy Base Intermodal Facility (NBIF), still under construction, will sit about a mile from Hugh Leatherman once it opens. We handle the truck side of intermodal — staging a pre-pull ahead of a rail cutoff, or drawing an inbound ramp container out to its consignee. See our transload and port-to-rail drayage workflow for detail."),
     ])
 
     # SCPA terminal Place entities. /coverage/ is the page that surfaces for the
@@ -448,20 +425,18 @@ def build(ctx):
         _terminal(
             "columbus-street-terminal", "Columbus Street Terminal", "USCST", "Charleston",
             "SCPA roll-on/roll-off and breakbulk terminal on the Charleston "
-            "peninsula. Cate Freight works it on demand for breakbulk and project cargo.",
+            "peninsula. Not a container terminal; Cate Freight does not haul from it.",
         ),
         _terminal(
             "veterans-terminal", "Veterans Terminal", "Veterans Terminal North Charleston", "North Charleston",
             "SCPA bulk, breakbulk, roll-on/roll-off, and project cargo terminal on the "
             "Cooper River in North Charleston, with on-site CSX and Norfolk Southern "
-            "rail service. Cate Freight works it on demand for project and "
-            "non-containerized freight.",
+            "rail service. Non-containerized freight; Cate Freight does not haul from it.",
         ),
         _terminal(
             "navy-base-intermodal-facility", "Navy Base Intermodal Facility", "NBIF", "North Charleston",
-            "SCPA near-dock rail yard dual-served by Norfolk Southern and CSX, about "
-            "a mile from the Hugh K. Leatherman Terminal. Cate Freight runs the "
-            "port-to-rail truck leg to and from the ramp.",
+            "SCPA near-dock rail yard under construction about a mile from the "
+            "Hugh K. Leatherman Terminal. Not yet open.",
         ),
     ]
     cov_place_schema = {
@@ -529,7 +504,7 @@ def build(ctx):
   <div class="container">
     <div class="prose">
       <h2>1. Booking received</h2>
-      <p>You send us a booking, MBL, or release notice — typically by email or directly through your TMS. We confirm container size, type, steamship line, terminal, weight, and any specialty notes (reefer, hazmat, OOG, OW). If anything is missing, we ask once.</p>
+      <p>You send us a booking, MBL, or release notice — typically by email or directly through your TMS. We confirm container size, steamship line, terminal, and weight. If anything is missing, we ask once.</p>
 
       <h2>2. Releases verified</h2>
       <p>Three releases get checked before any truck rolls: <strong>customs release</strong> (1C on file), <strong>freight release</strong> (line lifts the freight hold), and <strong>line holds</strong> (any other hold — exam, demurrage, equipment). If any of the three are missing, we don't dispatch. We tell you what's missing and we wait.</p>
@@ -538,7 +513,7 @@ def build(ctx):
       <p>SCPA terminal slot booked when required. Delivery appointment confirmed at the consignee — we contact the warehouse, confirm a window, and lock it. If the consignee uses an appointment system (OneRail, Opendock, etc.) we book through it.</p>
 
       <h2>4. Driver dispatched</h2>
-      <p>Driver gets a clean dispatch pack: container, terminal, gate appointment, delivery address, contact info, special instructions, and your reference number. The driver is matched to the equipment — overweight goes to drivers used to tri-axle, reefer goes to drivers experienced with genset.</p>
+      <p>Driver gets a clean dispatch pack: container, terminal, gate appointment, delivery address, contact info, special instructions, and your reference number.</p>
 
       <h2>5. Container moves</h2>
       <p>Driver arrives at the terminal, runs the gate transaction, hooks the chassis. We capture the EIR. GPS tracks the move. We monitor terminal status and chassis pool location in real time and route around problems instead of getting stuck in them.</p>
@@ -571,7 +546,7 @@ def build(ctx):
         "description": "The step-by-step operational sequence Cate Freight follows for every Charleston drayage move, from booking to POD and empty return.",
         "step": [
             {"@type": "HowToStep", "position": 1, "name": "Booking received",
-             "text": "You send us a booking, MBL, or release notice. We confirm container size, type, steamship line, terminal, weight, and any specialty notes (reefer, hazmat, OOG, OW)."},
+             "text": "You send us a booking, MBL, or release notice. We confirm container size, steamship line, terminal, and weight."},
             {"@type": "HowToStep", "position": 2, "name": "Releases verified",
              "text": "Customs release, freight release, and line holds are checked before any truck rolls. If any of the three are missing, we don't dispatch."},
             {"@type": "HowToStep", "position": 3, "name": "Appointment booked",

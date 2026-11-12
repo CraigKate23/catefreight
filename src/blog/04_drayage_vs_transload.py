@@ -61,7 +61,7 @@ def build(ctx):
         <li>You're moving steady volume to a single intermodal-served destination (Memphis, Dallas, Chicago, etc.).</li>
       </ul>
 
-      <p>Charleston is the asterisk on intermodal — until the Navy Base Intermodal Facility opens in 2026, there's no on-dock or near-dock rail at Charleston, so intermodal moves require a long dray to a railhead before the rail leg starts (we cover the vocabulary on our <a href="/charleston-drayage/">intermodal drayage in Charleston</a> page). Once NBIF is open, intermodal will become a much more competitive option for Charleston imports going to the Midwest.</p>
+      <p>Charleston is the asterisk on intermodal — until the Navy Base Intermodal Facility opens (now not expected before 2028), there's no on-dock or near-dock rail at Charleston, so intermodal moves require a long dray to a railhead before the rail leg starts (we cover the vocabulary on our <a href="/charleston-drayage/">intermodal drayage in Charleston</a> page). Once NBIF is open, intermodal will become a much more competitive option for Charleston imports going to the Midwest.</p>
 
       <h2>Worked examples</h2>
 

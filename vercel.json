@@ -40,6 +40,10 @@
       "destination": "https://catefreight.com/:path*",
       "permanent": true
     },
+    { "source": "/services/reefer-drayage",      "destination": "/services/", "permanent": false },
+    { "source": "/services/reefer-drayage/",     "destination": "/services/", "permanent": false },
+    { "source": "/services/overweight-drayage",  "destination": "/services/", "permanent": false },
+    { "source": "/services/overweight-drayage/", "destination": "/services/", "permanent": false },
     { "source": "/home1",   "destination": "/",       "permanent": true },
     { "source": "/home1/",  "destination": "/",       "permanent": true },
     { "source": "/cart",    "destination": "/quote/", "permanent": true },

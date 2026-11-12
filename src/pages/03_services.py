@@ -90,6 +90,12 @@ def _service_page(ctx, *, slug, path, title, meta, h1, eyebrow, intro_html, sect
     return (path + "index.html", html)
 
 
+PARKED_PATHS = {
+    "/services/reefer-drayage/index.html",
+    "/services/overweight-drayage/index.html",
+}
+
+
 def build(ctx):
     render = ctx["render"]
     breadcrumb_bar = ctx["breadcrumb_bar"]
@@ -105,7 +111,7 @@ def build(ctx):
   <div class="container">
     <span class="hero-eyebrow">Drayage services</span>
     <h1>Every drayage service we run, plain English.</h1>
-    <p>Cate Freight is a <a href="/charleston-drayage/">Charleston drayage</a> carrier first. Within that, we work imports and exports, reefer and dry, overweight and OOG, port-to-warehouse and pier returns, transload coordination and pre-pull staging. Pick the move you need to make.</p>
+    <p>Cate Freight is a <a href="/charleston-drayage/">Charleston drayage</a> carrier first. Within that, we work import and export dry containers &mdash; 20', 40', and 40' high cube at legal weight &mdash; port-to-warehouse and pier returns, transload coordination and pre-pull staging. Pick the move you need to make.</p>
     <div class="actions">
       <a class="btn btn-primary" href="/quote/">Request a quote</a>
     </div>
@@ -122,8 +128,6 @@ def build(ctx):
       <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-export"/></svg></div><h2>Export container drayage</h2><p>Loaded export delivery to terminal with ERD-aware scheduling.</p><a class="card-link" href="/services/export-container-drayage/">Export drayage</a></div>
       <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-warehouse"/></svg></div><h2>Port-to-warehouse</h2><p>Direct port-to-DC moves with appointments confirmed at both ends.</p><a class="card-link" href="/services/port-to-warehouse-drayage/">Port-to-warehouse</a></div>
       <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-transload"/></svg></div><h2>Transload &amp; coordination</h2><p>Container delivery to a transload yard plus warehouse coordination.</p><a class="card-link" href="/services/transload-drayage/">Transload</a></div>
-      <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-snowflake"/></svg></div><h2>Reefer drayage</h2><p>Genset chassis, verified set points, pre-trip inspection on every move.</p><a class="card-link" href="/services/reefer-drayage/">Reefer</a></div>
-      <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-weight"/></svg></div><h2>Overweight &amp; OOG</h2><p>Tri-axle chassis, route permits, 60,000+ lb experience.</p><a class="card-link" href="/services/overweight-drayage/">Overweight</a></div>
       <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-clock"/></svg></div><h2>Pre-pull service</h2><p>Stage containers off-port to stop the demurrage clock when free time is tight.</p><a class="card-link" href="/services/import-container-drayage/#pre-pull">Pre-pull info</a></div>
     </div>
   </div>
@@ -131,7 +135,7 @@ def build(ctx):
 """
 
     # CollectionPage + ItemList so Google reads the hub as the parent of the
-    # seven service pages (crawl-priority + sitelink signal for the
+    # five service pages (crawl-priority + sitelink signal for the
     # "charleston drayage services" cluster).
     hub_services = [
         ("Port drayage", "/services/port-drayage/",
@@ -144,10 +148,6 @@ def build(ctx):
          "Direct port-to-DC container moves with appointments confirmed at both the terminal and the dock."),
         ("Transload drayage", "/services/transload-drayage/",
          "Container delivery to a Charleston-area transload yard plus warehouse coordination on the outbound."),
-        ("Reefer drayage", "/services/reefer-drayage/",
-         "Genset chassis, verified set points, and pre-trip inspection on every refrigerated container move."),
-        ("Overweight container drayage", "/services/overweight-drayage/",
-         "Tri-axle chassis, South Carolina route permits, and 60,000+ lb overweight and out-of-gauge experience."),
     ]
     hub_schema = [{
         "@context": "https://schema.org",
@@ -188,7 +188,7 @@ def build(ctx):
             slug="services",
             path="/services/",
             title="Charleston Drayage Services | Cate Freight",
-            meta_description="Drayage services from Cate Freight — port drayage, import and export container moves, port-to-warehouse, transload, reefer, overweight, hazmat, and pre-pull staging from Charleston, SC.",
+            meta_description="Drayage services from Cate Freight — port drayage, import and export container moves, port-to-warehouse, transload, and pre-pull staging for standard dry containers from Charleston, SC.",
             h1="Every drayage service we run, plain English.",
             body_html=breadcrumb_bar(crumbs_hub) + hub_hero + hub_grid + cta_banner(),
             breadcrumbs=crumbs_hub,
@@ -217,10 +217,10 @@ def build(ctx):
 
       <h2>How Cate Freight runs each SCPA terminal</h2>
       <h3>Wando Welch Terminal (USCHA)</h3>
-      <p>SCPA's flagship container terminal in Mount Pleasant. Wando handles the largest vessels calling the port and runs the highest container volume. Gate appointment discipline matters more here than anywhere else in Charleston — and we pull from Wando every single shift.</p>
+      <p>SCPA's flagship container terminal in Mount Pleasant. Wando handles the largest vessels calling the port and runs the highest container volume. Gate appointment discipline matters more here than anywhere else in Charleston — and we plan every Wando pickup around it.</p>
 
       <h3>North Charleston Terminal (USNCH)</h3>
-      <p>The original North Charleston terminal on the former Navy base. Direct interstate access (I-526 / I-26), strong for hazmat coordination and traditional dry container flows. Pickup and empty returns work cleanly here when the gate is moving.</p>
+      <p>The original North Charleston terminal on the former Navy base. Direct interstate access (I-526 / I-26), strong for traditional dry container flows. Pickup and empty returns work cleanly here when the gate is moving.</p>
 
       <h3>Hugh K. Leatherman Terminal (USCHL)</h3>
       <p>SCPA's newest terminal, in North Charleston. Newer ship-to-shore lines, modern gate technology, and increasing share of Charleston's container moves as more services rotate in. We pull and return here on the same daily cadence as Wando.</p>
@@ -229,7 +229,6 @@ def build(ctx):
       <div class="kpi"><strong>Wando Welch</strong><span>USCHA</span></div>
       <div class="kpi"><strong>North Charleston</strong><span>USNCH</span></div>
       <div class="kpi"><strong>Hugh Leatherman</strong><span>USCHL</span></div>
-      <div class="kpi"><strong>Columbus St.</strong><span>USCST (RoRo/breakbulk)</span></div>
     </div>
   </div>
 </section>
@@ -268,16 +267,14 @@ def build(ctx):
     <div class="section-head"><p class="eyebrow">Equipment</p><h2>Equipment we run for port drayage.</h2></div>
     <div class="card-grid">
       <div class="card"><h3>Standard chassis</h3><p>20', 40', 40HC dry containers up to legal weight (typically 44,000 lb on 5-axle).</p></div>
-      <div class="card"><h3>Tri-axle chassis</h3><p>Heavy import/export containers up to 58,000-60,000 lb with state permits.</p></div>
-      <div class="card"><h3>Genset reefer chassis</h3><p>For reefer pickup, set-point verification, and pre-trip.</p></div>
-      <div class="card"><h3>Flat-rack &amp; open-top capability</h3><p>OOG and breakbulk-style cargo via container equipment.</p></div>
+      <div class="card"><h3>What we don't run today</h3><p>Reefer, overweight, out-of-gauge, and hazmat containers. Ask anyway &mdash; we'll tell you straight rather than take a box we can't run properly.</p></div>
     </div>
   </div>
 </section>
 """,
         faqs=[
             ("Which Charleston port terminals do you serve for drayage?",
-             "All three SCPA container terminals — Wando Welch (USCHA), North Charleston (USNCH), and Hugh Leatherman (USCHL) — plus Columbus Street for breakbulk and RoRo when needed."),
+             "All three SCPA container terminals — Wando Welch (USCHA), North Charleston (USNCH), and Hugh Leatherman (USCHL)."),
             ("Can you handle same-day port drayage in Charleston?",
              "Often yes, when the booking is released and we have the move in our hands by mid-morning. Otherwise next-day is the norm and reliable. We'll be straight with you when same-day isn't realistic."),
             ("Do you charge a chassis split fee?",
@@ -347,7 +344,7 @@ def build(ctx):
       <div>
         <ul class="checklist">
           <li>Booking number or MBL</li>
-          <li>Container size &amp; type (20', 40', 40HC, reefer)</li>
+          <li>Container size (20', 40', 40HC)</li>
           <li>Pickup terminal — Wando Welch, North Charleston, Leatherman</li>
           <li>Steamship line</li>
           <li>Estimated container availability date</li>
@@ -357,8 +354,8 @@ def build(ctx):
         <ul class="checklist">
           <li>Delivery ZIP and address</li>
           <li>Live unload, drop &amp; hook, or transload</li>
-          <li>Approximate weight (and overweight Y/N)</li>
-          <li>Hazmat (UN# if yes), reefer set point if reefer</li>
+          <li>Approximate weight</li>
+          <li>Commodity</li>
           <li>Customs broker contact, if known</li>
         </ul>
       </div>
@@ -427,11 +424,11 @@ def build(ctx):
       <h2>What we need to quote an export drayage move</h2>
       <ul>
         <li>Booking number and steamship line</li>
-        <li>Container size, type, and any specialty (reefer set point, OW, OOG)</li>
+        <li>Container size (20', 40', 40HC)</li>
         <li>Pickup origin (where loading happens)</li>
         <li>Return terminal at SCPA</li>
         <li>ERD, cargo cut, VGM cut</li>
-        <li>Commodity, weight, hazmat (with UN# if applicable)</li>
+        <li>Commodity and weight</li>
       </ul>
     </div>
   </div>
@@ -443,7 +440,7 @@ def build(ctx):
             ("Can you pre-pull and stage an empty for early-morning export loads?",
              "Yes. Empty pre-pull and overnight staging at your facility is routine for early-morning loaders. We'll pull the empty during the prior gate, drop it on chassis at your dock, and bobtail away."),
             ("What if our export load is overweight?",
-             "Tri-axle chassis and state-issued overweight permits handle most overweight export drays in SC. We quote the permit cost up front."),
+             "We run legal-weight containers only today, so tell us the weight before the box is loaded. If it will gross over the legal limit, we'll say so up front so you can line up a carrier with tri-axle equipment and a permit rather than find out at the scale."),
             ("Which SCPA terminal do loaded exports get returned to?",
              "The one your booking cut to — Wando Welch (USCHA) in Mount Pleasant, North Charleston (USNCH), or Hugh Leatherman (USCHL). ERD and cut-offs are booking-specific, so we confirm the receiving terminal against the booking before scheduling the empty pickup and the loaded return."),
             ("Can you stage the loaded export if we miss our delivery window?",
@@ -451,7 +448,7 @@ def build(ctx):
         ],
         related=[
             ("Port drayage", "Pickup and return at every SCPA container terminal.", "/services/port-drayage/"),
-            ("Overweight drayage", "Tri-axle chassis and permits for heavy exports.", "/services/overweight-drayage/"),
+            ("Port-to-warehouse drayage", "Direct port-to-DC moves with appointments at both ends.", "/services/port-to-warehouse-drayage/"),
             ("Drayage for forwarders", "Booking visibility and clean PODs back fast.", "/who-we-serve/freight-forwarders/"),
         ],
     ))
@@ -515,7 +512,7 @@ def build(ctx):
           <li>Daily morning ETA update for in-flight containers</li>
           <li>Inbound text or email when the driver is en route to the consignee</li>
           <li>POD scanned and emailed back the same day</li>
-          <li>One dispatcher per file — you talk to the same person all the way through</li>
+          <li>One point of contact — you talk to the same person all the way through</li>
         </ul>
       </div>
       <div class="panel">
@@ -575,11 +572,6 @@ def build(ctx):
         <li>You want palletized freight on parcel or LTL for the last mile</li>
       </ul>
 
-      <h2>Ship heavy, transload near the port: the overweight math</h2>
-      <p>The biggest savings transloading unlocks in Charleston is the ship-heavy play. Over the road, a 40' container on a standard 5-axle chassis tops out around 44,000 lb of payload. But the short dray from Wando Welch, North Charleston, or Hugh Leatherman to a Charleston-area transload facility can run on a tri-axle chassis under an SCDOT overweight permit — the same <a href="/services/overweight-drayage/">overweight container drayage</a> setup we run every week, good to roughly 60,000 lb of payload.</p>
-      <p>That gap is the whole strategy: load the ocean container to what the vessel and origin allow instead of what U.S. highways allow, dray it heavy for the few permitted miles to the transload dock, then reload into 53' vans at legal domestic weights for the inland leg. Dense freight ships in fewer ocean containers per ton — and the ocean freight saved usually clears the permit fee and transload handling several times over. On cube it works too: a 53' dry van holds roughly 40% more than a 40' high-cube, so lighter freight consolidates on the reload instead of moving inland half-empty.</p>
-      <p>If your commodity is dense — tile, metals, paper, machinery parts, beverages — ask us to <a href="/quote/">quote the move both ways</a>: standard-weight boxes dray-direct versus heavy boxes transloaded near the port. The spreadsheet usually decides it for you.</p>
-
       <h2>How Cate Freight coordinates a transload</h2>
       <ul>
         <li><strong>Drayage to transload yard.</strong> Container delivered with appointment booked.</li>
@@ -605,8 +597,6 @@ def build(ctx):
              "We'll dispatch the inland leg through our partners or we'll integrate with your TMS so your domestic carrier picks it up. Either way, you get one set of paperwork back."),
             ("How fast does the empty return after transload?",
              "Same day in almost every case. The per-diem clock stops the moment the empty hits the terminal or the line's depot."),
-            ("What does “ship heavy and transload” mean?",
-             "It means loading the ocean container heavier than U.S. highway limits allow — since the vessel doesn't care — then running the short Charleston dray on a tri-axle chassis under an SCDOT overweight permit to a nearby transload facility, where the freight reloads into 53' vans at legal domestic weights. Dense freight moves in fewer ocean containers per ton, and the ocean savings usually outweigh the permit and handling costs."),
             ("Is transload cheaper than long-haul drayage?",
              "Often, especially over 250 miles, when inland equipment is cheaper than ocean per diem and chassis daily costs combined. We'll do the math both ways for any move you ask us to quote."),
         ],
@@ -741,4 +731,7 @@ def build(ctx):
         ],
     ))
 
-    return out
+    # Parked until the equipment and coverage are in place. The page source
+    # above is untouched; delete a path from PARKED_PATHS to publish it again
+    # (and remove its temporary redirect in vercel.json).
+    return [o for o in out if o[0] not in PARKED_PATHS]

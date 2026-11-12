@@ -77,7 +77,7 @@ def build(ctx):
       <h2>Cate Freight's approach</h2>
       <p>We track release status and free time expiration on every container in our system, recommend pre-pull when the math says to, and book empty returns the same shift as delivery whenever the consignee allows it. Demurrage and detention exposure is part of every quote we give, not something you find out about on the invoice.</p>
 
-      <p>Running steady volume for several customers? Our <a href="/who-we-serve/3pls/">drayage for 3PLs</a> page covers dedicated capacity, and <a href="/services/overweight-drayage/">overweight container drayage</a> covers loads that need extra planning at the gate. If you want a <a href="/charleston-drayage/">Charleston drayage</a> carrier that thinks about cost control the way you do, <a href="/quote/">send us your next move</a>.</p>
+      <p>Running steady volume for several customers? Our <a href="/who-we-serve/3pls/">drayage for 3PLs</a> page covers dedicated capacity. If you want a <a href="/charleston-drayage/">Charleston drayage</a> carrier that thinks about cost control the way you do, <a href="/quote/">send us your next move</a>.</p>
     </article>
   </div>
 </section>

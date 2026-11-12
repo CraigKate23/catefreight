@@ -44,12 +44,6 @@ def build(ctx):
               <option>20' Dry</option>
               <option>40' Dry</option>
               <option>40' High Cube</option>
-              <option>45' High Cube</option>
-              <option>20' Reefer</option>
-              <option>40' Reefer</option>
-              <option>Flat Rack</option>
-              <option>Open Top</option>
-              <option>ISO Tank</option>
               <option>Other</option>
             </select>
           </div>
@@ -62,7 +56,6 @@ def build(ctx):
               <option>Wando Welch (USCHA)</option>
               <option>North Charleston (USNCH)</option>
               <option>Hugh Leatherman (USCHL)</option>
-              <option>Columbus Street (USCST)</option>
               <option>Outside terminal — origin facility</option>
               <option>Not sure yet</option>
             </select>
@@ -187,12 +180,7 @@ def build(ctx):
               </select>
             </div>
             <div class="field">
-              <label for="hazmat_un">UN# (if hazmat)</label>
-              <input id="hazmat_un" name="hazmat_un" type="text" placeholder="e.g. UN1993">
-            </div>
-            <div class="field">
-              <label for="reefer_setpoint">Reefer set point (if reefer)</label>
-              <input id="reefer_setpoint" name="reefer_setpoint" type="text" placeholder="e.g. -10°F or +5°C">
+              <p class="muted" style="margin:0;font-size:0.9rem;">We run standard dry containers at legal weight. If yours is overweight or hazmat, flag it here and we'll tell you straight away.</p>
             </div>
           </div>
           <div class="row full">
@@ -216,7 +204,7 @@ def build(ctx):
   <div class="container">
     <div class="section-head"><p class="eyebrow">What happens after you submit</p><h2>The next 24 hours, in order.</h2></div>
     <div class="card-grid">
-      <div class="card"><h3>1. We confirm receipt</h3><p>You'll get an automatic confirmation immediately, and a reply from a real dispatcher inside the hour during business hours.</p></div>
+      <div class="card"><h3>1. Your request reaches dispatch</h3><p>It lands in our dispatch inbox the moment you submit, and you get a reply from a real person inside the hour during business hours.</p></div>
       <div class="card"><h3>2. We check the move</h3><p>Booking validity, terminal status, equipment availability, route. If we have questions we ask them once, not five times.</p></div>
       <div class="card"><h3>3. You get a number</h3><p>An itemized quote with linehaul, chassis, fuel, and any predictable accessorials. Plain English.</p></div>
       <div class="card"><h3>4. You decide</h3><p>If it's a yes, we book the appointment and run the move. If you have questions, we'll talk through them. No pressure.</p></div>

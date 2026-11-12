@@ -202,7 +202,7 @@ def build(ctx):
         <li><strong>ASN-friendly arrival windows.</strong> If you give us a window, we hit it. If we can't, we tell you the day before, not the morning of.</li>
         <li><strong>Drop-and-hook discipline.</strong> Drops are scheduled. Empty pickups are scheduled. Nothing sits on your yard guessing.</li>
         <li><strong>Same-day POD imaging.</strong> Signed BOL imaged, named with the container number, emailed back the day of delivery.</li>
-        <li><strong>One dispatcher per file.</strong> Your warehouse manager isn't bouncing between people. The person who quoted runs the whole move.</li>
+        <li><strong>One point of contact.</strong> Your warehouse manager isn't bouncing between people. The person who quoted runs the whole move.</li>
       </ul>
 
       <h2>How we plug into your inbound SOP</h2>
@@ -274,7 +274,7 @@ def build(ctx):
         <li><strong>HBL/MBL tracking.</strong> File references match yours. Container number, MBL, and your HBL on every comm.</li>
         <li><strong>Predictable POD turnaround.</strong> Signed POD imaged and emailed back the day of delivery. Imaged copies named with your file reference.</li>
         <li><strong>Direct dispatcher contact.</strong> One person runs the file. You don't get bounced.</li>
-        <li><strong>Honest accessorials.</strong> Chassis splits, fuel, OW permits — quoted up front. Detention pass-through. No surprise lines.</li>
+        <li><strong>Honest accessorials.</strong> Chassis splits and fuel — quoted up front. Detention pass-through. No surprise lines.</li>
       </ul>
 
       <h2>How we work with forwarder operations teams</h2>
@@ -295,7 +295,7 @@ def build(ctx):
             ("Can you handle multiple file references per move?",
              "Yes. HBL, MBL, your file number, the customer's PO — give us all of them and we'll carry them through to the BOL and POD."),
             ("Do you charge accessorials we won't see coming?",
-             "No. Chassis splits and overweight permits are quoted up front. Detention is pass-through and only billed when actually triggered. You see the breakdown."),
+             "No. Chassis splits and fuel are quoted up front. Detention is pass-through and only billed when actually triggered. You see the breakdown."),
             ("Can you support a forwarder with multiple Charleston imports per week?",
              "Yes. Recurring forwarder volume is exactly what we're sized for. Set up a standing dispatch arrangement and you'll get faster quotes and predictable handling."),
         ],
@@ -386,11 +386,11 @@ def build(ctx):
     <div class="prose">
       <h2>What direct shippers get with Cate Freight</h2>
       <ul>
-        <li><strong>One dispatcher per account.</strong> The person who quoted is the person who runs the move.</li>
+        <li><strong>One point of contact per account.</strong> The person who quoted is the person who runs the move.</li>
         <li><strong>Quote inside the hour.</strong> Business hours. Off-hours, by next morning.</li>
         <li><strong>Operational visibility.</strong> Where the container is, when it's gating, when it's delivering — all in one email thread.</li>
         <li><strong>Direct customs broker handoff.</strong> If you have a broker, we'll work directly with them on release timing.</li>
-        <li><strong>Honest accessorials.</strong> Chassis, fuel, OW permits — quoted up front, no surprise lines.</li>
+        <li><strong>Honest accessorials.</strong> Chassis and fuel — quoted up front, no surprise lines.</li>
       </ul>
 
       <h2>Setting up a recurring drayage relationship</h2>
@@ -405,7 +405,7 @@ def build(ctx):
 
       <h2>Where Charleston's direct importers and exporters ship from</h2>
       <p>Most of the shippers who call us directly are manufacturers and distributors with their own dock in the tri-county area — Charleston, Berkeley, and Dorchester counties. The plant clusters we dray to and from every week sit in North Charleston along Palmetto Commerce Parkway and Ashley Phosphate Road, in Goose Creek at Bushy Park, in Ladson and the Jedburg Road industrial corridor outside Summerville, and at the Camp Hall build-out near Ridgeville off I-26. From Wando Welch, North Charleston, or Hugh Leatherman terminal, those are 10-to-35-mile drays that turn same day once the box is released. Export loaders in the Midlands (Columbia, Cayce), the Upstate (Greenville, Spartanburg, Anderson), and along I-95 (Florence, Orangeburg) run the same lanes in reverse, timed against the booking's ERD and cut-off.</p>
-      <p>Direct shippers also tend to own the heavy and specialty freight in the Charleston market — machinery, steel, resin, forest products, and refrigerated commodities — which is why the <a href="/services/overweight-drayage/">overweight drayage</a> and <a href="/services/reefer-drayage/">reefer drayage</a> pages exist. If your ZIP is outside the tri-county, the <a href="/coverage/">Charleston drayage coverage area</a> lists turn times lane by lane.</p>
+      <p>We run standard dry containers at legal weight today, so if your freight runs heavy or refrigerated, tell us on the first call and we'll say whether it fits. If your ZIP is outside the tri-county, the <a href="/coverage/">Charleston drayage coverage area</a> lists turn times lane by lane.</p>
     </div>
   </div>
 </section>
