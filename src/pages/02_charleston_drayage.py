@@ -100,9 +100,10 @@ def build(ctx):
           <li>Greenville, Spartanburg, Anderson, Inman</li>
           <li>Florence, Darlington, Hartsville</li>
           <li>Hilton Head, Bluffton, Beaufort</li>
-          <li>Savannah, Augusta, Atlanta metro</li>
-          <li>Charlotte, Concord, Gastonia, Statesville</li>
-          <li>Wilmington NC, Fayetteville NC</li>
+          <li>Savannah and Augusta</li>
+          <li>Charlotte metro</li>
+          <li>Wilmington NC</li>
+          <li>Beyond about 200 miles &mdash; quoted case by case</li>
         </ul>
       </div>
     </div>
@@ -129,7 +130,7 @@ def build(ctx):
       <div class="card"><h3>Fuel surcharge</h3><p>Indexed to DOE diesel prices, refreshed weekly. Fuel is a line item, not a hidden markup.</p></div>
       <div class="card"><h3>Detention &amp; per diem</h3><p>Pass-through only. We tell you when the clock starts and we work hard to stop it. Live unloads are scheduled to fit free time.</p></div>
       <div class="card"><h3>Pre-pull &amp; storage</h3><p>If your dock isn't ready, we pre-pull and store. Quoted as a single package so you see the trade vs. demurrage.</p></div>
-      <div class="card"><h3>What we don't run today</h3><p>Reefer, overweight, out-of-gauge, and hazmat containers. Tell us up front and we'll say so before you plan around us.</p></div>
+      <div class="card"><h3>What we don't run today</h3><p>Reefer, out-of-gauge, and hazmat containers. Tell us up front and we'll say so before you plan around us.</p></div>
     </div>
     <div class="callout warning">
       <strong>Watch out for:</strong> Carriers that quote a low base and load up the invoice with chassis splits, fuel multipliers, and "admin fees" you didn't see coming. Ask any quote — ours included — for an itemized rundown. If you can't get one, that's your answer.
@@ -193,7 +194,7 @@ def build(ctx):
         ("Which Charleston terminals does Cate Freight cover?",
          "All three SCPA container terminals: Wando Welch in Mount Pleasant, North Charleston Terminal on the former Navy base, and the Hugh Leatherman Terminal in North Charleston."),
         ("Do you run reefer, overweight, or hazmat containers out of Charleston?",
-         "Not today. We run standard dry containers — 20', 40', and 40' high cube — at legal weight. If your box is reefer, overweight, out-of-gauge, or hazmat, tell us anyway: we'll say so straight away rather than take a load we can't run properly."),
+         "We run dry containers — 20', 40', and 40' high cube. Overweight boxes run by state permit on a tri-axle chassis, arranged before dispatch and quoted case by case. We don't run reefer, out-of-gauge, or hazmat containers today; tell us anyway and we'll say so straight away rather than take a load we can't run properly."),
         ("How quickly can you pick up a container from a Charleston terminal?",
          "Same-day pickup is possible if the container is released and the booking is in our hands by mid-morning. Next-day pickup is the norm. Pre-pull service is available when free time is tight or your dock isn't ready."),
     ])

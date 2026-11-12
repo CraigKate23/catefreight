@@ -405,7 +405,7 @@ def build(ctx):
 
       <h2>Where Charleston's direct importers and exporters ship from</h2>
       <p>Most of the shippers who call us directly are manufacturers and distributors with their own dock in the tri-county area — Charleston, Berkeley, and Dorchester counties. The plant clusters we dray to and from every week sit in North Charleston along Palmetto Commerce Parkway and Ashley Phosphate Road, in Goose Creek at Bushy Park, in Ladson and the Jedburg Road industrial corridor outside Summerville, and at the Camp Hall build-out near Ridgeville off I-26. From Wando Welch, North Charleston, or Hugh Leatherman terminal, those are 10-to-35-mile drays that turn same day once the box is released. Export loaders in the Midlands (Columbia, Cayce), the Upstate (Greenville, Spartanburg, Anderson), and along I-95 (Florence, Orangeburg) run the same lanes in reverse, timed against the booking's ERD and cut-off.</p>
-      <p>We run standard dry containers at legal weight today, so if your freight runs heavy or refrigerated, tell us on the first call and we'll say whether it fits. If your ZIP is outside the tri-county, the <a href="/coverage/">Charleston drayage coverage area</a> lists turn times lane by lane.</p>
+      <p>Direct shippers tend to own the heavy freight in the Charleston market — machinery, steel, resin, forest products — and we run it as <a href="/services/overweight-drayage/">overweight drayage</a> by permit. We don't run refrigerated containers today. If your ZIP is outside the tri-county, the <a href="/coverage/">Charleston drayage coverage area</a> lists turn times lane by lane.</p>
     </div>
   </div>
 </section>

@@ -79,7 +79,7 @@ def build(ctx):
         <li><strong>No on-dock rail (yet).</strong> Until Navy Base Intermodal opens, every container moves out by truck.</li>
         <li><strong>Hurricane-season schedules.</strong> SCPA closes for hurricanes, sometimes with little warning. Free time freezes; per diem doesn't always.</li>
         <li><strong>Holiday no-work days.</strong> SCPA observes specific holidays as no-work days where free time doesn't accrue. Smart drayage carriers track the calendar.</li>
-        <li><strong>Heavy export flows.</strong> Charleston is a major export port for Southeast manufacturing — paper, ceramics, automotive, metals. Many of these are overweight container loads requiring tri-axle equipment.</li>
+        <li><strong>Heavy export flows.</strong> Charleston is a major export port for Southeast manufacturing — paper, ceramics, automotive, metals. Many of these are <a href="/services/overweight-drayage/">overweight container loads</a> requiring tri-axle equipment.</li>
         <li><strong>Bridges and routes.</strong> The Cooper River Bridge, Don Holt Bridge, and access roads have weight restrictions worth knowing if you're running heavy.</li>
       </ul>
 

@@ -7,13 +7,15 @@ Working list of directory submissions, association memberships, and outreach dra
 ```
 Cate Freight
 137 Acres Drive, Ladson, SC 29456 (Charleston metro)
-Phone: (843) 484-7161
+Phone: (843) 484-7165
 Email: greg@catefreight.com
 Web: https://catefreight.com
 USDOT 3688555 · MC-1285884
 Categories: Trucking company / Drayage carrier / Logistics service / Freight forwarding service
-Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner — and the broader Southeast corridor (Columbia, Greenville, Atlanta, Charlotte, Savannah)
+Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner — and the broader Southeast corridor (Columbia, Greenville, Charlotte, Savannah)
 ```
+
+> **Phone changed 2026-11-12:** the number is now (843) 484-7165. Listings submitted before that date (BBB, Manta, IndustryNet, ThomasNet) carry an older number and need correcting.
 
 **Short business description (under 250 chars — for short-form fields):**
 
@@ -84,21 +86,21 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 > - Primary operation: container drayage from SCPA terminals
 > - Equipment: tractors + chassis (own + pool), reefer-capable with genset, overweight-permitted runs
 > - Web: https://catefreight.com
-> - Phone: (843) 484-7161
+> - Phone: (843) 484-7165
 >
 > Could you send the current member-tier breakdown, dues structure, and the member-directory listing details? I'd specifically like to confirm what's included in the online member directory (logo, description, link to website) so I can prepare the listing copy at the same time.
 >
 > Thanks —
 > Greg Cate
 > Cate Freight
-> greg@catefreight.com · (843) 484-7161
+> greg@catefreight.com · (843) 484-7165
 
 **Listing copy to provide once they reply (paste into the directory form):**
 
 - **Company:** Cate Freight
 - **Member type:** Carrier
 - **Headquarters:** Charleston, SC
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Email:** greg@catefreight.com
 - **Website:** https://catefreight.com
 - **USDOT / MC:** 3688555 / 1285884
@@ -139,14 +141,14 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 > - Equipment: tractors + chassis (own + pool), reefer-capable with genset, overweight-permitted runs
 > - Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner — plus Columbia, Greenville, Atlanta, Charlotte, and Savannah corridors
 > - Web: https://catefreight.com
-> - Phone: (843) 484-7161
+> - Phone: (843) 484-7165
 >
 > Could you send the current membership-tier breakdown, dues structure, and the member-directory listing details? I'd specifically like to confirm what's included in the online member-directory profile (logo, description, link to website, category tags) so I can prepare the listing copy and submit alongside the membership form.
 >
 > Thanks —
 > Greg Cate
 > Cate Freight
-> greg@catefreight.com · (843) 484-7161
+> greg@catefreight.com · (843) 484-7165
 
 **Listing copy to provide once they reply (paste into the directory form):**
 
@@ -154,12 +156,12 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 - **Primary category:** Trucking company / Drayage carrier
 - **Secondary categories:** Logistics service, Freight forwarding service, Container terminal services
 - **Headquarters:** Charleston, SC
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Email:** greg@catefreight.com
 - **Website:** https://catefreight.com
 - **USDOT / MC:** 3688555 / 1285884
 - **Services offered:** Port drayage, import container drayage, export container drayage, port-to-warehouse drayage, transload drayage, overweight container drayage, reefer drayage
-- **Service area:** Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner — and the broader Southeast corridor (Columbia, Greenville, Atlanta, Charlotte, Savannah)
+- **Service area:** Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner — and the broader Southeast corridor (Columbia, Greenville, Charlotte, Savannah)
 - **Short description (use long form above if 750 chars allowed; short form if 250 chars allowed)**
 - **Year founded / employee count:** *(fill at submission)*
 
@@ -193,7 +195,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 > - Equipment: tractors + chassis (own + pool), reefer-capable with genset, overweight-permitted runs to 100,000 lb under SCDOT permit
 > - Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner — plus Columbia, Greenville, Atlanta, Charlotte, and Savannah corridors
 > - Web: https://catefreight.com
-> - Phone: (843) 484-7161
+> - Phone: (843) 484-7165
 > - Email: greg@catefreight.com
 >
 > Three specific asks:
@@ -205,7 +207,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 > Thanks for the help —
 > Greg Cate
 > Cate Freight
-> greg@catefreight.com · (843) 484-7161
+> greg@catefreight.com · (843) 484-7165
 
 **Listing copy to provide once they confirm a directory listing is possible (paste into whatever form/email they send):**
 
@@ -216,7 +218,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 - **Terminals served:** Wando Welch (WWT), North Charleston Terminal (NCT), Hugh Leatherman Terminal (HLT)
 - **Services offered:** Import container drayage, export container drayage, port-to-warehouse drayage, transload coordination, overweight container drayage (to 100,000 lb under SCDOT permit), reefer drayage with genset
 - **Service area:** Charleston tri-county (Charleston, Berkeley, Dorchester) — plus Columbia, Greenville, Atlanta, Charlotte, and Savannah corridors
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Email:** greg@catefreight.com
 - **Website:** https://catefreight.com
 - **Short description (use long form above if 750 chars allowed; short form if 250 chars allowed)**
@@ -235,14 +237,14 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 - **Business name:** Cate Freight
 - **Address:** *(use the registered business address — must match what's on the website and GBP exactly)*
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Email:** greg@catefreight.com
 - **Website:** https://catefreight.com
 - **Primary category:** Trucking company — pick "Trucking Transportation Brokers" only if "Trucking" / "Container Freight Service" isn't offered; prefer the most specific freight/trucking category available
 - **Business description:** use the long description from the top of this file (under 750 chars)
 - **Years in business / ownership info:** *(fill at submission — BBB verifies this by phone or email)*
 
-**Expect a verification call or email** from the Central SC & Charleston BBB office after submitting — they confirm the business exists and the contact answers. Answer from (843) 484-7161 so verification matches the NAP.
+**Expect a verification call or email** from the Central SC & Charleston BBB office after submitting — they confirm the business exists and the contact answers. Answer from (843) 484-7165 so verification matches the NAP.
 
 **Decline the accreditation upsell for now** (they will pitch it during verification). The free profile delivers the citation + link. Accreditation costs annual fees and mostly adds the BBB seal — revisit only if customer-trust signaling becomes a priority later.
 
@@ -271,13 +273,13 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 - **Company:** Cate Freight
 - **City/region:** Charleston, SC (CHS)
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Email:** greg@catefreight.com
 - **Website:** https://catefreight.com
 - **USDOT / MC:** 3688555 / 1285884
 - **UIIA:** Yes *(confirm current before submitting)*
 - **Services / equipment flags the directory uses:** import/export container drayage, port drayage (SCPA: Wando Welch, North Charleston, Hugh Leatherman), overweight (to 100,000 lb under SCDOT permit), reefer with genset, transload coordination
-- **Service area:** Charleston tri-county (Charleston, Berkeley, Dorchester) — plus Columbia, Greenville, Atlanta, Charlotte, Savannah corridors
+- **Service area:** Charleston tri-county (Charleston, Berkeley, Dorchester) — plus Columbia, Greenville, Charlotte, Savannah corridors
 - **Description:** use the short description (250 chars) from the top of this file; long form if the field allows 750
 
 **If you'd rather ask before signing up**, use the contact form with this:
@@ -298,14 +300,14 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 > - UIIA interchange agreement: registered
 > - Equipment: tractors + chassis (own + pool), reefer-capable with genset, overweight-permitted runs to 100,000 lb under SCDOT permit
 > - Web: https://catefreight.com
-> - Phone: (843) 484-7161
+> - Phone: (843) 484-7165
 >
 > Two questions before I start the free trial: (1) does the listing include a clickable link to our website on the directory results page, and (2) does the $600/yr membership include the loadmatch.com directory as well, or is that separate?
 >
 > Thanks —
 > Greg Cate
 > Cate Freight
-> greg@catefreight.com · (843) 484-7161
+> greg@catefreight.com · (843) 484-7165
 
 **SEO outcome to track:** once live, the listing appears on the Charleston city-results page — a page on an exact-match-keyword domain that itself ranks for "charleston drayage" buyer queries. Verify with `site:drayage.com "cate freight"` after it indexes, and log whether the listing links to catefreight.com (that's the `LINKED` outcome). Even before any link equity, this directory drives direct sourcing calls from 3PLs/forwarders — track inbound calls during the 30-day trial to judge whether $600/yr pays for itself on demand-gen alone.
 
@@ -333,7 +335,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 - **Location:** Charleston, SC
 - **Categories to request:** Trucking, Drayage Services, Container Transport, Logistics Services, Freight Hauling
 - **Description:** use the short description (250 chars) from the top of this file; long form (750) if the field allows
-- **Contact:** greg@catefreight.com · (843) 484-7161 · https://catefreight.com
+- **Contact:** greg@catefreight.com · (843) 484-7165 · https://catefreight.com
 - **USDOT / MC** (if a credentials field exists): 3688555 / 1285884
 
 **SEO outcome to track:** profile goes live at a `thomasnet.com/profile/...` URL. Verify with `site:thomasnet.com "cate freight"` after it indexes. Log `LINKED` if the profile links out to catefreight.com (free profiles typically display the website URL). Secondary benefit: Thomasnet profiles often rank on page 1 for "[company name]" searches — useful brand-SERP real estate while the site itself climbs.
@@ -372,28 +374,28 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 > - Equipment: tractors + chassis (own + pool), reefer-capable with genset, overweight-permitted runs to 100,000 lb under SCDOT permit
 > - Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner — plus Columbia, Greenville, Atlanta, Charlotte, and Savannah corridors
 > - Web: https://catefreight.com
-> - Phone: (843) 484-7161
+> - Phone: (843) 484-7165
 >
 > Could you send the current division/membership-tier breakdown and dues structure, and confirm what's included in the public Member List and Intermodal System Directory listing (company name, description, link to website, division tags)? I'd like to prepare the listing copy and submit it alongside the membership application.
 >
 > Thanks —
 > Greg Cate
 > Cate Freight
-> greg@catefreight.com · (843) 484-7161
+> greg@catefreight.com · (843) 484-7165
 
 **Listing copy to provide once they reply (paste into the directory form):**
 
 - **Company:** Cate Freight
 - **Division / member type:** Intermodal trucker / drayage carrier
 - **Headquarters:** Charleston, SC
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Email:** greg@catefreight.com
 - **Website:** https://catefreight.com
 - **USDOT / MC:** 3688555 / 1285884
 - **UIIA:** registered
 - **Terminals served:** Wando Welch (WWT), North Charleston Terminal (NCT), Hugh Leatherman Terminal (HLT)
 - **Services offered:** Port drayage, import container drayage, export container drayage, port-to-warehouse drayage, transload drayage, overweight container drayage (to 100,000 lb under SCDOT permit), reefer drayage with genset
-- **Service area:** Charleston tri-county (Charleston, Berkeley, Dorchester) — plus Columbia, Greenville, Atlanta, Charlotte, Savannah corridors
+- **Service area:** Charleston tri-county (Charleston, Berkeley, Dorchester) — plus Columbia, Greenville, Charlotte, Savannah corridors
 - **Short description (use long form above if 750 chars allowed; short form if 250 chars allowed)**
 
 **SEO outcome to track:** once live, this gives a national-industry `.org` citation on `intermodal.org` — a domain Google reads as authoritative for the intermodal/drayage vertical, on a member-directory page that lists carriers by division. Verify with `site:intermodal.org "cate freight"` after it indexes, and log `LINKED` if the member-list/directory entry links out to catefreight.com. Even an unlinked, indexed listing corroborates the NAP + UIIA entity for E-E-A-T. Dues required, so this is a "sign off and pay" item, not a free citation — flag for Greg's budget call alongside SCTA and the Chamber (the three dues-based `.org` listings together form the local→state→national authority stack).
@@ -417,7 +419,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 - **Company:** Cate Freight
 - **Address:** Charleston, South Carolina
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Email:** greg@catefreight.com
 - **Website:** https://catefreight.com
 - **USDOT / MC:** 3688555 / 1285884
@@ -445,7 +447,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 > - USDOT 3688555 · MC-1285884
 > - Category: Transportation & Logistics Services (trucking / drayage / freight)
 > - Website: https://catefreight.com
-> - Phone: (843) 484-7161
+> - Phone: (843) 484-7165
 > - Email: greg@catefreight.com
 >
 > Please confirm whether a profile already exists so I claim rather than duplicate it, and let me know if the Basic Listing includes an outbound link to our website. Full service and terminal details are ready to paste once you point me to the right fields.
@@ -453,7 +455,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 > Thanks —
 > Greg Cate
 > Cate Freight
-> greg@catefreight.com · (843) 484-7161
+> greg@catefreight.com · (843) 484-7165
 
 **SEO outcome to track:** a free citation on an authoritative industrial domain (industrynet.com / MNI) that reinforces NAP consistency and adds a B2B-vertical mention to the entity footprint. After it indexes, verify with `site:industrynet.com "cate freight"` and log `LINKED` if the Basic Listing links out to catefreight.com (Basic tier link presence varies — confirm during setup). Even unlinked, an indexed, NAP-consistent listing corroborates the entity for local E-E-A-T. Watch for the auto-generated MNI profile that may already exist — claiming and correcting it is higher-value than a fresh submit.
 
@@ -465,18 +467,18 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 **Two paths — check for an existing/duplicate profile first:**
 1. **Search before you submit.** Search "Cate Freight" (and the phone number) on https://www.manta.com/ first. A 2026-07-07 web check found no existing Manta profile for Cate Freight, but Manta auto-builds some listings — if one appears, use its "claim this listing" link and correct the NAP instead of creating a duplicate.
-2. **Name-collision warning:** there is at least one other "Cate Freight, Inc." entity in web results (an LTL/EV outfit with a Raymond Cate as COO). If a profile with that name shows up, verify the address/phone before claiming — do NOT claim a listing that belongs to the other company. Our NAP: 137 Acres Drive, Ladson, SC 29456 · (843) 484-7161 · USDOT 3688555.
+2. **Name-collision warning:** there is at least one other "Cate Freight, Inc." entity in web results (an LTL/EV outfit with a Raymond Cate as COO). If a profile with that name shows up, verify the address/phone before claiming — do NOT claim a listing that belongs to the other company. Our NAP: 137 Acres Drive, Ladson, SC 29456 · (843) 484-7165 · USDOT 3688555.
 
 **Submission URL (free listing / claim):** https://www.manta.com/business-listings/free-business-listing
 **Add-your-company sign-in page:** https://www.manta.com/business-listings/add-your-company
-**Search to check for an existing profile first:** https://www.manta.com/ (search "Cate Freight" and "843-484-7161")
+**Search to check for an existing profile first:** https://www.manta.com/ (search "Cate Freight" and "843-484-7165")
 **Do NOT buy** Manta's paid upgrades or its "list you on 70+ directories" bundle — the free listing is the citation we want; the syndication bundles create low-quality duplicate citations we'd rather control one by one.
 
 **Listing copy to paste into the Manta form:**
 
 - **Company:** Cate Freight
 - **Address:** Charleston, South Carolina
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Email:** greg@catefreight.com
 - **Website:** https://catefreight.com
 - **USDOT / MC (if a field exists, else fold into description):** 3688555 / 1285884
@@ -502,7 +504,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 > - USDOT 3688555 · MC-1285884
 > - Category: Trucking company / drayage carrier / logistics service
 > - Website: https://catefreight.com
-> - Phone: (843) 484-7161
+> - Phone: (843) 484-7165
 > - Email: greg@catefreight.com
 >
 > Note: there is a different company with a similar name in other states — please make sure any existing profile matched to us has the Charleston, SC address and the phone number above before merging or claiming.
@@ -510,7 +512,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 > Thanks —
 > Greg Cate
 > Cate Freight
-> greg@catefreight.com · (843) 484-7161
+> greg@catefreight.com · (843) 484-7165
 
 **SEO outcome to track:** a free, NAP-consistent citation on manta.com. After it indexes, verify with `site:manta.com "cate freight"` and log `LINKED` if the free listing links out to catefreight.com (Manta free listings generally include a website field — confirm the link is live and crawlable, not behind a redirect interstitial). This is a citation-consistency play more than a link-equity play: it corroborates the entity that the `.org` and industrial-vertical citations establish.
 
@@ -522,8 +524,8 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 **How it works (verified 2026-07-11):**
 1. **Claim URL:** https://www.yellowpages.com/claim-your-listing — search for the business by name + phone. If a listing already exists (YP auto-builds many from data aggregators), claim it and correct the NAP; if the form comes back blank, create a new listing.
-2. **Search before you submit:** check https://www.yellowpages.com/ for "Cate Freight" and "(843) 484-7161" first. Same name-collision warning as Manta — another "Cate Freight, Inc." exists in other states. Only claim a profile showing our Ladson, SC address or phone.
-3. **Verification is by automated phone call** to the number on the profile — YP calls with a short code to enter. Make sure (843) 484-7161 can be answered when submitting. Verification takes minutes to a couple of days.
+2. **Search before you submit:** check https://www.yellowpages.com/ for "Cate Freight" and "(843) 484-7165" first. Same name-collision warning as Manta — another "Cate Freight, Inc." exists in other states. Only claim a profile showing our Ladson, SC address or phone.
+3. **Verification is by automated phone call** to the number on the profile — YP calls with a short code to enter. Make sure (843) 484-7165 can be answered when submitting. Verification takes minutes to a couple of days.
 4. **Phone support if the flow stalls:** 1-866-794-0889 (Thryv/YP listings line).
 5. **Do NOT buy** the "enhanced profile" or any Thryv marketing package — the free NAP listing with a website link is the citation we want.
 
@@ -531,7 +533,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 - **Company:** Cate Freight
 - **Address:** 137 Acres Drive, Ladson, SC 29456
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Email:** greg@catefreight.com
 - **Website:** https://catefreight.com
 - **Categories (YP allows up to 5):** Trucking, Trucking-Motor Freight, Logistics, Containers-Transport & Storage, Freight Forwarding
@@ -548,8 +550,8 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 **How it works (verified 2026-07-17):**
 1. **Claim/add URL:** https://biz.yelp.com/claim — search for the business by name + phone. If a page already exists (Yelp auto-builds many from data aggregators), claim it and correct the NAP; if nothing comes up, use the "add your business" path to create a new page. Account signup, if needed, is at https://biz.yelp.com/signup?return_url=%2Fclaim.
-2. **Search before you submit:** check https://www.yelp.com/ for "Cate Freight" and "(843) 484-7161" first. Same name-collision warning as Manta and YP — another "Cate Freight, Inc." exists in other states. Only claim a page showing our Ladson, SC address or phone; otherwise add a fresh page.
-3. **Verification** is by phone (automated call/text with a code) or email to the address on the page. Make sure (843) 484-7161 can be answered when submitting. Most new pages are approved within ~24 hours; some take longer if Yelp asks for further verification.
+2. **Search before you submit:** check https://www.yelp.com/ for "Cate Freight" and "(843) 484-7165" first. Same name-collision warning as Manta and YP — another "Cate Freight, Inc." exists in other states. Only claim a page showing our Ladson, SC address or phone; otherwise add a fresh page.
+3. **Verification** is by phone (automated call/text with a code) or email to the address on the page. Make sure (843) 484-7165 can be answered when submitting. Most new pages are approved within ~24 hours; some take longer if Yelp asks for further verification.
 4. **Do NOT buy** Yelp Ads or any upgrade during the flow — Yelp pushes the paid ad package hard at claim time. The free Business Page with a website link is the citation we want; decline every upsell. *(A claimed page does not mean you're a paid advertiser.)*
 5. **Category note:** Yelp does not have a dedicated "drayage" category. The closest crawlable fits are **Trucking**, **Commercial Truck Dealers/Services**, and **Movers/Transportation** — pick "Trucking" as primary. Put the drayage-specific language in the description and services fields instead, since Yelp category taxonomy is coarse.
 
@@ -557,7 +559,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 - **Company:** Cate Freight
 - **Address:** 137 Acres Drive, Ladson, SC 29456
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Email:** greg@catefreight.com
 - **Website:** https://catefreight.com
 - **Primary category:** Trucking (add Logistics / Transportation as secondary if offered)
@@ -573,17 +575,17 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 **Why this one.** Backlog #10 and the last piece of the data-aggregator layer. Foursquare's consumer City Guide app is gone, but **Foursquare Places is now a location-data platform that feeds a large partner network** — Apple Maps has historically pulled from it, and Foursquare's own support docs name WhatsApp, Pinterest, and Untappd as partner apps that surface Places listings. One NAP-consistent Foursquare Place propagates into apps and datasets we can't submit to directly, the same downstream effect as the Yelp claim (#11) but through a different aggregation graph. Free to claim; venue pages on foursquare.com also index in Google as standalone citations.
 
 **How it works (verified 2026-07-22 via Foursquare's support article, updated Nov 2025):**
-1. **Search + claim portal:** https://business.foursquare.com/ — use the search bar to look for the business by name + location. Foursquare auto-builds many listings from aggregator data, so search for both "Cate Freight" and "(843) 484-7161" before creating anything new.
+1. **Search + claim portal:** https://business.foursquare.com/ — use the search bar to look for the business by name + location. Foursquare auto-builds many listings from aggregator data, so search for both "Cate Freight" and "(843) 484-7165" before creating anything new.
 2. **If a listing exists:** click **Claim** on the correct listing, then complete the claim form (contact details + your role at the business). Same name-collision warning as Manta/YP/Yelp — another "Cate Freight, Inc." exists in other states. Only claim a listing showing our Ladson, SC address or phone.
 3. **If nothing comes up:** Foursquare's related support article "My Business Is Not In The Search Results" covers adding a new place — follow the add-a-place path from the same portal.
 4. **If it says "already claimed":** the portal shows an already-claimed notice; contact Foursquare support (https://support.foursquare.com/hc/en-us/requests/new) to dispute management access. Reference article: https://support.foursquare.com/hc/en-us/articles/23646714300444-Claiming-a-listing.
-5. **Verification** is typically by phone — make sure (843) 484-7161 can be answered when submitting. Historically Foursquare has charged a small one-time fee (~$20) for *instant* listing management on some claims; the standard free claim path is the one we want. Decline any paid upgrade beyond the free claim.
+5. **Verification** is typically by phone — make sure (843) 484-7165 can be answered when submitting. Historically Foursquare has charged a small one-time fee (~$20) for *instant* listing management on some claims; the standard free claim path is the one we want. Decline any paid upgrade beyond the free claim.
 
 **Listing copy to paste into the Foursquare form:**
 
 - **Company:** Cate Freight
 - **Address:** 137 Acres Drive, Ladson, SC 29456
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Email:** greg@catefreight.com
 - **Website:** https://catefreight.com
 - **Primary category:** no "drayage" category exists — pick **Trucking Company** (or the closest of Shipping/Freight/Logistics offered in the picker); put the drayage-specific language in the description field.
@@ -618,7 +620,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 > Company details:
 > Cate Freight
 > 137 Acres Drive, Ladson, SC 29456 (Charleston metro)
-> (843) 484-7161 · greg@catefreight.com
+> (843) 484-7165 · greg@catefreight.com
 > https://catefreight.com
 > USDOT 3688555 · MC-1285884
 >
@@ -649,7 +651,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 - **Main website URL:** https://catefreight.com
 - **Address:** 137 Acres Drive / City: Ladson / ZIP: 29456 / Country: United States
 - **County:** Ladson straddles Berkeley, Charleston, and Dorchester counties — Greg, pick whichever county 137 Acres Drive actually sits in (check the property-tax bill; the form only allows one)
-- **Contact 1:** Greg Cate — Owner — (843) 484-7161 — greg@catefreight.com
+- **Contact 1:** Greg Cate — Owner — (843) 484-7165 — greg@catefreight.com
 - **NAICS codes:** 484110 (General Freight Trucking, Local — the drayage classification); add 484121 (General Freight Trucking, Long-Distance, Truckload) for the Southeast corridor lanes
 - **Annual revenue / SC employees:** report honest numbers — this feeds SC Commerce matchmaking, and inflated figures burn credibility with the manufacturer audience
 - **Number of SC locations:** 1
@@ -684,16 +686,16 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 **How it works (checked 2026-08-22 via current setup guides — flow may vary slightly in the portal):**
 1. **Portal:** https://www.bingplaces.com — sign in with any free Microsoft account (an Outlook login works). Reports say the portal is folding into Bing's "for business" hub (bing.com/forbusiness); either entry point reaches the same listing manager.
-2. **Search before creating.** Search for the business by name + city AND by phone (843) 484-7161 first — Bing auto-builds listings from aggregator data (our Manta/Yelp/Foursquare claims may have already seeded one). If a listing exists, **claim** it; if not, choose **Add a new business**. End state: exactly ONE listing. Same name-collision warning as Manta/YP/Yelp — another "Cate Freight, Inc." exists in other states; only claim a listing showing the Ladson, SC address or our phone.
+2. **Search before creating.** Search for the business by name + city AND by phone (843) 484-7165 first — Bing auto-builds listings from aggregator data (our Manta/Yelp/Foursquare claims may have already seeded one). If a listing exists, **claim** it; if not, choose **Add a new business**. End state: exactly ONE listing. Same name-collision warning as Manta/YP/Yelp — another "Cate Freight, Inc." exists in other states; only claim a listing showing the Ladson, SC address or our phone.
 3. **The "Import from Google" shortcut does not apply to us yet** — no Google Business Profile exists (backlog #0). Fill the listing manually with the NAP block below. **Once Greg creates the GBP, come back and enable Bing's periodic Google sync** so the two listings never drift.
-4. **Verification** is by phone, email, or postcard. Phone/email are usually instant — make sure (843) 484-7161 can be answered when submitting. Postcard fallback takes 1–2 weeks. Edits don't show publicly until verified, so don't skip it.
+4. **Verification** is by phone, email, or postcard. Phone/email are usually instant — make sure (843) 484-7165 can be answered when submitting. Postcard fallback takes 1–2 weeks. Edits don't show publicly until verified, so don't skip it.
 5. **Duplicates:** if search turns up more than one auto-built listing, claim the strongest and report the others through the listing's report option.
 
 **Listing copy to paste into the Bing Places form:**
 
 - **Company:** Cate Freight
 - **Address:** 137 Acres Drive, Ladson, SC 29456
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Email:** greg@catefreight.com
 - **Website:** https://catefreight.com
 - **Primary category:** no "drayage" category exists — pick **Trucking Company** (or the closest of Transportation/Freight/Logistics offered); add secondaries like Logistics Service or Freight Forwarding Service if the picker allows. Put the drayage-specific language in the description.
@@ -713,7 +715,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 **How it works (checked 2026-09-06 via BrightLocal's claim guide and current setup checklists — portal flow may vary):**
 1. **Sign in:** https://businessconnect.apple.com with an Apple ID. Two-factor is mandatory, so the Apple ID needs a phone number attached — Greg's existing iPhone Apple ID is fine; a dedicated company Apple ID is cleaner if anyone else will ever manage it.
-2. **Search before creating.** Search "Cate Freight Ladson" AND by phone (843) 484-7161. Apple auto-builds listings from Yelp/Foursquare/aggregator data, and the Foursquare (#12) and Manta (#9) claims may already have seeded a place card. If one exists, **claim** it; if not, choose **Add a new location with this name**. End state: exactly ONE listing. Same name-collision warning as Manta/YP/Yelp/Bing — only claim a card showing the Ladson, SC address or our phone.
+2. **Search before creating.** Search "Cate Freight Ladson" AND by phone (843) 484-7165. Apple auto-builds listings from Yelp/Foursquare/aggregator data, and the Foursquare (#12) and Manta (#9) claims may already have seeded a place card. If one exists, **claim** it; if not, choose **Add a new location with this name**. End state: exactly ONE listing. Same name-collision warning as Manta/YP/Yelp/Bing — only claim a card showing the Ladson, SC address or our phone.
 3. **Address + pin.** Enter 137 Acres Drive, Ladson, SC 29456 and **drag the map pin onto the actual yard entrance** (or enter coordinates). Apple's pin drives turn-by-turn for anyone routing to the yard — a pin dropped on the wrong side of Acres Drive sends visiting drivers to the wrong gate.
 4. **Categories + website:** see the copy block below. The website field is the citation link we want.
 5. **Hours:** required field. Greg's call — dispatch hours, not 24/7, unless the phone is actually answered around the clock.
@@ -726,7 +728,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 - **Business name:** Cate Freight
 - **Address:** 137 Acres Drive, Ladson, SC 29456
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Website:** https://catefreight.com
 - **Primary category:** no "drayage" category exists — pick **Trucking Company** (Apple's picker is category-search; if "Trucking Company" isn't offered, take **Freight Forwarding Service** or **Logistics Service** as primary). Add the other two as secondaries if the picker allows multiple.
 - **Business description (after verification):** use the LONG (~750 char) description at the top of this file; fall back to the SHORT version if the field truncates.
@@ -745,7 +747,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 **How it works (checked 2026-09-13 via the Alignable Help Center — "How to sign up for Alignable?" updated July 2026, "Does Alignable Cost Anything?" updated Sept 2026):**
 1. **Sign up:** https://www.alignable.com/biz_users/sign_up — enter greg@catefreight.com as the login email (business email, not a personal Gmail; Alignable weights business domains for trust).
 2. **Name / business / address:** Greg Cate · Cate Freight · 137 Acres Drive, Ladson, SC 29456. Alignable says to pick the address where you do the most business if customers are elsewhere — **use the Ladson yard address anyway** so the NAP matches every other citation. Do not put "Charleston" as the address city; put it in the description and service-area answers instead.
-3. **Verification:** new accounts may be asked to verify by SMS or a manual identity check. Use the (843) 484-7161 number if it can receive texts; if it is a landline, use Greg's mobile — the verification number is not shown publicly. (If "phone number already in use" appears, another Alignable account was created with that number — the Help Center has a recovery article for that.)
+3. **Verification:** new accounts may be asked to verify by SMS or a manual identity check. Use the (843) 484-7165 number if it can receive texts; if it is a landline, use Greg's mobile — the verification number is not shown publicly. (If "phone number already in use" appears, another Alignable account was created with that number — the Help Center has a recovery article for that.)
 4. **Industry:** start typing and pick from the list; if "Drayage" isn't offered, choose **Trucking** or **Freight & Logistics** (whichever the picker shows) — and add "Drayage" as a custom Category Tag afterward (step 7).
 5. **Referral targeting (the onboarding asks these — answer them, they become public profile fields):**
    - *Who are your customers?* → select up to five: **Freight Forwarders, Logistics / 3PL, Customs Brokers, Warehousing & Storage, Manufacturing / Importers.**
@@ -759,7 +761,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 - **Business name:** Cate Freight
 - **Address:** 137 Acres Drive, Ladson, SC 29456
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Email:** greg@catefreight.com
 - **Website:** https://catefreight.com
 - **Industry / Category Tag:** Trucking (industry picker) · Drayage Carrier (category tag)
@@ -811,7 +813,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 - **Company name:** Cate Freight (FMCSA legal name shows as Cate Freight LLC — leave as-is; DBA field if offered: Cate Freight)
 - **Address:** 137 Acres Drive, Ladson, SC 29456
-- **Phone:** (843) 484-7161
+- **Phone:** (843) 484-7165
 - **Email:** greg@catefreight.com
 - **Website:** https://catefreight.com
 - **Company Description:** use the LONG (~750 char) description at the top of this file. If the field allows more, append: *"Lanes: Wando Welch, North Charleston, and Hugh Leatherman terminals to Charleston, North Charleston, Summerville, Goose Creek, Ladson, Moncks Corner, and the I-26 / I-95 corridors to Columbia, Greenville, Charlotte, Atlanta, and Savannah. Quote turnaround within the hour during business hours: https://catefreight.com/quote/"*
@@ -850,7 +852,7 @@ Service area: Charleston, North Charleston, Mount Pleasant, Summerville, Goose C
 
 In rough priority order — local + industry first, then broader citation directories:
 
-0. **Google Business Profile** — *(top priority, not a draft — Greg must do this himself)*. Manta's 24-directory scan (2026-07-07) confirmed NO Google/Google Maps listing exists. This is the single biggest local-SEO gap — bigger than every directory below combined. Greg: create at https://business.google.com with the exact NAP block above (137 Acres Drive, Ladson SC 29456 · (843) 484-7161), category "Trucking company", then complete Google's postcard/phone verification. The GBP description drafts in STRATEGY.md are ready to paste.
+0. **Google Business Profile** — *(top priority, not a draft — Greg must do this himself)*. Manta's 24-directory scan (2026-07-07) confirmed NO Google/Google Maps listing exists. This is the single biggest local-SEO gap — bigger than every directory below combined. Greg: create at https://business.google.com with the exact NAP block above (137 Acres Drive, Ladson SC 29456 · (843) 484-7165), category "Trucking company", then complete Google's postcard/phone verification. The GBP description drafts in STRATEGY.md are ready to paste.
 
 1. ~~drayage.com carrier directory~~ — **drafted above (#5)**; one LoadMatch membership also covers loadmatch.com.
 2. ~~loadmatch.com~~ — **covered by #5** (same LoadMatch Inc. membership).

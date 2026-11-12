@@ -92,7 +92,6 @@ def _service_page(ctx, *, slug, path, title, meta, h1, eyebrow, intro_html, sect
 
 PARKED_PATHS = {
     "/services/reefer-drayage/index.html",
-    "/services/overweight-drayage/index.html",
 }
 
 
@@ -111,7 +110,7 @@ def build(ctx):
   <div class="container">
     <span class="hero-eyebrow">Drayage services</span>
     <h1>Every drayage service we run, plain English.</h1>
-    <p>Cate Freight is a <a href="/charleston-drayage/">Charleston drayage</a> carrier first. Within that, we work import and export dry containers &mdash; 20', 40', and 40' high cube at legal weight &mdash; port-to-warehouse and pier returns, transload coordination and pre-pull staging. Pick the move you need to make.</p>
+    <p>Cate Freight is a <a href="/charleston-drayage/">Charleston drayage</a> carrier first. Within that, we work import and export dry containers &mdash; 20', 40', and 40' high cube, including overweight boxes by permit &mdash; port-to-warehouse and pier returns, transload coordination and pre-pull staging. Pick the move you need to make.</p>
     <div class="actions">
       <a class="btn btn-primary" href="/quote/">Request a quote</a>
     </div>
@@ -128,6 +127,7 @@ def build(ctx):
       <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-export"/></svg></div><h2>Export container drayage</h2><p>Loaded export delivery to terminal with ERD-aware scheduling.</p><a class="card-link" href="/services/export-container-drayage/">Export drayage</a></div>
       <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-warehouse"/></svg></div><h2>Port-to-warehouse</h2><p>Direct port-to-DC moves with appointments confirmed at both ends.</p><a class="card-link" href="/services/port-to-warehouse-drayage/">Port-to-warehouse</a></div>
       <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-transload"/></svg></div><h2>Transload &amp; coordination</h2><p>Container delivery to a transload yard plus warehouse coordination.</p><a class="card-link" href="/services/transload-drayage/">Transload</a></div>
+      <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-weight"/></svg></div><h2>Overweight containers</h2><p>By SCDOT permit on a tri-axle chassis, arranged before dispatch and quoted case by case.</p><a class="card-link" href="/services/overweight-drayage/">Overweight</a></div>
       <div class="card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-clock"/></svg></div><h2>Pre-pull service</h2><p>Stage containers off-port to stop the demurrage clock when free time is tight.</p><a class="card-link" href="/services/import-container-drayage/#pre-pull">Pre-pull info</a></div>
     </div>
   </div>
@@ -135,7 +135,7 @@ def build(ctx):
 """
 
     # CollectionPage + ItemList so Google reads the hub as the parent of the
-    # five service pages (crawl-priority + sitelink signal for the
+    # six service pages (crawl-priority + sitelink signal for the
     # "charleston drayage services" cluster).
     hub_services = [
         ("Port drayage", "/services/port-drayage/",
@@ -148,6 +148,8 @@ def build(ctx):
          "Direct port-to-DC container moves with appointments confirmed at both the terminal and the dock."),
         ("Transload drayage", "/services/transload-drayage/",
          "Container delivery to a Charleston-area transload yard plus warehouse coordination on the outbound."),
+        ("Overweight container drayage", "/services/overweight-drayage/",
+         "Overweight ocean containers moved by SCDOT permit on a tri-axle chassis, arranged before dispatch."),
     ]
     hub_schema = [{
         "@context": "https://schema.org",
@@ -188,7 +190,7 @@ def build(ctx):
             slug="services",
             path="/services/",
             title="Charleston Drayage Services | Cate Freight",
-            meta_description="Drayage services from Cate Freight — port drayage, import and export container moves, port-to-warehouse, transload, and pre-pull staging for standard dry containers from Charleston, SC.",
+            meta_description="Drayage services from Cate Freight — port drayage, import and export container moves, port-to-warehouse, transload, overweight by permit, and pre-pull staging for dry containers from Charleston, SC.",
             h1="Every drayage service we run, plain English.",
             body_html=breadcrumb_bar(crumbs_hub) + hub_hero + hub_grid + cta_banner(),
             breadcrumbs=crumbs_hub,
@@ -250,8 +252,8 @@ def build(ctx):
 
       <h3>Regional corridor reference</h3>
       <ul>
-        <li><strong>I-26 north and west</strong> — Summerville, Columbia, Newberry, Spartanburg, Greenville, and onward to I-85 for Charlotte and Atlanta drays.</li>
-        <li><strong>I-95 north and south</strong> — Florence, Lumberton, and Fayetteville to the north; Walterboro, Yemassee, and the Florida border to the south.</li>
+        <li><strong>I-26 north and west</strong> — Summerville, Columbia, Newberry, Spartanburg, Greenville, and onward toward Charlotte.</li>
+        <li><strong>I-95 north and south</strong> — Florence and Lumberton to the north; Walterboro, Yemassee, and Savannah to the south.</li>
         <li><strong>US-17 corridor</strong> — Mount Pleasant, McClellanville, Georgetown, and the Lowcountry; also Ravenel and Hollywood to the south of Charleston.</li>
         <li><strong>US-78 / US-52 corridor</strong> — the Ladson, Summerville, Goose Creek, and Moncks Corner warehouse cluster where most Berkeley and Dorchester County drays terminate.</li>
         <li><strong>I-526 (Mark Clark) ring</strong> — connects all three SCPA container terminals to North Charleston, West Ashley, and Mount Pleasant industrial property.</li>
@@ -267,7 +269,8 @@ def build(ctx):
     <div class="section-head"><p class="eyebrow">Equipment</p><h2>Equipment we run for port drayage.</h2></div>
     <div class="card-grid">
       <div class="card"><h3>Standard chassis</h3><p>20', 40', 40HC dry containers up to legal weight (typically 44,000 lb on 5-axle).</p></div>
-      <div class="card"><h3>What we don't run today</h3><p>Reefer, overweight, out-of-gauge, and hazmat containers. Ask anyway &mdash; we'll tell you straight rather than take a box we can't run properly.</p></div>
+      <div class="card"><h3>Tri-axle chassis, when the weight needs it</h3><p>Overweight containers run by SCDOT permit on a tri-axle chassis, arranged before dispatch.</p></div>
+      <div class="card"><h3>What we don't run today</h3><p>Reefer, out-of-gauge, and hazmat containers. Ask anyway &mdash; we'll tell you straight rather than take a box we can't run properly.</p></div>
     </div>
   </div>
 </section>
@@ -354,7 +357,7 @@ def build(ctx):
         <ul class="checklist">
           <li>Delivery ZIP and address</li>
           <li>Live unload, drop &amp; hook, or transload</li>
-          <li>Approximate weight</li>
+          <li>Approximate weight (and overweight Y/N)</li>
           <li>Commodity</li>
           <li>Customs broker contact, if known</li>
         </ul>
@@ -440,7 +443,7 @@ def build(ctx):
             ("Can you pre-pull and stage an empty for early-morning export loads?",
              "Yes. Empty pre-pull and overnight staging at your facility is routine for early-morning loaders. We'll pull the empty during the prior gate, drop it on chassis at your dock, and bobtail away."),
             ("What if our export load is overweight?",
-             "We run legal-weight containers only today, so tell us the weight before the box is loaded. If it will gross over the legal limit, we'll say so up front so you can line up a carrier with tri-axle equipment and a permit rather than find out at the scale."),
+             "Tell us the weight before the box is loaded. Overweight export drays run on a tri-axle chassis under a state permit; we arrange both before dispatch and quote the permit cost up front."),
             ("Which SCPA terminal do loaded exports get returned to?",
              "The one your booking cut to — Wando Welch (USCHA) in Mount Pleasant, North Charleston (USNCH), or Hugh Leatherman (USCHL). ERD and cut-offs are booking-specific, so we confirm the receiving terminal against the booking before scheduling the empty pickup and the loaded return."),
             ("Can you stage the loaded export if we miss our delivery window?",
@@ -448,7 +451,7 @@ def build(ctx):
         ],
         related=[
             ("Port drayage", "Pickup and return at every SCPA container terminal.", "/services/port-drayage/"),
-            ("Port-to-warehouse drayage", "Direct port-to-DC moves with appointments at both ends.", "/services/port-to-warehouse-drayage/"),
+            ("Overweight drayage", "Permits and tri-axle chassis for heavy exports.", "/services/overweight-drayage/"),
             ("Drayage for forwarders", "Booking visibility and clean PODs back fast.", "/who-we-serve/freight-forwarders/"),
         ],
     ))
@@ -535,7 +538,7 @@ def build(ctx):
             ("What's the difference between live unload and drop and hook?",
              "Live unload means the driver waits while your team unloads. Drop and hook means the driver leaves the loaded container on a chassis at your dock and bobtails away — you unload on your timeline. Live unload risks driver detention; drop and hook accrues chassis per-diem."),
             ("Can you do port-to-warehouse drayage outside Charleston metro?",
-             "Yes. We run regional lanes into Columbia, Greenville, Spartanburg, Florence, Charlotte, Atlanta, and Savannah. Beyond the immediate Southeast we'll quote case by case."),
+             "Yes. We run regional lanes into Columbia, Greenville, Spartanburg, Florence, Charlotte, and Savannah. Beyond about 200 miles we quote case by case."),
             ("Do you support 3PL warehouse receiving SOPs?",
              "Yes. We adapt to your inbound SOP — appointment system, ASN format, container number on every comm, photos at delivery if you require them. Tell us what you need and we'll match it."),
         ],
@@ -677,37 +680,35 @@ def build(ctx):
         ctx,
         slug="overweight-drayage",
         path="/services/overweight-drayage/",
-        title="Overweight & OOG Container Drayage in Charleston, SC | Cate Freight",
-        meta="Overweight container drayage in Charleston, SC. Tri-axle chassis, state permits, and the experience to handle 60,000+ lb containers without breaking the chain.",
+        title="Overweight Container Drayage in Charleston, SC | Cate Freight",
+        meta="Overweight container drayage in Charleston, SC. SCDOT container permits and tri-axle chassis arranged before dispatch, quoted case by case.",
         eyebrow="Overweight drayage",
         h1="Overweight container drayage in Charleston, with the right chassis and the right permits.",
-        intro_html="Overweight container transport out of the Port of Charleston isn't just a heavier load — it's a different equipment configuration, an SCDOT permit, and sometimes a route restriction. Cate Freight runs tri-axle chassis, pulls state permits where required, and routes around the bridges and roads that don't accept the weight.",
+        intro_html="Overweight container transport out of the Port of Charleston isn't just a heavier load — it's a different equipment configuration, an SCDOT permit, and sometimes a route restriction. Cate Freight runs overweight boxes by permit, case by case: we arrange the tri-axle chassis and pull the state permit before the truck rolls, and we tell you up front when a weight or a route is one we can't run.",
         sections_html="""
 <section class="section">
   <div class="container">
     <div class="prose">
       <h2>What "overweight" means in Charleston drayage</h2>
       <p>A standard 5-axle tractor-chassis combination in South Carolina is legal up to 80,000 lb gross — translating to roughly 44,000 lb of payload in a 40' container. Anything above that gross is overweight, and most 20' containers loaded to international spec end up there.</p>
-      <p>Tri-axle chassis push the legal weight up to roughly 60,000 lb of payload with state permits, depending on configuration. We carry tri-axle equipment specifically because Southeast manufacturing flows (paper, metals, ceramics, food ingredients) regularly run heavy.</p>
+      <p>Tri-axle chassis push the legal weight up to roughly 60,000 lb of payload with state permits, depending on configuration. Southeast manufacturing flows (paper, metals, ceramics, food ingredients) regularly run heavy, so we ask for the weight on every quote and line up a tri-axle chassis when the box needs one.</p>
 
       <h2>Permits, routes, and the boring details that matter</h2>
       <ul>
         <li>South Carolina overweight permits — pulled by us, billed pass-through</li>
         <li>Bridge restriction awareness on heavy lanes (we route around weight-restricted bridges)</li>
         <li>Tri-axle availability scheduled in advance, not at the gate</li>
-        <li>Driver match — overweight runs go to the drivers used to handling the equipment</li>
+        <li>A South Carolina permit covers South Carolina roads only — a heavy box crossing into Georgia or North Carolina needs that state's permit too, and we quote it that way</li>
       </ul>
 
       <h2>The SCDOT 100,000 lb permit — Charleston's overweight container ceiling</h2>
       <p>South Carolina carries one of the highest container weight allowances on the East Coast. SCDOT's Oversize/Overweight Permit Office issues a permit that lets an international shipping container move by truck at up to <strong>100,000 lb gross vehicle weight</strong> — well above the 80,000 lb standard legal limit, and up from the 90,000 lb ceiling the state allowed before. For an importer or 3PL routing heavy cargo, that headroom is one of the quieter advantages of <a href="/charleston-drayage/">Charleston drayage</a>.</p>
       <p>On an overweight container transport move out of Charleston, the mechanics are straightforward: a tri-axle chassis carries the extra weight, we pull the SCDOT container permit before dispatch, and we bill it pass-through with no markup. A loaded box that would be illegal on a standard 5-axle then moves legally to a Berkeley, Dorchester, or Charleston County warehouse, or up the I-26 corridor toward Columbia and the Upstate. If a container is heavy enough to clear even the 100,000 lb permit, it crosses into superload territory — a separate permit, a route survey, and usually an escort — and we flag that before you book, not after.</p>
 
-      <h2>Overweight container transport lanes we run out of Charleston</h2>
+      <h2>Overweight container routes out of Charleston</h2>
       <p>Where the box is picked up shapes the permit route. Heavy containers out of <strong>Wando Welch Terminal</strong> in Mount Pleasant leave via Long Point Road onto I-526, cross the Cooper River on the Don Holt Bridge, and reach the Berkeley County warehouse belt — Goose Creek, Ladson, Summerville, Moncks Corner — without touching downtown Charleston. Heavy containers out of <strong>Hugh K. Leatherman Terminal</strong> and <strong>North Charleston Terminal</strong> are already on the North Charleston side of the river, so they go straight to I-26 for Dorchester County delivery points or the long haul north-west through Orangeburg to Columbia and the Upstate. The full terminal list is on our <a href="/coverage/">Charleston coverage page</a>.</p>
       <p>The commodities that run overweight out of Charleston are predictable: ceramic tile and stone imports bound for Charleston and Berkeley County distribution warehouses, paper and pulp exports from South Carolina mills, metals and machinery for Upstate manufacturing, and food ingredients loaded to international spec in 20' boxes. If you are a <a href="/who-we-serve/3pls/">3PL routing heavy freight</a> through the Port of Charleston, tell us the gross weight and delivery ZIP up front — the permit route and tri-axle scheduling are set before the truck rolls, not at the gate.</p>
 
-      <h2>Out-of-gauge (OOG) containers</h2>
-      <p>OOG cargo — loads that exceed the standard container's internal dimensions and ride flat-rack or open-top — need extra coordination: tarping if open-top, tie-down inspection on flat-rack, sometimes pilot car or escort if oversized. We handle the equipment match and the route plan, and we'll tell you upfront when escort costs are on the bill.</p>
     </div>
   </div>
 </section>
@@ -719,15 +720,13 @@ def build(ctx):
              "Yes. We pull the SC permit when required and bill it pass-through with no markup."),
             ("Does South Carolina allow heavier containers than the 80,000 lb legal limit?",
              "Yes. SCDOT's Oversize/Overweight Permit Office issues a permit that allows international shipping containers to move by truck at up to 100,000 lb gross vehicle weight — raised from the previous 90,000 lb ceiling. On a tri-axle chassis with that permit pulled, a heavy import or export container moves legally out of the Port of Charleston. We pull the permit before dispatch and bill it pass-through."),
-            ("Can you run flat-rack or open-top containers?",
-             "Yes. We pull flat-rack and open-top equipment for OOG cargo, including tarping for open-top and tie-down inspection for flat-rack."),
             ("What if my route has bridge weight restrictions?",
              "We route around them. We monitor SC and adjacent-state bridge restrictions and adjust the lane plan when an overweight move can't take the direct interstate route."),
         ],
         related=[
             ("Port drayage", "Pickup and return at every SCPA terminal.", "/services/port-drayage/"),
             ("Export container drayage", "Heavy exports with VGM and ERD coordination.", "/services/export-container-drayage/"),
-            ("Reefer drayage", "Heavy reefer freight on tri-axle.", "/services/reefer-drayage/"),
+            ("Import container drayage", "Releases checked before dispatch.", "/services/import-container-drayage/"),
         ],
     ))
 

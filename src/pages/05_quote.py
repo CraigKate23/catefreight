@@ -180,7 +180,7 @@ def build(ctx):
               </select>
             </div>
             <div class="field">
-              <p class="muted" style="margin:0;font-size:0.9rem;">We run standard dry containers at legal weight. If yours is overweight or hazmat, flag it here and we'll tell you straight away.</p>
+              <p class="muted" style="margin:0;font-size:0.9rem;">Overweight boxes run by permit, quoted case by case. We don't run hazmat today &mdash; flag it here and we'll tell you straight away.</p>
             </div>
           </div>
           <div class="row full">

@@ -103,7 +103,7 @@ def build(ctx):
         <p><strong>Phone</strong><br><a href="tel:{phone_tel}" style="font-size:1.4rem; font-weight:800;">{phone_display}</a></p>
         <p><strong>Email</strong><br><a href="mailto:{email}" style="font-size:1.1rem; font-weight:600;">{email}</a></p>
         <p><strong>Hours</strong><br>Monday – Friday, 7:00 AM – 6:00 PM ET<br>After hours: email response by next morning</p>
-        <p><strong>Service area</strong><br>Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner &middot; I-26 to Columbia, Greenville, Spartanburg &middot; I-95 to Florence, Savannah &middot; Charlotte and Atlanta lanes &middot; <a href="/coverage/">Full coverage map</a></p>
+        <p><strong>Service area</strong><br>Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, Moncks Corner &middot; I-26 to Columbia, Greenville, Spartanburg &middot; I-95 to Florence, Savannah &middot; Charlotte &middot; <a href="/coverage/">Full coverage map</a></p>
       </div>
       <div>
         <h2>Send us your move</h2>
@@ -162,7 +162,7 @@ def build(ctx):
         ("How much does Charleston drayage cost?",
          "It depends on the destination ZIP, container size, weight, and delivery type (live unload or drop). Local <a href=\"/charleston-drayage/\">Charleston drayage</a> moves are typically in the few-hundred-dollar range before accessorials. Regional drays scale with mileage. Send the booking and delivery ZIP and we'll quote it."),
         ("Do you handle reefer, overweight, or hazmat containers?",
-         "Not today. We run standard dry containers — 20', 40', and 40' high cube — at legal weight. If your box is reefer, overweight, out-of-gauge, or hazmat, tell us anyway: we'll say so straight away rather than take a load we can't run properly."),
+         "We run dry containers — 20', 40', and 40' high cube. Overweight boxes run by state permit on a tri-axle chassis, arranged before dispatch and quoted case by case. We don't run reefer, out-of-gauge, or hazmat containers today; tell us anyway and we'll say so straight away rather than take a load we can't run properly."),
         ("Can you pre-pull a container to avoid demurrage?",
          "Yes. When free time is tight or your dock isn't ready, we pull the container off the terminal, stage it at our yard, and deliver later. Pre-pull, daily storage, and final delivery are quoted as a single package so you can compare it against <a href=\"/resources/avoid-demurrage-detention/\">demurrage exposure</a>."),
         ("How do you handle chassis split fees?",
@@ -308,11 +308,10 @@ def build(ctx):
       <div>
         <h3>Adjacent states</h3>
         <ul class="checklist">
-          <li>Savannah, Augusta, Atlanta metro (Georgia)</li>
-          <li>Charlotte, Concord, Gastonia, Statesville (North Carolina)</li>
-          <li>Wilmington, Fayetteville, Lumberton (NC)</li>
-          <li>Knoxville and east Tennessee</li>
-          <li>Florida panhandle on request</li>
+          <li>Savannah and Augusta (Georgia)</li>
+          <li>Charlotte metro (North Carolina)</li>
+          <li>Wilmington and Lumberton (NC)</li>
+          <li>Beyond about 200 miles &mdash; quoted case by case</li>
         </ul>
       </div>
     </div>
@@ -350,10 +349,7 @@ def build(ctx):
           <li>Augusta, GA &mdash; ~145 mi</li>
           <li>Wilmington, NC &mdash; ~180 mi</li>
           <li>Charlotte, NC &mdash; ~205 mi</li>
-          <li>Fayetteville, NC &mdash; ~225 mi</li>
-          <li>Atlanta, GA &mdash; ~310 mi</li>
-          <li>Knoxville, TN &mdash; ~370 mi</li>
-          <li>Nashville, TN &mdash; ~520 mi</li>
+          <li>Beyond ~200 mi &mdash; quoted case by case</li>
         </ul>
       </div>
     </div>
@@ -370,10 +366,10 @@ def build(ctx):
          "Yes — port-to-warehouse drayage to your dock is the bulk of what we run. Most loads stay inside the tri-county (Charleston, Berkeley, and Dorchester counties) where receiving docks sit minutes off I-526 and I-26 — North Charleston, Hanahan, Goose Creek, Ladson, Summerville, Moncks Corner, and Mount Pleasant. Give us the delivery ZIP, the live-unload or drop-and-hook preference, and the appointment window, and we route it."),
         ("Do you run drayage from Charleston to Columbia, Greenville, or the Upstate?",
          "Yes. We run I-26 west to the Columbia distribution cluster (~110 mi), and on to Newberry, Spartanburg, and Greenville (~210 mi) via I-85. The Camp Hall Commerce Park and Ridgeville megasite up I-26 are routine drays for us. Regional lanes are quoted by mileage against your delivery ZIP."),
-        ("Do you handle Charleston-to-Atlanta or Charleston-to-Savannah drayage?",
-         "Yes. We pull longer regional drays into Georgia — Savannah (~110 mi), Augusta (~145 mi), and the Atlanta metro (~310 mi) — plus Charlotte (~205 mi) and east Tennessee. Beyond the immediate Southeast we quote case by case rather than promise a lane we can't run well."),
+        ("Do you handle Charleston-to-Savannah or Charleston-to-Charlotte drayage?",
+         "Yes. We pull regional drays into Georgia — Savannah (~110 mi) and Augusta (~145 mi) — plus Charlotte (~205 mi). Most of what we run stays within about 200 miles of the port. Atlanta and points beyond are quoted case by case rather than promised as a lane we run every week."),
         ("How far from the Port of Charleston will you deliver?",
-         "Local Charleston metro drays (0–25 mi) turn same day when the box is released. Regional South Carolina lanes — Columbia, Florence, Greenville-Spartanburg — turn day-of or next morning depending on dispatch time and the consignee's appointment. Adjacent-state lanes into GA, NC, and TN are everyday work; send the ZIP and we'll walk the lane before quoting."),
+         "Local Charleston metro drays (0–25 mi) turn same day when the box is released. Regional South Carolina lanes — Columbia, Florence, Greenville-Spartanburg — turn day-of or next morning depending on dispatch time and the consignee's appointment. Adjacent-state lanes into GA and NC inside about 200 miles are regular work; send the ZIP and we'll walk the lane before quoting."),
         ("Can you dray a container to or from the Charleston rail ramp?",
          "Yes. The Port of Charleston is dual-served by Norfolk Southern and CSX, and the Navy Base Intermodal Facility (NBIF), still under construction, will sit about a mile from Hugh Leatherman once it opens. We handle the truck side of intermodal — staging a pre-pull ahead of a rail cutoff, or drawing an inbound ramp container out to its consignee. See our transload and port-to-rail drayage workflow for detail."),
     ])

@@ -103,7 +103,7 @@ def build(ctx):
   <div class="container">
     <div class="section-head">
       <p class="eyebrow">Core drayage services</p>
-      <h2>Containers in. Containers out. Containers anywhere they need to go &mdash; Summerville, Columbia, Greenville, Savannah, Charlotte, Atlanta.</h2>
+      <h2>Containers in. Containers out. Containers anywhere they need to go &mdash; Summerville, Columbia, Florence, Savannah, Greenville, Charlotte.</h2>
     </div>
     <div class="card-grid">
       <div class="card">
@@ -321,15 +321,15 @@ def build(ctx):
         ("How fast can you turn a quote?",
          "During business hours, the typical turn from a complete booking to a quote on your screen is under an hour. After hours or on weekends, we'll respond by the next business morning. The fastest quotes start from a clean booking number, container size, terminal, and delivery ZIP — those four data points are usually enough."),
         ("Do you handle reefer, overweight, or hazmat containers?",
-         "Not today. We run standard dry containers — 20', 40', and 40' high cube — at legal weight. If your box is reefer, overweight, out-of-gauge, or hazmat, tell us anyway: we'll say so straight away rather than take a load we can't run properly."),
+         "We run dry containers — 20', 40', and 40' high cube. Overweight boxes run by state permit on a tri-axle chassis, arranged before dispatch and quoted case by case. We don't run reefer, out-of-gauge, or hazmat containers today; tell us anyway and we'll say so straight away rather than take a load we can't run properly."),
         ("Can you do a pre-pull to avoid demurrage?",
          "Yes. When free time is tight or your dock isn't ready, we can pre-pull the container from the terminal and stage it before delivery. That stops the Terminal Demurrage clock at SCPA. We'll quote the pre-pull, the daily yard storage, and the eventual delivery as a single package so there are no surprises."),
         ("What information do you need to start a quote?",
          "Booking number or MBL, container size (20'/40'/40HC), pickup terminal, delivery ZIP, estimated availability date, weight, and live unload vs. drop. The faster you can give us those, the faster you'll get a real number back."),
         ("Do you serve customers outside Charleston?",
-         "Yes. Most moves stay inside South Carolina. Local drays cover Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, and Moncks Corner — the Charleston, Berkeley, and Dorchester county warehouse belt along I-26 and I-526. Regional lanes run I-26 to Columbia, Greenville, and Spartanburg, I-95 to Florence, Walterboro, and Hilton Head, and on into Savannah, Charlotte, Atlanta, Tennessee, and the Florida panhandle. If you have a specific origin/destination question, send it and we'll tell you fast."),
+         "Yes. Most moves stay inside South Carolina. Local drays cover Charleston, North Charleston, Mount Pleasant, Summerville, Goose Creek, Hanahan, Ladson, and Moncks Corner — the Charleston, Berkeley, and Dorchester county warehouse belt along I-26 and I-526. Regional lanes run I-26 to Columbia, Greenville, and Spartanburg, I-95 to Florence, Walterboro, and Hilton Head, and on into Savannah, Augusta, and Charlotte. Most of what we run stays within about 200 miles of the port; beyond that we quote case by case. If you have a specific origin/destination question, send it and we'll tell you fast."),
         ("How are accessorials handled?",
-         "Accessorials are quoted up front whenever they're predictable: chassis splits, fuel, terminal access fees, and after-hours dispatch. Detention and per diem are pass-through and only billed when triggered — and we'll always tell you when the clock starts."),
+         "Accessorials are quoted up front whenever they're predictable: chassis splits, fuel, overweight permits, terminal access fees, and after-hours dispatch. Detention and per diem are pass-through and only billed when triggered — and we'll always tell you when the clock starts."),
     ])
 
     body = (
@@ -365,6 +365,7 @@ def build(ctx):
                 {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Import container drayage"}},
                 {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Export container drayage"}},
                 {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Port-to-warehouse drayage"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Overweight container drayage"}},
                 {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Transload coordination"}},
             ],
         },

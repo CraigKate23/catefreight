@@ -26,8 +26,8 @@ TEMPLATES = SRC / "templates"
 
 SITE_URL = "https://catefreight.com"
 SITE_NAME = "Cate Freight"
-PHONE_DISPLAY = "(843) 484-7161"
-PHONE_TEL = "+18434847161"
+PHONE_DISPLAY = "(843) 484-7165"
+PHONE_TEL = "+18434847165"
 EMAIL = "greg@catefreight.com"
 # Canonical NAP — must stay byte-identical to the NAP block in OUTREACH.md.
 # Every citation submitted since 2026-07-07 (ThomasNet, IndustryNet, Manta,
@@ -116,6 +116,7 @@ ORG_SCHEMA = {
         "Container drayage",
         "Import drayage",
         "Export drayage",
+        "Overweight container transport",
         "Transloading",
         "South Carolina Ports Authority",
     ],
@@ -201,6 +202,7 @@ def footer() -> str:
           <li><a href="/services/export-container-drayage/">Export container drayage</a></li>
           <li><a href="/services/port-to-warehouse-drayage/">Port-to-warehouse</a></li>
           <li><a href="/services/transload-drayage/">Transload &amp; coordination</a></li>
+          <li><a href="/services/overweight-drayage/">Overweight containers</a></li>
         </ul>
       </div>
       <div>
