@@ -49,7 +49,7 @@ def build(ctx):
         </form>
         <div class="stats">
           <div><strong>3</strong><small>SCPA terminals</small></div>
-          <div><strong>60 min</strong><small>Avg quote turn</small></div>
+          <div><strong>60 min</strong><small>Quote turn target</small></div>
           <div><strong>Same day</strong><small>POD turnaround</small></div>
         </div>
       </div>
@@ -156,7 +156,7 @@ def build(ctx):
         <p class="eyebrow">Why Cate Freight</p>
         <h2>Drayage that thinks like the receiver.</h2>
         <p class="lead">Most drayage carriers were built around the truck. We were built around the receiver — the warehouse manager who needs containers in the right order, the broker who needs the release confirmed before the chassis leaves the yard, the 3PL who needs an ETA they can actually post.</p>
-        <p>Greg Cate ran warehouses and 3PL operations for years before starting Cate Freight. That experience shows up in the way every container is handled: paperwork before the wheels turn, terminal status checked before dispatch, and one number to call when something changes.</p>
+        <p>Greg Cate has spent years running a customs-bonded warehouse and 3PL operation in the Charleston market. That experience shows up in the way every container is handled: paperwork before the wheels turn, terminal status checked before dispatch, and one number to call when something changes.</p>
         <a class="btn btn-outline" href="/about/">More about Cate Freight</a>
       </div>
       <div class="panel">

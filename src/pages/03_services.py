@@ -580,7 +580,7 @@ def build(ctx):
         <li><strong>Drayage to transload yard.</strong> Container delivered with appointment booked.</li>
         <li><strong>Cross-dock coordination.</strong> We work the transload facility on your behalf — pallet count, equipment match, BOL handoff.</li>
         <li><strong>Empty return same day.</strong> Per diem clock stops the same shift the contents come off.</li>
-        <li><strong>Inland handoff.</strong> Domestic carrier dispatched against your TMS or via our partners.</li>
+        <li><strong>Inland handoff.</strong> We hand the freight to your domestic carrier against your TMS. No carrier yet? We'll introduce ones we know, and you book them directly.</li>
         <li><strong>Documentation.</strong> Container EIR, transload BOL, and inland POD all back to you in one package.</li>
       </ul>
 
@@ -597,7 +597,7 @@ def build(ctx):
             ("Do you operate your own transload warehouse?",
              "Cate Freight is a drayage carrier. We coordinate with established Charleston-area transload facilities and warehouse partners. The advantage is that we treat the warehouse like a customer — because that's the world we came from — so the cross-dock side runs cleanly."),
             ("Can you handle the inland leg after transload?",
-             "We'll dispatch the inland leg through our partners or we'll integrate with your TMS so your domestic carrier picks it up. Either way, you get one set of paperwork back."),
+             "The inland leg runs with your domestic carrier: we coordinate the handoff against your TMS so they pick up on time. If you don't have a carrier, we'll introduce ones we know and you book them directly. Either way, the container paperwork comes back to you from us."),
             ("How fast does the empty return after transload?",
              "Same day in almost every case. The per-diem clock stops the moment the empty hits the terminal or the line's depot."),
             ("Is transload cheaper than long-haul drayage?",

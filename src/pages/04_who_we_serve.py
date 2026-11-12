@@ -219,7 +219,7 @@ def build(ctx):
       <p>Drop-and-hook is the cleanest delivery model for a 3PL with steady inbound volume. The driver drops the loaded container on a chassis at your dock, bobtails away, and we come back for the empty per your schedule. Zero driver detention. You unload on your timeline. Chassis per-diem accrues; we'll quote daily.</p>
 
       <h2>Dedicated drayage capacity for steady weekly volume</h2>
-      <p>A 3PL with a recurring import program &mdash; a set number of boxes a week landing at Wando Welch or North Charleston &mdash; shouldn't be re-sourcing a truck every time a vessel discharges. Dedicated drayage capacity in Charleston means we commit trucks and chassis against your volume forecast, hold a standing pickup cadence at the terminal, and run the same drivers on your lane so your dock sees familiar faces and consistent paperwork. Give us a weekly forecast (even a rough one) and we'll confirm what we can hold, in writing, before the first vessel arrives.</p>
+      <p>A 3PL with a recurring import program &mdash; a set number of boxes a week landing at Wando Welch or North Charleston &mdash; shouldn't be re-sourcing a truck every time a vessel discharges. Dedicated drayage capacity in Charleston means we commit our truck time against your volume forecast, hold a standing pickup cadence at the terminal, and put the same driver on your lane so your dock sees a familiar face and consistent paperwork. Give us a weekly forecast (even a rough one) and we'll confirm what we can hold, in writing, before the first vessel arrives. We're a small carrier, so we'll also tell you plainly where our capacity ends.</p>
       <ul>
         <li><strong>Standing terminal cadence.</strong> Appointments at Wando Welch, North Charleston, and Hugh Leatherman booked around your receiving hours, not the other way around.</li>
         <li><strong>Committed chassis.</strong> For drop-and-hook programs we hold pool chassis (TRAC, DCLI, Flexi-Van) so an empty chassis line never stalls your dock.</li>
@@ -243,7 +243,7 @@ def build(ctx):
             ("Can you handle peak-season volume?",
              "We're sized to flex. We'll be honest with you about capacity — if a peak push is too much for us alone, we'll tell you up front rather than miss a window."),
             ("Do you offer dedicated drayage capacity for a 3PL with steady weekly container volume?",
-             "Yes. Give us a weekly volume forecast and we'll commit trucks, drivers, and pool chassis against it, hold a standing pickup cadence at the SCPA terminals, and price the lane on a forecast rate instead of per-container spot quotes. We confirm the committed capacity in writing before the program starts."),
+             "Yes. Give us a weekly volume forecast and we'll commit our capacity and pool chassis against it, hold a standing pickup cadence at the SCPA terminals, and price the lane on a forecast rate instead of per-container spot quotes. We confirm the committed capacity in writing before the program starts. We're a small carrier, so we'll tell you up front how many boxes a week we can hold."),
             ("Can you run drayage to my warehouse in Charleston?",
              "Almost certainly — we deliver daily along every major Charleston warehouse corridor: Palmetto Commerce Parkway, Ashley Phosphate, Ladson, Jedburg, Camp Hall near Ridgeville, and Bushy Park in Goose Creek. Send the address and we'll confirm the lane and quote it inside the hour during business hours."),
         ],

@@ -38,7 +38,7 @@ def build(ctx):
     <p>We are not a 700-truck mega-carrier. We're not a national 3PL. We don't have a fancy customer portal or a name partner on the building. What we have is operational discipline, a Charleston address, and a phone someone actually answers.</p>
 
     <h2>Why we started this</h2>
-    <p>Greg Cate spent years running warehouses and 3PL operations on the receiver side of Charleston imports. The pattern was the same week after week: brilliant freight forwarders and customs brokers, doing real work, getting torpedoed by drayage carriers who didn't check releases, didn't return calls, and didn't get PODs back without three follow-ups.</p>
+    <p>Greg Cate has spent years running a customs-bonded warehouse and 3PL operation on the receiver side of Charleston imports. The pattern was the same week after week: brilliant freight forwarders and customs brokers, doing real work, getting torpedoed by drayage carriers who didn't check releases, didn't return calls, and didn't get PODs back without three follow-ups.</p>
     <p>The opportunity was obvious. Build a drayage operation that runs the way receivers wish it would — releases verified before dispatch, paperwork clean and named correctly, communication that doesn't go silent the moment a problem shows up. That's Cate Freight.</p>
 
     <h2>How we run</h2>

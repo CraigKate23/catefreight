@@ -37,7 +37,7 @@ def build(ctx):
     <div class="kpi-row">
       <div class="kpi"><strong>3</strong><span>SCPA terminals</span></div>
       <div class="kpi"><strong>52'</strong><span>Deepest E.C. harbor</span></div>
-      <div class="kpi"><strong>60 min</strong><span>Avg quote turn</span></div>
+      <div class="kpi"><strong>60 min</strong><span>Quote turn target</span></div>
       <div class="kpi"><strong>24/7</strong><span>Email coverage</span></div>
     </div>
     <div class="prose">
